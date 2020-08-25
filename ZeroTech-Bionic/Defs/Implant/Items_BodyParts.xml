@@ -1,0 +1,1325 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!--
+	状态
+	物品
+	安装
+	制作
+-->
+  <!-- 无头 -->
+  <HediffDef ParentName="LingXCGHediffSoid">
+    <defName>LingXCG_NoHead</defName>
+    <label>head Compressor</label>
+    <labelNoun>neck</labelNoun>
+    <description>A head Compressor.</description>
+    <descriptionHyperlinks><ThingDef>LingXCG_NoHead</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>LingXCG_NoHead</spawnThingOnRemoved>
+    <defaultLabelColor>(1,1,1)</defaultLabelColor>
+    <addedPartProps>
+      <solid>false</solid>
+    </addedPartProps>
+  </HediffDef>
+  <ThingDef ParentName="BodyPartLingXCGBase">
+    <defName>LingXCG_NoHead</defName>
+    <label>head compressor</label>
+    <description>一个特殊的反应器,可以将你的头颅压缩至胸腔,可以根本上的避免爆头.</description>
+    <descriptionHyperlinks>
+	  <RecipeDef>installLingXCG_NoHead</RecipeDef>
+	</descriptionHyperlinks>
+    <statBases>
+      <MarketValue>100</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+  </ThingDef>  
+  <RecipeDef ParentName="LingXCGSurgeryFleshSoid">
+    <defName>installLingXCG_NoHead</defName>
+    <label>install head Compressor</label>
+    <descriptionHyperlinks>
+	  <ThingDef>LingXCG_NoHead</ThingDef>
+	  <HediffDef>LingXCG_NoHead</HediffDef>
+	</descriptionHyperlinks>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>LingXCG_NoHead</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>LingXCG_NoHead</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Neck</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>LingXCG_NoHead</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="MakeBodyPartLingXCGBase">
+    <defName>MakeLingXCG_NoHead</defName>
+    <label>make head compressor</label>
+    <researchPrerequisite>ZeroTechBodyPart</researchPrerequisite>
+    <description>make head compressor.</description>
+    <jobString>make head compressor.</jobString>
+    <workAmount>600</workAmount>
+    <descriptionHyperlinks>
+	  <ThingDef>LingXCG_NoHead</ThingDef>
+	</descriptionHyperlinks>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ComponentSpacer</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <LingXCG_NoHead>1</LingXCG_NoHead>
+    </products>
+  </RecipeDef>
+<!-- 意识 -->
+  <HediffDef ParentName="LingXCGHediffSoid">
+    <defName>LingXCG_BrainEnhancementDevice</defName>
+    <label>brain enhancement device</label>
+    <labelNoun>neck</labelNoun>
+    <description>A brain enhancement device.</description>
+    <descriptionHyperlinks><ThingDef>LingXCG_BrainEnhancementDevice</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>LingXCG_BrainEnhancementDevice</spawnThingOnRemoved>
+    <defaultLabelColor>(1,1,1)</defaultLabelColor>
+    <stages>
+      <li>
+        <painFactor>2</painFactor>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>1</offset>
+          </li>
+        </capMods>
+        <hungerRateFactor>3</hungerRateFactor>
+      </li>
+    </stages>
+    <addedPartProps>
+      <solid>true</solid>
+    </addedPartProps>
+  </HediffDef>
+  <ThingDef ParentName="BodyPartLingXCGBase">
+    <defName>LingXCG_BrainEnhancementDevice</defName>
+    <label>brain enhancement device</label>
+    <description>一个脑强化装置,可以将安装者的意识大幅度强化,但会导致对营养的需求也大幅度增加.</description>
+    <descriptionHyperlinks>
+	  <RecipeDef>installLingXCG_BrainEnhancementDevice</RecipeDef>
+	</descriptionHyperlinks>
+    <statBases>
+      <MarketValue>1400</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+  </ThingDef>  
+  <RecipeDef ParentName="LingXCGSurgeryFleshSoid">
+    <defName>installLingXCG_BrainEnhancementDevice</defName>
+    <label>install brain enhancement device</label>
+    <descriptionHyperlinks>
+	  <ThingDef>LingXCG_BrainEnhancementDevice</ThingDef>
+	  <HediffDef>LingXCG_BrainEnhancementDevice</HediffDef>
+	</descriptionHyperlinks>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>LingXCG_BrainEnhancementDevice</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>LingXCG_BrainEnhancementDevice</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Brain</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>LingXCG_BrainEnhancementDevice</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="MakeBodyPartLingXCGBase">
+    <defName>MakeLingXCG_BrainEnhancementDevice</defName>
+    <label>make brain enhancement device</label>
+    <researchPrerequisite>ZeroTechBodyPart</researchPrerequisite>
+    <description>make brain enhancement device.</description>
+    <jobString>make brain enhancement device</jobString>
+    <workAmount>12000</workAmount>
+    <descriptionHyperlinks>
+	  <ThingDef>LingXCG_BrainEnhancementDevice</ThingDef>
+	</descriptionHyperlinks>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AIPersonaCore</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ComponentSpacer</li>
+        <li>AIPersonaCore</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <LingXCG_BrainEnhancementDevice>1</LingXCG_BrainEnhancementDevice>
+    </products>
+  </RecipeDef>
+  <!-- 无食 -->
+  <HediffDef ParentName="LingXCGHediffBase">
+    <defName>LingXCG_NoHunger</defName>
+    <label>substance synthesis chip</label>
+    <labelNoun>chip</labelNoun>
+    <description>An installed substance synthesis chip.</description>
+    <!-- <disablesNeed>Food</disablesNeed> -->
+    <descriptionHyperlinks><ThingDef>LingXCG_NoHunger</ThingDef></descriptionHyperlinks>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.15</offset>
+          </li>
+        </capMods>
+        <hungerRateFactor>0</hungerRateFactor>
+      </li>
+    </stages>
+    <spawnThingOnRemoved>LingXCG_NoHunger</spawnThingOnRemoved>
+  </HediffDef>
+  <ThingDef ParentName="BodyPartLingXCGBase">
+    <defName>LingXCG_NoHunger</defName>
+    <label>substance synthesis chip</label>
+    <descriptionHyperlinks>
+	  <RecipeDef>installLingXCG_NoHunger</RecipeDef>
+	</descriptionHyperlinks>
+    <description>一枚可以安装在心脏的芯片,可以通过一些方法合成能量,让生物不需要进食,但只能维持较低程度的生理活动.</description>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <Mass>0.01</Mass>
+    </statBases>
+  </ThingDef>
+  <RecipeDef ParentName="LingXCGSurgeryFleshS">
+    <defName>installLingXCG_NoHunger</defName>
+    <label>install hunger suppress chip</label>
+    <descriptionHyperlinks>
+	  <ThingDef>LingXCG_NoHunger</ThingDef>
+	  <HediffDef>LingXCG_NoHunger</HediffDef>
+	</descriptionHyperlinks>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>LingXCG_NoHunger</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>LingXCG_NoHunger</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Heart</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>LingXCG_NoHunger</addsHediff>
+  </RecipeDef>
+  <!-- 无心 -->
+  <HediffDef ParentName="LingXCGHediffBase">
+    <defName>LingXCG_NoHeart</defName>
+    <label>emotional isolation chip</label>
+    <labelNoun>chip</labelNoun>
+    <description>An installed substance synthesis chip.</description>
+    <disablesNeed>Mood</disablesNeed>
+    <descriptionHyperlinks><ThingDef>LingXCG_NoHeart</ThingDef></descriptionHyperlinks>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.15</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+    <spawnThingOnRemoved>LingXCG_NoHeart</spawnThingOnRemoved>
+  </HediffDef>
+  <ThingDef ParentName="BodyPartLingXCGBase">
+    <defName>LingXCG_NoHeart</defName>
+    <label>emotional isolation chip</label>
+    <descriptionHyperlinks>
+	  <RecipeDef>installLingXCG_NoHeart</RecipeDef>
+	</descriptionHyperlinks>
+    <description>一枚抑制了大脑情感功能的芯片,会让生物如同机器一般不再拥有任何感情波动.</description>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <Mass>0.01</Mass>
+    </statBases>
+  </ThingDef>
+  <RecipeDef ParentName="LingXCGSurgeryFleshS">
+    <defName>installLingXCG_NoHeart</defName>
+    <label>install emotional isolation chip</label>
+    <descriptionHyperlinks>
+	  <ThingDef>LingXCG_NoHeart</ThingDef>
+	  <HediffDef>LingXCG_NoHeart</HediffDef>
+	</descriptionHyperlinks>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>LingXCG_NoHeart</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>LingXCG_NoHeart</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Brain</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>LingXCG_NoHeart</addsHediff>
+  </RecipeDef>
+  <!-- 隐形 -->
+  <HediffDef ParentName="LingXCGHediffBase">
+    <defName>LingXCG_Invisible</defName>
+    <label>light distortion chip</label>
+    <labelNoun>chip</labelNoun>
+    <description>An installed light distortion chip.</description>
+    <descriptionHyperlinks><ThingDef>LingXCG_Invisible</ThingDef></descriptionHyperlinks>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.5</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties">
+        <compClass>HediffComp_Invisibility</compClass>
+      </li>
+    </comps>
+    <spawnThingOnRemoved>LingXCG_Invisible</spawnThingOnRemoved>
+  </HediffDef>
+  <ThingDef ParentName="BodyPartLingXCGBase">
+    <defName>LingXCG_Invisible</defName>
+    <label>emotional isolation chip</label>
+    <descriptionHyperlinks>
+	  <RecipeDef>installLingXCG_Invisible</RecipeDef>
+	</descriptionHyperlinks>
+    <description>一枚可以扭曲光线的芯片，可以使敌人无法锁定安装者，但会导致移动能力下降。</description>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <Mass>0.01</Mass>
+    </statBases>
+  </ThingDef>
+  <RecipeDef ParentName="LingXCGSurgeryFleshS">
+    <defName>installLingXCG_Invisible</defName>
+    <label>install emotional isolation chip</label>
+    <descriptionHyperlinks>
+	  <ThingDef>LingXCG_Invisible</ThingDef>
+	  <HediffDef>LingXCG_Invisible</HediffDef>
+	</descriptionHyperlinks>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>LingXCG_Invisible</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>LingXCG_Invisible</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Brain</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>LingXCG_Invisible</addsHediff>
+  </RecipeDef>
+  <!-- 防御 -->
+  <HediffDef ParentName="LingXCGHediffBase">
+    <defName>LingXCG_OldSkin</defName>
+    <label>tough skin chip</label>
+    <labelNoun>chip</labelNoun>
+    <description>An installed tough skin chip.</description>
+    <descriptionHyperlinks><ThingDef>LingXCG_OldSkin</ThingDef></descriptionHyperlinks>
+    <stages>
+      <li>
+        <naturalHealingFactor>0.5</naturalHealingFactor>
+        <statOffsets>
+          <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+          <ArmorRating_Blunt>1.1</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.7</ArmorRating_Heat>
+        </statOffsets>
+      </li>
+    </stages>
+    <spawnThingOnRemoved>LingXCG_OldSkin</spawnThingOnRemoved>
+  </HediffDef>
+  <ThingDef ParentName="BodyPartLingXCGBase">
+    <defName>LingXCG_OldSkin</defName>
+    <label>tough skin chip</label>
+    <descriptionHyperlinks>
+	  <RecipeDef>installLingXCG_OldSkin</RecipeDef>
+	</descriptionHyperlinks>
+    <description>一枚分泌降低皮肤活性的化学物质的芯片,可以使皮肤变得坚韧以增强人体的防御能力,但由于活性降低,身体的自然恢复能力会受到影响</description>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <Mass>0.01</Mass>
+    </statBases>
+  </ThingDef>
+  <RecipeDef ParentName="LingXCGSurgeryFleshS">
+    <defName>installLingXCG_OldSkin</defName>
+    <label>install tough skin chip</label>
+    <descriptionHyperlinks>
+	  <ThingDef>LingXCG_OldSkin</ThingDef>
+	  <HediffDef>LingXCG_OldSkin</HediffDef>
+	</descriptionHyperlinks>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>LingXCG_OldSkin</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>LingXCG_OldSkin</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Torso</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>LingXCG_OldSkin</addsHediff>
+  </RecipeDef>
+  <!-- 包扎 -->
+  <HediffDef ParentName="LingXCGHediffBase">
+    <defName>LingXCG_AutoBandaging</defName>
+    <label>auto bandaging chip</label>
+    <hediffClass>LingGame.LingXCG_SelfBind</hediffClass>
+    <labelNoun>chip</labelNoun>
+    <description>An installed auto bandaging chip.</description>
+    <descriptionHyperlinks><ThingDef>LingXCG_AutoBandaging</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>LingXCG_AutoBandaging</spawnThingOnRemoved>
+  </HediffDef>
+  <ThingDef ParentName="BodyPartLingXCGBase">
+    <defName>LingXCG_AutoBandaging</defName>
+    <label>auto bandaging chip</label>
+    <descriptionHyperlinks>
+	  <RecipeDef>installLingXCG_AutoBandaging</RecipeDef>
+	</descriptionHyperlinks>
+    <description>一枚可以检测安装者身上伤口并自动进行包扎的芯片,由于安装的人工智能等级较低,需要读取安装者的一部分知识才能更好地工作,治疗效果与安装者的医疗知识水平相挂钩.</description>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <Mass>0.01</Mass>
+    </statBases>
+  </ThingDef>
+  <RecipeDef ParentName="LingXCGSurgeryFleshS">
+    <defName>installLingXCG_AutoBandaging</defName>
+    <label>install auto bandaging chip</label>
+    <descriptionHyperlinks>
+	  <ThingDef>LingXCG_AutoBandaging</ThingDef>
+	  <HediffDef>LingXCG_AutoBandaging</HediffDef>
+	</descriptionHyperlinks>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>LingXCG_AutoBandaging</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>LingXCG_AutoBandaging</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Heart</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>LingXCG_AutoBandaging</addsHediff>
+  </RecipeDef>
+  <!-- 治病 -->
+  <HediffDef ParentName="LingXCGHediffBase">
+    <defName>LingXCG_AutoMedical</defName>
+    <label>auto medical chip</label>
+    <hediffClass>LingGame.LingXCG_SelfMedi</hediffClass>
+    <labelNoun>chip</labelNoun>
+    <description>An installed auto medical chip.</description>
+    <descriptionHyperlinks><ThingDef>LingXCG_AutoMedical</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>LingXCG_AutoMedical</spawnThingOnRemoved>
+  </HediffDef>
+  <ThingDef ParentName="BodyPartLingXCGBase">
+    <defName>LingXCG_AutoMedical</defName>
+    <label>auto medical chip</label>
+    <descriptionHyperlinks>
+	  <RecipeDef>installLingXCG_AutoMedical</RecipeDef>
+	</descriptionHyperlinks>
+    <description>一枚可以响应人体免疫系统的芯片,可以在发现可以治疗的疾病的时候自动治疗,由于安装的人工智能级别较低,需要读取安装者的一部分知识才能更好地工作,治疗效果与安装者的医疗知识水平相挂钩.</description>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <Mass>0.01</Mass>
+    </statBases>
+  </ThingDef>
+  <RecipeDef ParentName="LingXCGSurgeryFleshS">
+    <defName>installLingXCG_AutoMedical</defName>
+    <label>install auto medical chip</label>
+    <descriptionHyperlinks>
+	  <ThingDef>LingXCG_AutoMedical</ThingDef>
+	  <HediffDef>LingXCG_AutoMedical</HediffDef>
+	</descriptionHyperlinks>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>LingXCG_AutoMedical</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>LingXCG_AutoMedical</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Heart</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>LingXCG_AutoMedical</addsHediff>
+  </RecipeDef>
+  <!-- 回血 -->
+  <HediffDef ParentName="LingXCGHediffBase">
+    <defName>LingXCG_BodyRegeneration</defName>
+    <label>body regeneration chip</label>
+    <hediffClass>LingGame.LingXCG_SelfHeal</hediffClass>
+    <labelNoun>chip</labelNoun>
+    <description>An installed body regeneration chip.</description>
+    <descriptionHyperlinks><ThingDef>LingXCG_BodyRegeneration</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>LingXCG_BodyRegeneration</spawnThingOnRemoved>
+  </HediffDef>
+  <ThingDef ParentName="BodyPartLingXCGBase">
+    <defName>LingXCG_BodyRegeneration</defName>
+    <label>body regeneration chip</label>
+    <descriptionHyperlinks>
+	  <RecipeDef>installLingXCG_BodyRegeneration</RecipeDef>
+	</descriptionHyperlinks>
+    <description>一枚可以检测安装者身上伤口并主动辅助再生肢体的芯片,可以加快伤口的恢复速度,由于并非自然恢复,所以不受自然恢复速度的影响.</description>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <Mass>0.01</Mass>
+    </statBases>
+  </ThingDef>
+  <RecipeDef ParentName="LingXCGSurgeryFleshS">
+    <defName>installLingXCG_BodyRegeneration</defName>
+    <label>install body regeneration chip</label>
+    <descriptionHyperlinks>
+	  <ThingDef>LingXCG_BodyRegeneration</ThingDef>
+	  <HediffDef>LingXCG_BodyRegeneration</HediffDef>
+	</descriptionHyperlinks>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>LingXCG_BodyRegeneration</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>LingXCG_BodyRegeneration</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Heart</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>LingXCG_BodyRegeneration</addsHediff>
+  </RecipeDef>
+  <!-- 造肢 -->
+  <HediffDef ParentName="LingXCGHediffBase">
+    <defName>LingXCG_BodyReconstruction</defName>
+    <label>body reconstruction chip</label>
+    <hediffClass>LingGame.LingXCG_ReturnBodyPart</hediffClass>
+    <labelNoun>chip</labelNoun>
+    <description>An installed body reconstruction chip.</description>
+    <descriptionHyperlinks><ThingDef>LingXCG_BodyReconstruction</ThingDef></descriptionHyperlinks>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>0.05</severityPerDay>
+      </li>
+    </comps>
+    <spawnThingOnRemoved>LingXCG_BodyReconstruction</spawnThingOnRemoved>
+  </HediffDef>
+  <ThingDef ParentName="BodyPartLingXCGBase">
+    <defName>LingXCG_BodyReconstruction</defName>
+    <label>body reconstruction chip</label>
+    <descriptionHyperlinks>
+	  <RecipeDef>installLingXCG_BodyReconstruction</RecipeDef>
+	</descriptionHyperlinks>
+    <description>一枚可以分泌物质刺激断肢再生的芯片,每次修复需要消耗10%能量,每天能恢复5%.</description>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <Mass>0.01</Mass>
+    </statBases>
+  </ThingDef>
+  <RecipeDef ParentName="LingXCGSurgeryFleshS">
+    <defName>installLingXCG_BodyReconstruction</defName>
+    <label>install body reconstruction chip</label>
+    <descriptionHyperlinks>
+	  <ThingDef>LingXCG_BodyReconstruction</ThingDef>
+	  <HediffDef>LingXCG_BodyReconstruction</HediffDef>
+	</descriptionHyperlinks>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>LingXCG_BodyReconstruction</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>LingXCG_BodyReconstruction</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Brain</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>LingXCG_BodyReconstruction</addsHediff>
+  </RecipeDef>
+  <!-- 环境 -->
+  <HediffDef ParentName="LingXCGHediffBase">
+    <defName>LingXCG_EnvironmentalAdaptation</defName>
+    <label>environmental adaptation chip</label>
+    <labelNoun>chip</labelNoun>
+    <description>An installed environmental adaptation chip.</description>
+    <descriptionHyperlinks><ThingDef>LingXCG_EnvironmentalAdaptation</ThingDef></descriptionHyperlinks>
+    <stages>
+      <li>
+        <naturalHealingFactor>1.2</naturalHealingFactor>
+        <statOffsets>
+          <ComfyTemperatureMax>30</ComfyTemperatureMax>
+          <ComfyTemperatureMin>-30</ComfyTemperatureMin>
+		  <Flammability>-1</Flammability>
+          <ToxicSensitivity>-0.5</ToxicSensitivity>
+        </statOffsets>
+      </li>
+    </stages>
+    <spawnThingOnRemoved>LingXCG_EnvironmentalAdaptation</spawnThingOnRemoved>
+  </HediffDef>
+  <ThingDef ParentName="BodyPartLingXCGBase">
+    <defName>LingXCG_EnvironmentalAdaptation</defName>
+    <label>environmental adaptation chip</label>
+    <descriptionHyperlinks>
+	  <RecipeDef>installLingXCG_EnvironmentalAdaptation</RecipeDef>
+	</descriptionHyperlinks>
+    <description>一枚可以分析环境状态并调节身体运转情况的芯片,能够使安装者更好地适应极端环境.</description>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <Mass>0.01</Mass>
+    </statBases>
+  </ThingDef>
+  <RecipeDef ParentName="LingXCGSurgeryFleshS">
+    <defName>installLingXCG_EnvironmentalAdaptation</defName>
+    <label>install environmental adaptation chip</label>
+    <descriptionHyperlinks>
+	  <ThingDef>LingXCG_EnvironmentalAdaptation</ThingDef>
+	  <HediffDef>LingXCG_EnvironmentalAdaptation</HediffDef>
+	</descriptionHyperlinks>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>LingXCG_EnvironmentalAdaptation</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>LingXCG_EnvironmentalAdaptation</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Heart</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>LingXCG_EnvironmentalAdaptation</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="MakeBodyPartLingXCGBase">
+    <defName>MakeLingXCG_EnvironmentalAdaptation</defName>
+    <label>make environmental adaptation chip</label>
+    <description>make environmental adaptation chip.</description>
+    <jobString>make environmental adaptation chip</jobString>
+    <workAmount>12000</workAmount>
+    <descriptionHyperlinks>
+	  <ThingDef>LingXCG_EnvironmentalAdaptation</ThingDef>
+	</descriptionHyperlinks>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>8</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ComponentSpacer</li>
+        <li>Plasteel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <LingXCG_EnvironmentalAdaptation>1</LingXCG_EnvironmentalAdaptation>
+    </products>
+  </RecipeDef>
+  <!-- 思放 -->
+  <HediffDef ParentName="LingXCGHediffBase">
+    <defName>LingXCG_MentalRadiation</defName>
+    <label>mental radiation chip</label>
+    <labelNoun>chip</labelNoun>
+    <description>An installed mental radiation chip.</description>
+    <descriptionHyperlinks><ThingDef>LingXCG_MentalRadiation</ThingDef></descriptionHyperlinks>
+    <stages>
+      <li>
+        <statOffsets>
+          <GlobalLearningFactor>1.2</GlobalLearningFactor>
+          <PsychicSensitivity>3</PsychicSensitivity>
+		  <PsychicEntropyMax>10</PsychicEntropyMax>
+          <PsychicEntropyRecoveryRate>1.5</PsychicEntropyRecoveryRate>
+        </statOffsets>
+      </li>
+    </stages>
+    <spawnThingOnRemoved>LingXCG_MentalRadiation</spawnThingOnRemoved>
+  </HediffDef>
+  <ThingDef ParentName="BodyPartLingXCGBase">
+    <defName>LingXCG_MentalRadiation</defName>
+    <label>mental radiation chip</label>
+    <descriptionHyperlinks>
+	  <RecipeDef>installLingXCG_MentalRadiation</RecipeDef>
+	</descriptionHyperlinks>
+    <description>一枚可以放大安装者心灵敏感度的芯片,此外,由于影响的大脑范围较大,还可以一定程度的提高工作速度.</description>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <Mass>0.01</Mass>
+    </statBases>
+  </ThingDef>
+  <RecipeDef ParentName="LingXCGSurgeryFleshS">
+    <defName>installLingXCG_MentalRadiation</defName>
+    <label>install mental radiation chip</label>
+    <descriptionHyperlinks>
+	  <ThingDef>LingXCG_MentalRadiation</ThingDef>
+	  <HediffDef>LingXCG_MentalRadiation</HediffDef>
+	</descriptionHyperlinks>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>LingXCG_MentalRadiation</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>LingXCG_MentalRadiation</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Brain</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>LingXCG_MentalRadiation</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="MakeBodyPartLingXCGBase">
+    <defName>MakeLingXCG_MentalRadiation</defName>
+    <label>make brain enhancement device</label>
+    <description>make brain enhancement device.</description>
+    <jobString>make brain enhancement device</jobString>
+    <workAmount>12000</workAmount>
+    <descriptionHyperlinks>
+	  <ThingDef>LingXCG_MentalRadiation</ThingDef>
+	</descriptionHyperlinks>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AIPersonaCore</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Luciferium</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AIPersonaCore</li>
+        <li>Luciferium</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <LingXCG_MentalRadiation>1</LingXCG_MentalRadiation>
+    </products>
+  </RecipeDef>
+  <!-- 安神 -->
+  <HediffDef ParentName="LingXCGHediffBase">
+    <defName>LingXCG_Soothe</defName>
+    <label>soothe chip</label>
+    <hediffClass>LingGame.LingXCG_Anochlesia</hediffClass>
+    <labelNoun>chip</labelNoun>
+    <description>An installed soothe chip.</description>
+    <descriptionHyperlinks><ThingDef>LingXCG_Soothe</ThingDef></descriptionHyperlinks>
+    <stages>
+      <li>
+        <statOffsets>
+          <MentalBreakThreshold>-0.1</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </stages>
+    <spawnThingOnRemoved>LingXCG_Soothe</spawnThingOnRemoved>
+  </HediffDef>
+  <ThingDef ParentName="BodyPartLingXCGBase">
+    <defName>LingXCG_Soothe</defName>
+    <label>soothe chip</label>
+    <descriptionHyperlinks>
+	  <RecipeDef>installLingXCG_Soothe</RecipeDef>
+	</descriptionHyperlinks>
+    <description>一枚释放微弱抚慰波芯片,可以使安装者更不容易崩溃,并且在大多数崩溃时可以高速脱离</description>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <Mass>0.01</Mass>
+    </statBases>
+  </ThingDef>
+  <RecipeDef ParentName="LingXCGSurgeryFleshS">
+    <defName>installLingXCG_Soothe</defName>
+    <label>install soothe chip</label>
+    <descriptionHyperlinks>
+	  <ThingDef>LingXCG_Soothe</ThingDef>
+	  <HediffDef>LingXCG_Soothe</HediffDef>
+	</descriptionHyperlinks>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>LingXCG_Soothe</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>LingXCG_Soothe</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Brain</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>LingXCG_Soothe</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="MakeBodyPartLingXCGBase">
+    <defName>MakeLingXCG_Soothe</defName>
+    <label>make soothe chip</label>
+    <description>make soothe chip.</description>
+    <jobString>make soothe chip</jobString>
+    <workAmount>12000</workAmount>
+    <descriptionHyperlinks>
+	  <ThingDef>LingXCG_Soothe</ThingDef>
+	</descriptionHyperlinks>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AIPersonaCore</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AIPersonaCore</li>
+        <li>Plasteel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <LingXCG_Soothe>1</LingXCG_Soothe>
+    </products>
+  </RecipeDef>
+  <!-- 灵聚 -->
+  <HediffDef ParentName="LingXCGHediffBase">
+    <defName>LingXCG_PsyAdd</defName>
+    <label>mind converge chip</label>
+    <hediffClass>LingGame.LingXCG_PsyAdd</hediffClass>
+    <labelNoun>chip</labelNoun>
+    <description>An installed mind converge chip.</description>
+    <descriptionHyperlinks><ThingDef>LingXCG_PsyAdd</ThingDef></descriptionHyperlinks>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.05</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+    <spawnThingOnRemoved>LingXCG_PsyAdd</spawnThingOnRemoved>
+  </HediffDef>
+  <ThingDef ParentName="BodyPartLingXCGBase">
+    <defName>LingXCG_PsyAdd</defName>
+    <label>mind converge chip</label>
+    <descriptionHyperlinks>
+	  <RecipeDef>installLingXCG_PsyAdd</RecipeDef>
+	</descriptionHyperlinks>
+    <description>一枚利用伪人格核心制作而成的芯片,可以帮助安装者汇聚精神力.</description>
+    <statBases>
+      <MarketValue>2200</MarketValue>
+      <Mass>0.01</Mass>
+    </statBases>
+  </ThingDef>
+  <RecipeDef ParentName="LingXCGSurgeryFleshS">
+    <defName>installLingXCG_PsyAdd</defName>
+    <label>install mind converge chip</label>
+    <descriptionHyperlinks>
+	  <ThingDef>LingXCG_PsyAdd</ThingDef>
+	  <HediffDef>LingXCG_PsyAdd</HediffDef>
+	</descriptionHyperlinks>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>LingXCG_PsyAdd</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>LingXCG_PsyAdd</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Brain</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>LingXCG_PsyAdd</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="MakeBodyPartLingXCGBase">
+    <defName>MakeLingXCG_PsyAdd</defName>
+    <label>make mind converge chip</label>
+    <description>make mind converge chip.</description>
+    <jobString>make mind converge chip</jobString>
+    <workAmount>12000</workAmount>
+    <descriptionHyperlinks>
+	  <ThingDef>LingXCG_PsyAdd</ThingDef>
+	</descriptionHyperlinks>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AIPersonaCore</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>AIPersonaCore</li>
+        <li>ComponentSpacer</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <LingXCG_PsyAdd>1</LingXCG_PsyAdd>
+    </products>
+  </RecipeDef>
+  <!-- 战偶 -->
+  <HediffDef ParentName="LingXCGHediffBase">
+    <defName>LingXCG_FightPuppetC</defName>
+    <label>flght puppet</label>
+    <hediffClass>LingGame.LingXCG_FightPuppetC</hediffClass>
+    <labelNoun>chip</labelNoun>
+    <description>a flght puppet.</description>
+    <descriptionHyperlinks><ThingDef>LingXCG_FightPuppetC</ThingDef></descriptionHyperlinks>
+    <stages>
+      <li>
+        <painFactor>0.5</painFactor>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.2</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>0.3</offset>
+          </li>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <offset>0.5</offset>
+          </li>
+        </capMods>
+        <naturalHealingFactor>2</naturalHealingFactor>
+        <statOffsets>
+          <ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.8</ArmorRating_Blunt>
+          <ArmorRating_Heat>0.6</ArmorRating_Heat>
+          <AimingDelayFactor>-0.2</AimingDelayFactor>
+          <IncomingDamageFactor>-0.3</IncomingDamageFactor>
+          <MeleeDodgeChance>5</MeleeDodgeChance>
+          <MeleeHitChance>5</MeleeHitChance>
+          <PawnTrapSpringChance>-1</PawnTrapSpringChance>
+          <ShootingAccuracyPawn>5</ShootingAccuracyPawn>
+        </statOffsets>
+      </li>
+    </stages>
+    <spawnThingOnRemoved>LingXCG_FightPuppetC</spawnThingOnRemoved>
+  </HediffDef>
+  <ThingDef ParentName="BodyPartLingXCGBase">
+    <defName>LingXCG_FightPuppetC</defName>
+    <label>flght puppet</label>
+    <descriptionHyperlinks>
+	  <RecipeDef>installLingXCG_FightPuppetC</RecipeDef>
+	</descriptionHyperlinks>
+    <description>仿生学者根据真正战斗人偶的能量流动方式制作的仿制品,有着极其强大的战斗能力,但由于找不到合适的能量来源,安装后会压榨安装者的生命能量,这会导致安装者以肉眼可见的速度高速衰老.</description>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <Mass>0.01</Mass>
+    </statBases>
+  </ThingDef>
+  <RecipeDef ParentName="LingXCGSurgeryFleshS">
+    <defName>installLingXCG_FightPuppetC</defName>
+    <label>install flght puppet</label>
+    <descriptionHyperlinks>
+	  <ThingDef>LingXCG_FightPuppetC</ThingDef>
+	  <HediffDef>LingXCG_FightPuppetC</HediffDef>
+	</descriptionHyperlinks>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>LingXCG_FightPuppetC</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>LingXCG_FightPuppetC</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Torso</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>LingXCG_FightPuppetC</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="MakeBodyPartLingXCGBase">
+    <defName>MakeLingXCG_FightPuppetC</defName>
+    <label>make flght puppet</label>
+    <researchPrerequisite>ZeroTechBodyPart</researchPrerequisite>
+    <description>make flght puppet.</description>
+    <jobString>make flght puppet</jobString>
+    <workAmount>12000</workAmount>
+    <descriptionHyperlinks>
+	  <ThingDef>LingXCG_FightPuppetC</ThingDef>
+	</descriptionHyperlinks>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Heart</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Liver</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Lung</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Kidney</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Heart</li>
+        <li>Liver</li>
+        <li>Lung</li>
+        <li>Kidney</li>
+        <li>ComponentSpacer</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <LingXCG_FightPuppetC>1</LingXCG_FightPuppetC>
+    </products>
+  </RecipeDef>
+
+ 
+</Defs>
