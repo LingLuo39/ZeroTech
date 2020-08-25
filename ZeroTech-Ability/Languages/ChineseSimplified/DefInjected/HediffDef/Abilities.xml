@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 伤害汲取 -->
+
+  <LingAbiDamageTransfer.label>伤害转移</LingAbiDamageTransfer.label>
+  <LingAbiDamageTransfer.description>将受到的伤害转移给目标</LingAbiDamageTransfer.description>
+
+
+  <!-- 尸爆术 -->
+
+  <LingAbiHediffCorpseExplosion.label>尸爆术</LingAbiHediffCorpseExplosion.label>
+  <LingAbiHediffCorpseExplosion.description>死亡时会发生爆炸</LingAbiHediffCorpseExplosion.description>
+
+
+  <!-- <AbilityDef ParentName="PsycastBase">
+    <defName>LingAbiCorpseExplosionPlus</defName>
+    <label>super corpse explosion</label>
+    <description>给目标施加一个尸爆状态,如果目标在一天内死亡则会发生爆炸,并给炸到的目标也附加尸爆</description>
+    <level>3</level>
+    <iconPath>UI/Abilities/LingAbiCorpseExplosionPlus</iconPath>
+    <statBases>
+      <Ability_EntropyGain>60</Ability_EntropyGain>
+    </statBases>
+    <verbProperties>
+      <warmupTime>0.25</warmupTime>
+      <range>35</range>
+      <targetParams>
+        <canTargetSelf>True</canTargetSelf>
+        <canTargetAnimals>True</canTargetAnimals>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class = "CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>LingAbiHediffCorpseExplosionPlus</hediffDef>
+        <applicableToMechs>true</applicableToMechs>
+      </li>
+    </comps>
+  </AbilityDef> -->
+
+  <LingAbiHediffCorpseExplosionPlus.label>扩散尸爆术</LingAbiHediffCorpseExplosionPlus.label>
+  <LingAbiHediffCorpseExplosionPlus.description>死亡时会发生爆炸,并对目标也附加尸爆术</LingAbiHediffCorpseExplosionPlus.description>
+
+
+  <!-- 闪烁 -->
+
+  <LingAbiHediffSkipAndBack.label>回溯</LingAbiHediffSkipAndBack.label>
+  <LingAbiHediffSkipAndBack.description>在结束后回到指定位置</LingAbiHediffSkipAndBack.description>
+
+
+  <!-- 兽群 -->
+
+  <LingAbiHediffFalse.label>幻影</LingAbiHediffFalse.label>
+  <LingAbiHediffFalse.description>这个生物只是一个幻影,死亡便会消散</LingAbiHediffFalse.description>
+
+
+  <!-- 扩散尸爆术 -->
+
+</LanguageData>
