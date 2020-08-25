@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ModMetaData>
+	<name>ZeroTech-Shield</name>
+	<author>LingLuo</author>
+	<supportedVersions>
+		<li>1.1</li>
+		<li>1.2</li>
+	</supportedVersions>
+	<packageId>LingLuo.ZeroTechShield</packageId>
+	<description>零子科技-护盾拓展包
+	为什么呢,明明可以将一切伤害阻隔在外,却还是有人选择用血肉之躯去承受伤害呢
+	物品简介
+	能源护盾-烛影/月影:装载了虚化器的护盾,有几率直接无视伤害,按照受击次数衰减能量,受到近战伤害时损耗能量更少
+	能源护盾-荧光/日光:装载了常驻盾的护盾,有几率降低破盾情况下受到的伤害,按照受击次数衰减能量,受到远程伤害时损耗能量更少
+	能源护盾-闪烁/跃迁:装载了高速聚能器的护盾,消耗能量时会将装备者短距离传送,按照受击次数衰减能量
+	能源护盾-石器时代/中世纪/工业时代/太空时代/极致时代:按照伤害强度消耗能量的护盾,随着强化每一代都会大幅度提升强度
+	</description>
+	<modDependencies>
+		<li>
+			<packageId>LingLuo.ZeroTechCore</packageId>
+			<displayName>ZeroTechCore</displayName>
+			<downloadUrl>https://www.baidu.com</downloadUrl>
+		</li>
+	</modDependencies>
+	
+	<loadAfter>
+		<li>LingLuo.ZeroTechCore</li>
+	</loadAfter>
+</ModMetaData>

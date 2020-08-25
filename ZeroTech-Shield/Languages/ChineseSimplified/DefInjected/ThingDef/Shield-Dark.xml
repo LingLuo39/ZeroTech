@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 护盾 -->
+
+  <Apparel_Ling_Dark_I.label>能源护盾-烛影</Apparel_Ling_Dark_I.label>
+  <Apparel_Ling_Dark_I.description>暗影能源护盾的第一作,有着很低的能量上限和较低的恢复速度,装载了高效虚化器,装备有一定几率直接无视对方的攻击,该款为近战特化盾,受到近战伤害时会降低更少能量</Apparel_Ling_Dark_I.description>
+
+  <Apparel_Ling_Dark_II.label>能源护盾-月影</Apparel_Ling_Dark_II.label>
+  <Apparel_Ling_Dark_II.description>暗影能源护盾的第二作,有着较低的能量上限和略低的恢复速度,装载了高效虚化器,装备有一定几率直接无视对方的攻击,该款为近战特化盾,受到近战伤害时会降低更少能量</Apparel_Ling_Dark_II.description>
+
+
+</LanguageData>
