@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Name="LingEZAMealBase" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+	  <Beauty>0</Beauty>
+	  <Mass>0.3</Mass>
+	  <DeteriorationRate>10</DeteriorationRate>
+	</statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <stackLimit>75</stackLimit>
+    <tickerType>Rare</tickerType>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <thingCategories>
+      <li>FoodMeals</li>
+    </thingCategories>
+    <alwaysHaulable>true</alwaysHaulable>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>4</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <pathCost>15</pathCost>
+    <resourceReadoutPriority>Last</resourceReadoutPriority>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <uiIconForStackCount>1</uiIconForStackCount>
+    <ingestible>
+      <foodType>Meal</foodType>
+      <optimalityOffsetHumanlikes>5</optimalityOffsetHumanlikes>
+      <optimalityOffsetFeedingAnimals>-10</optimalityOffsetFeedingAnimals>
+      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+	  <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+  <!-- 肥宅增肌餐 -->
+  <ThingDef ParentName="LingEZAMealBase">
+    <defName>FatHealthMeal</defName>
+    <label>肥宅增肌餐</label>
+    <description>一份丰富的西式餐点,包含着巨大的热量,很适合用于增长体重.</description>
+    <graphicData>
+      <texPath>Things/Item/Meal/Simple</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>15</MarketValue>
+      <WorkToMake>900</WorkToMake>
+      <Nutrition>1</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealLavish</preferability>
+      <outcomeDoers>
+        <li Class="LingGame.IngestionOutcomeDoer_FatHealthMeal"/>
+      </outcomeDoers>
+    </ingestible>
+  </ThingDef>
+  <!-- 瘦身健康餐 -->
+  <ThingDef ParentName="LingEZAMealBase">
+    <defName>LoseWeightMeal</defName>
+    <label>瘦身健康餐</label>
+    <description>一份含有大量膳食纤维的素食,包含着人体所需的各种营养,很适合用于减肥.</description>
+    <graphicData>
+      <texPath>Things/Item/Meal/LoseWeight</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>15</MarketValue>
+      <WorkToMake>900</WorkToMake>
+      <Nutrition>0.4</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealSimple</preferability>
+      <maxNumToIngestAtOnce>2</maxNumToIngestAtOnce>
+      <outcomeDoers>
+        <li Class="LingGame.IngestionOutcomeDoer_LoseWeightMeal"/>
+      </outcomeDoers>
+    </ingestible>
+  </ThingDef>
+  <!-- 肥宅快乐餐 -->
+  <ThingDef ParentName="LingEZAMealBase">
+    <defName>FatHappyMeal</defName>
+    <label>肥宅快乐餐</label>
+    <description>一份极度丰富的多元化餐点,可以让使用者极度的快乐,不过摄取这么多的能量可能会导致意识受到影响.</description>
+    <graphicData>
+      <texPath>Things/Item/Meal/FatHappyMeal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <descriptionHyperlinks>
+	  <HediffDef>FatHappyMeal</HediffDef>
+	</descriptionHyperlinks>
+    <statBases>
+      <MarketValue>15</MarketValue>
+      <WorkToMake>900</WorkToMake>
+      <Nutrition>1.8</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealLavish</preferability>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>FatHappyMeal</hediffDef>
+          <severity>1.0</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+  </ThingDef>
+  <!-- 嘴臭盒饭 -->
+  <ThingDef ParentName="LingEZAMealBase">
+    <defName>FuckYouMeal</defName>
+    <label>嘴臭盒饭</label>
+    <description>这是一份神奇的餐点~明明是使用了最包含着爱意的食物,吃下去却让人那么的愤怒.</description>
+    <graphicData>
+      <texPath>Things/Item/Meal/FuckYouMeal</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>15</MarketValue>
+      <WorkToMake>900</WorkToMake>
+      <Nutrition>0.9</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealAwful</preferability>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>FuckYouMeal</hediffDef>
+          <severity>1.0</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+  </ThingDef>
+  <!-- 整容盒饭 -->
+  <ThingDef ParentName="LingEZAMealBase">
+    <defName>CosmeticMeal</defName>
+    <label>整容盒饭</label>
+    <description>魔镜魔镜告诉我,谁是这个世界上最美丽的人~\n魔镜:不是你!</description>
+    <graphicData>
+      <texPath>Things/Item/Meal/Simple</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>15</MarketValue>
+      <WorkToMake>900</WorkToMake>
+      <Nutrition>0.8</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealAwful</preferability>
+      <outcomeDoers>
+        <li Class="LingGame.IngestionOutcomeDoer_CosmeticMeal"/>
+      </outcomeDoers>
+    </ingestible>
+  </ThingDef>
+  <!-- 六亲不认饼 -->
+  <ThingDef ParentName="LingEZAMealBase">
+    <defName>UngratefulnessCookies</defName>
+    <label>六亲不认饼</label>
+    <description>一格长得非常漂亮的饼干,一口下去六亲不认,两口下去九族尽忘.</description>
+    <graphicData>
+      <texPath>Things/Item/Meal/Simple</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>15</MarketValue>
+      <WorkToMake>900</WorkToMake>
+      <Nutrition>0.6</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealAwful</preferability>
+      <outcomeDoers>
+        <li Class="LingGame.IngestionOutcomeDoer_UngratefulnessCookies"/>
+      </outcomeDoers>
+    </ingestible>
+  </ThingDef>
+  <!-- 昏睡红茶 -->
+  <ThingDef ParentName="LingEZAMealBase">
+    <defName>SleeplyRedTea</defName>
+    <label>昏睡红茶</label>
+    <description>只有红茶可以吗?喝完之后神清气爽哦.</description>
+    <graphicData>
+      <texPath>Things/Item/Meal/Simple</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <descriptionHyperlinks>
+	  <HediffDef>SleeplyRedTea</HediffDef>
+	</descriptionHyperlinks>
+    <statBases>
+      <MarketValue>15</MarketValue>
+      <WorkToMake>900</WorkToMake>
+      <Nutrition>0.6</Nutrition>
+    </statBases>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>SleeplyRedTea</hediffDef>
+          <severity>1.0</severity>
+        </li>
+      </outcomeDoers>
+      <preferability>MealFine</preferability>
+    </ingestible>
+  </ThingDef>
+  
+  <HediffDef>
+    <defName>FatHappyMeal</defName>
+	<description>The pawn was so full that his ability to move was affected.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>肥宅快乐餐</label>
+    <defaultLabelColor>(1,1,1)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-1.2</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.10</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.50</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <ThoughtDef>
+    <defName>FatHappyMeal</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>FatHappyMeal</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>肥宅快乐餐</label>
+        <description>薯条可乐大汉堡!!!!!</description>
+        <baseMoodEffect>35</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <HediffDef>
+    <defName>FuckYouMeal</defName>
+    <hediffClass>LingGame.Hediff_FuckYouMeal</hediffClass>
+	<description>Debug.text</description>
+    <label>嘴臭</label>
+  </HediffDef>
+  <HediffDef>
+    <defName>SleeplyRedTea</defName>
+	<description>The pawn didn't know why he was suddenly very tired.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>昏睡红茶</label>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-1.2</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <painFactor>0</painFactor>
+        <restFallFactorOffset>999</restFallFactorOffset>
+      </li>
+    </stages>
+  </HediffDef>
+</Defs>

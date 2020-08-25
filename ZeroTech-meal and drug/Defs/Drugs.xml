@@ -1,0 +1,392 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- 怀孕药 -->
+  <ThingDef ParentName="MakeableDrugPillBase">
+    <defName>PregnantPill</defName>
+    <label>Pregnant Pill</label>
+    <description>Get you pregnant, even if you're a male or even a mechanical</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/Penoxycyline</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <descriptionHyperlinks>
+	  <HediffDef>Pregnant</HediffDef>
+	</descriptionHyperlinks>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>300</WorkToMake>
+      <MarketValue>35</MarketValue>
+      <Mass>0.005</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <ingestible>
+      <drugCategory>Medical</drugCategory>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>Pregnant</hediffDef>
+          <severity>0.49</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <recipeMaker>
+      <recipeUsers>
+        <li>DrugLab</li>
+      </recipeUsers>
+      <researchPrerequisite>ZeroTechDrugs</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <Neutroamine>4</Neutroamine>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>1000</listOrder>
+        <overdoseSeverityOffset>
+          <min>0.08</min>
+          <max>0.14</max>
+        </overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+  <!-- 砒霜 -->
+  <ThingDef ParentName="MakeableDrugPillBase">
+    <defName>Arsenic</defName>
+    <label>arsenic</label>
+    <description>A potent poison that can quickly kill its eater.</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/Penoxycyline</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <descriptionHyperlinks>
+	  <HediffDef>ArsenicBuildup</HediffDef>
+	</descriptionHyperlinks>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>300</WorkToMake>
+      <MarketValue>50</MarketValue>
+      <Mass>0.01</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <ingestible>
+      <drugCategory>Medical</drugCategory>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>ArsenicBuildup</hediffDef>
+          <severity>0.99</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <recipeMaker>
+      <recipeUsers>
+        <li>DrugLab</li>
+      </recipeUsers>
+      <researchPrerequisite>ZeroTechDrugs</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <Neutroamine>7</Neutroamine>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>1000</listOrder>
+        <overdoseSeverityOffset>
+          <min>0.08</min>
+          <max>0.14</max>
+        </overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+  <HediffDef>
+    <defName>ArsenicBuildup</defName>
+	<description>The pawn are about to die.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(1.0, 0.7, 0.7)</defaultLabelColor>
+    <label>arsenic buildup</label>
+    <lethalSeverity>1</lethalSeverity>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <comps>
+      <li Class="HediffCompProperties_Immunizable">
+        <severityPerDayNotImmune>1</severityPerDayNotImmune>
+      </li>
+    </comps>
+  </HediffDef>
+  <!-- 驻颜丹 -->
+  <ThingDef ParentName="MakeableDrugPillBase">
+    <defName>BeautyPill</defName>
+    <label>beauty pill</label>
+    <description>一款迷你的药丸,可以使服用者变得美丽无比</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/Penoxycyline</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <descriptionHyperlinks>
+	  <HediffDef>BeautyPill</HediffDef>
+	</descriptionHyperlinks>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>300</WorkToMake>
+      <MarketValue>50</MarketValue>
+      <Mass>0.005</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <ingestible>
+      <drugCategory>Medical</drugCategory>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>BeautyPill</hediffDef>
+          <severity>0.5</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <recipeMaker>
+      <recipeUsers>
+        <li>DrugLab</li>
+      </recipeUsers>
+      <researchPrerequisite>ZeroTechDrugs</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <Neutroamine>7</Neutroamine>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>1000</listOrder>
+        <overdoseSeverityOffset>
+          <min>0.08</min>
+          <max>0.14</max>
+        </overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+  <HediffDef>
+    <defName>BeautyPill</defName>
+	<description>The pawn has become so beautiful that everyone will love it.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(1.0, 1.0, 1.0)</defaultLabelColor>
+    <label>Beauty</label>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <comps>
+      <li Class="HediffCompProperties_Immunizable">
+        <severityPerDayNotImmune>-0.2</severityPerDayNotImmune>
+      </li>
+    </comps>
+  </HediffDef>
+  <ThoughtDef>
+    <defName>BeautyPill</defName>
+    <thoughtClass>Thought_SituationalSocial</thoughtClass>
+    <workerClass>LingGame.Thought_BeautyPill</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>Beauty?</label>
+        <baseOpinionOffset>40</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <!-- 乱情丸 -->
+  <ThingDef ParentName="MakeableDrugPillBase">
+    <defName>BreakFellingPill</defName>
+    <label>break felling pill</label>
+    <description>一枚散发着异香的药丸,食用者服用后会对任何人好感大增</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/Penoxycyline</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <descriptionHyperlinks>
+	  <HediffDef>BreakFellingPill</HediffDef>
+	</descriptionHyperlinks>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>300</WorkToMake>
+      <MarketValue>50</MarketValue>
+      <Mass>0.005</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <ingestible>
+      <drugCategory>Medical</drugCategory>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>BreakFellingPill</hediffDef>
+          <severity>0.45</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <recipeMaker>
+      <recipeUsers>
+        <li>DrugLab</li>
+      </recipeUsers>
+      <researchPrerequisite>ZeroTechDrugs</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <PsychoidLeaves>5</PsychoidLeaves>
+      <Ambrosia>1</Ambrosia>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>1000</listOrder>
+        <overdoseSeverityOffset>
+          <min>0.08</min>
+          <max>0.14</max>
+        </overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+  <HediffDef>
+    <defName>BreakFellingPill</defName>
+	<description>The pawn's cognition is blurred, everyone looks like his best friend</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(1.0, 1.0, 1.0)</defaultLabelColor>
+    <label>break felling</label>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <comps>
+      <li Class="HediffCompProperties_Immunizable">
+        <severityPerDayNotImmune>-0.5</severityPerDayNotImmune>
+      </li>
+    </comps>
+  </HediffDef>
+  <ThoughtDef>
+    <defName>BreakFellingPill</defName>
+    <thoughtClass>Thought_SituationalSocial</thoughtClass>
+    <workerClass>LingGame.Thought_BreakFellingPill</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>break felling</label>
+        <baseOpinionOffset>80</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <!-- 醉生梦死 -->
+  <ThingDef ParentName="MakeableDrugPillBase">
+    <defName>LifeDeathWine</defName>
+    <label>Life Death Wine</label>
+    <description>一种来自古中国的饮品...
+	醉生梦死真蟪蛄兮，阅千万岁独有贞柏与圣玒。</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/Penoxycyline</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <descriptionHyperlinks>
+	  <HediffDef>LifeDeathWine</HediffDef>
+	</descriptionHyperlinks>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>300</WorkToMake>
+      <MarketValue>50</MarketValue>
+      <Mass>0.005</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <ingestible>
+      <drugCategory>Medical</drugCategory>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>LifeDeathWine</hediffDef>
+          <severity>1</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <recipeMaker>
+      <recipeUsers>
+        <li>DrugLab</li>
+      </recipeUsers>
+      <researchPrerequisite>ZeroTechDrugs</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <Ambrosia>3</Ambrosia>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>1000</listOrder>
+        <overdoseSeverityOffset>
+          <min>0.08</min>
+          <max>0.14</max>
+        </overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+  <HediffDef>
+    <defName>LifeDeathWine</defName>
+	<description>This pawn is drunk.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(1.0, 1.0, 1.0)</defaultLabelColor>
+    <label>Life Death Wine</label>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <comps>
+      <li Class="HediffCompProperties_Immunizable">
+        <severityPerDayNotImmune>-0.98</severityPerDayNotImmune>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <restFallFactor>1.5</restFallFactor>
+        <hungerRateFactor>0.3</hungerRateFactor>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <postFactor>0.5</postFactor>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <ThoughtDef>
+    <defName>LifeDeathWine</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>LifeDeathWine</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>Life Death Wine</label>
+        <description>I am...</description>
+        <baseMoodEffect>50</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <!-- 涤身水 -->
+  <ThingDef ParentName="DrugPillBase">
+    <defName>CleanBodyWater</defName>
+    <label>clean body water</label>
+    <description>一枚神奇的液体,可以重塑饮用者的肉体.</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/CleanBodyPill</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MarketValue>1500</MarketValue>
+      <Mass>0.005</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <ingestible>
+      <drugCategory>Medical</drugCategory>
+      <outcomeDoers>
+        <li Class="LingGame.IngestionOutcomeDoer_CleanBody"/>
+      </outcomeDoers>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>1000</listOrder>
+        <overdoseSeverityOffset>
+          <min>0.08</min>
+          <max>0.14</max>
+        </overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>
