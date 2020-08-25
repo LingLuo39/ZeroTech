@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- {PAWN_nameDef}
+	{PAWN_possessive}
+	{PAWN_pronoun} -->
+
+  <Ling_NoGod_Nonsense.label>恶心话</Ling_NoGod_Nonsense.label>
+  <Ling_NoGod_Nonsense.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameDef][nothingto][complimented] [RECIPIENT_nameDef]的[PersonalCharacteristic].</Ling_NoGod_Nonsense.logRulesInitiator.rulesStrings.0>
+  <Ling_NoGod_Nonsense.logRulesInitiator.rulesStrings.1>nothingto(p=3)->无缘由的</Ling_NoGod_Nonsense.logRulesInitiator.rulesStrings.1>
+  <Ling_NoGod_Nonsense.logRulesInitiator.rulesStrings.2>nothingto->突然的</Ling_NoGod_Nonsense.logRulesInitiator.rulesStrings.2>
+  <Ling_NoGod_Nonsense.logRulesInitiator.rulesStrings.3>nothingto->不讲道理的</Ling_NoGod_Nonsense.logRulesInitiator.rulesStrings.3>
+  <Ling_NoGod_Nonsense.logRulesInitiator.rulesStrings.4>nothingto->无凭无据的</Ling_NoGod_Nonsense.logRulesInitiator.rulesStrings.4>
+  <Ling_NoGod_Nonsense.logRulesInitiator.rulesStrings.5>nothingto->一边嘲笑一边</Ling_NoGod_Nonsense.logRulesInitiator.rulesStrings.5>
+  <Ling_NoGod_Nonsense.logRulesInitiator.rulesStrings.6>nothingto->阴阳怪气的</Ling_NoGod_Nonsense.logRulesInitiator.rulesStrings.6>
+  <Ling_NoGod_Nonsense.logRulesInitiator.rulesStrings.7>complimented(p=3)->反驳</Ling_NoGod_Nonsense.logRulesInitiator.rulesStrings.7>
+  <Ling_NoGod_Nonsense.logRulesInitiator.rulesStrings.8>complimented->贬低</Ling_NoGod_Nonsense.logRulesInitiator.rulesStrings.8>
+  <Ling_NoGod_Nonsense.logRulesInitiator.rulesStrings.9>complimented->嘲笑</Ling_NoGod_Nonsense.logRulesInitiator.rulesStrings.9>
+  <Ling_NoGod_Nonsense.logRulesInitiator.rulesStrings.10>complimented->讨论</Ling_NoGod_Nonsense.logRulesInitiator.rulesStrings.10>
+  <Ling_NoGod_Nonsense.logRulesInitiator.rulesStrings.11>complimented->讽刺</Ling_NoGod_Nonsense.logRulesInitiator.rulesStrings.11>
+  <Ling_NoGod_Nonsense.logRulesInitiator.rulesStrings.12>complimented->公开</Ling_NoGod_Nonsense.logRulesInitiator.rulesStrings.12>
+
+
+</LanguageData>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ModMetaData>
+	<name>ZeroTech-Trait</name>
+	<author>LingLuo</author>
+	<supportedVersions>
+		<li>1.1</li>
+		<li>1.2</li>
+	</supportedVersions>
+	<packageId>LingLuo.ZeroTechTrait</packageId>
+	<description>零子科技-特性拓展包
+	被神明抛弃的人们啊,请更加坚强的活着
+	物品简介
+	免疫缺失:免疫力极低
+	精神狂躁:随机崩溃
+	不值分文:身价极低
+	畏寒体质:怕冷
+	畏热体质:怕热
+	杠精:容易造成冲突
+	数学白痴:计算能力差
+	身体畸形:行动能力弱且不美观
+	傲慢:无法学习
+	贪色:需要多个情人
+	</description>
+	<!-- <modDependencies>
+		<li>
+			<packageId>LingLuo.ZeroTechCore</packageId>
+			<displayName>ZeroTechCore</displayName>
+			<downloadUrl>https://www.baidu.com</downloadUrl>
+		</li>
+	</modDependencies> -->
+	
+	<loadAfter>
+		<li>LingLuo.ZeroTechCore</li>
+	</loadAfter>
+</ModMetaData>
