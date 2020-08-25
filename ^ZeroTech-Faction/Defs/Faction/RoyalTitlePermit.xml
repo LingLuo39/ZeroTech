@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <RoyalTitlePermitDef>
+    <defName>ZeroTech_Assassin_Help</defName>
+    <label>呼叫刺杀者</label>
+    <description>呼叫一名隐身的刺杀者来支援你,他在短时间内拥有强大的实力.</description>
+    <workerClass>RoyalTitlePermitWorker_CallAid</workerClass>
+    <minTitle>Count</minTitle>
+    <faction>Empire</faction>
+    <permitPointCost>1</permitPointCost>
+    <uiPosition>(1,5)</uiPosition>
+    <royalAid>
+     <favorCost>8</favorCost>
+     <pawnKindDef>Ling_Moon_Assassin</pawnKindDef>
+     <pawnCount>1</pawnCount>
+     <targetingRange>39.9</targetingRange>
+    </royalAid>
+    <cooldownDays>20</cooldownDays>
+  </RoyalTitlePermitDef>
+  
+</Defs>

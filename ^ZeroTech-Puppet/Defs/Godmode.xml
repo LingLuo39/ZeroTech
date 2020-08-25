@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>ZeroTechPackBionic</defName>
+    <label>零子礼包(人偶)</label>
+    <description>一个方便你体验mod内容的零子礼包,请不要在正常游戏中频繁使用哦\n点击Open按钮即可获得大量物资</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/ComponentIndustrial</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <descriptionHyperlinks>
+	  <ThingDef>Ling_Puppet_Cu</ThingDef>
+	  <ThingDef>Ling_Puppet_Ag</ThingDef>
+	  <ThingDef>Ling_Puppet_Au</ThingDef>
+	  <ThingDef>Ling_Puppet_CuPlus</ThingDef>
+	  <ThingDef>Ling_Puppet_AgPlus</ThingDef>
+	  <ThingDef>Ling_Puppet_AuPlus</ThingDef>
+	  <ThingDef>TissueCrystallizingAgent</ThingDef>
+	</descriptionHyperlinks>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>1</stackLimit>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <costList>
+      <Steel>1</Steel>
+    </costList>
+    <statBases>
+      <MaxHitPoints>10</MaxHitPoints>
+      <MarketValue>1</MarketValue>
+      <Mass>1</Mass>
+      <WorkToMake>6</WorkToMake>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>1</DeteriorationRate>
+    </statBases>
+	<tradeability>Sellable</tradeability>
+    <intricate>true</intricate>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+	<comps>
+      <li Class="LingGame.CompProperties_LingSpawnItem">
+        <list>
+		  <li>Ling_Puppet_Cu</li>
+		  <li>Ling_Puppet_Ag</li>
+		  <li>Ling_Puppet_Au</li>
+		  <li>Ling_Puppet_CuPlus</li>
+		  <li>Ling_Puppet_AgPlus</li>
+		  <li>Ling_Puppet_AuPlus</li>
+		  <li>TissueCrystallizingAgent</li>
+		</list>
+      </li>
+    </comps>
+	<recipeMaker>
+	  <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+	  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+	  <workSkill>Crafting</workSkill>
+	  <effectWorking>Smith</effectWorking>
+	  <soundWorking>Recipe_Machining</soundWorking>
+	  <recipeUsers>
+		<li>CraftingSpot</li>
+	  </recipeUsers>
+      <skillRequirements>
+        <Crafting>0</Crafting>
+      </skillRequirements>
+	</recipeMaker>
+  </ThingDef>
+
+</Defs>

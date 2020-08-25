@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- 步枪-旧日780 -->
+  <ThingDef ParentName="LingBaseMoonGun">
+    <defName>Gun_Ling_Moon_OldWorldRifle</defName>
+    <label>旧世步枪</label>
+    <description>一款旧时代的,发射大口径金属子弹的连发式步枪,威力一般,没有什么出奇的地方,但是胜在稳定.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/Gun_Ling_Moon_RifleSharp</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Revolver</soundInteract>
+    <statBases>
+      <Mass>2.5</Mass>
+      <MarketValue>780</MarketValue>
+      <AccuracyTouch>0.9</AccuracyTouch>
+      <AccuracyShort>0.9</AccuracyShort>
+      <AccuracyMedium>0.9</AccuracyMedium>
+      <AccuracyLong>0.9</AccuracyLong>
+      <RangedWeapon_Cooldown>2.25</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Plasteel>10</Plasteel>
+      <ComponentSpacer>4</ComponentSpacer>
+    </costList>
+    <weaponTags>
+      <li>SpacerGun</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_Ling_Moon_OldWorldRifle</defaultProjectile>
+        <warmupTime>2.15</warmupTime>
+        <range>32</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <soundCast>Shot_Revolver</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>bayonet</label>
+        <capacities>
+          <li>Cut</li>
+          <li>Stab</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>1</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_Ling_Moon_OldWorldRifle</defName>
+    <label>金属子弹</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Ling_Moon_RifleSharp</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <projectile>
+      <damageDef>MoonSharp</damageDef>
+      <damageAmountBase>13</damageAmountBase>
+      <armorPenetrationBase>0.6</armorPenetrationBase>
+      <speed>110</speed>
+    </projectile>
+  </ThingDef>
+  <!-- 哒哒哒,冒蓝火那种武器1800 -->
+  <ThingDef ParentName="LingBaseMoonGun">
+    <defName>Gun_Ling_Moon_Roar</defName>
+    <label>月光轰鸣者</label>
+    <description>一台强大的的重型射击武器,它的体积大到了甚至你可以站在后面挡子弹,当它爆发威力之时,几乎没有任何东西可以站在它的正面,它强大的火力足以撕碎任何敌人.\n由于发射速度过高,在短时间内进行多次射击之后会发生过热,一旦严重过热会发生爆炸,内置了自动温控装置,在过热时会自锁阻止射击</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/Gun_Ling_Moon_RifleSpi</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<tickerType>Normal</tickerType>
+    <soundInteract>Interact_Revolver</soundInteract>
+    <statBases>
+      <Mass>22.5</Mass>
+      <MarketValue>1800</MarketValue>
+      <AccuracyTouch>0.5</AccuracyTouch>
+      <AccuracyShort>0.5</AccuracyShort>
+      <AccuracyMedium>0.5</AccuracyMedium>
+      <AccuracyLong>0.5</AccuracyLong>
+      <RangedWeapon_Cooldown>0.01</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Plasteel>10</Plasteel>
+      <ComponentSpacer>4</ComponentSpacer>
+    </costList>
+    <weaponTags>
+      <li>GunHeavy</li>
+    </weaponTags>
+	<comps>
+	  <li Class="LingGame.LingMoonRoarCompP"/>
+	</comps>
+    <verbs>
+      <li>
+        <verbClass>LingGame.Verb_ShootToHot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_Ling_Moon_Roar</defaultProjectile>
+        <warmupTime>0</warmupTime>
+        <range>35</range>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+        <soundCast>Shot_Revolver</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>60</power>
+        <cooldownTime>6</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_Ling_Moon_Roar</defName>
+    <label>量产弹</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Ling_Moon_Roar</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>8</damageAmountBase>
+      <armorPenetrationBase>0.3</armorPenetrationBase>
+      <speed>120</speed>
+    </projectile>
+  </ThingDef>
+
+
+  
+</Defs>

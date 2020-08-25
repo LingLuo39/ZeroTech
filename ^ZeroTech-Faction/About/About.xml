@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ModMetaData>
+	<name>ZeroTech-Faction</name>
+	<author>LingLuo</author>
+	<supportedVersions>
+		<li>1.1</li>
+		<li>1.2</li>
+	</supportedVersions>
+	<packageId>LingLuo.ZeroTechFaction</packageId>
+	<description>零子科技-派系拓展包
+	混乱?杀戮?不,那些东西已经不是我们所追求的了,在科技的追求面前,一切破坏秩序的让人都不可饶恕!
+	物品简介
+	月光庇佑者:一个强大的派系,他们崇尚科技,对守旧派的家伙们表示鄙视,似乎对你较为友好...然而
+	
+	</description>
+	<modDependencies>
+		<li>
+			<packageId>LingLuo.ZeroTechCore</packageId>
+			<displayName>ZeroTechCore</displayName>
+			<downloadUrl>https://www.baidu.com</downloadUrl>
+		</li>
+		<li>
+			<packageId>LingLuo.ZeroTechBinoic</packageId>
+			<displayName>ZeroTechBinoic</displayName>
+			<downloadUrl>https://www.baidu.com</downloadUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>LingLuo.ZeroTechCore</li>
+		<li>LingLuo.ZeroTechBinoic</li>
+	</loadAfter>
+</ModMetaData>
