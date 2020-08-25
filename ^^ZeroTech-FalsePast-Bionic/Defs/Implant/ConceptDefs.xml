@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ConceptDef>
+    <defName>ZeroTech_FalsePast-Bionic_SuitEffect</defName>
+    <label>零子科技:仿生套装效果</label>
+    <priority>10</priority>
+    <helpText>零子科技中含有一些可以安装在全身多个部位的仿生,同时安装多个的时候是可以产生共鸣效果的,此时你将获得较小的加成,而每安装五件,加成的属性就会增强.例如素白/赤血/冥骨仿生.</helpText>
+  </ConceptDef>  
+  
+</Defs>
