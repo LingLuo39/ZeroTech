@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ZeroTechGelMaker.label>凝胶制作器</ZeroTechGelMaker.label>
+  <ZeroTechGelMaker.description>一台带有打磨功能的机器,可以在通电状态下将物质打碎并转化为可食用的凝胶.</ZeroTechGelMaker.description>
+
+
+  <!--<ZeroTechGelMaker_Blueprint.label>凝胶制作器(蓝图)</ZeroTechGelMaker_Blueprint.label>-->
+  <!--<ZeroTechGelMaker_Blueprint_Install.label>凝胶制作器(蓝图)</ZeroTechGelMaker_Blueprint_Install.label>-->
+  <!--<ZeroTechGelMaker_Frame.label>凝胶制作器(建造中)</ZeroTechGelMaker_Frame.label>-->
+  <!--<ZeroTechGelMaker_Frame.description>一台带有打磨功能的机器,可以在通电状态下将物质打碎并转化为可食用的凝胶.</ZeroTechGelMaker_Frame.description>-->
+
+</LanguageData>

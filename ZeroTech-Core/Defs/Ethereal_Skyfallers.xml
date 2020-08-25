@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Name="AerialBombBase" Abstract="True">
+    <size>(1, 1)</size>
+    <category>Ethereal</category>
+    <thingClass>Skyfaller</thingClass>
+    <useHitPoints>false</useHitPoints>
+    <drawOffscreen>true</drawOffscreen>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>Skyfaller</altitudeLayer>
+    <drawerType>RealtimeOnly</drawerType>
+    <graphicData>
+      <texPath>Things/Projectile/AerialBomb100lb</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>Transparent</shaderType>
+      <drawSize>(3, 3)</drawSize>
+    </graphicData>
+    <skyfaller>
+      <shadowSize>(3, 3)</shadowSize>
+      <explosionDamage>Flame</explosionDamage>
+      <rotateGraphicTowardsDirection>false</rotateGraphicTowardsDirection>
+      <speed>1.2</speed>
+    </skyfaller>
+  </ThingDef>
+
+  <ThingDef ParentName="AerialBombBase">
+    <defName>AerialBomb20kg</defName>
+    <label>迷你空投炸弹</label>
+    <skyfaller>
+      <explosionRadius>3.5</explosionRadius>
+      <explosionDamageFactor>3</explosionDamageFactor>
+      <speed>1.0</speed>
+    </skyfaller>
+  </ThingDef>
+  <ThingDef ParentName="AerialBombBase">
+    <defName>AerialBomb50kg</defName>
+    <label>小型空投炸弹</label>
+    <skyfaller>
+      <explosionRadius>5</explosionRadius>
+      <explosionDamageFactor>5</explosionDamageFactor>
+      <speed>1.1</speed>
+    </skyfaller>
+  </ThingDef>
+  <ThingDef ParentName="AerialBombBase">
+    <defName>AerialBomb100kg</defName>
+    <label>中型空投炸弹</label>
+    <skyfaller>
+      <explosionRadius>9</explosionRadius>
+      <explosionDamageFactor>12</explosionDamageFactor>
+      <speed>1.2</speed>
+    </skyfaller>
+  </ThingDef>
+  <ThingDef ParentName="AerialBombBase">
+    <defName>AerialBombNkg</defName>
+    <label>重型空投炸弹</label>
+    <skyfaller>
+      <explosionRadius>15</explosionRadius>
+      <explosionDamageFactor>20</explosionDamageFactor>
+      <speed>1.3</speed>
+    </skyfaller>
+  </ThingDef>
+
+</Defs>
