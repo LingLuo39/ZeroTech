@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- 
+	{PAWN_nameDef}
+	{PAWN_possessive}
+	{PAWN_pronoun}
+	-->
+  <TraitDef>
+    <defName>Ling_NoGod_Immunodeficiency</defName>
+    <commonality>0.1</commonality>
+    <degreeDatas>
+      <li>
+        <label>免疫缺陷</label>
+        <description>{PAWN_nameDef}的免疫系统有着严重缺陷,{PAWN_pronoun}的免疫能力几乎不存在,几乎一点小病都能使其死亡.</description>
+        <statFactors>
+          <ImmunityGainSpeed>0</ImmunityGainSpeed>
+        </statFactors>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+  
+  <TraitDef>
+    <defName>Ling_NoGod_Mania</defName>
+    <commonality>0.1</commonality>
+    <degreeDatas>
+      <li>
+        <label>精神狂躁</label>
+        <description>{PAWN_nameDef}难以控制自己的精神,经常会不分场合的向周围的人发泄无缘由的怒火.</description>
+        <theOnlyAllowedMentalBreaks>
+          <li>Berserk</li>
+        </theOnlyAllowedMentalBreaks>
+        <randomMentalState>Berserk</randomMentalState>
+        <randomMentalStateMtbDaysMoodCurve>
+          <points>
+            <li>(0, 50)</li>
+          </points>
+        </randomMentalStateMtbDaysMoodCurve>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+  
+  <TraitDef>
+    <defName>Ling_NoGod_NoValue</defName>
+    <commonality>0.1</commonality>
+    <degreeDatas>
+      <li>
+        <label>不值分文</label>
+        <description>由于不知名的原因,{PAWN_nameDef}不管做出什么惊人的壮举,{PAWN_pronoun}的身价也不会发生一丝一毫的的变化,即使在奴隶商场上也不会有人愿意去购买{PAWN_pronoun}.</description>
+        <marketValueFactorOffset>-1</marketValueFactorOffset>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+  
+  <TraitDef>
+    <defName>Ling_NoGod_4</defName>
+    <commonality>0.1</commonality>
+    <degreeDatas>
+      <li>
+        <label>畏寒体质</label>
+        <description>{PAWN_nameDef}对寒冷环境的抗性很弱,很容易就被冻伤.</description>
+        <statOffsets>
+          <ComfyTemperatureMin>15</ComfyTemperatureMin>
+          <ComfyTemperatureMax>5</ComfyTemperatureMax>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+  
+  <TraitDef>
+    <defName>Ling_NoGod_5</defName>
+    <commonality>0.1</commonality>
+    <degreeDatas>
+      <li>
+        <label>畏热体质</label>
+        <description>{PAWN_nameDef}对炎热环境的抗性很弱,很容易就被灼伤.</description>
+        <statOffsets>
+          <ComfyTemperatureMin>-5</ComfyTemperatureMin>
+          <ComfyTemperatureMax>-15</ComfyTemperatureMax>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+  
+  <TraitDef>
+    <defName>Ling_NoGod_Nonsense</defName>
+    <commonality>0.1</commonality>
+    <degreeDatas>
+      <li>
+        <label>杠精</label>
+        <description>{PAWN_nameDef}喜欢通过抬杠来获取快感,总喜欢无视或曲解他人逻辑来唱反调激怒别人.</description>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+  
+  <InteractionDef>
+    <defName>Ling_NoGod_contrarian</defName>
+    <label>杠精</label>
+    <workerClass>LingGame.InteractionWorker_Nonsense</workerClass>
+    <symbol>Things/Mote/SpeechSymbols/KindWords</symbol>
+    <recipientThought>Ling_NoGod_Nonsense</recipientThought>
+    <socialFightBaseChance>0.8</socialFightBaseChance>
+    <logRulesInitiator>
+      <rulesStrings>
+        <li>r_logentry->[INITIATOR_nameDef][nothingto][complimented] [RECIPIENT_nameDef]的[PersonalCharacteristic].</li>
+        
+        <li>nothingto(p=3)->无缘由的</li>
+        <li>nothingto->突然的</li>
+        <li>nothingto->不讲道理的</li>
+        <li>nothingto->无凭无据的</li>
+        <li>nothingto->一边嘲笑一边</li>
+        <li>nothingto->阴阳怪气的</li>
+		
+        <li>complimented(p=3)->反驳</li>
+        <li>complimented->贬低</li>
+        <li>complimented->嘲笑</li>
+        <li>complimented->讨论</li>
+        <li>complimented->讽刺</li>
+        <li>complimented->公开</li>
+      </rulesStrings>
+    </logRulesInitiator>
+  </InteractionDef>
+  <ThoughtDef>
+    <defName>Ling_NoGod_Nonsense</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>20</durationDays>
+    <stackLimit>30</stackLimit>
+    <stackLimitForSameOtherPawn>10</stackLimitForSameOtherPawn>
+    <stackedEffectMultiplier>0.9</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>抬杠</label>
+        <baseOpinionOffset>-20</baseOpinionOffset>
+      </li>
+    </stages>
+    <thoughtToMake>Ling_NoGod_NonsenseMood</thoughtToMake>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>Ling_NoGod_NonsenseMood</defName>
+    <durationDays>2</durationDays>
+    <stackLimit>30</stackLimit>
+    <stackedEffectMultiplier>0.9</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>被抬杠</label>
+        <description>那个人跟我说了一大堆胡话!多么可怕的一个人!That guy told me a lot of nonsense! What a horrible person!</description>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+<!-- 不可用 -->
+<!--   <TraitDef>
+    <defName>Ling_NoGod_7</defName>
+    <commonality>0.1</commonality>
+    <degreeDatas>
+      <li>
+        <label>μ代谢缓慢</label>
+        <description>{PAWN_nameDef}代谢系统不太健康,身体的恢复速度慢于常人,不过体表积累的角质层使其防御力高于正常人.</description>
+        <statOffsets>
+          <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.6</ArmorRating_Sharp>
+          <ArmorRating_Heat>0.5</ArmorRating_Heat>
+        </statOffsets>
+        <naturalHealingFactor>0.6</naturalHealingFactor>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>Ling_NoGod_8</defName>
+    <commonality>0.1</commonality>
+    <degreeDatas>
+      <li>
+        <label>μ凝血障碍</label>
+        <description>{PAWN_nameDef}的凝血功能存在着一些障碍,这使得{PAWN_pronoun}在受伤时会流出更多的血液.</description>
+        <totalBleedFactor>2</totalBleedFactor>
+      </li>
+    </degreeDatas>
+  </TraitDef> -->
+
+  <TraitDef>
+    <defName>Ling_NoGod_Acalculia</defName>
+    <commonality>0.1</commonality>
+    <degreeDatas>
+      <li>
+        <label>失算症</label>
+        <description>{PAWN_nameDef}大脑用于进行计算的部分存在一些缺陷,每当进行交易或计算工作的时候总会出那么点错误.</description>
+        <statOffsets>
+          <SocialImpact>-5</SocialImpact>
+          <TradePriceImprovement>-5</TradePriceImprovement>
+          <ResearchSpeed>-0.5</ResearchSpeed>
+          <GlobalLearningFactor>-0.3</GlobalLearningFactor>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>Ling_NoGod_Dysmelia</defName>
+    <commonality>0.1</commonality>
+    <degreeDatas>
+      <li>
+        <label>肢体畸形</label>
+        <description>{PAWN_nameDef}的身体宛如重灾车祸现场一般,而且{PAWN_pronoun}由于肢体的畸形导致各方面的能力都弱于常人.</description>
+        <statOffsets>
+          <PawnBeauty>-4</PawnBeauty>
+          <GlobalLearningFactor>-0.3</GlobalLearningFactor>
+          <ImmunityGainSpeed>-0.05</ImmunityGainSpeed>
+          <WorkSpeedGlobal>-0.4</WorkSpeedGlobal>
+          <MoveSpeed>-0.3</MoveSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+<!--   <TraitDef>
+    <defName>Ling_NoGod_11</defName>
+    <commonality>0.1</commonality>
+    <degreeDatas>
+      <li>
+        <label>μ幽闭恐惧症</label>
+        <description>{PAWN_nameDef}对黑暗和封闭有一种莫名的恐惧,呆在黑暗或封闭空间都会使其极度恐慌.</description>
+      </li>
+    </degreeDatas>
+  </TraitDef> -->
+
+  <TraitDef>
+    <defName>Ling_NoGod_Arrogant</defName>
+    <commonality>0.1</commonality>
+    <degreeDatas>
+      <li>
+        <label>傲慢</label>
+        <description>{PAWN_nameDef}自视甚高,认为自己什么都懂,不需要学习.</description>
+        <statFactors>
+          <GlobalLearningFactor>0.1</GlobalLearningFactor>
+        </statFactors>
+        <skillGains>
+		  <li> <key>Shooting</key> <value>5</value> </li>
+		  <li> <key>Melee</key> <value>5</value> </li>
+		  <li> <key>Construction</key> <value>5</value> </li>
+		  <li> <key>Mining</key> <value>5</value> </li>
+		  <li> <key>Cooking</key> <value>5</value> </li>
+		  <li> <key>Plants</key> <value>5</value> </li>
+		  <li> <key>Animals</key> <value>5</value> </li>
+		  <li> <key>Crafting</key> <value>5</value> </li>
+		  <li> <key>Artistic</key> <value>5</value> </li>
+		  <li> <key>Medicine</key> <value>5</value> </li>
+		  <li> <key>Social</key> <value>5</value> </li>
+		  <li> <key>Intellectual</key> <value>5</value> </li>
+        </skillGains>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <TraitDef>
+    <defName>Ling_NoGod_ExtremelyArrogant</defName>
+    <commonality>0.05</commonality>
+    <degreeDatas>
+      <li>
+        <label>极度傲慢</label>
+        <description>{PAWN_nameDef}自视甚高,认为自己什么都懂,不需要进行任何学习.</description>
+        <statFactors>
+          <GlobalLearningFactor>0</GlobalLearningFactor>
+        </statFactors>
+        <skillGains>
+		  <li> <key>Shooting</key> <value>20</value> </li>
+		  <li> <key>Melee</key> <value>20</value> </li>
+		  <li> <key>Construction</key> <value>20</value> </li>
+		  <li> <key>Mining</key> <value>20</value> </li>
+		  <li> <key>Cooking</key> <value>20</value> </li>
+		  <li> <key>Plants</key> <value>20</value> </li>
+		  <li> <key>Animals</key> <value>20</value> </li>
+		  <li> <key>Crafting</key> <value>20</value> </li>
+		  <li> <key>Artistic</key> <value>20</value> </li>
+		  <li> <key>Medicine</key> <value>20</value> </li>
+		  <li> <key>Social</key> <value>20</value> </li>
+		  <li> <key>Intellectual</key> <value>20</value> </li>
+        </skillGains>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+<!--   <TraitDef>
+    <defName>Ling_NoGod_13</defName>
+    <commonality>0.1</commonality>
+    <degreeDatas>
+      <li>
+        <label>μ圣母婊</label>
+        <description>{PAWN_nameDef}以极高的要求要求他人,不准其他人做任何伤害别人的事,对自己却十分宽容.</description>
+      </li>
+    </degreeDatas>
+  </TraitDef> -->
+
+  <TraitDef>
+    <defName>Ling_NoGod_Lust</defName>
+    <commonality>0.1</commonality>
+    <degreeDatas>
+      <li>
+        <label>贪色</label>
+        <description>{PAWN_nameDef}对色欲十分贪婪,如果没有拥有多个情人,就会十分痛苦.</description>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+  
+  <ThoughtDef>
+    <defName>Ling_NoGod_Lust</defName>
+    <workerClass>LingGame.ThoughtWorker_NeedLover</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <requiredTraits>
+      <li>Ling_NoGod_Lust</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>没有情人</label>
+        <description>哦老天啊,居然没有人和我这么优秀的人在一起</description>
+        <baseMoodEffect>-15</baseMoodEffect>
+      </li>
+      <li>
+        <label>只有一个情人</label>
+        <description>我这么优秀的人居然只有一个伴侣</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+      <li>
+        <label>有两个情人</label>
+        <description>还算勉勉强强吧...</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+      <li>
+        <label>有多个情人</label>
+        <description>这才是完美的生活!</description>
+        <baseMoodEffect>30</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+</Defs>

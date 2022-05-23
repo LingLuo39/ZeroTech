@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ModMetaData>
+	<name>ZeroTech-Trait</name>
+	<author>LingLuo</author>
+	<supportedVersions>
+		<li>1.3</li>
+	</supportedVersions>
+	<packageId>LingLuo.ZeroTechTrait</packageId>
+	<description>零子科技-特性拓展包
+	被世界抛弃的人们啊,请更加坚强的活着
+	项目简介
+	免疫缺陷:免疫力极低
+	精神狂躁:随机狂暴
+	不值分文:身价极低
+	畏寒体质:怕冷
+	畏热体质:怕热
+	杠精:容易造成冲突
+	失算症:计算能力极差
+	身体畸形:行动能力弱且不美观
+	傲慢:学习效率较低,全技能加成
+	极度傲慢:无法学习,全技能大幅度加成
+	贪色:需要多个情人,否则降低心情
+	代谢缓慢:降低代谢增加防御(未实装)
+	凝血障碍:伤口不会自然恢复(未实装)
+	圣母婊:对他人恶行反感,对自己放纵(未实装)
+	</description>
+	<loadAfter>
+		<li>LingLuo.ZeroTechCore</li>
+	</loadAfter>
+</ModMetaData>
