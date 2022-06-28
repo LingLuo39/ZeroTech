@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <ThingDef ParentName="PlantBase">
+    <defName>Plant_Potato_LSuper</defName>
+    <thingClass>LingGame.ToBigPlant</thingClass>
+    <label>高产土豆</label>
+    <description>为了提高产能而进行了基因编辑的一种土豆吃起来和普通土豆没有什么区别,但完全失去了土豆不挑环境的的优点</description>
+    <statBases>
+      <MaxHitPoints>160</MaxHitPoints>
+      <Nutrition>0.5</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/PotatoPlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>30</pathCost>
+    <ingestible />
+    <plant>
+      <fertilitySensitivity>2</fertilitySensitivity>
+      <dieIfLeafless>true</dieIfLeafless>
+      <maxMeshCount>4</maxMeshCount>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>RawPotatoes</harvestedThingDef>
+      <harvestYield>18</harvestYield>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>3</growDays>
+      <visualSizeRange>0.3~1.05</visualSizeRange>
+      <fertilityMin>1.3</fertilityMin>
+      <purpose>Food</purpose>
+      <humanFoodPlant>true</humanFoodPlant>
+    </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="PlantBase">
+    <defName>Plant_Potato_Die</defName>
+    <label>洞穴土豆</label>
+    <description>一种变异的土豆,不再需要阳光和土壤,而是从岩石中汲取营养</description>
+    <statBases>
+      <MaxHitPoints>160</MaxHitPoints>
+      <Nutrition>0.2</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/PotatoPlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>30</pathCost>
+    <ingestible />
+    <plant>
+      <neverBlightable>true</neverBlightable>
+      <growMinGlow>0</growMinGlow>
+      <growOptimalGlow>0</growOptimalGlow>
+      <cavePlant>true</cavePlant>
+      <fertilitySensitivity>0</fertilitySensitivity>
+      <dieIfLeafless>true</dieIfLeafless>
+      <maxMeshCount>4</maxMeshCount>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>RawPotatoes</harvestedThingDef>
+      <harvestYield>12</harvestYield>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>6</growDays>
+      <visualSizeRange>0.3~0.6</visualSizeRange>
+      <fertilityMin>0.01</fertilityMin>
+      <purpose>Food</purpose>
+      <humanFoodPlant>true</humanFoodPlant>
+    </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="BuildingNaturalBase">
+    <defName>LPTT_BigPatato</defName>
+    <label>育碧服务器</label>
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+    <blockWind>true</blockWind>
+    <blockLight>true</blockLight>
+    <fertility>0</fertility>
+    <description>一个巨大的建筑物,你可以看出它是个土豆,但你无法理解它是如何形成的,也许打碎它你可以获得大量的土豆</description>
+    <size>(3,3)</size>
+    <graphicData>
+      <texPath>Things/Building/Natural/LPTT_BigPatato</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <passability>Impassable</passability>
+    <statBases>
+      <Beauty>3900</Beauty>
+      <MaxHitPoints>3900</MaxHitPoints>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerPlant</compClass>
+        <basePowerConsumption>-800</basePowerConsumption>
+        <transmitsPower>true</transmitsPower>
+      </li>
+    </comps>
+    <rotatable>false</rotatable>
+    <building>
+      <isNaturalRock>false</isNaturalRock>
+      <claimable>false</claimable>
+    </building>
+    <killedLeavings>
+      <RawPotatoes>1000</RawPotatoes>
+    </killedLeavings>
+  </ThingDef>
+
+  
+  <ThingDef ParentName="ArtifactBase">
+    <defName>LPTT_PotatoAssimilationPulser</defName>
+    <label>土豆同化器</label>
+    <description>一次一次性使用的脉冲释放器,可以将大范围内的植株同化为土豆.(技术尚不成熟,使用后建议SL一下)</description>
+    <graphicData>
+      <texPath>Things/Item/Artifact/PsychicSoothePulser</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>1</stackLimit>
+    <tradeNeverStack>true</tradeNeverStack>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MarketValue>600</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+    </statBases>
+    <drawGUIOverlay>false</drawGUIOverlay>
+    <relicChance>3</relicChance>
+    <comps>
+      <li Class="CompProperties_Targetable">
+        <compClass>LingGame.CompTargetable_AllPlantsOnTheMap</compClass>
+        <doCameraShake>true</doCameraShake>
+        <fleckOnTarget>PsycastPsychicEffect</fleckOnTarget>
+        <fleckOnUsed>PsycastAreaEffect</fleckOnUsed>
+        <fleckOnUsedScale>10</fleckOnUsedScale>
+      </li>
+      <li>
+        <compClass>LingGame.CompTargetEffect_ToPotato</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+  
+
+</Defs>

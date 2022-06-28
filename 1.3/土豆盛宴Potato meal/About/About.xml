@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModMetaData>
+	<name>土豆盛宴</name>
+	<author>LingLuo</author>
+	<supportedVersions>
+		<li>1.3</li>
+	</supportedVersions>
+<packageId>LingLuo.Potato</packageId>
+	<description>添加了两种土豆作物:
+		高产土豆:一种高产的土豆,但对土地的质量要求较高
+		洞穴土豆:一种生长于洞穴环境下的土豆,产量较低
+	添加了一种神器:
+		土豆同化器:将该地图的植物全部变为土豆
+	添加了一系列土豆餐点,可以带来多方面的加成
+	</description>
+	<loadAfter>
+		<li>LingLuo.ZeroTechCore</li>
+	</loadAfter>
+</ModMetaData>
