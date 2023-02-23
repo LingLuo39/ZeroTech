@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ModMetaData>
+	<name>ZeroTech-Ability</name>
+	<author>LingLuo</author>
+	<supportedVersions>
+		<li>1.4</li>
+	</supportedVersions>
+	<packageId>LingLuo.ZeroTechAbility</packageId>
+	<description>零子科技-技能拓展包
+	为什么精神力的变化要专注于那些人人都看着的东西呢,各种各样的花样多棒啊
+	项目简介
+
+	6服装维修:使目标返回其最完美的状态!但目前仅对衣服有效
+	4包扎:立即对一个目标身上至多5个伤口进行包扎
+	4闪烁:跃迁到指定目标,1.5秒后返回原位置
+	3性转:变换对方的性别,对无性别生物无效
+	1震慑:短暂的打断对方的工作
+
+	2悬梁刺股:填满休息需求
+	2画饼充饥:填满饥饿需求
+	2强颜欢笑:填满娱乐需求
+	6虚幻挚爱:召唤一个爱人
+	5堕落:使目标对所有成瘾品上瘾
+	2充电:使指定电池的能量增加100Wd
+	5遗忘:使目标遗忘所有的技能和特性
+	3烈火:凭空生成大量火焰,如果周围没有可燃物会很快熄灭
+
+	3伤害汲取:创建一条连接,在半天内将目标身上的所有伤口转移到自己身上
+	6伤害之礼:创建一条连接,在半天内将自己身上的所有伤口转移到目标身上
+	3尸爆:炸毁一句尸体,威力随尸体大小而变化
+	6兽群:召唤一群不分敌我的猎杀人类的野兽
+	5化兔:将目标变成兔子
+
+	</description>
+	<loadAfter>
+		<li>LingLuo.ZeroTechCore</li>
+	</loadAfter>
+</ModMetaData>

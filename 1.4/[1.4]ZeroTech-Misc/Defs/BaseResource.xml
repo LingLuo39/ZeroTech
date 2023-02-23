@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Name="ZeroTechResourceBase" Abstract="True">
+    <!-- <terrainAffordanceNeeded>Light</terrainAffordanceNeeded> -->
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <drawerType>MapMeshOnly</drawerType>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <altitudeLayer>Item</altitudeLayer>
+    <stackLimit>75</stackLimit>
+    <smeltable>true</smeltable>
+    <statBases>
+      <Beauty>-4</Beauty>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+    </comps>
+    <alwaysHaulable>true</alwaysHaulable>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <rotatable>false</rotatable>
+    <pathCost>14</pathCost>
+    <allowedArchonexusCount>-1</allowedArchonexusCount>
+    <stuffProps>
+      <appearance>Metal</appearance>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="ZeroTechResourceBase">
+    <defName>ZeroTechGel</defName>
+    <label>零子凝胶</label>
+    <description>一团结构松散的软糯凝胶,口感很不错,经过轻度的处理可以作为轻质材料使用,不过更多人会选择将其作为食物,毕竟除了构筑方便,它作为材料没有任何有点</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Silver</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(119,189,199)</color>
+    </graphicData>
+    <soundInteract>Silver_Drop</soundInteract>
+    <soundDrop>Silver_Drop</soundDrop>
+    <useHitPoints>false</useHitPoints>
+    <tradeability>Sellable</tradeability>
+    <statBases>
+      <MarketValue>0.1</MarketValue>
+      <Mass>0.001</Mass>
+      <Nutrition>0.01</Nutrition>
+      <StuffPower_Armor_Sharp>0.1</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.1</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.1</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>1</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>1</StuffPower_Insulation_Heat>
+      <SharpDamageMultiplier>0.1</SharpDamageMultiplier>
+      <BluntDamageMultiplier>0.1</BluntDamageMultiplier>
+    </statBases>
+    <minRewardCount>500</minRewardCount>
+    <ingestible>
+      <foodType>Kibble</foodType>
+      <preferability>DesperateOnlyForHumanlikes</preferability>
+      <maxNumToIngestAtOnce>90</maxNumToIngestAtOnce>
+      <optimalityOffsetHumanlikes>-10</optimalityOffsetHumanlikes>
+      <optimalityOffsetFeedingAnimals>-10</optimalityOffsetFeedingAnimals>
+    </ingestible>
+    <stackLimit>500</stackLimit>
+    <smallVolume>true</smallVolume>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stuffProps>
+      <categories>
+        <li>Woody</li>
+        <li>Stony</li>
+      </categories>
+      <color>(119,189,199)</color>
+      <commonality>0.01</commonality>
+      <constructEffect>ConstructWood</constructEffect>
+      <soundImpactStuff>BulletImpact_Wood</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+      <statOffsets>
+        <Beauty>1</Beauty>
+      </statOffsets>
+      <statFactors>
+        <DoorOpenSpeed>1.8</DoorOpenSpeed>
+        <MaxHitPoints>0.2</MaxHitPoints>
+        <Flammability>1</Flammability>
+        <Beauty>1.7</Beauty>
+        <WorkToMake>0.1</WorkToMake>
+		<WorkToBuild>0.1</WorkToBuild>
+		<MeleeWeapon_CooldownMultiplier>0.5</MeleeWeapon_CooldownMultiplier>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <ThingDef ParentName="ChunkBase">
+    <defName>ChunkSlagGel</defName>
+    <label>凝胶结块</label>
+    <description>巨大的凝胶结块,由于外表过度硬化变得难以食用</description>
+    <graphicData>
+      <texPath>Things/Item/Chunk/ChunkStone</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <flipExtraRotation>80</flipExtraRotation>
+      <color>(119,189,199)</color>
+    </graphicData>
+    <statBases>
+      <Mass>100</Mass>
+      <Beauty>50</Beauty>
+    </statBases>
+    <soundDrop>ChunkSlag_Drop</soundDrop>
+    <smeltable>true</smeltable>
+    <thingCategories>
+      <li>Chunks</li>
+      <li>StoneChunks</li>
+    </thingCategories>
+    <smeltProducts>
+      <ZeroTechGel>999</ZeroTechGel>
+    </smeltProducts>
+    <butcherProducts>
+      <ZeroTechGel>999</ZeroTechGel>
+    </butcherProducts>
+  </ThingDef>
+  <ThingDef ParentName="RockBase">
+    <defName>MineableGel</defName>
+    <label>凝胶结石</label>
+    <description>压埋于石头之中的大量凝胶.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(119,189,199)</color>
+      <colorTwo>(99,169,179)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1000</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>ChunkSlagGel</mineableThing>
+      <mineableYield>1</mineableYield>
+      <mineableScatterCommonality>0.05</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>1~2</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  <ThingDef ParentName="ZeroTechResourceBase">
+    <defName>ZeroTechCloth</defName>
+    <label>零子纱</label>
+    <description>利用零子凝胶和棉花编制而出的一种特殊之物,在保持结构的基础上有着绝大多数之物都无法比拟的特异通透性,可以在极端隔绝温度的同时做到几乎不影响活动.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Cloth</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(169,199,239)</color>
+    </graphicData>
+    <useHitPoints>false</useHitPoints>
+    <statBases>
+      <MarketValue>4</MarketValue>
+      <Mass>0.01</Mass>
+      <StuffPower_Armor_Sharp>0</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>50</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>50</StuffPower_Insulation_Heat>
+    </statBases>
+    <thingCategories>
+      <li>Textiles</li>
+    </thingCategories>
+    <minRewardCount>50</minRewardCount>
+    <stuffProps>
+      <categories>
+        <li>Fabric</li>
+      </categories>
+      <color>(119,189,199)</color>
+      <commonality>0.03</commonality>
+      <statOffsets>
+        <Beauty>1</Beauty>
+      </statOffsets>
+      <statFactors>
+        <MaxHitPoints>1.5</MaxHitPoints>
+        <Flammability>0</Flammability>
+        <Beauty>2</Beauty>
+        <WorkToMake>1.5</WorkToMake>
+		    <WorkToBuild>1.5</WorkToBuild>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <RecipeDef ParentName="ZeroTechBenII">
+	 <defName>LingEasyWork_ZeroTechCloth</defName>
+	 <label>纺织零子纱</label><!-- 玩家直接看到的说明 -->
+	 <description>纺织零子纱</description><!-- 玩家点开看到的说明 -->
+	 <jobString>纺织零子纱.</jobString><!-- 工作时的说明 -->
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat><!-- 工作受什么速度影响 -->
+    <effectWorking>Tailor</effectWorking><!-- 特效,动画 -->
+    <soundWorking>Recipe_Tailor</soundWorking><!-- 音效,总不能用哼哼啊啊啊啊 -->
+    <workSkill>Crafting</workSkill><!-- 对应的技能,可以没有 -->
+	 <skillRequirements><Crafting>5</Crafting></skillRequirements><!-- 技能要求,可以没有 -->
+	 <workAmount>600</workAmount><!-- 工作量,60为1秒 -->
+   <recipeUsers>
+    <li>ElectricTailoringBench</li>
+    <li>HandTailoringBench</li>
+   </recipeUsers><!-- 对应工作台 -->
+    <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef><!-- 中间产物,可以没有 -->
+	 <ingredients>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>ZeroTechGel</li>
+		  </thingDefs>
+		</filter>
+		<count>2</count>
+	  </li>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>Cloth</li>
+		  </thingDefs>
+		</filter>
+		<count>10</count>
+	  </li>
+	 </ingredients>
+	 <fixedIngredientFilter>
+	  <thingDefs>
+		<li>Cloth</li>
+		<li>ZeroTechGel</li>
+	  </thingDefs>
+	 </fixedIngredientFilter>
+	 <products><ZeroTechCloth>10</ZeroTechCloth></products>
+  </RecipeDef>
+
+</Defs>

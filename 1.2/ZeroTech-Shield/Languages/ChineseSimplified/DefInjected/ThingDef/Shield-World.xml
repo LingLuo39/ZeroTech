@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 护盾 -->
+
+  <Apparel_Ling_OldWorld_I.label>能源护盾-石器时代</Apparel_Ling_OldWorld_I.label>
+  <Apparel_Ling_OldWorld_I.description>旧世代能源护盾的第一作,也是后续作品的基础.没有恢复能力,但成本低廉,很轻松即可列装\n从人们举起了第一块石头,到神明统治一切,数百万年的时间,人们通过自身的力量,战胜了无数的野兽,建立了属于自己的文明,或许这一切只是巧合,但在无数的巧合的积累下,人们通过自己的努力,成为了星球上的霸主.如此之长的时间里人们学会了快速的交流,更好地利用团队的力量,使得他们站了起来.</Apparel_Ling_OldWorld_I.description>
+
+  <Apparel_Ling_OldWorld_II.label>能源护盾-中世纪</Apparel_Ling_OldWorld_II.label>
+  <Apparel_Ling_OldWorld_II.description>旧世代能源护盾的第二作,只有微弱的恢复能力和很低的能量上限,但成本低廉,很轻松即可列装\n从人们盲信神明,到发现人的伟大,一千年的时间,在无数的压迫中,人们学会了劳动创造财富,从此神明被拉下高位,人们通过自己的双手创造一切,人们走上了一条正确的道路,从此科技飞速发展.</Apparel_Ling_OldWorld_II.description>
+
+  <Apparel_Ling_OldWorld_III.label>能源护盾-工业时代</Apparel_Ling_OldWorld_III.label>
+  <Apparel_Ling_OldWorld_III.description>旧世代能源护盾的第三作,可以很好的承受伤害,但成本不菲,不适合大量列装\n信息被抹除</Apparel_Ling_OldWorld_III.description>
+
+  <Apparel_Ling_OldWorld_IV.label>能源护盾-太空时代</Apparel_Ling_OldWorld_IV.label>
+  <Apparel_Ling_OldWorld_IV.description>旧世代能源护盾的第四作,有着极强的恢复能力,可以短时间内抵抗大量伤害,但成本及其高昂,市面较少流通\n信息被删除</Apparel_Ling_OldWorld_IV.description>
+
+  <Apparel_Ling_OldWorld_V.label>能源护盾-极致时代</Apparel_Ling_OldWorld_V.label>
+  <Apparel_Ling_OldWorld_V.description>旧世代能源护盾的第五作,有着极强的恢复能力,可以短时间内抵抗大量伤害,但成本及其高昂,市面较少流通\n信息被擦除</Apparel_Ling_OldWorld_V.description>
+
+
+</LanguageData>

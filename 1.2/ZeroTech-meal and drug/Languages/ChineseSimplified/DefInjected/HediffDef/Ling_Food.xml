@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 昏睡红茶 -->
+
+  <FatHappyMeal.label>肥宅快乐餐</FatHappyMeal.label>
+  <FatHappyMeal.description>这个生物看起来吃得很饱,以至于它的行动能力都受到了影响。</FatHappyMeal.description>
+
+  <FuckYouMeal.label>嘴臭</FuckYouMeal.label>
+  <FuckYouMeal.description>Debug.text你不应该看到这句话。</FuckYouMeal.description>
+
+  <SleeplyRedTea.label>昏睡红茶</SleeplyRedTea.label>
+  <SleeplyRedTea.description>这个生物不知道为什么感觉非常疲倦。</SleeplyRedTea.description>
+
+
+</LanguageData>

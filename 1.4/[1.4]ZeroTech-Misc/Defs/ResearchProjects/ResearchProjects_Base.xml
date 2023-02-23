@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ResearchTabDef>
+	<defName>ZeroTech</defName>
+	<label>Zero Tech</label>
+  </ResearchTabDef>
+  <!-- 一切的开始 -->
+  
+  <ResearchProjectDef>
+    <defName>ZeroTechGel</defName>
+    <label>凝胶材料</label>
+    <description>制作一种材料,那么有什么方法既可以获得想要的东西,又不影响现有的资源呢?那就是...把垃圾变成资源!</description>
+    <tab>ZeroTech</tab>
+    <baseCost>100</baseCost>
+    <techLevel>Spacer</techLevel>
+    <researchViewX>2</researchViewX>
+    <researchViewY>5.5</researchViewY>
+    <prerequisites><li>ZeroTech_Cu1F</li></prerequisites>
+  </ResearchProjectDef>
+
+
+
+</Defs>

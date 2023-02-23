@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ResearchTabDef>
+        <defName>ZeroTech</defName>
+        <label>零子科技</label>
+      </ResearchTabDef>
+
+  <ResearchProjectDef>
+    <defName>ZeroTechBodyPart</defName>
+    <label>人体替代模块</label>
+    <description>当你认为你的原生身体无法适合环境的时候,也许直接整体更换并不是个最好的方法,但一定是最快的方法.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <tab>ZeroTech</tab>
+    <prerequisites>
+      <li>Prosthetics</li>
+    </prerequisites>
+    <hiddenPrerequisites>
+      <li>Machining</li>
+    </hiddenPrerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <researchViewX>1</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>ZeroTechImplant</defName>
+    <label>人体强化模块</label>
+    <description>比起直接用非生物部件替代原生肉体,通过各种植入物强化肉身也许是更好的主意.</description>
+    <baseCost>6000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <tab>ZeroTech</tab>
+    <prerequisites>
+      <li>ZeroTechBodyPart</li>
+    </prerequisites>
+    <hiddenPrerequisites>
+      <li>ZeroTechBodyPart</li>
+    </hiddenPrerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <researchViewX>2</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+
+</Defs>

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>ZeroTechInfiniteBattery</defName>
+    <label>超空间电池</label>
+    <description>一款低强度的电池,本质是一个传送装置,当能量大于498wd时会将能量传送,小于50Wd时传回,理论可以储存无限的能量,爆炸时会释放极大的能量.</description>
+    <thingClass>Building_Battery</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Power/ZeroTechInfiniteBattery</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(4,3)</drawSize>
+    </graphicData>
+    <thingCategories>
+      <li>BuildingsSpecial</li>
+    </thingCategories>
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
+    <tradeability>Sellable</tradeability>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>70</pathCost>
+    <blockWind>true</blockWind>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>0.40</fillPercent>
+    <tickerType>Normal</tickerType>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <statBases>
+      <MaxHitPoints>96</MaxHitPoints>
+      <WorkToBuild>60000</WorkToBuild>
+      <Mass>5</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>5</Beauty>
+    </statBases>
+    <rotatable>false</rotatable>
+    <size>(2,2)</size>
+    <costList>
+      <ZeroTechAlloy>20</ZeroTechAlloy>
+      <ZeroTechGel>500</ZeroTechGel>
+      <AIPersonaCore>1</AIPersonaCore>
+      <LingZeroTechBottleCap>2</LingZeroTechBottleCap>
+      <LingZeroTechPowerCore>2</LingZeroTechPowerCore>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>500</storedEnergyMax>
+        <efficiency>1</efficiency>
+        <shortCircuitInRain>false</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="LingGame.CompProperties_PowerZeroTechInfiniteBattery"/>
+    </comps>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <!-- <designationCategory>Power</designationCategory> -->
+    <staticSunShadowHeight>0.2</staticSunShadowHeight>
+    <constructEffect>ConstructMetal</constructEffect>
+    <canOverlapZones>false</canOverlapZones>
+  </ThingDef>
+
+</Defs>

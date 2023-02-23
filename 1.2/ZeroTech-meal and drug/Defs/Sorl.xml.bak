@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- 灵魂燃烧人偶的碎片 -->
+  <ThingDef ParentName="DrugPillBase">
+    <defName>SoulEmber_WIP</defName>
+    <label>soul ember</label>
+    <description>灵魂燃烧人偶身上留下的碎片,可以在短时间内燃尽服用者,由于碎片体积比起人体极为微小,燃烧速度会大大降低,但所能产生的效果也会有所削弱.(由于性质不稳定,若无妥善保存则会在短时间内消散)(未实装)</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/CleanBodyPill</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MarketValue>1500</MarketValue>
+      <Mass>0.005</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <ingestible>
+      <drugCategory>Medical</drugCategory>
+      <outcomeDoers>
+        <li Class="LingGame.IngestionOutcomeDoer_CleanBody"/>
+      </outcomeDoers>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>1000</listOrder>
+        <overdoseSeverityOffset>
+          <min>0.08</min>
+          <max>0.14</max>
+        </overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  
+</Defs>

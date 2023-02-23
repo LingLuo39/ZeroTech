@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 怀孕药 -->
+
+  <PregnantPill.label>怀孕药</PregnantPill.label>
+  <PregnantPill.description>使你怀孕，哪怕你是男性甚至机械族。</PregnantPill.description>
+
+
+  <!-- 砒霜 -->
+
+  <Arsenic.label>砒霜</Arsenic.label>
+  <Arsenic.description>强效毒药，可以迅速杀死食者。</Arsenic.description>
+
+
+  <!-- 驻颜丹 -->
+
+  <BeautyPill.label>驻颜丹</BeautyPill.label>
+  <BeautyPill.description>一款迷你的药丸，可以使服用者变得美丽无比</BeautyPill.description>
+
+
+  <!-- 乱情丸 -->
+
+  <BreakFellingPill.label>乱情丸</BreakFellingPill.label>
+  <BreakFellingPill.description>一枚散发着异香的药丸，食用者服用后会对任何人好感大增</BreakFellingPill.description>
+
+
+  <!-- 醉生梦死 -->
+
+  <LifeDeathWine.label>醉生梦死</LifeDeathWine.label>
+  <LifeDeathWine.description>一种来自古中国的饮品...
+	醉生梦死真蟪蛄兮，阅千万岁独有贞柏与圣玒。</LifeDeathWine.description>
+
+
+  <!-- 涤身水 -->
+
+  <CleanBodyWater.label>涤身水</CleanBodyWater.label>
+  <CleanBodyWater.description>一枚神奇的液体，可以清理生物身上几乎所有的状态。</CleanBodyWater.description>
+
+
+  <!-- 灵魂燃烧人偶的碎片 -->
+  <!--<SoulEmber_WIP.label>灵魂余烬</SoulEmber_WIP.label>-->
+  <!--<SoulEmber_WIP.description>灵魂燃烧人偶身上留下的碎片，可以在短时间内燃尽服用者，由于碎片体积比起人体极为微小，燃烧速度会大大降低，但所能产生的效果也会有所削弱.(由于性质不稳定，若无妥善保存则会在短时间内消散)(未实装)</SoulEmber_WIP.description>-->
+
+</LanguageData>

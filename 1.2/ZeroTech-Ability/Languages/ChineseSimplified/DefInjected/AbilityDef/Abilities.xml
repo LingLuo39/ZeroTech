@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 包扎 -->
+
+  <LingAbiBind.label>包扎</LingAbiBind.label>
+  <LingAbiBind.description>立即对一个目标身上至多5个伤口进行包扎</LingAbiBind.description>
+
+
+  <!-- 性转 -->
+
+  <LingAbiSexConversion.label>性转</LingAbiSexConversion.label>
+  <LingAbiSexConversion.description>变换对方的性别,对无性别生物无效</LingAbiSexConversion.description>
+
+
+  <!-- 伤害汲取 -->
+
+  <LingAbiDamageTransfer.label>伤害汲取</LingAbiDamageTransfer.label>
+  <LingAbiDamageTransfer.description>将目标身上的所有伤口转移到自己身上</LingAbiDamageTransfer.description>
+
+
+  <!-- 伤害馈赠 -->
+
+  <LingAbiDamageTransOtr.label>伤害之礼</LingAbiDamageTransOtr.label>
+  <LingAbiDamageTransOtr.description>将自己身上的所有伤口转移到目标身上</LingAbiDamageTransOtr.description>
+
+
+  <!-- 尸爆术 -->
+
+  <LingAbiCorpseExplosion.label>尸爆</LingAbiCorpseExplosion.label>
+  <LingAbiCorpseExplosion.description>给目标施加一个尸爆状态,如果目标在一天内死亡则会发生爆炸</LingAbiCorpseExplosion.description>
+
+
+  <!-- 充电 -->
+
+  <LingAbiCharge.label>充电</LingAbiCharge.label>
+  <LingAbiCharge.description>使指定电池的能量增加100Wd</LingAbiCharge.description>
+
+
+  <!-- 闪烁 -->
+
+  <LingAbiSkipAndBack.label>闪烁</LingAbiSkipAndBack.label>
+  <LingAbiSkipAndBack.description>跃迁到指定目标,1.5秒后返回原位置</LingAbiSkipAndBack.description>
+
+
+  <!-- 兔化 -->
+
+  <LingAbiForRabbit.label>化兔</LingAbiForRabbit.label>
+  <LingAbiForRabbit.description>将目标变成兔子</LingAbiForRabbit.description>
+
+
+  <!-- 兽群 -->
+
+  <LingAbiMadBeast.label>兽群</LingAbiMadBeast.label>
+  <LingAbiMadBeast.description>召唤一群不分敌我的猎杀人类的野兽</LingAbiMadBeast.description>
+
+
+  <!-- 扩散尸爆术 -->
+  <!--<LingAbiCorpseExplosionPlus.label>扩散尸爆</LingAbiCorpseExplosionPlus.label>-->
+  <!--<LingAbiCorpseExplosionPlus.description>给目标施加一个尸爆状态,如果目标在一天内死亡则会发生爆炸,并给炸到的目标也附加扩散尸爆</LingAbiCorpseExplosionPlus.description>-->
+
+</LanguageData>

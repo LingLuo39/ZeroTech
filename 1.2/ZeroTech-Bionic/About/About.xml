@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ModMetaData>
+	<name>ZeroTech-Binoic</name>
+	<author>LingLuo</author>
+	<supportedVersions>
+		<li>1.1</li>
+		<li>1.2</li>
+	</supportedVersions>
+	<packageId>LingLuo.ZeroTechBinoic</packageId>
+	<description>零子科技-仿生拓展包
+	我们并不是神,但我们可以通过外物的辅助,达到和神一样的高度
+	内容简介
+	头颅压缩器:永久的避免爆头
+	大脑强化装置:一个人造的替代大脑,大幅增加意识,更容易饥饿
+	物质合成芯片:安装者不用吃饭但意识永久下降
+	情感阻隔芯片:安装者不再拥有任何感情波动
+	光线扭曲芯片:安装者对他人隐身,但移动能力会受到影响
+	固化皮肤芯片:防御增加,自然恢复能力降低
+	自动包扎芯片:自动包扎伤口,效果受医疗技能影响
+	自动治疗芯片:自动治疗疾病,效果受医疗技能影响
+	组织再生芯片:伤口高速恢复
+	肢体重构芯片:自动治疗残疾
+	环境适应芯片:增强对环境的适应
+	思维放射芯片:大幅增加心灵敏感
+	神经抚慰芯片:更难崩溃,崩溃更快脱离
+	灵质汇聚芯片:可以帮助安装者汇聚精神力
+	站斗人偶:超强战斗仿生,加速衰老
+	</description>
+	
+	<modDependencies>
+		<li>
+			<packageId>LingLuo.ZeroTechCore</packageId>
+			<displayName>ZeroTechCore</displayName>
+			<downloadUrl>https://www.baidu.com</downloadUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>LingLuo.ZeroTechCore</li>
+	</loadAfter>
+</ModMetaData>

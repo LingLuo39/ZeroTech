@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- 包扎 -->
+  <AbilityDef ParentName="PsycastBase">
+    <defName>LingAbiBind</defName>
+    <label>包扎</label>
+    <description>立即对一个目标身上至多5个伤口进行高品质包扎</description>
+    <level>4</level>
+    <iconPath>UI/Abilities/LingAbiBind</iconPath>
+    <statBases>
+      <Ability_EntropyGain>30</Ability_EntropyGain>
+    </statBases>
+    <verbProperties>
+      <warmupTime>0.5</warmupTime>
+      <range>10</range>
+      <targetParams>
+        <canTargetSelf>True</canTargetSelf>
+        <canTargetAnimals>True</canTargetAnimals>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class = "LingGame.LingAliCompProperties_Heal">
+        <compClass>LingGame.LingAliComp_Heal</compClass>
+        <BindAmount>5</BindAmount>
+      </li>
+    </comps>
+  </AbilityDef>
+  <!-- 性转 -->
+  <AbilityDef ParentName="PsycastBase">
+    <defName>LingAbiSexConversion</defName>
+    <label>性转</label>
+    <description>变换对方的性别,对无性别生物无效</description>
+    <level>3</level>
+    <iconPath>UI/Abilities/LingAbiSexConversion</iconPath>
+    <statBases>
+      <Ability_EntropyGain>30</Ability_EntropyGain>
+    </statBases>
+    <verbProperties>
+      <warmupTime>1</warmupTime>
+      <range>25</range>
+      <targetParams>
+        <canTargetSelf>True</canTargetSelf>
+        <canTargetAnimals>True</canTargetAnimals>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class = "LingGame.LingAliCompProperties_SexConversion">
+        <compClass>LingGame.LingAliComp_SexConversion</compClass>
+        <goodwillImpact>-5</goodwillImpact>
+      </li>
+    </comps>
+  </AbilityDef>
+  
+  <!-- 悬梁刺股 -->
+  <AbilityDef ParentName="PsycastBase">
+    <defName>LingAbiBuKun</defName>
+    <label>悬梁刺股</label>
+    <description>立刻补充满休息需求</description>
+    <level>2</level>
+    <iconPath>UI/Abilities/LingAbiForRabbit</iconPath>
+    <statBases>
+      <Ability_EntropyGain>30</Ability_EntropyGain>
+    </statBases>
+    <verbProperties>
+      <warmupTime>5</warmupTime>
+      <range>5</range>
+      <targetParams>
+        <canTargetSelf>True</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class = "LingGame.LingAliCompProperties_BuKun">
+        <compClass>LingGame.LingAliComp_BuKun</compClass>
+      </li>
+    </comps>
+  </AbilityDef>
+  <!-- 画饼充饥 -->
+  <AbilityDef ParentName="PsycastBase">
+    <defName>LingAbiBuE</defName>
+    <label>画饼充饥</label>
+    <description>立刻补充满食物需求</description>
+    <level>2</level>
+    <iconPath>UI/Abilities/LingAbiForRabbit</iconPath>
+    <statBases>
+      <Ability_EntropyGain>30</Ability_EntropyGain>
+    </statBases>
+    <verbProperties>
+      <warmupTime>5</warmupTime>
+      <range>5</range>
+      <targetParams>
+        <canTargetSelf>True</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class = "LingGame.LingAliCompProperties_BuE">
+        <compClass>LingGame.LingAliComp_BuE</compClass>
+      </li>
+    </comps>
+  </AbilityDef>
+  <!-- 强颜欢笑 -->
+  <AbilityDef ParentName="PsycastBase">
+    <defName>LingAbiBuWan</defName>
+    <label>强颜欢笑</label>
+    <description>立刻补充满娱乐需求</description>
+    <level>2</level>
+    <iconPath>UI/Abilities/LingAbiForRabbit</iconPath>
+    <statBases>
+      <Ability_EntropyGain>30</Ability_EntropyGain>
+    </statBases>
+    <verbProperties>
+      <warmupTime>5</warmupTime>
+      <range>5</range>
+      <targetParams>
+        <canTargetSelf>True</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class = "LingGame.LingAliCompProperties_BuWan">
+        <compClass>LingGame.LingAliComp_BuWan</compClass>
+      </li>
+    </comps>
+  </AbilityDef>
+  
+  <!-- 伤害汲取 -->
+  <AbilityDef ParentName="PsycastBase">
+    <defName>LingAbiDamageTransfer</defName>
+    <label>伤害汲取</label>
+    <description>创建一条连接,在半天内将目标身上的所有伤口转移到自己身上</description>
+    <level>3</level>
+    <iconPath>UI/Abilities/LingAbiDamageTransfer</iconPath>
+    <statBases>
+      <Ability_EntropyGain>1</Ability_EntropyGain>
+    </statBases>
+    <verbProperties>
+      <warmupTime>1</warmupTime>
+      <range>15</range>
+      <targetParams>
+        <!-- <canTargetSelf>True</canTargetSelf> -->
+        <canTargetAnimals>True</canTargetAnimals>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class = "LingGame.LingAliCompProperties_DamageTransfer">
+        <compClass>LingGame.LingAliComp_DamageTransfer</compClass>
+        <goodwillImpact>5</goodwillImpact>
+      </li>
+    </comps>
+  </AbilityDef>
+  <HediffDef>
+    <defName>LingAbiDamageTransfer</defName>
+    <label>伤害转移</label>
+    <description>debugtext</description>
+    <hediffClass>LingGame.LingAliHediff_DamageTransfer</hediffClass>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-1.0</severityPerDay>
+        <showDaysToRecover>true</showDaysToRecover>
+      </li>
+    </comps>
+  </HediffDef>
+  <!-- 伤害馈赠 -->
+  <AbilityDef ParentName="PsycastBase">
+    <defName>LingAbiDamageTransOtr</defName>
+    <label>伤害馈赠</label>
+    <description>创建一条连接,在半天内将自己身上的所有伤口转移到目标身上</description>
+    <level>6</level>
+    <iconPath>UI/Abilities/LingAbiDamageTransOtr</iconPath>
+    <statBases>
+      <Ability_EntropyGain>200</Ability_EntropyGain>
+    </statBases>
+    <verbProperties>
+      <warmupTime>1</warmupTime>
+      <range>5</range>
+      <targetParams>
+        <!-- <canTargetSelf>True</canTargetSelf> -->
+        <canTargetAnimals>True</canTargetAnimals>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class = "LingGame.LingAliCompProperties_DamageGiver">
+        <compClass>LingGame.LingAliComp_DamageGiver</compClass>
+        <goodwillImpact>-25</goodwillImpact>
+      </li>
+    </comps>
+  </AbilityDef>
+  <!-- 纵火 -->
+  <AbilityDef ParentName="PsycastBaseSkip">
+    <defName>LingAbiBigFire</defName>
+    <label>烈火</label>
+    <description>在目标周围凭空释放大量火焰,如果周围没有可燃物会很快熄灭</description>
+    <level>3</level>
+    <iconPath>UI/Abilities/Wallraise</iconPath>
+    <writeCombatLog>True</writeCombatLog>
+    <hotKey>Misc10</hotKey>
+    <statBases>
+      <Ability_EntropyGain>15</Ability_EntropyGain>
+	  <!-- <Ability_EffectRadius>1.9</Ability_EffectRadius> -->
+    </statBases>
+    <verbProperties>
+      <warmupTime>0.25</warmupTime>
+      <range>25</range>
+      <targetParams>
+        <canTargetLocations>True</canTargetLocations>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class = "LingGame.LingAliCompProperties_BigFire">
+        <compClass>LingGame.LingAliComp_BigFire</compClass>
+      </li>
+    </comps>
+  </AbilityDef>
+  <!-- 尸爆 -->
+  <AbilityDef ParentName="PsycastBase">
+    <defName>LingAbiCorpseExplosion</defName>
+    <label>尸爆</label>
+    <description>选择一具尸体爆炸,尸体体型越大伤害和范围越大</description>
+    <level>3</level>
+    <iconPath>UI/Abilities/LingAbiCorpseExplosion</iconPath>
+    <statBases>
+      <Ability_EntropyGain>20</Ability_EntropyGain>
+    </statBases>
+    <verbProperties>
+      <warmupTime>1</warmupTime>
+      <range>35</range>
+      <targetParams>
+        <canTargetPawns>False</canTargetPawns>
+        <canTargetBuildings>False</canTargetBuildings>
+        <canTargetItems>True</canTargetItems>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class = "CompProperties_AbilityEffect">
+        <compClass>LingGame.LingAliComp_CorpseExplosion</compClass>
+      </li>
+    </comps>
+  </AbilityDef>
+  
+  <!-- 充电 -->
+  <AbilityDef ParentName="PsycastBase">
+    <defName>LingAbiCharge</defName>
+    <label>充电</label>
+    <description>使指定电池的能量增加100Wd</description>
+    <level>2</level>
+    <iconPath>UI/Abilities/LingAbiCharge</iconPath>
+    <statBases>
+      <Ability_EntropyGain>10</Ability_EntropyGain>
+    </statBases>
+    <verbProperties>
+      <warmupTime>0.5</warmupTime>
+      <range>10</range>
+      <targetParams>
+        <canTargetPawns>False</canTargetPawns>
+        <canTargetItems>False</canTargetItems>
+        <canTargetBuildings>True</canTargetBuildings>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class = "LingGame.LingAliCompProperties_Charge">
+        <compClass>LingGame.LingAliComp_Charge</compClass>
+        <Power>100</Power>
+      </li>
+    </comps>
+  </AbilityDef>
+  <!-- 闪烁 -->
+  <AbilityDef ParentName="PsycastBase">
+    <defName>LingAbiSkipAndBack</defName>
+    <label>闪烁</label>
+    <description>跃迁到指定目标,1.5秒后返回原位置</description>
+    <level>4</level>
+    <iconPath>UI/Abilities/LingAbiSkipAndBack</iconPath>
+    <statBases>
+      <Ability_EntropyGain>30</Ability_EntropyGain>
+    </statBases>
+    <verbProperties>
+      <warmupTime>0.25</warmupTime>
+      <range>35</range>
+      <targetParams>
+        <canTargetHumans>False</canTargetHumans>
+        <canTargetMechs>False</canTargetMechs>
+        <canTargetAnimals>False</canTargetAnimals>
+        <canTargetLocations>True</canTargetLocations>
+        <canTargetSelf>False</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class = "LingGame.CompProperties_TeleportSkipAndBack">
+        <compClass>LingGame.LingAliComp_SkipAndBack</compClass>
+        <requiresLineOfSight>False</requiresLineOfSight>
+        <backTime>1.5</backTime>
+      </li>
+    </comps>
+  </AbilityDef>
+  <HediffDef>
+    <defName>LingAbiHediffSkipAndBack</defName>
+    <label>回溯</label>
+    <hediffClass>LingGame.Hediff_SkipAndBack</hediffClass>
+    <defaultLabelColor>(1,1,1)</defaultLabelColor>
+    <description>在结束后回到指定位置</description>
+  </HediffDef>
+  <!-- 兔化 -->
+  <AbilityDef ParentName="PsycastBase">
+    <defName>LingAbiForRabbit</defName>
+    <label>化兔</label>
+    <description>将目标变成兔子</description>
+    <level>5</level>
+    <iconPath>UI/Abilities/LingAbiForRabbit</iconPath>
+    <statBases>
+      <Ability_EntropyGain>80</Ability_EntropyGain>
+    </statBases>
+    <verbProperties>
+      <warmupTime>1.5</warmupTime>
+      <range>5</range>
+      <targetParams>
+        <canTargetSelf>False</canTargetSelf>
+        <canTargetAnimals>True</canTargetAnimals>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class = "LingGame.LingAliCompProperties_ForRabbit">
+        <compClass>LingGame.LingAliComp_ForRabbit</compClass>
+      </li>
+    </comps>
+  </AbilityDef>
+  <!-- 堕落 -->
+  <AbilityDef ParentName="PsycastBase">
+    <defName>LingAbiDepravation</defName>
+    <label>堕落</label>
+    <description>使目标对所有成瘾品成瘾</description>
+    <level>5</level>
+    <iconPath>UI/Abilities/LingAbiForRabbit</iconPath>
+    <statBases>
+      <Ability_EntropyGain>60</Ability_EntropyGain>
+    </statBases>
+    <verbProperties>
+      <warmupTime>2.5</warmupTime>
+      <range>5</range>
+      <targetParams>
+        <canTargetSelf>True</canTargetSelf>
+        <canTargetAnimals>True</canTargetAnimals>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class = "LingGame.LingAliCompProperties_Depravation">
+        <compClass>LingGame.LingAliComp_Depravation</compClass>
+      </li>
+    </comps>
+  </AbilityDef>
+  <!-- 兽群 -->
+  <AbilityDef ParentName="PsycastBase">
+    <defName>LingAbiMadBeast</defName>
+    <label>兽群</label>
+    <description>召唤一群不分敌我的猎杀人类的野兽</description>
+    <level>6</level>
+    <iconPath>UI/Abilities/LingAbiMadBeast</iconPath>
+    <hotKey>Misc10</hotKey>
+    <statBases>
+      <Ability_EntropyGain>150</Ability_EntropyGain>
+    </statBases>
+    <verbProperties>
+      <warmupTime>1</warmupTime>
+      <range>25</range>
+      <targetParams>
+        <canTargetPawns>False</canTargetPawns>
+        <canTargetLocations>True</canTargetLocations>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class = "LingGame.LingAliCompProperties_MadBeast">
+        <compClass>LingGame.LingAliComp_MadBeast</compClass>
+        <Animals>
+          <li>Warg</li>
+          <li>Bear_Grizzly</li>
+          <li>Cougar</li>
+          <li>Elephant</li>
+          <li>Megaspider</li>
+          <li>Thrumbo</li>
+          <li>Megasloth</li>
+          <li>Rhinoceros</li>
+        </Animals>
+        <Amount>2500</Amount>
+        <Weapon>True</Weapon>
+      </li>
+    </comps>
+  </AbilityDef>
+  <HediffDef>
+    <defName>LingAbiHediffFalse</defName>
+    <label>幻影</label>
+    <hediffClass>LingGame.Hediff_FalsePawn</hediffClass>
+    <defaultLabelColor>(0.6, 0.6, 0.6)</defaultLabelColor>
+    <description>这个生物只是一个幻影,死亡便会消散</description>
+  </HediffDef>
+  <!-- 遗忘 -->
+  <AbilityDef ParentName="PsycastBase">
+    <defName>LingAbiObliviate</defName>
+    <label>遗忘</label>
+    <description>清空目标的特性和技能(不影响兴趣)</description>
+    <level>5</level>
+    <iconPath>UI/Abilities/LingAbiForRabbit</iconPath>
+    <statBases>
+      <Ability_EntropyGain>150</Ability_EntropyGain>
+    </statBases>
+    <verbProperties>
+      <warmupTime>5</warmupTime>
+      <range>5</range>
+      <targetParams>
+        <canTargetSelf>True</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class = "LingGame.LingAliCompProperties_Obliviate">
+        <compClass>LingGame.LingAliComp_Obliviate</compClass>
+      </li>
+    </comps>
+  </AbilityDef>
+  <!-- 虚幻挚爱 -->
+  <AbilityDef ParentName="PsycastBase">
+    <defName>LingAbiMakeAwife</defName>
+    <label>虚幻挚爱</label>
+    <description>生成一个永远热爱目标的单位,或释放者收到伤害的时候,会直接消失,并对释放者造成严重的心理创伤</description>
+    <level>6</level>
+    <iconPath>UI/Abilities/Wallraise</iconPath>
+    <statBases>
+      <Ability_EntropyGain>120</Ability_EntropyGain>
+    </statBases>
+    <verbProperties>
+      <warmupTime>20</warmupTime>
+      <range>3</range>
+      <targetParams>
+        <canTargetPawns>True</canTargetPawns>
+        <canTargetSelf>True</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class = "LingGame.LingAliCompProperties_MakeAWife">
+        <compClass>LingGame.LingAliComp_MakeAWife</compClass>
+      </li>
+    </comps>
+  </AbilityDef>
+  <ThoughtDef>
+    <defName>LingAbiHediffMakeAwife</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>120</durationDays>
+    <stackLimit>300</stackLimit>
+    <stackLimitForSameOtherPawn>10</stackLimitForSameOtherPawn>
+    <stages>
+      <li>
+        <label>虚幻挚爱</label>
+        <description>这是我的爱人啊,我最爱的人</description>
+        <baseMoodEffect>80</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <HediffDef>
+    <defName>LingAbiHediffMakeAwife</defName>
+    <label>虚幻挚爱</label>
+    <hediffClass>LingGame.LingAliHediff_AWife</hediffClass>
+    <defaultLabelColor>(0.6, 0.6, 0.6)</defaultLabelColor>
+    <description>这个生物是一个痴情人幻想出来的幻影,一旦收到冲击就会被打破</description>
+  </HediffDef>
+  <ThoughtDef>
+    <defName>LingAbiHediffMakeAwifeDied</defName>
+    <durationDays>10</durationDays>
+    <stages>
+      <li>
+        <label>幻想破灭</label>
+        <description>我的爱人消失了...什么?原来Ta并未真实存在过?!</description>
+        <baseMoodEffect>-50</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <!-- 尼玛死了 -->
+  <AbilityDef ParentName="PsycastBase">
+    <defName>LingAbiMonDie</defName>
+    <label>苦痛术</label>
+    <description>传送目标的母亲到目标面前并击杀,若对方母亲已去世/没有母亲则复活/添加一个母亲并击杀</description>
+    <level>6</level>
+    <iconPath>UI/Abilities/Wallraise</iconPath>
+    <statBases>
+      <Ability_EntropyGain>120</Ability_EntropyGain>
+    </statBases>
+    <verbProperties>
+      <warmupTime>20</warmupTime>
+      <range>3</range>
+      <targetParams>
+        <canTargetPawns>True</canTargetPawns>
+        <canTargetSelf>True</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class = "CompProperties_AbilityEffect">
+        <compClass>LingGame.LingAliComp_NiMaSiLe</compClass>
+      </li>
+    </comps>
+  </AbilityDef>
+
+  <!-- 服装维修 -->
+  <AbilityDef ParentName="PsycastBase">
+    <defName>LingAbiAppealReBack</defName>
+    <label>服装维修</label>
+    <description>昨日重现,是目标返回其最完美的状态...然而只对装备有效</description>
+    <level>6</level>
+    <iconPath>UI/Abilities/Wallraise</iconPath>
+    <statBases>
+      <Ability_EntropyGain>120</Ability_EntropyGain>
+    </statBases>
+    <verbProperties>
+      <warmupTime>20</warmupTime>
+      <range>3</range>
+      <targetParams>
+        <canTargetPawns>True</canTargetPawns>
+        <canTargetSelf>True</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class = "LingGame.LingAliCompProperties_AppealReBack">
+        <compClass>LingGame.LingAliComp_AppealReBack</compClass>
+      </li>
+    </comps>
+  </AbilityDef>
+  
+  <AbilityDef ParentName="PsycastBase">
+    <defName>LingAbiShock</defName>
+    <label>震慑</label>
+    <description>暂时性的打断目标的工作</description>
+    <level>1</level>
+    <iconPath>UI/Abilities/Beckon</iconPath>
+    <writeCombatLog>True</writeCombatLog>
+    <statBases>
+      <Ability_EntropyGain>10</Ability_EntropyGain>
+      <Ability_Duration>0.01</Ability_Duration>
+    </statBases>
+    <verbProperties>
+      <warmupTime>0.01</warmupTime>
+      <range>19.9</range>
+      <targetParams>
+        <canTargetAnimals>True</canTargetAnimals>
+        <neverTargetIncapacitated>True</neverTargetIncapacitated>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class = "LingGame.CompProperties_AbilityForceJobOnetick">
+        <compClass>LingGame.CompAbilityEffect_ForceSimpleJob</compClass>
+      </li>
+      <li Class="CompProperties_AbilityFleckOnTarget">
+        <fleckDef>PsycastPsychicEffect</fleckDef>
+      </li>
+    </comps>
+  </AbilityDef>
+
+
+</Defs>

@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  
+  <ThingDef ParentName="TreeBase">
+    <defName>Plant_TreeLingGel</defName>
+    <label>凝胶繁育核心</label>
+    <description>一株人造的植物,会定期的产出零子凝胶,但会不断地向外蔓延扩展,一旦大范围的侵占土地,则会造成不可预料的后果.</description>
+    <graphicData>
+      <texPath>Things/Plant/Tree_LingGel</texPath>
+      <drawSize>1</drawSize>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <drawGUIOverlay>True</drawGUIOverlay>
+    <statBases>
+      <Beauty>5</Beauty>
+      <MeditationFocusStrength>0.30</MeditationFocusStrength>
+      <Flammability>0</Flammability>
+      <MaxHitPoints>400</MaxHitPoints>
+    </statBases>
+    <ingestible />
+    <preventSkyfallersLandingOn>true</preventSkyfallersLandingOn>
+    <plant>
+      <growDays>25</growDays>
+      <visualSizeRange>1.8~2.5</visualSizeRange>
+      <sowMinSkill>0</sowMinSkill>
+      <sowTags Inherit="False"/>
+      <dieIfNoSunlight>False</dieIfNoSunlight>
+      <dieFromToxicFallout>False</dieFromToxicFallout>
+      <lifespanDaysPerGrowDays>0</lifespanDaysPerGrowDays>
+      <fertilityMin>0.02</fertilityMin>
+      <fertilitySensitivity>0</fertilitySensitivity>
+      <sowResearchPrerequisites Inherit="False" />
+    </plant>
+    <comps>
+      <li Class="CompProperties_MeditationFocus">
+        <statDef>MeditationFocusStrength</statDef>
+        <focusTypes>
+          <li>Morbid</li>
+          <li>Natural</li>
+        </focusTypes>
+      </li>
+      <li Class="LingGame.CompProperties_SpawnSubplantWithTime">
+        <subplant>Plant_GrassLingGel</subplant>
+        <subplant1>Plant_PlanterLingGel</subplant1>
+        <subplant2>Plant_EaterLingGel</subplant2>
+        <subplant3>Plant_TreeLingGel</subplant3>
+      </li>
+      <li Class="CompProperties_SelfhealHitpoints">
+        <ticksPerHeal>2000</ticksPerHeal>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="PlantBase">
+    <defName>Plant_GrassLingGel</defName>
+    <label>凝胶触手</label>
+    <thingClass>LingGame.PlantNoNeedLightAndSoil</thingClass>
+    <description>一株材质柔软的藤蔓,成熟后可以收获少量零子凝胶</description>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Nutrition>0.25</Nutrition>
+      <Flammability>0</Flammability>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/GrssLingGel</texPath>
+      <drawSize>2.25</drawSize>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <plant>
+      <fertilityMin>0.02</fertilityMin>
+      <fertilitySensitivity>0</fertilitySensitivity>
+      <sowMinSkill>0</sowMinSkill>
+      <growDays>2</growDays>
+      <sowTags>
+        <li>Hydroponic</li>
+      </sowTags>
+	  <sowWork>60</sowWork>
+      <lifespanDaysPerGrowDays>60</lifespanDaysPerGrowDays>
+      <harvestWork>40</harvestWork>
+      <maxMeshCount>4</maxMeshCount>
+      <harvestYield>10</harvestYield>
+      <dieIfLeafless>False</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>ZeroTechGel</harvestedThingDef>
+	  <immatureGraphicPath>Things/Plant/TrssLingGel</immatureGraphicPath>
+      <visualSizeRange>0.78~0.88</visualSizeRange>
+      <topWindExposure>0.16</topWindExposure>
+      <wildClusterRadius>6</wildClusterRadius>
+      <wildClusterWeight>200</wildClusterWeight>
+      <wildOrder>1</wildOrder>
+      <purpose>Food</purpose>
+      <humanFoodPlant>true</humanFoodPlant>
+      <dieIfNoSunlight>False</dieIfNoSunlight>
+      <dieFromToxicFallout>False</dieFromToxicFallout>
+    </plant>
+  </ThingDef>
+  
+  <ThingDef ParentName="PlantBase">
+    <defName>Plant_PlanterLingGel</defName>
+    <thingClass>LingGame.PlantNoNeedLightAndSoil</thingClass>
+    <label>孢子散播者</label>
+    <description>.</description>
+    <selectable>true</selectable>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Nutrition>0.25</Nutrition>
+      <Flammability>0</Flammability>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/PlanterLingGel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <comps>
+      <li Class="LingGame.CompProperties_SpawnSubToLong">
+        <ZhongZiN>Proj_BaiZiLingGel</ZhongZiN>
+        <ZhongZiB>Proj_BoomBaiZiLingGel</ZhongZiB>
+      </li>
+    </comps>
+    <plant>
+      <fertilityMin>0.02</fertilityMin>
+      <fertilitySensitivity>0</fertilitySensitivity>
+      <sowMinSkill>0</sowMinSkill>
+      <growDays>5</growDays>
+      <lifespanDaysPerGrowDays>60</lifespanDaysPerGrowDays>
+      <harvestWork>40</harvestWork>
+      <maxMeshCount>1</maxMeshCount>
+      <harvestYield>30</harvestYield>
+      <dieIfLeafless>False</dieIfLeafless>
+      <visualSizeRange>0.78~0.88</visualSizeRange>
+      <topWindExposure>0.16</topWindExposure>
+      <wildClusterRadius>6</wildClusterRadius>
+      <wildClusterWeight>200</wildClusterWeight>
+      <wildOrder>1</wildOrder>
+      <dieIfNoSunlight>False</dieIfNoSunlight>
+      <dieFromToxicFallout>False</dieFromToxicFallout>
+    </plant>
+  </ThingDef>
+  
+  <ThingDef ParentName="PlantBase">
+    <defName>Plant_EaterLingGel</defName>
+    <thingClass>LingGame.PlantAttackAnimal</thingClass>
+    <label>藤蔓捕食者</label>
+    <description>.</description>
+    <selectable>true</selectable>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Nutrition>0.25</Nutrition>
+      <Flammability>0</Flammability>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Building/Misc/FirefoamPopper</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <plant>
+      <fertilityMin>0.02</fertilityMin>
+      <fertilitySensitivity>0</fertilitySensitivity>
+      <sowMinSkill>0</sowMinSkill>
+      <growDays>5</growDays>
+      <lifespanDaysPerGrowDays>60</lifespanDaysPerGrowDays>
+      <harvestWork>40</harvestWork>
+      <maxMeshCount>1</maxMeshCount>
+      <harvestYield>30</harvestYield>
+      <dieIfLeafless>False</dieIfLeafless>
+      <visualSizeRange>0.78~0.88</visualSizeRange>
+      <topWindExposure>0.16</topWindExposure>
+      <wildClusterRadius>6</wildClusterRadius>
+      <wildClusterWeight>200</wildClusterWeight>
+      <wildOrder>1</wildOrder>
+      <dieIfNoSunlight>False</dieIfNoSunlight>
+      <dieFromToxicFallout>False</dieFromToxicFallout>
+    </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet" Name="BaoZiLingLel">
+    <defName>Proj_BaiZiLingGel</defName>
+    <label>孢子</label>
+    <thingClass>LingGame.MakeThingProjectile</thingClass>
+    <graphicData>
+      <texPath>Things/Projectile/ChuShouBaoZi</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>0.75</drawSize>
+      <shaderType>Transparent</shaderType>
+    </graphicData>
+    <projectile>
+      <damageDef>DamageAddGel</damageDef>
+      <damageAmountBase>1</damageAmountBase>
+      <armorPenetrationBase>2</armorPenetrationBase>
+      <postExplosionSpawnThingDef>Plant_GrassLingGel</postExplosionSpawnThingDef>
+      <arcHeightFactor>2</arcHeightFactor>
+      <shadowSize>0.4</shadowSize>
+      <speed>12</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaoZiLingLel">
+    <defName>Proj_BoomBaiZiLingGel</defName>
+    <label>爆炸孢子</label>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <explosionRadius>1.1</explosionRadius>
+    </projectile>
+  </ThingDef>
+  
+  <DamageDef>
+    <defName>DamageAddGel</defName>
+    <label>触手弥漫</label>
+    <workerClass>LingGame.DamageWorker_AddGel</workerClass>
+    <hediff>GelOnBody</hediff>
+    <makesBlood>false</makesBlood>
+    <defaultDamage>10</defaultDamage>
+    <plantDamageFactor>0</plantDamageFactor>
+    <!-- <explosionCellMote>Mote_BlastExtinguisher</explosionCellMote> -->
+    <explosionColorEdge>(0.6, 1, 0.6, 0.05)</explosionColorEdge>
+    <harmsHealth>false</harmsHealth>
+    <soundExplosion>Explosion_Smoke</soundExplosion>
+    <combatLogRules>Damage_Smoke</combatLogRules>
+  </DamageDef>
+  
+  <HediffDef>
+    <defName>GelOnBody</defName>
+    <label>触手孢子感染</label>
+    <description>生物的肢体被触手孢子所感染,在严重度较低的时候,会显著的增强对应部件的部件效率,但若没有极其优秀的治疗,则会不断恶化,一旦感染严重,则生物会逐渐被侵蚀,并成为孢子的传播者,最后走向死亡.对于某些有特殊爱好的人,他们会选择维持治疗以获取良性状态的增幅,但对于大多数人来说,及时手术将感染部位切除(不是截肢)才是好选择.</description>
+    <minSeverity>0.001</minSeverity>
+    <hediffClass>LingGame.Hediff_GelOnBody</hediffClass>
+    <maxSeverity>1</maxSeverity>
+    <initialSeverity>0.001</initialSeverity>
+    <defaultLabelColor>(0.7, 0.7, 1)</defaultLabelColor>
+    <lethalSeverity>1</lethalSeverity>
+    <tendable>true</tendable>
+    <comps>
+      <li Class="HediffCompProperties_TendDuration">
+        <baseTendDurationHours>24</baseTendDurationHours>
+        <severityPerDayTended>-0.012</severityPerDayTended>
+      </li>
+      <li Class="HediffCompProperties_Immunizable">
+        <severityPerDayNotImmune>0.01</severityPerDayNotImmune>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <label>良性</label>
+        <partEfficiencyOffset>0.2</partEfficiencyOffset>
+      </li>
+      <li>
+        <label>轻度</label>
+        <minSeverity>0.50</minSeverity>
+        <partEfficiencyOffset>-0.2</partEfficiencyOffset>
+        <painOffset>0.05</painOffset>
+        <hungerRateFactor>1.05</hungerRateFactor>
+        <restFallFactor>1.05</restFallFactor>
+        <vomitMtbDays>10</vomitMtbDays>
+      </li>
+      <li>
+        <label>恶性</label>
+        <minSeverity>0.70</minSeverity>
+        <partEfficiencyOffset>-0.4</partEfficiencyOffset>
+        <painOffset>0.1</painOffset>
+        <hungerRateFactor>1.1</hungerRateFactor>
+        <restFallFactor>1.1</restFallFactor>
+        <vomitMtbDays>5</vomitMtbDays>
+      </li>
+      <li>
+        <label>致命</label>
+        <minSeverity>0.90</minSeverity>
+        <partEfficiencyOffset>1</partEfficiencyOffset>
+        <restFallFactor>4</restFallFactor>
+      </li>
+      <li>
+        <label>致命</label>
+        <minSeverity>0.99</minSeverity>
+        <partEfficiencyOffset>1</partEfficiencyOffset>
+        <restFallFactor>4</restFallFactor>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  
+  <ThingDef ParentName="BuildingBase">
+    <defName>Plant_TreeLingGelMaker</defName>
+    <label>凝胶触手培养基</label>
+    <description>一个怪异的培养基,其中蕴含着奇怪的能量,激活后会经过一天的生长成为凝胶繁育核心,但在生长时会放出一种信息素,吸引大量的动物进入地图并致使其疯狂</description>
+    <costList>
+      <MealSurvivalPack>10</MealSurvivalPack>
+      <MedicineIndustrial>5</MedicineIndustrial>
+      <ComponentIndustrial>10</ComponentIndustrial>
+      <Silver>200</Silver>
+    </costList>
+    <thingClass>Building</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Security/IEDChuShou</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconOffset>(0,-0.14)</uiIconOffset>
+    <altitudeLayer>Building</altitudeLayer>
+    <drawerType>RealtimeOnly</drawerType>
+    <rotatable>false</rotatable>
+    <tickerType>Normal</tickerType>
+    <stealable>false</stealable>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <thingCategories>
+      <li>BuildingsSecurity</li>
+    </thingCategories>
+    <statBases>
+      <Mass>1</Mass>
+      <MaxHitPoints>10000</MaxHitPoints>
+      <WorkToBuild>3000</WorkToBuild>
+      <Flammability>0</Flammability>
+      <Beauty>0</Beauty>
+    </statBases>
+    <useHitPoints>false</useHitPoints>
+    <designationCategory>Security</designationCategory>
+    <researchPrerequisites>
+      <li>IEDs</li>
+    </researchPrerequisites>
+    <comps>
+      <li Class="LingGame.CompProperties_ExplosivePlus1"/>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>0.5</explosiveRadius>
+        <explosiveDamageType>Smoke</explosiveDamageType>
+        <startWickHitPointsPercent>0.9999</startWickHitPointsPercent>
+        <postExplosionSpawnThingDef>Plant_TreeLingGel</postExplosionSpawnThingDef>
+        <postExplosionSpawnChance>1</postExplosionSpawnChance>
+        <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+        <wickTicks>60000</wickTicks>
+      </li>
+      <li Class="CompProperties_Usable">
+        <useJob>TriggerObject</useJob>
+        <useLabel>激活培养基</useLabel>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>CompUseEffect_StartWick</compClass>
+      </li>
+    </comps>
+    <specialDisplayRadius>0.5</specialDisplayRadius>
+  </ThingDef>
+
+  
+  
+</Defs>

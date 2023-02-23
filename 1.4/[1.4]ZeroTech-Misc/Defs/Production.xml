@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  
+  <ThingDef ParentName="FurnitureWithQualityBase">
+    <defName>ZeroTechGelMaker</defName>
+    <label>凝胶打磨机</label>
+    <description>.</description>
+    <thingClass>LingGame.Building_GelMaker</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Production/ZeroTechGelMaker</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,1.3)</drawSize>
+    </graphicData>
+    <tickerType>Rare</tickerType>
+    <altitudeLayer>Building</altitudeLayer>
+    <designationCategory>Production</designationCategory>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.4</fillPercent>
+    <castEdgeShadows>true</castEdgeShadows>
+    <costList>
+      <ComponentIndustrial>10</ComponentIndustrial>
+      <Steel>50</Steel>
+      <Plasteel>10</Plasteel>
+    </costList>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Mass>10</Mass>
+      <WorkToBuild>600</WorkToBuild>
+      <Flammability>0</Flammability>
+    </statBases>
+    <size>(2,1)</size>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>300</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Flickable"/>
+    </comps>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Normal</priority>
+        <filter>
+          <categories>
+            <li>Chunks</li>
+          </categories>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <inspectorTabs>
+      <li>ITab_Storage</li>
+    </inspectorTabs>
+    <staticSunShadowHeight>0.5</staticSunShadowHeight>
+    <surfaceType>Item</surfaceType>
+    <canOverlapZones>false</canOverlapZones>
+    <researchPrerequisites>
+      <li>ZeroTechGel</li>
+    </researchPrerequisites>
+  </ThingDef>
+  
+  <!--<ThingDef ParentName="BenchBase">
+    <defName>TableZoreTech</defName>
+    <label>零子工坊</label>
+    <description>you can make it.</description>
+    <thingClass>Building_WorkTable</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Production/TableZoreTech</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3.5,1.5)</drawSize>
+    </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <costList>
+      <Steel>150</Steel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <WorkToBuild>3000</WorkToBuild>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <Cleanliness>-2</Cleanliness>
+    </statBases>
+    <size>(3,1)</size>
+    <designationCategory>Production</designationCategory>
+    <passability>PassThroughOnly</passability>
+    <pathCost>70</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+    <recipes>
+      <li>ButcherCorpseMechanoid</li>
+    </recipes>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <shortCircuitInRain>false</shortCircuitInRain>
+        <basePowerConsumption>350</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Glower">
+        <glowRadius>5</glowRadius>
+        <glowColor>(73,255,255,0)</glowColor>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+    <constructEffect>ConstructMetal</constructEffect>
+    <researchPrerequisites><li>ZeroTechBase</li></researchPrerequisites>
+  </ThingDef>
+
+  <WorkGiverDef>
+    <defName>MakeZeroTechThing</defName>
+    <label>make item</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Smithing</workType>
+    <priorityInType>95</priorityInType>
+    <fixedBillGiverDefs>
+      <li>TableZoreTech</li>
+    </fixedBillGiverDefs>
+    <verb>work</verb>
+    <gerund>working at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>-->
+  
+</Defs>

@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 无头 -->
+
+  <LingXCG_NoHead.label>head Compressor</LingXCG_NoHead.label>
+  <LingXCG_NoHead.description>A head Compressor.</LingXCG_NoHead.description>
+  <LingXCG_NoHead.labelNoun>neck</LingXCG_NoHead.labelNoun>
+
+
+  <!-- 意识 -->
+
+  <LingXCG_BrainEnhancementDevice.label>brain enhancement device</LingXCG_BrainEnhancementDevice.label>
+  <LingXCG_BrainEnhancementDevice.description>A brain enhancement device.</LingXCG_BrainEnhancementDevice.description>
+  <LingXCG_BrainEnhancementDevice.labelNoun>neck</LingXCG_BrainEnhancementDevice.labelNoun>
+
+
+  <!-- 无食 -->
+
+  <LingXCG_NoHunger.label>substance synthesis chip</LingXCG_NoHunger.label>
+  <LingXCG_NoHunger.description>An installed substance synthesis chip.</LingXCG_NoHunger.description>
+  <LingXCG_NoHunger.labelNoun>chip</LingXCG_NoHunger.labelNoun>
+
+
+  <!-- 无心 -->
+
+  <LingXCG_NoHeart.label>emotional isolation chip</LingXCG_NoHeart.label>
+  <LingXCG_NoHeart.description>An installed substance synthesis chip.</LingXCG_NoHeart.description>
+  <LingXCG_NoHeart.labelNoun>chip</LingXCG_NoHeart.labelNoun>
+
+
+  <!-- 隐形 -->
+
+  <LingXCG_Invisible.label>light distortion chip</LingXCG_Invisible.label>
+  <LingXCG_Invisible.description>An installed light distortion chip.</LingXCG_Invisible.description>
+  <LingXCG_Invisible.labelNoun>chip</LingXCG_Invisible.labelNoun>
+
+
+  <!-- 防御 -->
+
+  <LingXCG_OldSkin.label>tough skin chip</LingXCG_OldSkin.label>
+  <LingXCG_OldSkin.description>An installed tough skin chip.</LingXCG_OldSkin.description>
+  <LingXCG_OldSkin.labelNoun>chip</LingXCG_OldSkin.labelNoun>
+
+
+  <!-- 包扎 -->
+
+  <LingXCG_AutoBandaging.label>auto bandaging chip</LingXCG_AutoBandaging.label>
+  <LingXCG_AutoBandaging.description>An installed auto bandaging chip.</LingXCG_AutoBandaging.description>
+  <LingXCG_AutoBandaging.labelNoun>chip</LingXCG_AutoBandaging.labelNoun>
+
+
+  <!-- 治病 -->
+
+  <LingXCG_AutoMedical.label>auto medical chip</LingXCG_AutoMedical.label>
+  <LingXCG_AutoMedical.description>An installed auto medical chip.</LingXCG_AutoMedical.description>
+  <LingXCG_AutoMedical.labelNoun>chip</LingXCG_AutoMedical.labelNoun>
+
+
+  <!-- 回血 -->
+
+  <LingXCG_BodyRegeneration.label>body regeneration chip</LingXCG_BodyRegeneration.label>
+  <LingXCG_BodyRegeneration.description>An installed body regeneration chip.</LingXCG_BodyRegeneration.description>
+  <LingXCG_BodyRegeneration.labelNoun>chip</LingXCG_BodyRegeneration.labelNoun>
+
+
+  <!-- 造肢 -->
+
+  <LingXCG_BodyReconstruction.label>body reconstruction chip</LingXCG_BodyReconstruction.label>
+  <LingXCG_BodyReconstruction.description>An installed body reconstruction chip.</LingXCG_BodyReconstruction.description>
+  <LingXCG_BodyReconstruction.labelNoun>chip</LingXCG_BodyReconstruction.labelNoun>
+
+
+  <!-- 环境 -->
+
+  <LingXCG_EnvironmentalAdaptation.label>environmental adaptation chip</LingXCG_EnvironmentalAdaptation.label>
+  <LingXCG_EnvironmentalAdaptation.description>An installed environmental adaptation chip.</LingXCG_EnvironmentalAdaptation.description>
+  <LingXCG_EnvironmentalAdaptation.labelNoun>chip</LingXCG_EnvironmentalAdaptation.labelNoun>
+
+
+  <!-- 思放 -->
+
+  <LingXCG_MentalRadiation.label>mental radiation chip</LingXCG_MentalRadiation.label>
+  <LingXCG_MentalRadiation.description>An installed mental radiation chip.</LingXCG_MentalRadiation.description>
+  <LingXCG_MentalRadiation.labelNoun>chip</LingXCG_MentalRadiation.labelNoun>
+
+
+  <!-- 安神 -->
+
+  <LingXCG_Soothe.label>soothe chip</LingXCG_Soothe.label>
+  <LingXCG_Soothe.description>An installed soothe chip.</LingXCG_Soothe.description>
+  <LingXCG_Soothe.labelNoun>chip</LingXCG_Soothe.labelNoun>
+  
+  <LingXCG_PsyAdd.label>essence convergence chip</LingXCG_PsyAdd.label>
+  <LingXCG_PsyAdd.description>A chip made from the core of pseudo-personality can help the installer gather psy.</LingXCG_PsyAdd.description>
+
+
+  <!-- 战偶 -->
+
+  <LingXCG_FightPuppetC.label>flght puppet</LingXCG_FightPuppetC.label>
+  <LingXCG_FightPuppetC.description>a flght puppet.</LingXCG_FightPuppetC.description>
+  <LingXCG_FightPuppetC.labelNoun>chip</LingXCG_FightPuppetC.labelNoun>
+
+
+</LanguageData>

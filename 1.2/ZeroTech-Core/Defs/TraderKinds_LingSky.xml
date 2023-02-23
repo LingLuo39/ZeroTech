@@ -1,0 +1,723 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <TraderKindDef>
+    <defName>Orbital_Ling_BaseResources</defName>
+    <label>基础物资商</label>
+    <commonality>1</commonality>
+    <orbital>true</orbital>
+    <stockGenerators>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Silver</thingDef>
+        <countRange>
+          <min>10000</min>
+          <max>20000</max>
+        </countRange>
+      </li>
+	  <!-- 基础材料 -->
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>WoodLog</thingDef>
+        <countRange>
+          <min>1500</min>
+          <max>3000</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Steel</thingDef>
+        <countRange>
+          <min>1000</min>
+          <max>2000</max>
+        </countRange>
+      </li>
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>Plasteel</thingDef>
+        <countRange>
+          <min>500</min>
+          <max>1000</max>
+        </countRange>
+      </li><li Class="StockGenerator_SingleDef">
+        <thingDef>Gold</thingDef>
+        <countRange>
+          <min>300</min>
+          <max>600</max>
+        </countRange>
+      </li>
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>Uranium</thingDef>
+        <countRange>
+          <min>200</min>
+          <max>400</max>
+        </countRange>
+      </li>
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>Jade</thingDef>
+        <countRange>
+          <min>3900</min>
+          <max>3900</max>
+        </countRange>
+      </li>
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>Cloth</thingDef>
+        <countRange>
+          <min>1000</min>
+          <max>1000</max>
+        </countRange>
+      </li>
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>Synthread</thingDef>
+        <countRange>
+          <min>500</min>
+          <max>500</max>
+        </countRange>
+      </li>
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>Hyperweave</thingDef>
+        <countRange>
+          <min>300</min>
+          <max>300</max>
+        </countRange>
+      </li>
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>BlocksGranite</thingDef>
+        <countRange>
+          <min>1000</min>
+          <max>1000</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Leather_Human</thingDef>
+        <countRange>
+          <min>1000</min>
+          <max>1000</max>
+        </countRange>
+      </li>
+	  <!-- 人造材料 -->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>ComponentIndustrial</thingDef>
+        <countRange>
+          <min>200</min>
+          <max>400</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>ComponentSpacer</thingDef>
+        <countRange>
+          <min>50</min>
+          <max>100</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Neutroamine</thingDef>
+        <countRange>
+          <min>200</min>
+          <max>200</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Chemfuel</thingDef>
+        <countRange>
+          <min>800</min>
+          <max>800</max>
+        </countRange>
+      </li>
+	  <!-- 医药 -->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>MedicineHerbal</thingDef>
+        <countRange>
+          <min>100</min>
+          <max>200</max>
+        </countRange>
+      </li>
+	  <li Class="StockGenerator_SingleDef">
+	    <thingDef>MedicineIndustrial</thingDef>
+	    <countRange>
+	  	  <min>50</min>
+		  <max>100</max>
+	    </countRange>
+	  </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>MedicineUltratech</thingDef>
+        <countRange>
+          <min>25</min>
+          <max>50</max>
+        </countRange>
+      </li>
+	  <li Class="StockGenerator_Tag">
+        <tradeTag>TechHediff</tradeTag>
+        <thingDefCountRange>
+          <min>2</min>
+          <max>5</max>
+        </thingDefCountRange>
+        <countRange>
+          <min>2</min>
+          <max>5</max>
+        </countRange>
+      </li>
+	  <!-- 食物 -->
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>MealSimple</thingDef>
+        <countRange>
+          <min>50</min>
+          <max>50</max>
+        </countRange>
+      </li>
+	  <!-- 成瘾品 -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>Drugs</categoryDef>
+      </li>
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>Luciferium</thingDef>
+        <countRange>
+          <min>10</min>
+          <max>10</max>
+        </countRange>
+      </li>
+	  <li Class="LingGame.StockGenerator_BuyAnything"/>
+	</stockGenerators>
+  </TraderKindDef>
+
+  <TraderKindDef>
+    <defName>Orbital_Ling_War</defName>
+    <label>战争物资商</label>
+    <commonality>1</commonality>
+    <orbital>true</orbital>
+    <stockGenerators>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Silver</thingDef>
+        <countRange>
+          <min>10000</min>
+          <max>20000</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Tag">
+        <tradeTag>TechHediff</tradeTag>
+        <thingDefCountRange>
+          <min>3</min>
+          <max>5</max>
+        </thingDefCountRange>
+        <countRange>
+          <min>3</min>
+          <max>5</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>WeaponsRanged</categoryDef>
+        <thingDefCountRange>
+          <min>5</min>
+          <max>10</max>
+        </thingDefCountRange>
+        <countRange>
+          <min>10</min>
+          <max>10</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>WeaponsMelee</categoryDef>
+        <thingDefCountRange>
+          <min>2</min>
+          <max>5</max>
+        </thingDefCountRange>
+        <countRange>
+          <min>10</min>
+          <max>10</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Armor">
+        <countRange>
+          <min>20</min>
+          <max>20</max>
+        </countRange>
+      </li>
+	  <!-- 家具 -->
+      <li Class="StockGenerator_Category">
+        <categoryDef>BuildingsFurniture</categoryDef>
+        <thingDefCountRange>
+          <min>3</min>
+          <max>10</max>
+        </thingDefCountRange>
+        <countRange>
+          <min>5</min>
+          <max>10</max>
+        </countRange>
+      </li>
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>Leather_Human</thingDef>
+        <countRange>
+          <min>1000</min>
+          <max>1000</max>
+        </countRange>
+      </li>
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>Gold</thingDef>
+        <countRange>
+          <min>200</min>
+          <max>200</max>
+        </countRange>
+      </li>
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>Jade</thingDef>
+        <countRange>
+          <min>39</min>
+          <max>39</max>
+        </countRange>
+      </li>
+	  <li Class="LingGame.StockGenerator_BuyAnything"/>
+    </stockGenerators>
+  </TraderKindDef>
+	
+  <TraderKindDef>
+    <defName>Orbital_Ling_Slaves</defName>
+    <label>生物研究商</label>
+    <commonality>1</commonality>
+    <orbital>true</orbital>
+    <stockGenerators>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Silver</thingDef>
+        <countRange>
+          <min>10000</min>
+          <max>20000</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>EggsFertilized</categoryDef>
+		<thingDefCountRange>
+          <min>1</min>
+          <max>10</max>
+        </thingDefCountRange>
+        <totalPriceRange>
+          <min>200</min>
+          <max>1000</max>
+        </totalPriceRange>
+      </li>
+	  <li Class="StockGenerator_Animals">
+		<maxWildness>2</maxWildness>
+        <checkTemperature>false</checkTemperature>
+		<tradeTagsSell>
+		  <li>AnimalFarm</li>
+          <li>AnimalPet</li>
+          <li>AnimalExotic</li>
+		</tradeTagsSell>
+		<kindCountRange>
+		  <min>5</min>
+		  <max>20</max>
+		</kindCountRange>
+		<countRange>
+		  <min>10</min>
+		  <max>30</max>
+		</countRange>
+	  </li>
+      <li Class="StockGenerator_Slaves">
+        <countRange>
+          <min>10</min>
+          <max>50</max>
+        </countRange>
+      </li>
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>Leather_Human</thingDef>
+        <countRange>
+          <min>1000</min>
+          <max>1000</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Gold</thingDef>
+        <countRange>
+          <min>200</min>
+          <max>200</max>
+        </countRange>
+      </li>
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>Jade</thingDef>
+        <countRange>
+          <min>39</min>
+          <max>39</max>
+        </countRange>
+      </li>
+	  <li Class="LingGame.StockGenerator_BuyAnything"/>
+    </stockGenerators>
+  </TraderKindDef>
+
+  <TraderKindDef>
+    <defName>Orbital_Ling_Art</defName>
+    <label>精品销售商</label>
+    <commonality>1</commonality>
+    <orbital>true</orbital>
+    <stockGenerators>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Silver</thingDef>
+        <countRange>
+          <min>10000</min>
+          <max>20000</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Tag">
+        <tradeTag>Artifact</tradeTag>
+        <thingDefCountRange>
+          <min>3</min>
+          <max>10</max>
+        </thingDefCountRange>
+        <countRange>
+          <min>10</min>
+          <max>10</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Art">
+        <countRange>
+          <min>10</min>
+          <max>20</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Tag">
+        <tradeTag>TechHediff</tradeTag>
+        <thingDefCountRange>
+          <min>3</min>
+          <max>10</max>
+        </thingDefCountRange>
+        <countRange>
+          <min>3</min>
+          <max>5</max>
+        </countRange>
+      </li>
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>Leather_Human</thingDef>
+        <countRange>
+          <min>1000</min>
+          <max>1000</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Gold</thingDef>
+        <countRange>
+          <min>200</min>
+          <max>200</max>
+        </countRange>
+      </li>
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>Jade</thingDef>
+        <countRange>
+          <min>39</min>
+          <max>39</max>
+        </countRange>
+      </li>
+	  <li Class="LingGame.StockGenerator_BuyAnything"/>
+    </stockGenerators>
+  </TraderKindDef>
+
+  <TraderKindDef>
+    <defName>Orbital_Ling_ZeroTech</defName>
+    <label>零子直销商</label>
+    <commonality>0</commonality>
+    <orbital>true</orbital>
+    <stockGenerators>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Silver</thingDef>
+        <countRange>
+          <min>100000</min>
+          <max>100000</max>
+        </countRange>
+      </li>
+	  <!-- 基础材料 -->
+	  <li Class="StockGenerator_SingleDef">
+        <price>Cheap</price>
+        <thingDef>WoodLog</thingDef>
+        <countRange>
+          <min>5000</min>
+          <max>5000</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <price>Cheap</price>
+        <thingDef>Steel</thingDef>
+        <countRange>
+          <min>3000</min>
+          <max>3000</max>
+        </countRange>
+      </li>
+	  <li Class="StockGenerator_SingleDef">
+        <price>Cheap</price>
+        <thingDef>Plasteel</thingDef>
+        <countRange>
+          <min>2000</min>
+          <max>2000</max>
+        </countRange>
+      </li><li Class="StockGenerator_SingleDef">
+        <thingDef>Gold</thingDef>
+        <countRange>
+          <min>1600</min>
+          <max>1600</max>
+        </countRange>
+      </li>
+	  <li Class="StockGenerator_SingleDef">
+        <price>Cheap</price>
+        <thingDef>Uranium</thingDef>
+        <countRange>
+          <min>900</min>
+          <max>900</max>
+        </countRange>
+      </li>
+	  <li Class="StockGenerator_SingleDef">
+        <price>Cheap</price>
+        <thingDef>Jade</thingDef>
+        <countRange>
+          <min>3939</min>
+          <max>3939</max>
+        </countRange>
+      </li>
+	  <li Class="StockGenerator_SingleDef">
+        <price>Cheap</price>
+        <thingDef>Cloth</thingDef>
+        <countRange>
+          <min>4000</min>
+          <max>4000</max>
+        </countRange>
+      </li>
+	  <li Class="StockGenerator_SingleDef">
+        <price>Cheap</price>
+        <thingDef>Synthread</thingDef>
+        <countRange>
+          <min>3000</min>
+          <max>3000</max>
+        </countRange>
+      </li>
+	  <li Class="StockGenerator_SingleDef">
+        <price>Cheap</price>
+        <thingDef>Hyperweave</thingDef>
+        <countRange>
+          <min>1500</min>
+          <max>1500</max>
+        </countRange>
+      </li>
+	  <li Class="StockGenerator_SingleDef">
+        <price>Cheap</price>
+        <thingDef>BlocksGranite</thingDef>
+        <countRange>
+          <min>5000</min>
+          <max>5000</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <price>Cheap</price>
+        <thingDef>Leather_Human</thingDef>
+        <countRange>
+          <min>10000</min>
+          <max>10000</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <price>Cheap</price>
+        <thingDef>Meat_Human</thingDef>
+        <countRange>
+          <min>10000</min>
+          <max>10000</max>
+        </countRange>
+      </li>
+	  <!-- 人造材料 -->
+      <li Class="StockGenerator_SingleDef">
+        <price>Cheap</price>
+        <thingDef>ComponentIndustrial</thingDef>
+        <countRange>
+          <min>500</min>
+          <max>500</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <price>Cheap</price>
+        <thingDef>ComponentSpacer</thingDef>
+        <countRange>
+          <min>200</min>
+          <max>200</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <price>Cheap</price>
+        <thingDef>Neutroamine</thingDef>
+        <countRange>
+          <min>400</min>
+          <max>400</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <price>Cheap</price>
+        <thingDef>Chemfuel</thingDef>
+        <countRange>
+          <min>1200</min>
+          <max>1200</max>
+        </countRange>
+      </li>
+	  <!-- 医药 -->
+      <li Class="StockGenerator_SingleDef">
+        <price>Cheap</price>
+        <thingDef>MedicineHerbal</thingDef>
+        <countRange>
+          <min>300</min>
+          <max>300</max>
+        </countRange>
+      </li>
+	  <li Class="StockGenerator_SingleDef">
+        <price>Cheap</price>
+	    <thingDef>MedicineIndustrial</thingDef>
+	    <countRange>
+	  	  <min>250</min>
+		  <max>250</max>
+	    </countRange>
+	  </li>
+      <li Class="StockGenerator_SingleDef">
+        <price>Cheap</price>
+        <thingDef>MedicineUltratech</thingDef>
+        <countRange>
+          <min>200</min>
+          <max>200</max>
+        </countRange>
+      </li>
+	  <li Class="StockGenerator_Tag">
+        <price>Cheap</price>
+        <tradeTag>TechHediff</tradeTag>
+        <thingDefCountRange>
+          <min>5</min>
+          <max>10</max>
+        </thingDefCountRange>
+        <countRange>
+          <min>10</min>
+          <max>10</max>
+        </countRange>
+      </li>
+	  <!-- 食物 -->
+	  <li Class="StockGenerator_SingleDef">
+        <price>Cheap</price>
+        <thingDef>MealLavish</thingDef>
+        <countRange>
+          <min>100</min>
+          <max>100</max>
+        </countRange>
+      </li>
+	  <!-- 成瘾品 -->
+	  <li Class="StockGenerator_SingleDef">
+        <price>Cheap</price>
+        <thingDef>GoJuice</thingDef>
+        <countRange>
+          <min>100</min>
+          <max>100</max>
+        </countRange>
+      </li>
+	  <li Class="StockGenerator_SingleDef">
+        <price>Cheap</price>
+        <thingDef>WakeUp</thingDef>
+        <countRange>
+          <min>100</min>
+          <max>100</max>
+        </countRange>
+      </li>
+	  <li Class="StockGenerator_SingleDef">
+        <price>Cheap</price>
+        <thingDef>Luciferium</thingDef>
+        <countRange>
+          <min>100</min>
+          <max>100</max>
+        </countRange>
+      </li>
+	  <li Class="StockGenerator_SingleDef">
+        <price>Cheap</price>
+        <thingDef>Beer</thingDef>
+        <countRange>
+          <min>500</min>
+          <max>500</max>
+        </countRange>
+      </li>
+	  
+      <li Class="StockGenerator_Category">
+        <price>Cheap</price>
+        <categoryDef>WeaponsRanged</categoryDef>
+        <thingDefCountRange>
+          <min>1</min>
+          <max>2</max>
+        </thingDefCountRange>
+        <countRange>
+          <min>10</min>
+          <max>10</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <price>Cheap</price>
+        <categoryDef>WeaponsMelee</categoryDef>
+        <thingDefCountRange>
+          <min>1</min>
+          <max>2</max>
+        </thingDefCountRange>
+        <countRange>
+          <min>10</min>
+          <max>10</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Armor">
+        <price>Cheap</price>
+        <countRange>
+          <min>5</min>
+          <max>5</max>
+        </countRange>
+      </li>
+	  
+      <li Class="StockGenerator_Category">
+        <price>Cheap</price>
+        <categoryDef>EggsFertilized</categoryDef>
+		<thingDefCountRange>
+          <min>3</min>
+          <max>3</max>
+        </thingDefCountRange>
+        <totalPriceRange>
+          <min>100</min>
+          <max>500</max>
+        </totalPriceRange>
+      </li>
+	  <li Class="StockGenerator_Animals">
+        <price>Cheap</price>
+		<maxWildness>2</maxWildness>
+        <checkTemperature>false</checkTemperature>
+		<tradeTagsSell>
+		  <li>AnimalFarm</li>
+          <li>AnimalPet</li>
+          <li>AnimalExotic</li>
+		</tradeTagsSell>
+		<kindCountRange>
+		  <min>3</min>
+		  <max>3</max>
+		</kindCountRange>
+		<countRange>
+		  <min>4</min>
+		  <max>4</max>
+		</countRange>
+	  </li>
+      <li Class="StockGenerator_Slaves">
+        <price>Cheap</price>
+        <countRange>
+          <min>5</min>
+          <max>5</max>
+        </countRange>
+      </li>
+	  
+      <li Class="StockGenerator_Tag">
+        <price>Cheap</price>
+        <tradeTag>Artifact</tradeTag>
+        <thingDefCountRange>
+          <min>3</min>
+          <max>10</max>
+        </thingDefCountRange>
+        <countRange>
+          <min>10</min>
+          <max>10</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Art">
+        <price>Cheap</price>
+        <countRange>
+          <min>5</min>
+          <max>5</max>
+        </countRange>
+      </li>
+	  
+	  <li Class="LingGame.StockGenerator_BuyAnything"/>
+	</stockGenerators>
+  </TraderKindDef>
+
+
+
+</Defs>

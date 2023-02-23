@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 无头 -->
+
+  <LingXCG_NoHead.label>Head Compressor</LingXCG_NoHead.label>
+  <LingXCG_NoHead.description>A special device compresses your head in your chest, which can protect your head from getting shot.</LingXCG_NoHead.description>
+
+
+  <!-- 意识 -->
+
+  <LingXCG_BrainEnhancementDevice.label>brain enhancement device</LingXCG_BrainEnhancementDevice.label>
+  <LingXCG_BrainEnhancementDevice.description>This device can increase  consciousness dramatically，while the user will have a higher demand of nutrient.</LingXCG_BrainEnhancementDevice.description>
+
+
+  <!-- 无食 -->
+
+  <LingXCG_NoHunger.label>substance synthesis chip</LingXCG_NoHunger.label>
+  <LingXCG_NoHunger.description>This chip can be implanted in the heart to help the user synthesis energy himself, and the user will no longer need to eat anything. But the user's vital signs will be limited.</LingXCG_NoHunger.description>
+
+
+  <!-- 无心 -->
+
+  <LingXCG_NoHeart.label>emotion elimination chip</LingXCG_NoHeart.label>
+  <LingXCG_NoHeart.description>An implant chip eliminate emotion by suppressing brain, makes organism's mood never be influenced by anything,just like robot.</LingXCG_NoHeart.description>
+
+
+  <!-- 隐形 -->
+
+  <LingXCG_Invisible.label>optic distortion chip</LingXCG_Invisible.label>
+  <LingXCG_Invisible.description>An implant chip, its user becomes invisible to others, but decrease moving ability.</LingXCG_Invisible.description>
+
+
+  <!-- 防御 -->
+
+  <LingXCG_OldSkin.label>solidification skin chip</LingXCG_OldSkin.label>
+  <LingXCG_OldSkin.description>A chip makes the user's skin secrete deactivation-chemicals, which helps the user have tough skin and increases defence. But as a result of deactive skin, the capacity of natural recovery will be influenced.</LingXCG_OldSkin.description>
+
+
+  <!-- 包扎 -->
+
+  <LingXCG_AutoBandaging.label>auto-bandage chip</LingXCG_AutoBandaging.label>
+  <LingXCG_AutoBandaging.description>An implant chip can detect the user's wounds and bandage spontaneously. Because the low-tech AI in this chip has to derive knowledge from the user, the efficiency is limited by the user's medical level.</LingXCG_AutoBandaging.description>
+
+
+  <!-- 治病 -->
+
+  <LingXCG_AutoMedical.label>auto-cure chip</LingXCG_AutoMedical.label>
+  <LingXCG_AutoMedical.description>An implant chip can response the immune system cures the user when it finds diseases.Because the low-tech AI in this chip has to derive knowledge from the user, the efficiency is limited by the user's medical level.</LingXCG_AutoMedical.description>
+
+
+  <!-- 回血 -->
+
+  <LingXCG_BodyRegeneration.label>recovery acceleration chip</LingXCG_BodyRegeneration.label>
+  <LingXCG_BodyRegeneration.description>An implant chip can detect the user's wounds and help recover spontaneously. This chip accelerate recover, which is not influenced by natural recovery, because this is not a natural recovery.</LingXCG_BodyRegeneration.description>
+
+
+  <!-- 造肢 -->
+
+  <LingXCG_BodyReconstruction.label>limb construct chip</LingXCG_BodyReconstruction.label>
+  <LingXCG_BodyReconstruction.description>An implant chip can secrete substance to stimulate reconstruction of severed limbs. Each time repair 5%,and cost 10% energy.</LingXCG_BodyReconstruction.description>
+
+
+  <!-- 环境 -->
+
+  <LingXCG_EnvironmentalAdaptation.label>environmental adaptation chip</LingXCG_EnvironmentalAdaptation.label>
+  <LingXCG_EnvironmentalAdaptation.description>An implant chip can analyse ambient environment and adjust the user's body condition to adapt the extrem environment properly.</LingXCG_EnvironmentalAdaptation.description>
+
+
+  <!-- 思放 -->
+
+  <LingXCG_MentalRadiation.label>mental radiation chip</LingXCG_MentalRadiation.label>
+  <LingXCG_MentalRadiation.description>An implant chip can amplify the user's mood sensitivity. Besides, as a result of the brain is influenced in many areas , the work efficiency will be increased.</LingXCG_MentalRadiation.description>
+
+
+  <!-- 安神 -->
+
+  <LingXCG_Soothe.label>neuro-comfort chip</LingXCG_Soothe.label>
+  <LingXCG_Soothe.description>An implant chip releases soothe electromagnetic wave， making the user have higher resistance to breakdown and become easier to recover from breakdown.</LingXCG_Soothe.description>
+
+
+  <LingXCG_PsyAdd.label>essence convergence chip</LingXCG_PsyAdd.label>
+  <LingXCG_PsyAdd.description>A chip made from the core of pseudo-personality can help the installer gather mental power.</LingXCG_PsyAdd.description>
+
+
+  <!-- 战偶 -->
+
+  <LingXCG_FightPuppetC.label>flght puppet</LingXCG_FightPuppetC.label>
+  <LingXCG_FightPuppetC.description>Bionics scientists manufacture this core according to the energy style and features of the real fight puppet. It will give the user unbeatable power but absorb the life energy because no appropriate energy source can be prepared. The user will accelerate aging process.</LingXCG_FightPuppetC.description>
+
+
+</LanguageData>

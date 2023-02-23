@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ModMetaData>
+	<name>ZeroTech-Ability</name>
+	<author>LingLuo</author>
+	<supportedVersions>
+		<li>1.1</li>
+		<li>1.2</li>
+	</supportedVersions>
+	<packageId>LingLuo.ZeroTechAbility</packageId>
+	<description>零子科技-仿生拓展包
+	为什么精神力的变化要专注于那些人人都看着的东西呢,各种各样的花样多棒啊
+	物品简介
+	包扎:立即对一个目标身上至多5个伤口进行包扎
+	性转:变换对方的性别,对无性别生物无效
+	伤害汲取:将目标身上的所有伤口转移到自己身上
+	伤害之礼:将自己身上的所有伤口转移到目标身上
+	尸爆:给目标施加一个尸爆状态,如果目标在一天内死亡则会发生爆炸
+	充电:使指定电池的能量增加100Wd
+	闪烁:跃迁到指定目标,1.5秒后返回原位置
+	化兔:将目标变成兔子
+	兽群:召唤一群不分敌我的猎杀人类的野兽
+	</description>
+	<loadAfter>
+		<li>LingLuo.ZeroTechCore</li>
+	</loadAfter>
+</ModMetaData>

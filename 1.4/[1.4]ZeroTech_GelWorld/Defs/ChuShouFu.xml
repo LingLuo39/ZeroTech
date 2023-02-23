@@ -1,0 +1,495 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ApparelNoQualityBase">
+    <defName>Apparel_ChuShoouFu</defName>
+    <label>触手服</label>
+    <description>一款由激发了活性的触手所编织成的紧身服饰,可以高度的镇压穿着者,但会带来许多令人难以想象甚至是可怕的副作用,给穿着者带来沉重的心理打击.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/ChuShouFu/ChuShouFu</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>0.05</Mass>
+      <EquipDelay>5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <SlaveSuppressionOffset>0.5</SlaveSuppressionOffset>
+    </equippedStatOffsets>
+    <smeltable>False</smeltable>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/ChuShouFu/ChuShouFu</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>Sexx</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Sexx</li>
+        <li>Slave</li>
+      </defaultOutfitTags>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+    </apparel>
+    <comps>
+      <li Class="CompProperties_CauseHediff_Apparel">
+        <hediff>ToucherOnBody</hediff>
+        <part>Torso</part>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  <RecipeDef>
+    <defName>MakeApparel_ChuShoouFu</defName>
+    <label>激活触手服</label>
+    <description>激活触手服</description>
+    <jobString>激活触手服</jobString>
+    <effectWorking>Cremate</effectWorking>
+    <workAmount>900</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <soundWorking>Recipe_Smith</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ZeroTechGel</li>
+          </thingDefs>
+        </filter>
+        <count>100</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>75</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ComponentIndustrial</li>
+        <li>ZeroTechGel</li>
+        <li>Chemfuel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Apparel_ChuShoouFu>1</Apparel_ChuShoouFu>
+    </products>
+	<recipeUsers>
+	  <li>TableMachining</li>
+	</recipeUsers>
+  </RecipeDef>
+  
+  <HediffDef>
+    <defName>ToucherOnBody</defName>
+    <label>触手缠身</label>
+    <description>触手服缠绕在了你的身上,它平时不会有什么影响,但会时常性的带来一些奇妙的影响</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <stages>
+      <li>
+        <hediffGivers>
+          <li Class="HediffGiver_Random">
+            <hediff>ToucherToSensitive</hediff>
+            <mtbDays>60</mtbDays>
+          </li>
+          <li Class="HediffGiver_Random">
+            <hediff>ToucherToShuFu</hediff>
+            <mtbDays>60</mtbDays>
+			<partsToAffect>
+			  <li>Leg</li>
+			  <li>Shoulder</li>
+			</partsToAffect>
+          </li>
+          <li Class="HediffGiver_Random">
+            <hediff>ToucherToDianChu</hediff>
+            <mtbDays>10</mtbDays>
+			<partsToAffect>
+			  <li>Leg</li>
+			  <li>Shoulder</li>
+			  <li>Torso</li>
+			</partsToAffect>
+          </li>
+          <li Class="HediffGiver_Random">
+            <hediff>ToucherToChaRuLite</hediff>
+            <mtbDays>80</mtbDays>
+			<partsToAffect>
+			  <li>Eye</li>
+			  <li>Ear</li>
+			  <li>Jaw</li>
+			</partsToAffect>
+          </li>
+          <li Class="HediffGiver_Random">
+            <hediff>ToucherToHigh</hediff>
+            <mtbDays>90</mtbDays>
+			<partsToAffect>
+			  <li>Brain</li>
+			</partsToAffect>
+          </li>
+          <li Class="HediffGiver_Random">
+            <hediff>ToucherToHighEd</hediff>
+            <mtbDays>120</mtbDays>
+			<partsToAffect>
+			  <li>Brain</li>
+			</partsToAffect>
+          </li>
+          <li Class="HediffGiver_Random">
+            <hediff>ToucherToStudent</hediff>
+            <mtbDays>40</mtbDays>
+			<partsToAffect>
+			  <li>Brain</li>
+			</partsToAffect>
+          </li>
+          <li Class="HediffGiver_Random">
+            <hediff>ToucherToHighLite</hediff>
+            <mtbDays>30</mtbDays>
+			<partsToAffect>
+			  <li>Brain</li>
+			</partsToAffect>
+          </li>
+          <li Class="HediffGiver_Random">
+            <hediff>ToucherToMoving</hediff>
+            <mtbDays>40</mtbDays>
+			<partsToAffect>
+			  <li>Leg</li>
+			</partsToAffect>
+          </li>
+          <li Class="HediffGiver_Random">
+            <hediff>ToucherToManipulation</hediff>
+            <mtbDays>40</mtbDays>
+			<partsToAffect>
+			  <li>Shoulder</li>
+			</partsToAffect>
+          </li>
+        </hediffGivers>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_RemoveIfApparelDropped" />
+    </comps>
+    <isBad>false</isBad>
+  </HediffDef>
+  
+  
+  <HediffDef>
+    <defName>ToucherToSensitive</defName>
+    <label>敏感化</label>
+    <description>由于触手分泌的激素,导致身体变得敏感</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <maxSeverity>1</maxSeverity>
+    <stages>
+      <li>
+        <painFactor>2</painFactor>
+        <statOffsets>
+            <IncomingDamageFactor>0.5</IncomingDamageFactor>
+		  </statOffsets>
+        <statFactors>
+		</statFactors>
+        <statOffsetEffectMultiplier>
+		</statOffsetEffectMultiplier>
+        <statFactorEffectMultiplier>
+		</statFactorEffectMultiplier>
+        <capMods>
+            <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.15</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-1</severityPerDay>
+      </li>
+    </comps>
+  </HediffDef>
+  
+  <HediffDef>
+    <defName>ToucherToShuFu</defName>
+    <label>过度束缚</label>
+    <description>由于触手不可控的缠绕,导致四肢被束缚</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <maxSeverity>1</maxSeverity>
+    <stages>
+      <li>
+        <partEfficiencyOffset>-0.1</partEfficiencyOffset>
+        <painOffset>0.05</painOffset>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-1</severityPerDay>
+      </li>
+    </comps>
+  </HediffDef>
+  
+  <HediffDef>
+    <defName>ToucherToDianChu</defName>
+    <label>触手刺激</label>
+    <description>触手尖端释放的静电带来的刺激,会轻微的影响意识</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <maxSeverity>1</maxSeverity>
+    <stages>
+      <li>
+        <capMods>
+            <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.01</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-2</severityPerDay>
+      </li>
+    </comps>
+  </HediffDef>
+  
+  <ThoughtDef>
+    <defName>ToucherToDianChu</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>ToucherToDianChu</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stackLimit>20</stackLimit>
+    <stackedEffectMultiplier>1</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>触手刺激</label>
+        <description>有什么东西在我的体表游走着,很怪异,但....</description>
+        <baseMoodEffect>1</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <HediffDef>
+    <defName>ToucherToChaRuLite</defName>
+    <label>触手插入</label>
+    <description>触手的尖端从体表的孔洞延伸了进去,严重阻碍了对应器官的功能</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <maxSeverity>1</maxSeverity>
+    <stages>
+      <li>
+        <partEfficiencyOffset>-0.4</partEfficiencyOffset>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-2</severityPerDay>
+      </li>
+    </comps>
+  </HediffDef>
+  
+  <HediffDef>
+    <defName>ToucherToHigh</defName>
+    <label>乐思信号</label>
+    <description>触手延伸出的信号线在体内释放的强烈的神经刺激,能够使穿戴者变得极端兴奋,但会一定程度的影响意识</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <maxSeverity>1</maxSeverity>
+    <stages>
+      <li>
+        <capMods>
+            <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.1</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-2</severityPerDay>
+      </li>
+    </comps>
+  </HediffDef>
+  
+  <ThoughtDef>
+    <defName>ToucherToHigh</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>ToucherToHigh</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>乐思信号</label>
+        <description>有什么在我的身体里活跃着,这感觉真是太让人兴奋了</description>
+        <baseMoodEffect>30</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <HediffDef>
+    <defName>ToucherToHighEd</defName>
+    <label>崩溃信号</label>
+    <description>触手延伸出的信号线在体内释放的极端的神经刺激,在带来强烈刺激的情况下几乎瘫痪了穿戴者</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <maxSeverity>1</maxSeverity>
+    <stages>
+      <li>
+        <capMods>
+            <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.31</setMax>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-2</severityPerDay>
+      </li>
+    </comps>
+  </HediffDef>
+  
+  <ThoughtDef>
+    <defName>ToucherToHighEd</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>ToucherToHighEd</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>崩溃信号</label>
+        <description>这....</description>
+        <baseMoodEffect>80</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <HediffDef>
+    <defName>ToucherToStudent</defName>
+    <label>精神辅助</label>
+    <description>触手对大脑可控化的入侵,一定程度的提高了穿戴者的意识和学习能力</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <maxSeverity>1</maxSeverity>
+    <stages>
+      <li>
+		<statFactors>
+		  <GlobalLearningFactor>2</GlobalLearningFactor>
+		</statFactors>
+        <statOffsetEffectMultiplier>
+		</statOffsetEffectMultiplier>
+        <statFactorEffectMultiplier>
+		</statFactorEffectMultiplier>
+        <capMods>
+            <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.10</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.1</severityPerDay>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <HediffDef>
+    <defName>ToucherToHighLite</defName>
+    <label>抚慰信号</label>
+    <description>触手延伸出的信号线在体内释放的微弱的神经刺激,使得穿戴者的心情能得到一定的改善</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <maxSeverity>1</maxSeverity>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.5</severityPerDay>
+      </li>
+    </comps>
+  </HediffDef>
+  
+  <ThoughtDef>
+    <defName>ToucherToHighLite</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>ToucherToHighLite</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>抚慰信号</label>
+        <description>有一种奇怪的感觉让我感觉很舒服...</description>
+        <baseMoodEffect>10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+
+  <HediffDef>
+    <defName>ToucherToMoving</defName>
+    <label>触手辅足</label>
+    <description>附着在穿戴者下肢的辅助触手,可以帮助穿戴者更快的释放肌肉积累的压力并轻度提升运动的效率</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <maxSeverity>1</maxSeverity>
+    <stages>
+      <li>
+        <capMods>
+            <li>
+            <capacity>Moving</capacity>
+            <offset>0.2</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-2</severityPerDay>
+      </li>
+    </comps>
+  </HediffDef>
+  
+  <HediffDef>
+    <defName>ToucherToManipulation</defName>
+    <label>触手辅肢</label>
+    <description>附着在穿戴者上肢的辅助触手,可以帮助穿戴者更快的释放肌肉积累的压力并轻度提升工作的效率</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <maxSeverity>1</maxSeverity>
+    <stages>
+      <li>
+        <capMods>
+            <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.2</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-2</severityPerDay>
+      </li>
+    </comps>
+  </HediffDef>
+  
+  <!-- <HediffDef>
+    <defName>ToucherToFight</defName>
+    <label>捕猎触手</label>
+    <description>外形恐怖的触手,平时不可见,当穿戴者进行战斗时会出现撕咬敌人,其咬合力不劣于大型萌禽.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <maxSeverity>1</maxSeverity>
+    <stages>
+      <li>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.2</severityPerDay>
+      </li>
+    </comps>
+  </HediffDef> -->
+
+</Defs>
