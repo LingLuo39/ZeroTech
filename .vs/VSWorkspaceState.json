@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\1.4",
     "\\1.4\\[1.4]ZeroTech_GelWorld",
-    "\\1.4\\[1.4]ZeroTech_GelWorld\\Defs"
+    "\\1.4\\[1.4]ZeroTech_GelWorld\\About"
   ],
-  "SelectedNode": "\\1.4",
+  "SelectedNode": "\\1.4\\[1.4]ZeroTech_GelWorld",
   "PreviewInSolutionExplorer": false
 }
