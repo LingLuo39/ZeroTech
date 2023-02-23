@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="MechSerumBase">
+    <defName>LingZeroTechCore</defName>
+    <label>零子核心</label>
+    <description>一个奇怪的事物,看起来又像瓶盖,又像水晶或者怀表,你有一种预感,你将其视为什么事物,它就能发挥什么作用.
+    一枚神奇的瓶盖,即使是手持都会感到奇妙的愉悦感,甚至想将其塞进你的***里,如果仔细观察会发现这枚瓶盖绿色外壳内部精细的构造在自行的运转着,仿佛记录着什么数据.
+    一颗外表看起来十分漂亮的多彩水晶,如果尝试用手捏一下你会发现这实际上是一团凝胶的聚合物,但其中似乎蕴含着极大的能量,不过直接破坏这团凝胶似乎无法释放这部分能量.
+    一块陈旧的怀表,当你试图注视表盘的时候,会有一种灵魂被抽离的感觉,如果你试图将其翻新,就会发现无论怎么操作,这块表都会飞快的老化.</description>
+    <graphicData>
+      <texPath>Things/Item/LingZeroTechBottleCap</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingCategories>
+      <li>Artifacts</li>
+    </thingCategories>
+    <stackLimit>1</stackLimit>
+    <tradeNeverStack>true</tradeNeverStack>
+    <statBases>
+      <MarketValue>900</MarketValue>
+    </statBases>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <comps>
+    </comps>
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
+  </ThingDef>
+
+ 
+</Defs>

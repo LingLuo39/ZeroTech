@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakeLingZeroTechBottleCap.label>制作零子机械核心</MakeLingZeroTechBottleCap.label>
+  <MakeLingZeroTechBottleCap.description>制作零子机械核心.</MakeLingZeroTechBottleCap.description>
+  <MakeLingZeroTechBottleCap.jobString>制作零子机械核心中.</MakeLingZeroTechBottleCap.jobString>
+
+  <MakeAIPersonaCoreUseLingZeroTechBottleCap.label>制作AI伪人格核心</MakeAIPersonaCoreUseLingZeroTechBottleCap.label>
+  <MakeAIPersonaCoreUseLingZeroTechBottleCap.description>制作AI伪人格核心.</MakeAIPersonaCoreUseLingZeroTechBottleCap.description>
+  <MakeAIPersonaCoreUseLingZeroTechBottleCap.jobString>制作AI伪人格核心.</MakeAIPersonaCoreUseLingZeroTechBottleCap.jobString>
+
+
+</LanguageData>

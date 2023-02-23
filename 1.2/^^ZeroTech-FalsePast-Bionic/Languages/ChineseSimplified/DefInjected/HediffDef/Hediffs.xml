@@ -1,0 +1,528 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- plain white -->
+
+  <LingFPS_Blank_Brain.label>素白仿生大脑</LingFPS_Blank_Brain.label>
+  <LingFPS_Blank_Brain.description>一个植入人体的素白仿生模块，其效果会随着时间流逝而增强</LingFPS_Blank_Brain.description>
+  <LingFPS_Blank_Brain.stages.0.label>生长期</LingFPS_Blank_Brain.stages.0.label>
+  <LingFPS_Blank_Brain.stages.1.label>发展期</LingFPS_Blank_Brain.stages.1.label>
+  <LingFPS_Blank_Brain.stages.2.label>巩固期</LingFPS_Blank_Brain.stages.2.label>
+  <LingFPS_Blank_Brain.stages.3.label>完全期</LingFPS_Blank_Brain.stages.3.label>
+  <LingFPS_Blank_Brain.labelNoun>肢体</LingFPS_Blank_Brain.labelNoun>
+
+  <LingFPS_Blank_Eye.label>素白仿生眼</LingFPS_Blank_Eye.label>
+  <LingFPS_Blank_Eye.description>一个植入人体的素白仿生模块，其效果会随着时间流逝而增强</LingFPS_Blank_Eye.description>
+  <LingFPS_Blank_Eye.stages.0.label>生长期</LingFPS_Blank_Eye.stages.0.label>
+  <LingFPS_Blank_Eye.stages.1.label>发展期</LingFPS_Blank_Eye.stages.1.label>
+  <LingFPS_Blank_Eye.stages.2.label>巩固期</LingFPS_Blank_Eye.stages.2.label>
+  <LingFPS_Blank_Eye.stages.3.label>完全期</LingFPS_Blank_Eye.stages.3.label>
+  <LingFPS_Blank_Eye.labelNoun>肢体</LingFPS_Blank_Eye.labelNoun>
+
+  <LingFPS_Blank_Ear.label>素白仿生耳</LingFPS_Blank_Ear.label>
+  <LingFPS_Blank_Ear.description>一个植入人体的素白仿生模块，其效果会随着时间流逝而增强</LingFPS_Blank_Ear.description>
+  <LingFPS_Blank_Ear.stages.0.label>生长期</LingFPS_Blank_Ear.stages.0.label>
+  <LingFPS_Blank_Ear.stages.1.label>发展期</LingFPS_Blank_Ear.stages.1.label>
+  <LingFPS_Blank_Ear.stages.2.label>巩固期</LingFPS_Blank_Ear.stages.2.label>
+  <LingFPS_Blank_Ear.stages.3.label>完全期</LingFPS_Blank_Ear.stages.3.label>
+  <LingFPS_Blank_Ear.labelNoun>肢体</LingFPS_Blank_Ear.labelNoun>
+
+  <LingFPS_Blank_Nose.label>素白仿生鼻</LingFPS_Blank_Nose.label>
+  <LingFPS_Blank_Nose.description>一个植入人体的素白仿生模块，其效果会随着时间流逝而增强</LingFPS_Blank_Nose.description>
+  <LingFPS_Blank_Nose.stages.0.label>生长期</LingFPS_Blank_Nose.stages.0.label>
+  <LingFPS_Blank_Nose.stages.1.label>发展期</LingFPS_Blank_Nose.stages.1.label>
+  <LingFPS_Blank_Nose.stages.2.label>巩固期</LingFPS_Blank_Nose.stages.2.label>
+  <LingFPS_Blank_Nose.stages.3.label>完全期</LingFPS_Blank_Nose.stages.3.label>
+  <LingFPS_Blank_Nose.labelNoun>肢体</LingFPS_Blank_Nose.labelNoun>
+
+  <LingFPS_Blank_Jaw.label>素白仿生颌</LingFPS_Blank_Jaw.label>
+  <LingFPS_Blank_Jaw.description>一个植入人体的素白仿生模块，其效果会随着时间流逝而增强</LingFPS_Blank_Jaw.description>
+  <LingFPS_Blank_Jaw.stages.0.label>生长期</LingFPS_Blank_Jaw.stages.0.label>
+  <LingFPS_Blank_Jaw.stages.1.label>发展期</LingFPS_Blank_Jaw.stages.1.label>
+  <LingFPS_Blank_Jaw.stages.2.label>巩固期</LingFPS_Blank_Jaw.stages.2.label>
+  <LingFPS_Blank_Jaw.stages.3.label>完全期</LingFPS_Blank_Jaw.stages.3.label>
+  <LingFPS_Blank_Jaw.labelNoun>肢体</LingFPS_Blank_Jaw.labelNoun>
+
+  <LingFPS_Blank_Spine.label>素白仿生脊椎</LingFPS_Blank_Spine.label>
+  <LingFPS_Blank_Spine.description>一个植入人体的素白仿生模块，其效果会随着时间流逝而增强</LingFPS_Blank_Spine.description>
+  <LingFPS_Blank_Spine.stages.0.label>生长期</LingFPS_Blank_Spine.stages.0.label>
+  <LingFPS_Blank_Spine.stages.1.label>发展期</LingFPS_Blank_Spine.stages.1.label>
+  <LingFPS_Blank_Spine.stages.2.label>巩固期</LingFPS_Blank_Spine.stages.2.label>
+  <LingFPS_Blank_Spine.stages.3.label>完全期</LingFPS_Blank_Spine.stages.3.label>
+  <LingFPS_Blank_Spine.labelNoun>肢体</LingFPS_Blank_Spine.labelNoun>
+
+  <LingFPS_Blank_Sternum.label>素白仿生胸骨</LingFPS_Blank_Sternum.label>
+  <LingFPS_Blank_Sternum.description>一个植入人体的素白仿生模块，其效果会随着时间流逝而增强</LingFPS_Blank_Sternum.description>
+  <LingFPS_Blank_Sternum.stages.0.label>生长期</LingFPS_Blank_Sternum.stages.0.label>
+  <LingFPS_Blank_Sternum.stages.1.label>发展期</LingFPS_Blank_Sternum.stages.1.label>
+  <LingFPS_Blank_Sternum.stages.2.label>巩固期</LingFPS_Blank_Sternum.stages.2.label>
+  <LingFPS_Blank_Sternum.stages.3.label>完全期</LingFPS_Blank_Sternum.stages.3.label>
+  <LingFPS_Blank_Sternum.labelNoun>肢体</LingFPS_Blank_Sternum.labelNoun>
+
+  <LingFPS_Blank_Clavicle.label>素白仿生锁骨</LingFPS_Blank_Clavicle.label>
+  <LingFPS_Blank_Clavicle.description>一个植入人体的素白仿生模块，其效果会随着时间流逝而增强</LingFPS_Blank_Clavicle.description>
+  <LingFPS_Blank_Clavicle.stages.0.label>生长期</LingFPS_Blank_Clavicle.stages.0.label>
+  <LingFPS_Blank_Clavicle.stages.1.label>发展期</LingFPS_Blank_Clavicle.stages.1.label>
+  <LingFPS_Blank_Clavicle.stages.2.label>巩固期</LingFPS_Blank_Clavicle.stages.2.label>
+  <LingFPS_Blank_Clavicle.stages.3.label>完全期</LingFPS_Blank_Clavicle.stages.3.label>
+  <LingFPS_Blank_Clavicle.labelNoun>肢体</LingFPS_Blank_Clavicle.labelNoun>
+
+  <LingFPS_Blank_Pelvis.label>素白仿生骨盆</LingFPS_Blank_Pelvis.label>
+  <LingFPS_Blank_Pelvis.description>一个植入人体的素白仿生模块，其效果会随着时间流逝而增强</LingFPS_Blank_Pelvis.description>
+  <LingFPS_Blank_Pelvis.stages.0.label>生长期</LingFPS_Blank_Pelvis.stages.0.label>
+  <LingFPS_Blank_Pelvis.stages.1.label>发展期</LingFPS_Blank_Pelvis.stages.1.label>
+  <LingFPS_Blank_Pelvis.stages.2.label>巩固期</LingFPS_Blank_Pelvis.stages.2.label>
+  <LingFPS_Blank_Pelvis.stages.3.label>完全期</LingFPS_Blank_Pelvis.stages.3.label>
+  <LingFPS_Blank_Pelvis.labelNoun>肢体</LingFPS_Blank_Pelvis.labelNoun>
+
+  <LingFPS_Blank_Humerus.label>素白仿生肱骨</LingFPS_Blank_Humerus.label>
+  <LingFPS_Blank_Humerus.description>一个植入人体的素白仿生模块，其效果会随着时间流逝而增强</LingFPS_Blank_Humerus.description>
+  <LingFPS_Blank_Humerus.stages.0.label>生长期</LingFPS_Blank_Humerus.stages.0.label>
+  <LingFPS_Blank_Humerus.stages.1.label>发展期</LingFPS_Blank_Humerus.stages.1.label>
+  <LingFPS_Blank_Humerus.stages.2.label>巩固期</LingFPS_Blank_Humerus.stages.2.label>
+  <LingFPS_Blank_Humerus.stages.3.label>完全期</LingFPS_Blank_Humerus.stages.3.label>
+  <LingFPS_Blank_Humerus.labelNoun>肢体</LingFPS_Blank_Humerus.labelNoun>
+
+  <LingFPS_Blank_Radius.label>素白仿生桡骨</LingFPS_Blank_Radius.label>
+  <LingFPS_Blank_Radius.description>一个植入人体的素白仿生模块，其效果会随着时间流逝而增强</LingFPS_Blank_Radius.description>
+  <LingFPS_Blank_Radius.stages.0.label>生长期</LingFPS_Blank_Radius.stages.0.label>
+  <LingFPS_Blank_Radius.stages.1.label>发展期</LingFPS_Blank_Radius.stages.1.label>
+  <LingFPS_Blank_Radius.stages.2.label>巩固期</LingFPS_Blank_Radius.stages.2.label>
+  <LingFPS_Blank_Radius.stages.3.label>完全期</LingFPS_Blank_Radius.stages.3.label>
+  <LingFPS_Blank_Radius.labelNoun>肢体</LingFPS_Blank_Radius.labelNoun>
+
+  <LingFPS_Blank_Hand.label>素白仿生手</LingFPS_Blank_Hand.label>
+  <LingFPS_Blank_Hand.description>一个植入人体的素白仿生模块，其效果会随着时间流逝而增强</LingFPS_Blank_Hand.description>
+  <LingFPS_Blank_Hand.comps.2.tools.0.label>拳头</LingFPS_Blank_Hand.comps.2.tools.0.label>
+  <LingFPS_Blank_Hand.stages.0.label>生长期</LingFPS_Blank_Hand.stages.0.label>
+  <LingFPS_Blank_Hand.stages.1.label>发展期</LingFPS_Blank_Hand.stages.1.label>
+  <LingFPS_Blank_Hand.stages.2.label>巩固期</LingFPS_Blank_Hand.stages.2.label>
+  <LingFPS_Blank_Hand.stages.3.label>完全期</LingFPS_Blank_Hand.stages.3.label>
+  <LingFPS_Blank_Hand.labelNoun>肢体</LingFPS_Blank_Hand.labelNoun>
+
+  <LingFPS_Blank_Femur.label>素白仿生股骨</LingFPS_Blank_Femur.label>
+  <LingFPS_Blank_Femur.description>一个植入人体的素白仿生模块，其效果会随着时间流逝而增强</LingFPS_Blank_Femur.description>
+  <LingFPS_Blank_Femur.stages.0.label>生长期</LingFPS_Blank_Femur.stages.0.label>
+  <LingFPS_Blank_Femur.stages.1.label>发展期</LingFPS_Blank_Femur.stages.1.label>
+  <LingFPS_Blank_Femur.stages.2.label>巩固期</LingFPS_Blank_Femur.stages.2.label>
+  <LingFPS_Blank_Femur.stages.3.label>完全期</LingFPS_Blank_Femur.stages.3.label>
+  <LingFPS_Blank_Femur.labelNoun>肢体</LingFPS_Blank_Femur.labelNoun>
+
+  <LingFPS_Blank_Tibia.label>素白仿生胫骨</LingFPS_Blank_Tibia.label>
+  <LingFPS_Blank_Tibia.description>一个植入人体的素白仿生模块，其效果会随着时间流逝而增强</LingFPS_Blank_Tibia.description>
+  <LingFPS_Blank_Tibia.stages.0.label>生长期</LingFPS_Blank_Tibia.stages.0.label>
+  <LingFPS_Blank_Tibia.stages.1.label>发展期</LingFPS_Blank_Tibia.stages.1.label>
+  <LingFPS_Blank_Tibia.stages.2.label>巩固期</LingFPS_Blank_Tibia.stages.2.label>
+  <LingFPS_Blank_Tibia.stages.3.label>完全期</LingFPS_Blank_Tibia.stages.3.label>
+  <LingFPS_Blank_Tibia.labelNoun>肢体</LingFPS_Blank_Tibia.labelNoun>
+
+  <LingFPS_Blank_Foot.label>素白仿生足</LingFPS_Blank_Foot.label>
+  <LingFPS_Blank_Foot.description>一个植入人体的素白仿生模块，其效果会随着时间流逝而增强</LingFPS_Blank_Foot.description>
+  <LingFPS_Blank_Foot.stages.0.label>生长期</LingFPS_Blank_Foot.stages.0.label>
+  <LingFPS_Blank_Foot.stages.1.label>发展期</LingFPS_Blank_Foot.stages.1.label>
+  <LingFPS_Blank_Foot.stages.2.label>巩固期</LingFPS_Blank_Foot.stages.2.label>
+  <LingFPS_Blank_Foot.stages.3.label>完全期</LingFPS_Blank_Foot.stages.3.label>
+  <LingFPS_Blank_Foot.labelNoun>肢体</LingFPS_Blank_Foot.labelNoun>
+
+  <LingFPS_Blank_Heart.label>素白仿生心</LingFPS_Blank_Heart.label>
+  <LingFPS_Blank_Heart.description>一个植入人体的素白仿生模块，其效果会随着时间流逝而增强</LingFPS_Blank_Heart.description>
+  <LingFPS_Blank_Heart.stages.0.label>生长期</LingFPS_Blank_Heart.stages.0.label>
+  <LingFPS_Blank_Heart.stages.1.label>发展期</LingFPS_Blank_Heart.stages.1.label>
+  <LingFPS_Blank_Heart.stages.2.label>巩固期</LingFPS_Blank_Heart.stages.2.label>
+  <LingFPS_Blank_Heart.stages.3.label>完全期</LingFPS_Blank_Heart.stages.3.label>
+  <LingFPS_Blank_Heart.labelNoun>肢体</LingFPS_Blank_Heart.labelNoun>
+
+  <LingFPS_Blank_Kidney.label>素白仿生肾</LingFPS_Blank_Kidney.label>
+  <LingFPS_Blank_Kidney.description>一个植入人体的素白仿生模块，其效果会随着时间流逝而增强</LingFPS_Blank_Kidney.description>
+  <LingFPS_Blank_Kidney.stages.0.label>生长期</LingFPS_Blank_Kidney.stages.0.label>
+  <LingFPS_Blank_Kidney.stages.1.label>发展期</LingFPS_Blank_Kidney.stages.1.label>
+  <LingFPS_Blank_Kidney.stages.2.label>巩固期</LingFPS_Blank_Kidney.stages.2.label>
+  <LingFPS_Blank_Kidney.stages.3.label>完全期</LingFPS_Blank_Kidney.stages.3.label>
+  <LingFPS_Blank_Kidney.labelNoun>肢体</LingFPS_Blank_Kidney.labelNoun>
+
+  <LingFPS_Blank_Liver.label>素白仿生肝</LingFPS_Blank_Liver.label>
+  <LingFPS_Blank_Liver.description>一个植入人体的素白仿生模块，其效果会随着时间流逝而增强</LingFPS_Blank_Liver.description>
+  <LingFPS_Blank_Liver.stages.0.label>生长期</LingFPS_Blank_Liver.stages.0.label>
+  <LingFPS_Blank_Liver.stages.1.label>发展期</LingFPS_Blank_Liver.stages.1.label>
+  <LingFPS_Blank_Liver.stages.2.label>巩固期</LingFPS_Blank_Liver.stages.2.label>
+  <LingFPS_Blank_Liver.stages.3.label>完全期</LingFPS_Blank_Liver.stages.3.label>
+  <LingFPS_Blank_Liver.labelNoun>肢体</LingFPS_Blank_Liver.labelNoun>
+
+  <LingFPS_Blank_Lung.label>素白仿生肺</LingFPS_Blank_Lung.label>
+  <LingFPS_Blank_Lung.description>一个植入人体的素白仿生模块，其效果会随着时间流逝而增强</LingFPS_Blank_Lung.description>
+  <LingFPS_Blank_Lung.stages.0.label>生长期</LingFPS_Blank_Lung.stages.0.label>
+  <LingFPS_Blank_Lung.stages.1.label>发展期</LingFPS_Blank_Lung.stages.1.label>
+  <LingFPS_Blank_Lung.stages.2.label>巩固期</LingFPS_Blank_Lung.stages.2.label>
+  <LingFPS_Blank_Lung.stages.3.label>完全期</LingFPS_Blank_Lung.stages.3.label>
+  <LingFPS_Blank_Lung.labelNoun>肢体</LingFPS_Blank_Lung.labelNoun>
+
+  <LingFPS_Blank_Stomach.label>素白仿生胃</LingFPS_Blank_Stomach.label>
+  <LingFPS_Blank_Stomach.description>一个植入人体的素白仿生模块，其效果会随着时间流逝而增强</LingFPS_Blank_Stomach.description>
+  <LingFPS_Blank_Stomach.stages.0.label>生长期</LingFPS_Blank_Stomach.stages.0.label>
+  <LingFPS_Blank_Stomach.stages.1.label>发展期</LingFPS_Blank_Stomach.stages.1.label>
+  <LingFPS_Blank_Stomach.stages.2.label>巩固期</LingFPS_Blank_Stomach.stages.2.label>
+  <LingFPS_Blank_Stomach.stages.3.label>完全期</LingFPS_Blank_Stomach.stages.3.label>
+  <LingFPS_Blank_Stomach.labelNoun>肢体</LingFPS_Blank_Stomach.labelNoun>
+
+  <LingFPS_Blank_TaoZhuang.label>素白色的礼赞</LingFPS_Blank_TaoZhuang.label>
+  <LingFPS_Blank_TaoZhuang.description>来自素白仿生模组之间的共鸣效果，可以给安装者带来极大的增幅，每安装5件同类型的仿生，其效果便会增强一级，最高五级。</LingFPS_Blank_TaoZhuang.description>
+  <LingFPS_Blank_TaoZhuang.stages.0.label>lv.0</LingFPS_Blank_TaoZhuang.stages.0.label>
+  <LingFPS_Blank_TaoZhuang.stages.1.label>lv.1</LingFPS_Blank_TaoZhuang.stages.1.label>
+  <LingFPS_Blank_TaoZhuang.stages.2.label>lv.2</LingFPS_Blank_TaoZhuang.stages.2.label>
+  <LingFPS_Blank_TaoZhuang.stages.3.label>lv.3</LingFPS_Blank_TaoZhuang.stages.3.label>
+  <LingFPS_Blank_TaoZhuang.stages.4.label>lv.4</LingFPS_Blank_TaoZhuang.stages.4.label>
+  <LingFPS_Blank_TaoZhuang.stages.5.label>lv.5</LingFPS_Blank_TaoZhuang.stages.5.label>
+  <LingFPS_Blank_TaoZhuang.stages.6.label>lv.6</LingFPS_Blank_TaoZhuang.stages.6.label>
+
+
+  <!-- red blood -->
+
+  <LingFPS_Blood_Brain.label>赤血仿生大脑</LingFPS_Blood_Brain.label>
+  <LingFPS_Blood_Brain.description>一个植入人体的赤血仿生模块，其效果会随着时间流逝而削弱，但进行杀戮时可强化</LingFPS_Blood_Brain.description>
+  <LingFPS_Blood_Brain.stages.0.label>渴血</LingFPS_Blood_Brain.stages.0.label>
+  <LingFPS_Blood_Brain.stages.1.label>血涌</LingFPS_Blood_Brain.stages.1.label>
+  <LingFPS_Blood_Brain.stages.2.label>血动</LingFPS_Blood_Brain.stages.2.label>
+  <LingFPS_Blood_Brain.stages.3.label>血沸</LingFPS_Blood_Brain.stages.3.label>
+  <LingFPS_Blood_Brain.labelNoun>肢体</LingFPS_Blood_Brain.labelNoun>
+
+  <LingFPS_Blood_Eye.label>赤血仿生眼</LingFPS_Blood_Eye.label>
+  <LingFPS_Blood_Eye.description>一个植入人体的赤血仿生模块，其效果会随着时间流逝而削弱，但进行杀戮时可强化</LingFPS_Blood_Eye.description>
+  <LingFPS_Blood_Eye.stages.0.label>渴血</LingFPS_Blood_Eye.stages.0.label>
+  <LingFPS_Blood_Eye.stages.1.label>血涌</LingFPS_Blood_Eye.stages.1.label>
+  <LingFPS_Blood_Eye.stages.2.label>血动</LingFPS_Blood_Eye.stages.2.label>
+  <LingFPS_Blood_Eye.stages.3.label>血沸</LingFPS_Blood_Eye.stages.3.label>
+  <LingFPS_Blood_Eye.labelNoun>肢体</LingFPS_Blood_Eye.labelNoun>
+
+  <LingFPS_Blood_Ear.label>赤血仿生耳</LingFPS_Blood_Ear.label>
+  <LingFPS_Blood_Ear.description>一个植入人体的赤血仿生模块，其效果会随着时间流逝而削弱，但进行杀戮时可强化</LingFPS_Blood_Ear.description>
+  <LingFPS_Blood_Ear.stages.0.label>渴血</LingFPS_Blood_Ear.stages.0.label>
+  <LingFPS_Blood_Ear.stages.1.label>血涌</LingFPS_Blood_Ear.stages.1.label>
+  <LingFPS_Blood_Ear.stages.2.label>血动</LingFPS_Blood_Ear.stages.2.label>
+  <LingFPS_Blood_Ear.stages.3.label>血沸</LingFPS_Blood_Ear.stages.3.label>
+  <LingFPS_Blood_Ear.labelNoun>肢体</LingFPS_Blood_Ear.labelNoun>
+
+  <LingFPS_Blood_Nose.label>赤血仿生鼻</LingFPS_Blood_Nose.label>
+  <LingFPS_Blood_Nose.description>一个植入人体的赤血仿生模块，其效果会随着时间流逝而削弱，但进行杀戮时可强化</LingFPS_Blood_Nose.description>
+  <LingFPS_Blood_Nose.stages.0.label>渴血</LingFPS_Blood_Nose.stages.0.label>
+  <LingFPS_Blood_Nose.stages.1.label>血涌</LingFPS_Blood_Nose.stages.1.label>
+  <LingFPS_Blood_Nose.stages.2.label>血动</LingFPS_Blood_Nose.stages.2.label>
+  <LingFPS_Blood_Nose.stages.3.label>血沸</LingFPS_Blood_Nose.stages.3.label>
+  <LingFPS_Blood_Nose.labelNoun>肢体</LingFPS_Blood_Nose.labelNoun>
+
+  <LingFPS_Blood_Jaw.label>赤血仿生颌</LingFPS_Blood_Jaw.label>
+  <LingFPS_Blood_Jaw.description>一个植入人体的赤血仿生模块，其效果会随着时间流逝而削弱，但进行杀戮时可强化</LingFPS_Blood_Jaw.description>
+  <LingFPS_Blood_Jaw.stages.0.label>渴血</LingFPS_Blood_Jaw.stages.0.label>
+  <LingFPS_Blood_Jaw.stages.1.label>血涌</LingFPS_Blood_Jaw.stages.1.label>
+  <LingFPS_Blood_Jaw.stages.2.label>血动</LingFPS_Blood_Jaw.stages.2.label>
+  <LingFPS_Blood_Jaw.stages.3.label>血沸</LingFPS_Blood_Jaw.stages.3.label>
+  <LingFPS_Blood_Jaw.labelNoun>肢体</LingFPS_Blood_Jaw.labelNoun>
+
+  <LingFPS_Blood_Spine.label>赤血仿生脊椎</LingFPS_Blood_Spine.label>
+  <LingFPS_Blood_Spine.description>一个植入人体的赤血仿生模块，其效果会随着时间流逝而削弱，但进行杀戮时可强化</LingFPS_Blood_Spine.description>
+  <LingFPS_Blood_Spine.stages.0.label>渴血</LingFPS_Blood_Spine.stages.0.label>
+  <LingFPS_Blood_Spine.stages.1.label>血涌</LingFPS_Blood_Spine.stages.1.label>
+  <LingFPS_Blood_Spine.stages.2.label>血动</LingFPS_Blood_Spine.stages.2.label>
+  <LingFPS_Blood_Spine.stages.3.label>血沸</LingFPS_Blood_Spine.stages.3.label>
+  <LingFPS_Blood_Spine.labelNoun>肢体</LingFPS_Blood_Spine.labelNoun>
+
+  <LingFPS_Blood_Sternum.label>赤血仿生胸骨</LingFPS_Blood_Sternum.label>
+  <LingFPS_Blood_Sternum.description>一个植入人体的赤血仿生模块，其效果会随着时间流逝而削弱，但进行杀戮时可强化</LingFPS_Blood_Sternum.description>
+  <LingFPS_Blood_Sternum.stages.0.label>渴血</LingFPS_Blood_Sternum.stages.0.label>
+  <LingFPS_Blood_Sternum.stages.1.label>血涌</LingFPS_Blood_Sternum.stages.1.label>
+  <LingFPS_Blood_Sternum.stages.2.label>血动</LingFPS_Blood_Sternum.stages.2.label>
+  <LingFPS_Blood_Sternum.stages.3.label>血沸</LingFPS_Blood_Sternum.stages.3.label>
+  <LingFPS_Blood_Sternum.labelNoun>肢体</LingFPS_Blood_Sternum.labelNoun>
+
+  <LingFPS_Blood_Clavicle.label>赤血仿生锁骨</LingFPS_Blood_Clavicle.label>
+  <LingFPS_Blood_Clavicle.description>一个植入人体的赤血仿生模块，其效果会随着时间流逝而削弱，但进行杀戮时可强化</LingFPS_Blood_Clavicle.description>
+  <LingFPS_Blood_Clavicle.stages.0.label>渴血</LingFPS_Blood_Clavicle.stages.0.label>
+  <LingFPS_Blood_Clavicle.stages.1.label>血涌</LingFPS_Blood_Clavicle.stages.1.label>
+  <LingFPS_Blood_Clavicle.stages.2.label>血动</LingFPS_Blood_Clavicle.stages.2.label>
+  <LingFPS_Blood_Clavicle.stages.3.label>血沸</LingFPS_Blood_Clavicle.stages.3.label>
+  <LingFPS_Blood_Clavicle.labelNoun>肢体</LingFPS_Blood_Clavicle.labelNoun>
+
+  <LingFPS_Blood_Pelvis.label>赤血仿生骨盆</LingFPS_Blood_Pelvis.label>
+  <LingFPS_Blood_Pelvis.description>一个植入人体的赤血仿生模块，其效果会随着时间流逝而削弱，但进行杀戮时可强化</LingFPS_Blood_Pelvis.description>
+  <LingFPS_Blood_Pelvis.stages.0.label>渴血</LingFPS_Blood_Pelvis.stages.0.label>
+  <LingFPS_Blood_Pelvis.stages.1.label>血涌</LingFPS_Blood_Pelvis.stages.1.label>
+  <LingFPS_Blood_Pelvis.stages.2.label>血动</LingFPS_Blood_Pelvis.stages.2.label>
+  <LingFPS_Blood_Pelvis.stages.3.label>血沸</LingFPS_Blood_Pelvis.stages.3.label>
+  <LingFPS_Blood_Pelvis.labelNoun>肢体</LingFPS_Blood_Pelvis.labelNoun>
+
+  <LingFPS_Blood_Humerus.label>赤血仿生肱骨</LingFPS_Blood_Humerus.label>
+  <LingFPS_Blood_Humerus.description>一个植入人体的赤血仿生模块，其效果会随着时间流逝而削弱，但进行杀戮时可强化</LingFPS_Blood_Humerus.description>
+  <LingFPS_Blood_Humerus.stages.0.label>渴血</LingFPS_Blood_Humerus.stages.0.label>
+  <LingFPS_Blood_Humerus.stages.1.label>血涌</LingFPS_Blood_Humerus.stages.1.label>
+  <LingFPS_Blood_Humerus.stages.2.label>血动</LingFPS_Blood_Humerus.stages.2.label>
+  <LingFPS_Blood_Humerus.stages.3.label>血沸</LingFPS_Blood_Humerus.stages.3.label>
+  <LingFPS_Blood_Humerus.labelNoun>肢体</LingFPS_Blood_Humerus.labelNoun>
+
+  <LingFPS_Blood_Radius.label>赤血仿生桡骨</LingFPS_Blood_Radius.label>
+  <LingFPS_Blood_Radius.description>一个植入人体的赤血仿生模块，其效果会随着时间流逝而削弱，但进行杀戮时可强化</LingFPS_Blood_Radius.description>
+  <LingFPS_Blood_Radius.stages.0.label>渴血</LingFPS_Blood_Radius.stages.0.label>
+  <LingFPS_Blood_Radius.stages.1.label>血涌</LingFPS_Blood_Radius.stages.1.label>
+  <LingFPS_Blood_Radius.stages.2.label>血动</LingFPS_Blood_Radius.stages.2.label>
+  <LingFPS_Blood_Radius.stages.3.label>血沸</LingFPS_Blood_Radius.stages.3.label>
+  <LingFPS_Blood_Radius.labelNoun>肢体</LingFPS_Blood_Radius.labelNoun>
+
+  <LingFPS_Blood_Hand.label>赤血仿生手</LingFPS_Blood_Hand.label>
+  <LingFPS_Blood_Hand.description>一个植入人体的赤血仿生模块，其效果会随着时间流逝而削弱，但进行杀戮时可强化</LingFPS_Blood_Hand.description>
+  <LingFPS_Blood_Hand.comps.3.tools.0.label>拳头</LingFPS_Blood_Hand.comps.3.tools.0.label>
+  <LingFPS_Blood_Hand.stages.0.label>渴血</LingFPS_Blood_Hand.stages.0.label>
+  <LingFPS_Blood_Hand.stages.1.label>血涌</LingFPS_Blood_Hand.stages.1.label>
+  <LingFPS_Blood_Hand.stages.2.label>血动</LingFPS_Blood_Hand.stages.2.label>
+  <LingFPS_Blood_Hand.stages.3.label>血沸</LingFPS_Blood_Hand.stages.3.label>
+  <LingFPS_Blood_Hand.labelNoun>肢体</LingFPS_Blood_Hand.labelNoun>
+
+  <LingFPS_Blood_Femur.label>赤血仿生股骨</LingFPS_Blood_Femur.label>
+  <LingFPS_Blood_Femur.description>一个植入人体的赤血仿生模块，其效果会随着时间流逝而削弱，但进行杀戮时可强化</LingFPS_Blood_Femur.description>
+  <LingFPS_Blood_Femur.stages.0.label>渴血</LingFPS_Blood_Femur.stages.0.label>
+  <LingFPS_Blood_Femur.stages.1.label>血涌</LingFPS_Blood_Femur.stages.1.label>
+  <LingFPS_Blood_Femur.stages.2.label>血动</LingFPS_Blood_Femur.stages.2.label>
+  <LingFPS_Blood_Femur.stages.3.label>血沸</LingFPS_Blood_Femur.stages.3.label>
+  <LingFPS_Blood_Femur.labelNoun>肢体</LingFPS_Blood_Femur.labelNoun>
+
+  <LingFPS_Blood_Tibia.label>赤血仿生胫骨</LingFPS_Blood_Tibia.label>
+  <LingFPS_Blood_Tibia.description>一个植入人体的赤血仿生模块，其效果会随着时间流逝而削弱，但进行杀戮时可强化</LingFPS_Blood_Tibia.description>
+  <LingFPS_Blood_Tibia.stages.0.label>渴血</LingFPS_Blood_Tibia.stages.0.label>
+  <LingFPS_Blood_Tibia.stages.1.label>血涌</LingFPS_Blood_Tibia.stages.1.label>
+  <LingFPS_Blood_Tibia.stages.2.label>血动</LingFPS_Blood_Tibia.stages.2.label>
+  <LingFPS_Blood_Tibia.stages.3.label>血沸</LingFPS_Blood_Tibia.stages.3.label>
+  <LingFPS_Blood_Tibia.labelNoun>肢体</LingFPS_Blood_Tibia.labelNoun>
+
+  <LingFPS_Blood_Foot.label>赤血仿生足</LingFPS_Blood_Foot.label>
+  <LingFPS_Blood_Foot.description>一个植入人体的赤血仿生模块，其效果会随着时间流逝而削弱，但进行杀戮时可强化</LingFPS_Blood_Foot.description>
+  <LingFPS_Blood_Foot.stages.0.label>渴血</LingFPS_Blood_Foot.stages.0.label>
+  <LingFPS_Blood_Foot.stages.1.label>血涌</LingFPS_Blood_Foot.stages.1.label>
+  <LingFPS_Blood_Foot.stages.2.label>血动</LingFPS_Blood_Foot.stages.2.label>
+  <LingFPS_Blood_Foot.stages.3.label>血沸</LingFPS_Blood_Foot.stages.3.label>
+  <LingFPS_Blood_Foot.labelNoun>肢体</LingFPS_Blood_Foot.labelNoun>
+
+  <LingFPS_Blood_Heart.label>赤血仿生心</LingFPS_Blood_Heart.label>
+  <LingFPS_Blood_Heart.description>一个植入人体的赤血仿生模块，其效果会随着时间流逝而削弱，但进行杀戮时可强化</LingFPS_Blood_Heart.description>
+  <LingFPS_Blood_Heart.stages.0.label>渴血</LingFPS_Blood_Heart.stages.0.label>
+  <LingFPS_Blood_Heart.stages.1.label>血涌</LingFPS_Blood_Heart.stages.1.label>
+  <LingFPS_Blood_Heart.stages.2.label>血动</LingFPS_Blood_Heart.stages.2.label>
+  <LingFPS_Blood_Heart.stages.3.label>血沸</LingFPS_Blood_Heart.stages.3.label>
+  <LingFPS_Blood_Heart.labelNoun>肢体</LingFPS_Blood_Heart.labelNoun>
+
+  <LingFPS_Blood_Kidney.label>赤血仿生肾</LingFPS_Blood_Kidney.label>
+  <LingFPS_Blood_Kidney.description>一个植入人体的赤血仿生模块，其效果会随着时间流逝而削弱，但进行杀戮时可强化</LingFPS_Blood_Kidney.description>
+  <LingFPS_Blood_Kidney.stages.0.label>渴血</LingFPS_Blood_Kidney.stages.0.label>
+  <LingFPS_Blood_Kidney.stages.1.label>血涌</LingFPS_Blood_Kidney.stages.1.label>
+  <LingFPS_Blood_Kidney.stages.2.label>血动</LingFPS_Blood_Kidney.stages.2.label>
+  <LingFPS_Blood_Kidney.stages.3.label>血沸</LingFPS_Blood_Kidney.stages.3.label>
+  <LingFPS_Blood_Kidney.labelNoun>肢体</LingFPS_Blood_Kidney.labelNoun>
+
+  <LingFPS_Blood_Liver.label>赤血仿生肝</LingFPS_Blood_Liver.label>
+  <LingFPS_Blood_Liver.description>一个植入人体的赤血仿生模块，其效果会随着时间流逝而削弱，但进行杀戮时可强化</LingFPS_Blood_Liver.description>
+  <LingFPS_Blood_Liver.stages.0.label>渴血</LingFPS_Blood_Liver.stages.0.label>
+  <LingFPS_Blood_Liver.stages.1.label>血涌</LingFPS_Blood_Liver.stages.1.label>
+  <LingFPS_Blood_Liver.stages.2.label>血动</LingFPS_Blood_Liver.stages.2.label>
+  <LingFPS_Blood_Liver.stages.3.label>血沸</LingFPS_Blood_Liver.stages.3.label>
+  <LingFPS_Blood_Liver.labelNoun>肢体</LingFPS_Blood_Liver.labelNoun>
+
+  <LingFPS_Blood_Lung.label>赤血仿生肺</LingFPS_Blood_Lung.label>
+  <LingFPS_Blood_Lung.description>一个植入人体的赤血仿生模块，其效果会随着时间流逝而削弱，但进行杀戮时可强化</LingFPS_Blood_Lung.description>
+  <LingFPS_Blood_Lung.stages.0.label>渴血</LingFPS_Blood_Lung.stages.0.label>
+  <LingFPS_Blood_Lung.stages.1.label>血涌</LingFPS_Blood_Lung.stages.1.label>
+  <LingFPS_Blood_Lung.stages.2.label>血动</LingFPS_Blood_Lung.stages.2.label>
+  <LingFPS_Blood_Lung.stages.3.label>血沸</LingFPS_Blood_Lung.stages.3.label>
+  <LingFPS_Blood_Lung.labelNoun>肢体</LingFPS_Blood_Lung.labelNoun>
+
+  <LingFPS_Blood_Stomach.label>赤血仿生胃</LingFPS_Blood_Stomach.label>
+  <LingFPS_Blood_Stomach.description>一个植入人体的赤血仿生模块，其效果会随着时间流逝而削弱，但进行杀戮时可强化</LingFPS_Blood_Stomach.description>
+  <LingFPS_Blood_Stomach.stages.0.label>渴血</LingFPS_Blood_Stomach.stages.0.label>
+  <LingFPS_Blood_Stomach.stages.1.label>血涌</LingFPS_Blood_Stomach.stages.1.label>
+  <LingFPS_Blood_Stomach.stages.2.label>血动</LingFPS_Blood_Stomach.stages.2.label>
+  <LingFPS_Blood_Stomach.stages.3.label>血沸</LingFPS_Blood_Stomach.stages.3.label>
+  <LingFPS_Blood_Stomach.labelNoun>肢体</LingFPS_Blood_Stomach.labelNoun>
+
+  <LingFPS_Blood_TaoZhuang.label>战神的赞颂</LingFPS_Blood_TaoZhuang.label>
+  <LingFPS_Blood_TaoZhuang.description>来自赤血仿生模组之间的共鸣效果，可以给安装者带来极大的增幅，每安装5件同类型的仿生，其效果便会增强一级，最高五级。</LingFPS_Blood_TaoZhuang.description>
+  <LingFPS_Blood_TaoZhuang.stages.0.label>lv.0</LingFPS_Blood_TaoZhuang.stages.0.label>
+  <LingFPS_Blood_TaoZhuang.stages.1.label>lv.1</LingFPS_Blood_TaoZhuang.stages.1.label>
+  <LingFPS_Blood_TaoZhuang.stages.2.label>lv.2</LingFPS_Blood_TaoZhuang.stages.2.label>
+  <LingFPS_Blood_TaoZhuang.stages.3.label>lv.3</LingFPS_Blood_TaoZhuang.stages.3.label>
+  <LingFPS_Blood_TaoZhuang.stages.4.label>lv.4</LingFPS_Blood_TaoZhuang.stages.4.label>
+  <LingFPS_Blood_TaoZhuang.stages.5.label>lv.5</LingFPS_Blood_TaoZhuang.stages.5.label>
+  <LingFPS_Blood_TaoZhuang.stages.6.label>lv.6</LingFPS_Blood_TaoZhuang.stages.6.label>
+
+
+  <!-- dark bone -->
+
+  <LingFPS_Turtle_Brain.label>冥骨仿生大脑</LingFPS_Turtle_Brain.label>
+  <LingFPS_Turtle_Brain.description>一个植入人体的冥骨仿生模块，其效果会随着时间流逝而削弱，但可以通过承受伤害可强化</LingFPS_Turtle_Brain.description>
+  <LingFPS_Turtle_Brain.stages.0.label>柔软</LingFPS_Turtle_Brain.stages.0.label>
+  <LingFPS_Turtle_Brain.stages.1.label>凡庸</LingFPS_Turtle_Brain.stages.1.label>
+  <LingFPS_Turtle_Brain.stages.2.label>坚固</LingFPS_Turtle_Brain.stages.2.label>
+  <LingFPS_Turtle_Brain.stages.3.label>完美</LingFPS_Turtle_Brain.stages.3.label>
+  <LingFPS_Turtle_Brain.labelNoun>肢体</LingFPS_Turtle_Brain.labelNoun>
+
+  <LingFPS_Turtle_Eye.label>冥骨仿生眼</LingFPS_Turtle_Eye.label>
+  <LingFPS_Turtle_Eye.description>一个植入人体的冥骨仿生模块，其效果会随着时间流逝而削弱，但可以通过承受伤害可强化</LingFPS_Turtle_Eye.description>
+  <LingFPS_Turtle_Eye.stages.0.label>柔软</LingFPS_Turtle_Eye.stages.0.label>
+  <LingFPS_Turtle_Eye.stages.1.label>凡庸</LingFPS_Turtle_Eye.stages.1.label>
+  <LingFPS_Turtle_Eye.stages.2.label>坚固</LingFPS_Turtle_Eye.stages.2.label>
+  <LingFPS_Turtle_Eye.stages.3.label>完美</LingFPS_Turtle_Eye.stages.3.label>
+  <LingFPS_Turtle_Eye.labelNoun>肢体</LingFPS_Turtle_Eye.labelNoun>
+
+  <LingFPS_Turtle_Ear.label>冥骨仿生耳</LingFPS_Turtle_Ear.label>
+  <LingFPS_Turtle_Ear.description>一个植入人体的冥骨仿生模块，其效果会随着时间流逝而削弱，但可以通过承受伤害可强化</LingFPS_Turtle_Ear.description>
+  <LingFPS_Turtle_Ear.stages.0.label>柔软</LingFPS_Turtle_Ear.stages.0.label>
+  <LingFPS_Turtle_Ear.stages.1.label>凡庸</LingFPS_Turtle_Ear.stages.1.label>
+  <LingFPS_Turtle_Ear.stages.2.label>坚固</LingFPS_Turtle_Ear.stages.2.label>
+  <LingFPS_Turtle_Ear.stages.3.label>完美</LingFPS_Turtle_Ear.stages.3.label>
+  <LingFPS_Turtle_Ear.labelNoun>肢体</LingFPS_Turtle_Ear.labelNoun>
+
+  <LingFPS_Turtle_Nose.label>冥骨仿生鼻</LingFPS_Turtle_Nose.label>
+  <LingFPS_Turtle_Nose.description>一个植入人体的冥骨仿生模块，其效果会随着时间流逝而削弱，但可以通过承受伤害可强化</LingFPS_Turtle_Nose.description>
+  <LingFPS_Turtle_Nose.stages.0.label>柔软</LingFPS_Turtle_Nose.stages.0.label>
+  <LingFPS_Turtle_Nose.stages.1.label>凡庸</LingFPS_Turtle_Nose.stages.1.label>
+  <LingFPS_Turtle_Nose.stages.2.label>坚固</LingFPS_Turtle_Nose.stages.2.label>
+  <LingFPS_Turtle_Nose.stages.3.label>完美</LingFPS_Turtle_Nose.stages.3.label>
+  <LingFPS_Turtle_Nose.labelNoun>肢体</LingFPS_Turtle_Nose.labelNoun>
+
+  <LingFPS_Turtle_Jaw.label>冥骨仿生颌</LingFPS_Turtle_Jaw.label>
+  <LingFPS_Turtle_Jaw.description>一个植入人体的冥骨仿生模块，其效果会随着时间流逝而削弱，但可以通过承受伤害可强化</LingFPS_Turtle_Jaw.description>
+  <LingFPS_Turtle_Jaw.stages.0.label>柔软</LingFPS_Turtle_Jaw.stages.0.label>
+  <LingFPS_Turtle_Jaw.stages.1.label>凡庸</LingFPS_Turtle_Jaw.stages.1.label>
+  <LingFPS_Turtle_Jaw.stages.2.label>坚固</LingFPS_Turtle_Jaw.stages.2.label>
+  <LingFPS_Turtle_Jaw.stages.3.label>完美</LingFPS_Turtle_Jaw.stages.3.label>
+  <LingFPS_Turtle_Jaw.labelNoun>肢体</LingFPS_Turtle_Jaw.labelNoun>
+
+  <LingFPS_Turtle_Spine.label>冥骨仿生脊椎</LingFPS_Turtle_Spine.label>
+  <LingFPS_Turtle_Spine.description>一个植入人体的冥骨仿生模块，其效果会随着时间流逝而削弱，但可以通过承受伤害可强化</LingFPS_Turtle_Spine.description>
+  <LingFPS_Turtle_Spine.stages.0.label>柔软</LingFPS_Turtle_Spine.stages.0.label>
+  <LingFPS_Turtle_Spine.stages.1.label>凡庸</LingFPS_Turtle_Spine.stages.1.label>
+  <LingFPS_Turtle_Spine.stages.2.label>坚固</LingFPS_Turtle_Spine.stages.2.label>
+  <LingFPS_Turtle_Spine.stages.3.label>完美</LingFPS_Turtle_Spine.stages.3.label>
+  <LingFPS_Turtle_Spine.labelNoun>肢体</LingFPS_Turtle_Spine.labelNoun>
+
+  <LingFPS_Turtle_Sternum.label>冥骨仿生胸骨</LingFPS_Turtle_Sternum.label>
+  <LingFPS_Turtle_Sternum.description>一个植入人体的冥骨仿生模块，其效果会随着时间流逝而削弱，但可以通过承受伤害可强化</LingFPS_Turtle_Sternum.description>
+  <LingFPS_Turtle_Sternum.stages.0.label>柔软</LingFPS_Turtle_Sternum.stages.0.label>
+  <LingFPS_Turtle_Sternum.stages.1.label>凡庸</LingFPS_Turtle_Sternum.stages.1.label>
+  <LingFPS_Turtle_Sternum.stages.2.label>坚固</LingFPS_Turtle_Sternum.stages.2.label>
+  <LingFPS_Turtle_Sternum.stages.3.label>完美</LingFPS_Turtle_Sternum.stages.3.label>
+  <LingFPS_Turtle_Sternum.labelNoun>肢体</LingFPS_Turtle_Sternum.labelNoun>
+
+  <LingFPS_Turtle_Clavicle.label>冥骨仿生锁骨</LingFPS_Turtle_Clavicle.label>
+  <LingFPS_Turtle_Clavicle.description>一个植入人体的冥骨仿生模块，其效果会随着时间流逝而削弱，但可以通过承受伤害可强化</LingFPS_Turtle_Clavicle.description>
+  <LingFPS_Turtle_Clavicle.stages.0.label>柔软</LingFPS_Turtle_Clavicle.stages.0.label>
+  <LingFPS_Turtle_Clavicle.stages.1.label>凡庸</LingFPS_Turtle_Clavicle.stages.1.label>
+  <LingFPS_Turtle_Clavicle.stages.2.label>坚固</LingFPS_Turtle_Clavicle.stages.2.label>
+  <LingFPS_Turtle_Clavicle.stages.3.label>完美</LingFPS_Turtle_Clavicle.stages.3.label>
+  <LingFPS_Turtle_Clavicle.labelNoun>肢体</LingFPS_Turtle_Clavicle.labelNoun>
+
+  <LingFPS_Turtle_Pelvis.label>冥骨仿生骨盆</LingFPS_Turtle_Pelvis.label>
+  <LingFPS_Turtle_Pelvis.description>一个植入人体的冥骨仿生模块，其效果会随着时间流逝而削弱，但可以通过承受伤害可强化</LingFPS_Turtle_Pelvis.description>
+  <LingFPS_Turtle_Pelvis.stages.0.label>柔软</LingFPS_Turtle_Pelvis.stages.0.label>
+  <LingFPS_Turtle_Pelvis.stages.1.label>凡庸</LingFPS_Turtle_Pelvis.stages.1.label>
+  <LingFPS_Turtle_Pelvis.stages.2.label>坚固</LingFPS_Turtle_Pelvis.stages.2.label>
+  <LingFPS_Turtle_Pelvis.stages.3.label>完美</LingFPS_Turtle_Pelvis.stages.3.label>
+  <LingFPS_Turtle_Pelvis.labelNoun>肢体</LingFPS_Turtle_Pelvis.labelNoun>
+
+  <LingFPS_Turtle_Humerus.label>冥骨仿生肱骨</LingFPS_Turtle_Humerus.label>
+  <LingFPS_Turtle_Humerus.description>一个植入人体的冥骨仿生模块，其效果会随着时间流逝而削弱，但可以通过承受伤害可强化</LingFPS_Turtle_Humerus.description>
+  <LingFPS_Turtle_Humerus.stages.0.label>柔软</LingFPS_Turtle_Humerus.stages.0.label>
+  <LingFPS_Turtle_Humerus.stages.1.label>凡庸</LingFPS_Turtle_Humerus.stages.1.label>
+  <LingFPS_Turtle_Humerus.stages.2.label>坚固</LingFPS_Turtle_Humerus.stages.2.label>
+  <LingFPS_Turtle_Humerus.stages.3.label>完美</LingFPS_Turtle_Humerus.stages.3.label>
+  <LingFPS_Turtle_Humerus.labelNoun>肢体</LingFPS_Turtle_Humerus.labelNoun>
+
+  <LingFPS_Turtle_Radius.label>冥骨仿生桡骨</LingFPS_Turtle_Radius.label>
+  <LingFPS_Turtle_Radius.description>一个植入人体的冥骨仿生模块，其效果会随着时间流逝而削弱，但可以通过承受伤害可强化</LingFPS_Turtle_Radius.description>
+  <LingFPS_Turtle_Radius.stages.0.label>柔软</LingFPS_Turtle_Radius.stages.0.label>
+  <LingFPS_Turtle_Radius.stages.1.label>凡庸</LingFPS_Turtle_Radius.stages.1.label>
+  <LingFPS_Turtle_Radius.stages.2.label>坚固</LingFPS_Turtle_Radius.stages.2.label>
+  <LingFPS_Turtle_Radius.stages.3.label>完美</LingFPS_Turtle_Radius.stages.3.label>
+  <LingFPS_Turtle_Radius.labelNoun>肢体</LingFPS_Turtle_Radius.labelNoun>
+
+  <LingFPS_Turtle_Hand.label>冥骨仿生手</LingFPS_Turtle_Hand.label>
+  <LingFPS_Turtle_Hand.description>一个植入人体的冥骨仿生模块，其效果会随着时间流逝而削弱，但可以通过承受伤害可强化</LingFPS_Turtle_Hand.description>
+  <LingFPS_Turtle_Hand.comps.3.tools.0.label>拳头</LingFPS_Turtle_Hand.comps.3.tools.0.label>
+  <LingFPS_Turtle_Hand.stages.0.label>柔软</LingFPS_Turtle_Hand.stages.0.label>
+  <LingFPS_Turtle_Hand.stages.1.label>凡庸</LingFPS_Turtle_Hand.stages.1.label>
+  <LingFPS_Turtle_Hand.stages.2.label>坚固</LingFPS_Turtle_Hand.stages.2.label>
+  <LingFPS_Turtle_Hand.stages.3.label>完美</LingFPS_Turtle_Hand.stages.3.label>
+  <LingFPS_Turtle_Hand.labelNoun>肢体</LingFPS_Turtle_Hand.labelNoun>
+
+  <LingFPS_Turtle_Femur.label>冥骨仿生股骨</LingFPS_Turtle_Femur.label>
+  <LingFPS_Turtle_Femur.description>一个植入人体的冥骨仿生模块，其效果会随着时间流逝而削弱，但可以通过承受伤害可强化</LingFPS_Turtle_Femur.description>
+  <LingFPS_Turtle_Femur.stages.0.label>柔软</LingFPS_Turtle_Femur.stages.0.label>
+  <LingFPS_Turtle_Femur.stages.1.label>凡庸</LingFPS_Turtle_Femur.stages.1.label>
+  <LingFPS_Turtle_Femur.stages.2.label>坚固</LingFPS_Turtle_Femur.stages.2.label>
+  <LingFPS_Turtle_Femur.stages.3.label>完美</LingFPS_Turtle_Femur.stages.3.label>
+  <LingFPS_Turtle_Femur.labelNoun>肢体</LingFPS_Turtle_Femur.labelNoun>
+
+  <LingFPS_Turtle_Tibia.label>冥骨仿生胫骨</LingFPS_Turtle_Tibia.label>
+  <LingFPS_Turtle_Tibia.description>一个植入人体的冥骨仿生模块，其效果会随着时间流逝而削弱，但可以通过承受伤害可强化</LingFPS_Turtle_Tibia.description>
+  <LingFPS_Turtle_Tibia.stages.0.label>柔软</LingFPS_Turtle_Tibia.stages.0.label>
+  <LingFPS_Turtle_Tibia.stages.1.label>凡庸</LingFPS_Turtle_Tibia.stages.1.label>
+  <LingFPS_Turtle_Tibia.stages.2.label>坚固</LingFPS_Turtle_Tibia.stages.2.label>
+  <LingFPS_Turtle_Tibia.stages.3.label>完美</LingFPS_Turtle_Tibia.stages.3.label>
+  <LingFPS_Turtle_Tibia.labelNoun>肢体</LingFPS_Turtle_Tibia.labelNoun>
+
+  <LingFPS_Turtle_Foot.label>冥骨仿生足</LingFPS_Turtle_Foot.label>
+  <LingFPS_Turtle_Foot.description>一个植入人体的冥骨仿生模块，其效果会随着时间流逝而削弱，但可以通过承受伤害可强化</LingFPS_Turtle_Foot.description>
+  <LingFPS_Turtle_Foot.stages.0.label>柔软</LingFPS_Turtle_Foot.stages.0.label>
+  <LingFPS_Turtle_Foot.stages.1.label>凡庸</LingFPS_Turtle_Foot.stages.1.label>
+  <LingFPS_Turtle_Foot.stages.2.label>坚固</LingFPS_Turtle_Foot.stages.2.label>
+  <LingFPS_Turtle_Foot.stages.3.label>完美</LingFPS_Turtle_Foot.stages.3.label>
+  <LingFPS_Turtle_Foot.labelNoun>肢体</LingFPS_Turtle_Foot.labelNoun>
+
+  <LingFPS_Turtle_Heart.label>冥骨仿生心</LingFPS_Turtle_Heart.label>
+  <LingFPS_Turtle_Heart.description>一个植入人体的冥骨仿生模块，其效果会随着时间流逝而削弱，但可以通过承受伤害可强化</LingFPS_Turtle_Heart.description>
+  <LingFPS_Turtle_Heart.stages.0.label>柔软</LingFPS_Turtle_Heart.stages.0.label>
+  <LingFPS_Turtle_Heart.stages.1.label>凡庸</LingFPS_Turtle_Heart.stages.1.label>
+  <LingFPS_Turtle_Heart.stages.2.label>坚固</LingFPS_Turtle_Heart.stages.2.label>
+  <LingFPS_Turtle_Heart.stages.3.label>完美</LingFPS_Turtle_Heart.stages.3.label>
+  <LingFPS_Turtle_Heart.labelNoun>肢体</LingFPS_Turtle_Heart.labelNoun>
+
+  <LingFPS_Turtle_Kidney.label>冥骨仿生肾</LingFPS_Turtle_Kidney.label>
+  <LingFPS_Turtle_Kidney.description>一个植入人体的冥骨仿生模块，其效果会随着时间流逝而削弱，但可以通过承受伤害可强化</LingFPS_Turtle_Kidney.description>
+  <LingFPS_Turtle_Kidney.stages.0.label>柔软</LingFPS_Turtle_Kidney.stages.0.label>
+  <LingFPS_Turtle_Kidney.stages.1.label>凡庸</LingFPS_Turtle_Kidney.stages.1.label>
+  <LingFPS_Turtle_Kidney.stages.2.label>坚固</LingFPS_Turtle_Kidney.stages.2.label>
+  <LingFPS_Turtle_Kidney.stages.3.label>完美</LingFPS_Turtle_Kidney.stages.3.label>
+  <LingFPS_Turtle_Kidney.labelNoun>肢体</LingFPS_Turtle_Kidney.labelNoun>
+
+  <LingFPS_Turtle_Liver.label>冥骨仿生肝</LingFPS_Turtle_Liver.label>
+  <LingFPS_Turtle_Liver.description>一个植入人体的冥骨仿生模块，其效果会随着时间流逝而削弱，但可以通过承受伤害可强化</LingFPS_Turtle_Liver.description>
+  <LingFPS_Turtle_Liver.stages.0.label>柔软</LingFPS_Turtle_Liver.stages.0.label>
+  <LingFPS_Turtle_Liver.stages.1.label>凡庸</LingFPS_Turtle_Liver.stages.1.label>
+  <LingFPS_Turtle_Liver.stages.2.label>坚固</LingFPS_Turtle_Liver.stages.2.label>
+  <LingFPS_Turtle_Liver.stages.3.label>完美</LingFPS_Turtle_Liver.stages.3.label>
+  <LingFPS_Turtle_Liver.labelNoun>肢体</LingFPS_Turtle_Liver.labelNoun>
+
+  <LingFPS_Turtle_Lung.label>冥骨仿生肺</LingFPS_Turtle_Lung.label>
+  <LingFPS_Turtle_Lung.description>一个植入人体的冥骨仿生模块，其效果会随着时间流逝而削弱，但可以通过承受伤害可强化</LingFPS_Turtle_Lung.description>
+  <LingFPS_Turtle_Lung.stages.0.label>柔软</LingFPS_Turtle_Lung.stages.0.label>
+  <LingFPS_Turtle_Lung.stages.1.label>凡庸</LingFPS_Turtle_Lung.stages.1.label>
+  <LingFPS_Turtle_Lung.stages.2.label>坚固</LingFPS_Turtle_Lung.stages.2.label>
+  <LingFPS_Turtle_Lung.stages.3.label>完美</LingFPS_Turtle_Lung.stages.3.label>
+  <LingFPS_Turtle_Lung.labelNoun>肢体</LingFPS_Turtle_Lung.labelNoun>
+
+  <LingFPS_Turtle_Stomach.label>冥骨仿生胃</LingFPS_Turtle_Stomach.label>
+  <LingFPS_Turtle_Stomach.description>一个植入人体的冥骨仿生模块，其效果会随着时间流逝而削弱，但可以通过承受伤害可强化</LingFPS_Turtle_Stomach.description>
+  <LingFPS_Turtle_Stomach.stages.0.label>柔软</LingFPS_Turtle_Stomach.stages.0.label>
+  <LingFPS_Turtle_Stomach.stages.1.label>凡庸</LingFPS_Turtle_Stomach.stages.1.label>
+  <LingFPS_Turtle_Stomach.stages.2.label>坚固</LingFPS_Turtle_Stomach.stages.2.label>
+  <LingFPS_Turtle_Stomach.stages.3.label>完美</LingFPS_Turtle_Stomach.stages.3.label>
+  <LingFPS_Turtle_Stomach.labelNoun>肢体</LingFPS_Turtle_Stomach.labelNoun>
+
+  <LingFPS_Turtle_TaoZhuang.label>冥骨洗礼</LingFPS_Turtle_TaoZhuang.label>
+  <LingFPS_Turtle_TaoZhuang.description>来自冥骨仿生模组之间的共鸣效果，可以给安装者带来极大的增幅，每安装5件同类型的仿生，其效果便会增强一级，最高五级。</LingFPS_Turtle_TaoZhuang.description>
+  <LingFPS_Turtle_TaoZhuang.stages.0.label>lv.0</LingFPS_Turtle_TaoZhuang.stages.0.label>
+  <LingFPS_Turtle_TaoZhuang.stages.1.label>lv.1</LingFPS_Turtle_TaoZhuang.stages.1.label>
+  <LingFPS_Turtle_TaoZhuang.stages.2.label>lv.2</LingFPS_Turtle_TaoZhuang.stages.2.label>
+  <LingFPS_Turtle_TaoZhuang.stages.3.label>lv.3</LingFPS_Turtle_TaoZhuang.stages.3.label>
+  <LingFPS_Turtle_TaoZhuang.stages.4.label>lv.4</LingFPS_Turtle_TaoZhuang.stages.4.label>
+  <LingFPS_Turtle_TaoZhuang.stages.5.label>lv.5</LingFPS_Turtle_TaoZhuang.stages.5.label>
+  <LingFPS_Turtle_TaoZhuang.stages.6.label>lv.6</LingFPS_Turtle_TaoZhuang.stages.6.label>
+
+
+  <!-- FPS -->
+
+</LanguageData>

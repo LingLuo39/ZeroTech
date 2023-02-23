@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Name="LingShieldOldWorldBase" Abstract="True">
+	 <thingClass>LingGame.LingGameXShield</thingClass>
+    <category>Item</category>
+    <selectable>True</selectable>
+    <pathCost>10</pathCost>
+    <useHitPoints>True</useHitPoints>
+	 <techLevel>Spacer</techLevel>
+   <tradeability>Sellable</tradeability>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/ACCEE</texPath>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <drawGUIOverlay>true</drawGUIOverlay>
+	 <!-- <generateCommonality>0</generateCommonality> -->
+	 <recipeMaker>
+	  <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
+	  <!-- <researchPrerequisite>LingPowerShieldI</researchPrerequisite> -->
+	  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+	  <workSkill>Crafting</workSkill>
+	  <effectWorking>Smith</effectWorking>
+	  <soundWorking>Recipe_Machining</soundWorking>
+	  <recipeUsers>
+		<li>FabricationBench</li>
+	  </recipeUsers>
+      <skillRequirements>
+        <Crafting>0</Crafting>
+      </skillRequirements>
+	 </recipeMaker>
+    <statBases>
+      <Mass>1</Mass>
+      <WorkToMake>6000</WorkToMake>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+      <EquipDelay>2</EquipDelay>
+	  <Beauty>-3</Beauty>
+	 </statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <alwaysHaulable>True</alwaysHaulable>
+    <tickerType>Normal</tickerType>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <apparel>
+      <useDeflectMetalEffect>true</useDeflectMetalEffect>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <tags Inherit="false">
+        <li>LingShield</li>
+      </tags>
+    </apparel>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+    </comps>
+  </ThingDef>
+  <!-- 护盾 -->
+  
+  <!-- III -->
+  <ThingDef ParentName="LingShieldOldWorldBase">
+    <defName>Apparel_LingShield_OldWorld_III</defName>
+	  <label>能源护盾-工业时代</label>
+    <description>旧日荣光系列第三作,也是该系列第一款使用展开型护盾的作品,性能上和市面上通用款式的能源护盾相似,但有着更强的拓展性,可以在拥有较强科技的情况下对其进行改装,加强其性能并添加拓展功能</description>
+    <statBases>
+      <EnergyShieldRechargeRate>5</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>100</EnergyShieldEnergyMax>
+    </statBases>
+    <comps>
+      <li Class="LingGame.LingGameXShieldCompP">
+      <RestTime>60</RestTime>
+      <NeedPaoPao>true</NeedPaoPao>
+      <ChongShengNengLiang>20</ChongShengNengLiang>
+	  </li>
+    </comps>
+    <costList>
+      <ComponentIndustrial>5</ComponentIndustrial>
+      <Plasteel>40</Plasteel>
+      <Uranium>20</Uranium>
+      <Jade>68</Jade>
+    </costList>
+  </ThingDef>
+  
+  <!-- III -->
+  <ThingDef ParentName="LingShieldOldWorldBase">
+    <defName>Apparel_LingShield_OldWorld_III</defName>
+	  <label>能源护盾-工业时代</label>
+    <description>旧日荣光系列第三作,也是该系列第一款使用展开型护盾的作品,性能上和市面上通用款式的能源护盾相似,但有着更强的拓展性,可以在拥有较强科技的情况下对其进行改装,加强其性能并添加拓展功能</description>
+    旧日荣光系列第四作,在上一代的基础上改进了能量来源,在保持便携性的基础上增加了储能上限和充能速度,并且可以在能量充盈的状态下为装备者提供一定的加成,使之行动更为敏捷
+    <statBases>
+      <EnergyShieldRechargeRate>5</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>100</EnergyShieldEnergyMax>
+    </statBases>
+    <comps>
+      <li Class="LingGame.LingGameXShieldCompP">
+      <RestTime>60</RestTime>
+      <NeedPaoPao>true</NeedPaoPao>
+      <ChongShengNengLiang>20</ChongShengNengLiang>
+	  </li>
+    </comps>
+    <costList>
+      <ComponentIndustrial>5</ComponentIndustrial>
+      <Plasteel>40</Plasteel>
+      <Uranium>20</Uranium>
+      <Jade>68</Jade>
+    </costList>
+  </ThingDef>
+  <!-- IV -->
+  <ThingDef ParentName="LingShieldOldWorldBase">
+    <defName>Apparel_LingShield_OldWorld_IV</defName>
+	  <label>能源护盾-太空时代</label>
+    <description>旧日荣光系列第四作,在上一代的基础上改进了能量来源,在保持便携性的基础上增加了储能上限和充能速度,并且可以在能量充盈的状态下为装备者提供一定的加成,使之行动更为敏捷</description>
+    
+    <statBases>
+      <EnergyShieldRechargeRate>5</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>100</EnergyShieldEnergyMax>
+    </statBases>
+    <comps>
+      <li Class="LingGame.LingGameXShieldCompP">
+      <RestTime>60</RestTime>
+      <NeedPaoPao>true</NeedPaoPao>
+      <ChongShengNengLiang>20</ChongShengNengLiang>
+	  </li>
+    </comps>
+    <costList>
+      <ComponentIndustrial>5</ComponentIndustrial>
+      <Plasteel>40</Plasteel>
+      <Uranium>20</Uranium>
+      <Jade>68</Jade>
+    </costList>
+  </ThingDef>
+
+
+</Defs>

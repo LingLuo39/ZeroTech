@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 一切的开始 -->
+
+  <ZeroTechClear.label>遗忘一切</ZeroTechClear.label>
+  <ZeroTechClear.description>从意识层面删除一切和零子有关的记忆，彻底的遗忘任何零子相关的研究。</ZeroTechClear.description>
+
+  <ZeroTechBase.label>零子科技逻辑</ZeroTechBase.label>
+  <ZeroTechBase.description>零子科技的基础技术,看上去似乎只是几个难度一般的函数问题,但出题方式极其古怪,也许需要换一种思维方式来理解\n\n解锁零子鸡尾酒瓶盖的制作\n解锁零子加工台的制作</ZeroTechBase.description>
+
+  <ZeroTechBaseII.label>零子科技逻辑II</ZeroTechBaseII.label>
+  <ZeroTechBaseII.description>和零子科技逻辑类似的一系列函数,但内容却更加扭曲,似乎涉及到一些神秘学的知识\n\n解锁恶魔交流事件链</ZeroTechBaseII.description>
+
+  <ZeroTechBaseIII.label>零子科技逻辑III</ZeroTechBaseIII.label>
+  <ZeroTechBaseIII.description>这项技术乍一看如同字谜一般,不过却无法找到唯一的答案,期间似乎讲述着世间万物平衡形式的理论\n解锁元素平衡事件链</ZeroTechBaseIII.description>
+
+
+  <!-- 零子材料拓展包 -->
+
+  <ZeroTechGel.label>基础零子材料</ZeroTechGel.label>
+  <ZeroTechGel.description>制作一种材料,那么有什么方法既可以获得想要的东西,又不影响现有的资源呢?那就是...把垃圾变成资源!\n解锁凝胶压制器的制作,可以将其他物质转化为凝胶\n某些东西会注意到你</ZeroTechGel.description>
+
+  <ZeroTechAlloy.label>高级零子材料</ZeroTechAlloy.label>
+  <ZeroTechAlloy.description>如果一种材料太弱,那就试着去除无用的部分吧\n可以对凝胶进行加工了\n某些东西会注意你</ZeroTechAlloy.description>
+
+
+  <!-- 毁灭信号拓展包 -->
+
+  <ZeroTechFlareGun.label>信号枪</ZeroTechFlareGun.label>
+  <ZeroTechFlareGun.description>填装了特殊弹药的信号枪,并非是引人注意,而是让什么特殊的事情发生(需要模组:ZeroTech-flare gun)</ZeroTechFlareGun.description>
+
+  <ZeroTechFlareGunEX.label>定向信号枪</ZeroTechFlareGunEX.label>
+  <ZeroTechFlareGunEX.description>随机的信号枪有时候总容易导致一些不是那么好的结果,那为什么不试试将能量波动往自己希望的方向控制呢(需要模组:ZeroTech-flare gun)</ZeroTechFlareGunEX.description>
+
+
+  <!-- 奇妙食物拓展包 -->
+
+  <ZeroTechDrugs.label>零子药物</ZeroTechDrugs.label>
+  <ZeroTechDrugs.description>真正可怕的成瘾品,并非是让使用者在生理上无法离开,而是在使用之后,不会带来任何副作用,但心理上却完全无法放弃(需要模组:ZeroTech-meal and drug)</ZeroTechDrugs.description>
+
+  <ZeroTechMeals.label>零子烹饪指导</ZeroTechMeals.label>
+  <ZeroTechMeals.description>这些东西真的算是餐点嘛?我们的科学家似乎有点放飞自我了(需要模组:ZeroTech-meal and drug)</ZeroTechMeals.description>
+
+
+  <!-- 创神计划拓展包 -->
+
+  <ZeroTechBodyPart.label>肢体改造理论</ZeroTechBodyPart.label>
+  <ZeroTechBodyPart.description>人类的肉体或许可以无限的强大,但如果想要短时间内获取强大的力量的话,也许可以尝试尝试机械改造(需要模组:ZeroTech-bionic)</ZeroTechBodyPart.description>
+
+  <ZeroTechImpantMaker.label>植入物制作</ZeroTechImpantMaker.label>
+  <ZeroTechImpantMaker.description>人类的存在是有极限的吗?既然如此,我们为什么不试试制作一个神呢~\n\n解锁站偶,思维放射芯片,欲望抑制芯片等植入物的制作(需要模组:ZeroTech-bionic)</ZeroTechImpantMaker.description>
+
+
+  <!-- 步入黑暗拓展包 -->
+
+  <ZeroTechAdv.label>零子异论</ZeroTechAdv.label>
+  <ZeroTechAdv.description>你到底在做什么?这已经超出了科学的范畴了,停止哪些危险的事情!</ZeroTechAdv.description>
+
+
+  <!-- 无限能源拓展包 -->
+
+  <ZeroTechLongRandPower.label>远程电力传输</ZeroTechLongRandPower.label>
+  <ZeroTechLongRandPower.description>不想看到丑陋的发电机?不想走路被电缆绊倒?\n既然电也是一种能量,为什么不试试隔空传输电力呢(需要模组:ZeroTech-power)</ZeroTechLongRandPower.description>
+
+  <ZeroTechThinkingPower.label>特种能发电</ZeroTechThinkingPower.label>
+  <ZeroTechThinkingPower.description>生物的思维,究竟是什么呢?不过不理解它的存在不代表我们无法利用,利用一种波吸收器吸收生物的思维,以此获得电力(需要模组:ZeroTech-power)</ZeroTechThinkingPower.description>
+
+
+  <!-- 基地防御拓展包 -->
+
+  <ZeroTechDenfence.label>防卫屏障与高级陷阱</ZeroTechDenfence.label>
+  <ZeroTechDenfence.description>如果说敌方可以利用射程优势来打击我们,那为什么不制作一种人能通过而高速物体无法通过的屏障呢?或者我们为什么不试试在敌人还未发现我们的时候就布下天罗地网,直接毁灭敌人\n\n解锁细胞屏障和分解屏障的制作\n解锁毒气陷阱和静电陷阱的制作(需要模组:ZeroTech-defence)</ZeroTechDenfence.description>
+
+  <ZeroTechTurret.label>防卫炮塔与攻击炮塔</ZeroTechTurret.label>
+  <ZeroTechTurret.description>自动武器真的那么不堪么,不!那是因为更多情况下人们无法更好的利用能量和思想的联系(需要模组:ZeroTech-defence)</ZeroTechTurret.description>
+
+
+  <!-- 否认过去拓展包 -->
+
+  <ZeroTechFalsePast.label>遗弃科技</ZeroTechFalsePast.label>
+  <ZeroTechFalsePast.description>这是一系列所不被绝大多数人们认同的研究,但在不为人知的地方，这些科技依然被偷偷地开发了</ZeroTechFalsePast.description>
+
+  <ZeroTechFalsePastBionic.label>套装仿生</ZeroTechFalsePastBionic.label>
+  <ZeroTechFalsePastBionic.description>利用仿生之间的共鸣效果，将一件件的仿生的辐射组合起来，给安装者带来极大的加成</ZeroTechFalsePastBionic.description>
+
+
+  <!-- 虚造过去拓展包 -->
+
+  <ZeroTechTruePast.label>零子往事</ZeroTechTruePast.label>
+  <ZeroTechTruePast.description>零子集团一些被封存的故事，不全是为了进步而进行的研究，更多的则是在试图进行毁灭。</ZeroTechTruePast.description>
+
+  <ZeroTechPuppetDie.label>人偶葬歌</ZeroTechPuppetDie.label>
+  <ZeroTechPuppetDie.description>它们没有生命，只是一堆破铜烂铁而已，这是绝大多数人对机械的认知。然而，当它们开始萌生感情，开始被“自我”所驱动，那么，一切都将改变。</ZeroTechPuppetDie.description>
+
+
+  <!-- 异端审判拓展包 -->
+
+  <ZeroTechBaseC.label>正义世界的大门</ZeroTechBaseC.label>
+  <ZeroTechBaseC.description>这里没有任何东西!(需要模组:ZeroTech-heterodox trial)</ZeroTechBaseC.description>
+
+  <ZeroTechBaseCI.label>见欲之封印</ZeroTechBaseCI.label>
+  <ZeroTechBaseCI.description>你将会释放出什么!</ZeroTechBaseCI.description>
+
+  <ZeroTechBaseCII.label>听欲之封印</ZeroTechBaseCII.label>
+  <ZeroTechBaseCII.description>你将会释放出什么!</ZeroTechBaseCII.description>
+
+  <ZeroTechBaseCIII.label>香欲之封印</ZeroTechBaseCIII.label>
+  <ZeroTechBaseCIII.description>你将会释放出什么!</ZeroTechBaseCIII.description>
+
+  <ZeroTechBaseCIV.label>味欲之封印</ZeroTechBaseCIV.label>
+  <ZeroTechBaseCIV.description>你将会释放出什么!</ZeroTechBaseCIV.description>
+
+  <ZeroTechBaseCV.label>触欲之封印</ZeroTechBaseCV.label>
+  <ZeroTechBaseCV.description>你将会释放出什么!</ZeroTechBaseCV.description>
+
+  <ZeroTechBaseCVI.label>意欲之封印</ZeroTechBaseCVI.label>
+  <ZeroTechBaseCVI.description>你将会释放出什么!</ZeroTechBaseCVI.description>
+
+  <ZeroTechBaseCE.label>虚伪之封印</ZeroTechBaseCE.label>
+  <ZeroTechBaseCE.description>打破欲望的束缚吧!</ZeroTechBaseCE.description>
+
+  <ZeroTechBaseCEI.label>狂喜之封印</ZeroTechBaseCEI.label>
+  <ZeroTechBaseCEI.description>你将会释放出什么!</ZeroTechBaseCEI.description>
+
+  <ZeroTechBaseCEII.label>暴怒之封印</ZeroTechBaseCEII.label>
+  <ZeroTechBaseCEII.description>你将会释放出什么!</ZeroTechBaseCEII.description>
+
+  <ZeroTechBaseCEIII.label>悲痛之封印</ZeroTechBaseCEIII.label>
+  <ZeroTechBaseCEIII.description>你将会释放出什么!</ZeroTechBaseCEIII.description>
+
+  <ZeroTechBaseCEIV.label>恐惧之封印</ZeroTechBaseCEIV.label>
+  <ZeroTechBaseCEIV.description>你将会释放出什么!</ZeroTechBaseCEIV.description>
+
+  <ZeroTechBaseCEV.label>情爱之封印</ZeroTechBaseCEV.label>
+  <ZeroTechBaseCEV.description>你将会释放出什么!</ZeroTechBaseCEV.description>
+
+  <ZeroTechBaseCEVI.label>厌恶之封印</ZeroTechBaseCEVI.label>
+  <ZeroTechBaseCEVI.description>你将会释放出什么!</ZeroTechBaseCEVI.description>
+
+  <ZeroTechBaseCEVII.label>贪欲之封印</ZeroTechBaseCEVII.label>
+  <ZeroTechBaseCEVII.description>你将会释放出什么!</ZeroTechBaseCEVII.description>
+
+  <ZeroTechBaseCEE.label>真实之封印</ZeroTechBaseCEE.label>
+  <ZeroTechBaseCEE.description>你将会放出什么!</ZeroTechBaseCEE.description>
+
+
+  <!-- 进一步的黑暗 -->
+  <!-- 旧日之事拓展包 -->
+  <!--<ZeroTechStoryA.label>鸦影</ZeroTechStoryA.label>-->
+  <!--<ZeroTechStoryA.description>那些黑色翅膀的鸟,它们来了(需要模组:ZeroTech-afterstory)</ZeroTechStoryA.description>-->
+  <!--<ZeroTechStoryBI.label>灭杀</ZeroTechStoryBI.label>-->
+  <!--<ZeroTechStoryBI.description>杀光它们!(需要模组:ZeroTech-afterstory)</ZeroTechStoryBI.description>-->
+  <!--<ZeroTechStoryBII.label>救赎</ZeroTechStoryBII.label>-->
+  <!--<ZeroTechStoryBII.description>也许这是我们的机会?(需要模组:ZeroTech-afterstory)</ZeroTechStoryBII.description>-->
+
+</LanguageData>

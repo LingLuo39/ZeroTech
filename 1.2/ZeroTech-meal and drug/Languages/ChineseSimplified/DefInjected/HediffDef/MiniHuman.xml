@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LingNoWaterPawnLoseWater.label>高速脱水</LingNoWaterPawnLoseWater.label>
+  <LingNoWaterPawnLoseWater.description>极其剧烈的脱水反应,但却不致命,而是会使生物变成一团有机物,而且可以在补水后恢复原形.</LingNoWaterPawnLoseWater.description>
+  <LingNoWaterPawnLoseWater.stages.0.label>轻度</LingNoWaterPawnLoseWater.stages.0.label>
+  <LingNoWaterPawnLoseWater.stages.1.label>中度</LingNoWaterPawnLoseWater.stages.1.label>
+  <LingNoWaterPawnLoseWater.stages.2.label>严重</LingNoWaterPawnLoseWater.stages.2.label>
+
+  <LingHaveWaterPawn.label>脱水恢复</LingHaveWaterPawn.label>
+  <LingHaveWaterPawn.description>由于过度脱水导致的身体虚弱,很快便能恢复,但需要很久才能彻底摆脱.</LingHaveWaterPawn.description>
+  <LingHaveWaterPawn.stages.0.label>慢性</LingHaveWaterPawn.stages.0.label>
+  <LingHaveWaterPawn.stages.1.label>恢复</LingHaveWaterPawn.stages.1.label>
+  <LingHaveWaterPawn.stages.2.label>严重</LingHaveWaterPawn.stages.2.label>
+
+
+</LanguageData>

@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>FeiWuShaFa</defName>
+    <label>欢愉沙发</label>
+    <description>一台特别的沙发,让人躺上去就不想下来(有人使用时消耗电力和有机质,填补小人的所有需求)</description>
+    <interactionCellOffset>(0,0,0)</interactionCellOffset>
+    <size>(1,1)</size>
+    <graphicData>
+      <drawSize>(2.4,2.4)</drawSize>
+      <texPath>Things/Building/Furniture/Throne</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+    </graphicData>
+	<thingClass>LingGame.Building_FeiWuShaFa</thingClass>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>70</pathCost>
+    <fillPercent>0.5</fillPercent>
+    <hasInteractionCell>true</hasInteractionCell>
+	<tickerType>Rare</tickerType>
+    <rotatable>true</rotatable>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <constructionSkillPrerequisite>0</constructionSkillPrerequisite>
+    <uiIconOffset>(0, 0.03)</uiIconOffset>
+    <uiIconScale>0.85</uiIconScale>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsJoy</li>
+    </thingCategories>
+    <costList>
+      <Steel>200</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <researchPrerequisites>
+      <!-- <li>DeepDrilling</li> -->
+    </researchPrerequisites>
+    <designationCategory>Joy</designationCategory>
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+      <WorkToBuild>10000</WorkToBuild>
+      <Flammability>0</Flammability>
+      <Beauty>5</Beauty>
+      <Mass>40</Mass>
+      <Comfort>0.75</Comfort>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <basePowerConsumption>1000</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Refuelable">
+        <fuelLabel>食物</fuelLabel>
+        <fuelCapacity>10.0</fuelCapacity>
+        <fuelFilter>
+          <categories>
+            <li>FoodMeals</li>
+          </categories>
+        </fuelFilter>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+      </li>
+      <li Class="CompProperties_Forbiddable"/>
+    </comps>
+  </ThingDef>
+
+  <WorkGiverDef>
+    <defName>InFeiWuShaFa</defName>
+    <label>享受</label>
+    <giverClass>LingGame.WorkGiver_FeiWuShaFa</giverClass>
+    <workType>SSleep</workType>
+    <priorityInType>80</priorityInType>
+    <verb>享受</verb>
+    <gerund>享受</gerund>
+    <!-- <requiredCapacities>
+      <li>Moving</li>
+    </requiredCapacities> -->
+	<prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+   
+  <WorkTypeDef>
+    <defName>SSleep</defName>
+    <labelShort>休息</labelShort>
+    <pawnLabel>偷懒者</pawnLabel>
+    <gerundLabel>休息</gerundLabel>
+    <description>这类的工作大多不产生产出,而是让殖民者更好的休息.</description>
+    <verb>休息于</verb>
+    <naturalPriority>10</naturalPriority>
+    <workTags>
+      <!-- <li>Sleep</li> -->
+      <!-- <li>AllWork</li> -->
+    </workTags>
+  </WorkTypeDef>
+  
+  <JobDef>
+    <defName>InFeiWuShaFa</defName>
+    <driverClass>LingGame.JobDriver_FeiWuShaFa</driverClass>
+    <reportString>颓废.</reportString>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+
+  <HediffDef>
+    <defName>FeiWuShaFa</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.7,1,0.7)</defaultLabelColor>
+	<description>沉浸在懒人沙发中带来的快感</description>
+    <label>沉迷欢愉</label>
+    <initialSeverity>0.001</initialSeverity>
+    <maxSeverity>0.02</maxSeverity>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-1.0</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.50</setMax>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>Mote_LingEye</defName>
+    <graphicData>
+      <texPath>Things/Mote/LingEye</texPath>
+    </graphicData>
+    <altitudeLayer>MetaOverlays</altitudeLayer>
+    <fadeInTime>0.08</fadeInTime>
+    <solidTime>1.4</solidTime>
+    <fadeOutTime>1.5</fadeOutTime>
+  </FleckDef>
+  
+  
+  <ThoughtDef>
+    <defName>FeiWuShaFa</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>FeiWuShaFa</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>沉迷欢愉</label>
+        <description>啊,嗯...太舒服了,简直让人不想离开这沙发</description>
+        <baseMoodEffect>35</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ModMetaData>
+	<name>ZeroTech-Power</name>
+	<author>LingLuo</author>
+	<supportedVersions>
+		<li>1.4</li>
+	</supportedVersions>
+	<packageId>LingLuo.ZeroTechPower</packageId>
+	<description>零子科技-电力拓展包
+	哦,能源问题真是这个世界上最愚蠢的问题...之一
+	物品简介
+	超空间电池:无限容量的电池
+	远程电力发射器:用于远程传输电力
+	灵能发电机:利用精神力量发电的装置
+	土豆发电机:哦,看起来不错
+	反粒子发电机:比起用于暴力,也许作为能源是更好的选择
+	
+	</description>
+	<!--<modDependencies>
+		<li>
+			<packageId>LingLuo.ZeroTechCore</packageId>
+			<displayName>ZeroTechCore</displayName>
+			<downloadUrl>https://www.baidu.com</downloadUrl>
+		</li>
+	</modDependencies>-->
+	
+	<loadAfter>
+		<li>LingLuo.ZeroTechCore</li>
+	</loadAfter>
+</ModMetaData>

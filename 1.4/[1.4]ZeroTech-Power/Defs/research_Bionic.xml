@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ResearchTabDef>
+        <defName>ZeroTech</defName>
+        <label>零子科技</label>
+      </ResearchTabDef>
+
+  <ResearchProjectDef>
+    <defName>ZeroTechEasyPower</defName>
+    <label>质能转换</label>
+    <description>获取能量,最简单的方式就是化学反应,当然,物理反应也可以.</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <tab>ZeroTech</tab>
+    <prerequisites>
+      <li>Electricity</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <researchViewX>1</researchViewX>
+    <researchViewY>1</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>ZeroTechNormalPower</defName>
+    <label>智能转换</label>
+    <description>通过信息态转化技术,将生物的思维转化为能力.当然,这只是粗浅的运用.</description>
+    <baseCost>3000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <tab>ZeroTech</tab>
+    <prerequisites>
+      <li>ZeroTechEasyPower</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <researchViewX>2</researchViewX>
+    <researchViewY>1</researchViewY>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>ZeroTechHighPower</defName>
+    <label>超空间电容</label>
+    <description>一款低强度的电池,本质是一个传送装置,当能量存满时会将能量打包传送,电量不足时传回,理论可以储存无限的能量.</description>
+    <baseCost>6000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <tab>ZeroTech</tab>
+    <prerequisites>
+      <li>ZeroTechNormalPower</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <researchViewX>3</researchViewX>
+    <researchViewY>1</researchViewY>
+  </ResearchProjectDef>
+
+</Defs>

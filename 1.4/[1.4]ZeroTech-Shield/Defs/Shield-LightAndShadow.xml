@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Name="LingShieldLightBase" Abstract="True">
+	  <thingClass>LingGame.LingGameXShield_LS</thingClass>
+    <category>Item</category>
+    <selectable>True</selectable>
+    <pathCost>10</pathCost>
+    <useHitPoints>True</useHitPoints>
+	  <techLevel>Spacer</techLevel>
+    <graphicData>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <drawGUIOverlay>true</drawGUIOverlay>
+	  <!-- <generateCommonality>0</generateCommonality> -->
+    <recipeMaker>
+	  <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
+	  <!-- <researchPrerequisite>LingPowerShieldI</researchPrerequisite> -->
+	  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+	  <workSkill>Crafting</workSkill>
+	  <effectWorking>Smith</effectWorking>
+	  <soundWorking>Recipe_Machining</soundWorking>
+	  <recipeUsers>
+		<li>FabricationBench</li>
+	  </recipeUsers>
+      <skillRequirements>
+        <Crafting>0</Crafting>
+      </skillRequirements>
+	  </recipeMaker>
+    <statBases>
+      <Mass>1</Mass>
+      <WorkToMake>6000</WorkToMake>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>2</DeteriorationRate>
+      <EquipDelay>2</EquipDelay>
+	  <Beauty>-3</Beauty>
+  	</statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <alwaysHaulable>True</alwaysHaulable>
+    <tickerType>Normal</tickerType>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <apparel>
+      <useDeflectMetalEffect>true</useDeflectMetalEffect>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <tags Inherit="false">
+        <li>LingShield</li>
+      </tags>
+    </apparel>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+    </comps>
+  </ThingDef>
+  <!-- 弹雨 -->
+  <ThingDef ParentName="LingShieldLightBase">
+    <defName>Apparel_LingShield_Light</defName>
+	  <label>能源护盾-弹雨</label>
+    <description>一款专为远程支援特化的能量护盾,对集火有很强的抗性,但若是被近距离攻击,则会直接崩溃</description>
+	  <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/ACCEE</texPath>
+    </graphicData>
+    <statBases>
+      <EnergyShieldRechargeRate>1</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>5</EnergyShieldEnergyMax>
+    </statBases>
+    <comps>
+      <li Class="LingGame.LingGameXShieldCompP">
+      <RestTime>30</RestTime>
+      <NeedPaoPao>true</NeedPaoPao>
+      <skill>Shooting</skill>
+      <skillrate>0.2</skillrate>
+      <ChongShengNengLiang>1</ChongShengNengLiang>
+      <YiCiHaoNengShangXian>1</YiCiHaoNengShangXian>
+      <MeiMiaoHaoNengShangXian>2</MeiMiaoHaoNengShangXian>
+      <MeleeXishouPerHaoNeng>9999</MeleeXishouPerHaoNeng>
+	  </li>
+    </comps>
+    <costList>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <ComponentSpacer>1</ComponentSpacer>
+      <Uranium>5</Uranium>
+      <Jade>10</Jade>
+      <Silver>50</Silver>
+    </costList>
+  </ThingDef>
+  <!-- 剑舞 -->
+  <ThingDef ParentName="LingShieldLightBase">
+    <defName>Apparel_LingShield_Shadow</defName>
+	  <label>能源护盾-剑舞</label>
+    <description>一款近战特化盾,适合施展刀剑如同舞者般的强者</description>
+	  <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/ACCEE</texPath>
+    </graphicData>
+    <statBases>
+      <EnergyShieldRechargeRate>1</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>5</EnergyShieldEnergyMax>
+    </statBases>
+    <comps>
+      <li Class="LingGame.LingGameXShieldCompP">
+      <RestTime>30</RestTime>
+      <NeedPaoPao>true</NeedPaoPao>
+      <skill>Melee</skill>
+      <skillrate>0.2</skillrate>
+      <ChongShengNengLiang>1</ChongShengNengLiang>
+      <YiCiHaoNengShangXian>1</YiCiHaoNengShangXian>
+      <RangeXiShouPerHaoNeng>2</RangeXiShouPerHaoNeng>
+	  </li>
+    </comps>
+    <costList>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <ComponentSpacer>1</ComponentSpacer>
+      <Uranium>5</Uranium>
+      <Jade>10</Jade>
+      <Gold>5</Gold>
+    </costList>
+  </ThingDef>
+  <!-- 高傲 
+  <ThingDef ParentName="LingShieldLightBase">
+    <defName>Apparel_Ling_Low</defName>
+	  <label>能源护盾-坚革</label>
+    <description>一款特殊的排斥护盾,可以直接免疫任何9点以下的外部伤害.</description>
+	  <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/ACCEE</texPath>
+    </graphicData>
+    <statBases>
+      <EnergyShieldRechargeRate>1</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>5</EnergyShieldEnergyMax>
+    </statBases>
+    <comps>
+      <li Class="LingGame.LingGameXShieldCompP">
+      <RestTime>30</RestTime>
+      <NeedPaoPao>true</NeedPaoPao>
+      <skill>Melee</skill>
+      <skillrate>0.2</skillrate>
+      <ChongShengNengLiang>1</ChongShengNengLiang>
+      <YiCiHaoNengShangXian>1</YiCiHaoNengShangXian>
+      <RangeXiShouPerHaoNeng>2</RangeXiShouPerHaoNeng>
+	  </li>
+    </comps>
+    <costList>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <ComponentSpacer>1</ComponentSpacer>
+      <Uranium>5</Uranium>
+      <Jade>10</Jade>
+      <Gold>5</Gold>
+    </costList>
+  </ThingDef>
+谦卑
+  <ThingDef ParentName="LingShieldLightBase">
+    <defName>Apparel_Ling_High</defName>
+	  <label>能源护盾-泄华</label>
+    <description>一款特殊的排斥护盾,可以直接免疫29点及以上的外部伤害</description>
+	  <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/ACCEE</texPath>
+    </graphicData>
+    <statBases>
+      <EnergyShieldRechargeRate>1</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>5</EnergyShieldEnergyMax>
+    </statBases>
+    <comps>
+      <li Class="LingGame.LingGameXShieldCompP">
+      <RestTime>30</RestTime>
+      <NeedPaoPao>true</NeedPaoPao>
+      <skill>Melee</skill>
+      <skillrate>0.2</skillrate>
+      <ChongShengNengLiang>1</ChongShengNengLiang>
+      <YiCiHaoNengShangXian>1</YiCiHaoNengShangXian>
+      <RangeXiShouPerHaoNeng>2</RangeXiShouPerHaoNeng>
+	  </li>
+    </comps>
+    <costList>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <ComponentSpacer>1</ComponentSpacer>
+      <Uranium>5</Uranium>
+      <Jade>10</Jade>
+      <Gold>5</Gold>
+    </costList>
+  </ThingDef>-->
+
+</Defs>

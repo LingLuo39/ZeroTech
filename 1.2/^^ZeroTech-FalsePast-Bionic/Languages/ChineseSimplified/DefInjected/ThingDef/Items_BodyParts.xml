@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LingFPS_Blank.label>素白仿生模组</LingFPS_Blank.label>
+  <LingFPS_Blank.description>一个素白仿生模组,可以拆分成可安装形态,安装后会随着时间变强.</LingFPS_Blank.description>
+
+  <LingFPS_Blank_I.label>素白仿生模组(骨骼)</LingFPS_Blank_I.label>
+  <LingFPS_Blank_I.description>一个记录了人体骨骼信息的素白仿生模组,可以在人体安装骨骼部位的素白仿生,安装后会随着时间变强.</LingFPS_Blank_I.description>
+
+  <LingFPS_Blank_II.label>素白仿生模组(器官)</LingFPS_Blank_II.label>
+  <LingFPS_Blank_II.description>一个记录了人体器官信息的素白仿生模组,可以在人体安装器官部位的素白仿生,安装后会随着时间变强.</LingFPS_Blank_II.description>
+
+  <LingFPS_Blood.label>赤血仿生模组</LingFPS_Blood.label>
+  <LingFPS_Blood.description>一个赤血仿生模组,可以拆分成可安装形态,可以通过战斗而增强.</LingFPS_Blood.description>
+
+  <LingFPS_Blood_I.label>赤血仿生模组(骨骼)</LingFPS_Blood_I.label>
+  <LingFPS_Blood_I.description>一个记录了人体骨骼信息的赤血仿生模组,可以在人体安装骨骼部位的赤血仿生,安装后会随着时间变强.</LingFPS_Blood_I.description>
+
+  <LingFPS_Blood_II.label>赤血仿生模组(器官)</LingFPS_Blood_II.label>
+  <LingFPS_Blood_II.description>一个记录了人体器官信息的赤血仿生模组,可以在人体安装器官部位的赤血仿生,安装后会随着时间变强.</LingFPS_Blood_II.description>
+
+  <LingFPS_Turtle.label>冥骨仿生模组</LingFPS_Turtle.label>
+  <LingFPS_Turtle.description>一个冥骨仿生模组,可以拆分成可安装形态,可以通过被攻击而增强.</LingFPS_Turtle.description>
+
+  <LingFPS_Turtle_I.label>冥骨仿生模组(骨骼)</LingFPS_Turtle_I.label>
+  <LingFPS_Turtle_I.description>一个记录了人体骨骼信息的冥骨仿生模组,可以在人体安装骨骼部位的冥骨仿生,安装后会随着时间变强.</LingFPS_Turtle_I.description>
+
+  <LingFPS_Turtle_II.label>冥骨仿生模组(器官)</LingFPS_Turtle_II.label>
+  <LingFPS_Turtle_II.description>一个记录了人体器官信息的冥骨仿生模组,可以在人体安装器官部位的冥骨仿生,安装后会随着时间变强.</LingFPS_Turtle_II.description>
+
+
+</LanguageData>

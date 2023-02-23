@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ModMetaData>
+	<name>ZeroTech-Shield</name>
+	<author>LingLuo</author>
+	<supportedVersions>
+		<li>1.4</li>
+	</supportedVersions>
+	<packageId>LingLuo.ZeroTechShield</packageId>
+	<description>零子科技-护盾拓展包
+	为什么呢,明明可以将一切伤害阻隔在外,却还是有人选择用血肉之躯去承受伤害呢
+	</description>
+	
+	<loadAfter>
+		<li>LingLuo.ZeroTechCore</li>
+	</loadAfter>
+</ModMetaData>

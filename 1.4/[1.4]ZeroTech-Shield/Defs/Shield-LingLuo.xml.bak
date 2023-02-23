@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Name="LingShieldHighWorldBase" Abstract="True">
+	 <thingClass>LingGame.LingGameXShield</thingClass>
+    <category>Item</category>
+    <selectable>True</selectable>
+    <pathCost>10</pathCost>
+    <useHitPoints>True</useHitPoints>
+	 <techLevel>Spacer</techLevel>
+   <tradeability>Sellable</tradeability>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/ACCEE</texPath>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <statBases>
+      <Mass>1</Mass>
+      <MarketValue>5000</MarketValue>
+      <MaxHitPoints>300</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+      <EquipDelay>2</EquipDelay>
+	    <Beauty>0</Beauty>
+	  </statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <alwaysHaulable>True</alwaysHaulable>
+    <tickerType>Normal</tickerType>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <apparel>
+      <useDeflectMetalEffect>true</useDeflectMetalEffect>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <tags Inherit="false">
+        <li>LingShield</li>
+      </tags>
+    </apparel>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+    </comps>
+  </ThingDef>
+  
+  <!-- I -->
+  <ThingDef ParentName="LingShieldHighWorldBase">
+    <defName>Apparel_LingShield_TheWorldAtWait</defName>
+	  <label>永恒守护</label>
+    <description>一款来自世界意志的守护,它如同定量化的怜悯,充分,但不会自然恢复,一旦你选择放弃,它就会永久的消失</description>
+    <statBases>
+      <EnergyShieldRechargeRate>0</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>1000</EnergyShieldEnergyMax>
+      <EquipDelay>1000</EquipDelay>
+    </statBases>
+    <comps>
+      <li Class="LingGame.LingGameXShieldCompP">
+      <RestTime>10</RestTime>
+      <NeedPaoPao>true</NeedPaoPao>
+      <YiCiHaoNengShangXian>1</YiCiHaoNengShangXian>
+      <ChongShengNengLiang>1000</ChongShengNengLiang>
+	  </li>
+    </comps>
+  </ThingDef>
+  
+  <!-- I -->
+  <ThingDef ParentName="LingShieldHighWorldBase">
+    <defName>Apparel_LingShield_Destiny</defName>
+	  <label>命运之轮</label>
+    <description>一款特殊的护盾,它不带有任何储能装置,而是通过消耗装备者的"气运"来规避伤害,这在面对大多数射弹,陷阱,近战打击的时候效果很不错,但对那种无法凭借运气来规避的伤害完全无法起到任何作用</description>
+    <statBases>
+      <EnergyShieldRechargeRate>1</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>1</EnergyShieldEnergyMax>
+    </statBases>
+    <comps>
+      <li Class="LingGame.LingGameXShieldCompP">
+      <RestTime>1.8</RestTime>
+      <NeedPaoPao>true</NeedPaoPao>
+      <ChongShengNengLiang>1</ChongShengNengLiang>
+	  </li>
+    </comps>
+  </ThingDef>
+
+
+
+</Defs>

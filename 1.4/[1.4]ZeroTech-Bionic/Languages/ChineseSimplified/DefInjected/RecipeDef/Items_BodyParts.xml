@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 无头 -->
+
+  <installLingXCG_NoHead.label>安装头颅压缩器</installLingXCG_NoHead.label>
+  <installLingXCG_NoHead.description>安装头颅压缩器。</installLingXCG_NoHead.description>
+  <installLingXCG_NoHead.jobString>安装头颅压缩器中。</installLingXCG_NoHead.jobString>
+
+  <MakeLingXCG_NoHead.label>制作头颅压缩器</MakeLingXCG_NoHead.label>
+  <MakeLingXCG_NoHead.description>制作头颅压缩器。</MakeLingXCG_NoHead.description>
+  <MakeLingXCG_NoHead.jobString>制作头颅压缩器中。</MakeLingXCG_NoHead.jobString>
+
+
+  <!-- 意识 -->
+
+  <installLingXCG_BrainEnhancementDevice.label>安装大脑催化装置</installLingXCG_BrainEnhancementDevice.label>
+  <installLingXCG_BrainEnhancementDevice.description>安装大脑催化装置。</installLingXCG_BrainEnhancementDevice.description>
+  <installLingXCG_BrainEnhancementDevice.jobString>安装大脑催化装置中。</installLingXCG_BrainEnhancementDevice.jobString>
+
+  <MakeLingXCG_BrainEnhancementDevice.label>制作大脑催化装置</MakeLingXCG_BrainEnhancementDevice.label>
+  <MakeLingXCG_BrainEnhancementDevice.description>制作大脑催化装置。</MakeLingXCG_BrainEnhancementDevice.description>
+  <MakeLingXCG_BrainEnhancementDevice.jobString>制作大脑催化装置中。</MakeLingXCG_BrainEnhancementDevice.jobString>
+
+
+  <!-- 无食 -->
+
+  <installLingXCG_NoHunger.label>安装物质合成芯片</installLingXCG_NoHunger.label>
+  <installLingXCG_NoHunger.description>安装一个芯片。</installLingXCG_NoHunger.description>
+  <installLingXCG_NoHunger.jobString>安装芯片中。</installLingXCG_NoHunger.jobString>
+
+
+  <!-- 无心 -->
+
+  <installLingXCG_NoHeart.label>安装情感阻隔芯片</installLingXCG_NoHeart.label>
+  <installLingXCG_NoHeart.description>安装一个芯片。</installLingXCG_NoHeart.description>
+  <installLingXCG_NoHeart.jobString>安装芯片中。</installLingXCG_NoHeart.jobString>
+
+
+  <!-- 隐形 -->
+
+  <installLingXCG_Invisible.label>安装光线畸变芯片</installLingXCG_Invisible.label>
+  <installLingXCG_Invisible.description>安装一个芯片。</installLingXCG_Invisible.description>
+  <installLingXCG_Invisible.jobString>安装芯片中。</installLingXCG_Invisible.jobString>
+
+
+  <!-- 防御 -->
+
+  <installLingXCG_OldSkin.label>安装固化皮肤芯片</installLingXCG_OldSkin.label>
+  <installLingXCG_OldSkin.description>安装一个芯片。</installLingXCG_OldSkin.description>
+  <installLingXCG_OldSkin.jobString>安装芯片中。</installLingXCG_OldSkin.jobString>
+
+
+  <!-- 包扎 -->
+
+  <installLingXCG_AutoBandaging.label>安装自动包扎芯片</installLingXCG_AutoBandaging.label>
+  <installLingXCG_AutoBandaging.description>安装一个芯片。</installLingXCG_AutoBandaging.description>
+  <installLingXCG_AutoBandaging.jobString>安装芯片中。</installLingXCG_AutoBandaging.jobString>
+
+
+  <!-- 治病 -->
+
+  <installLingXCG_AutoMedical.label>安装自动医疗芯片</installLingXCG_AutoMedical.label>
+  <installLingXCG_AutoMedical.description>安装一个芯片。</installLingXCG_AutoMedical.description>
+  <installLingXCG_AutoMedical.jobString>安装芯片中。</installLingXCG_AutoMedical.jobString>
+
+
+  <!-- 回血 -->
+
+  <installLingXCG_BodyRegeneration.label>安装组织再生芯片</installLingXCG_BodyRegeneration.label>
+  <installLingXCG_BodyRegeneration.description>安装一个芯片。</installLingXCG_BodyRegeneration.description>
+  <installLingXCG_BodyRegeneration.jobString>安装芯片中。</installLingXCG_BodyRegeneration.jobString>
+
+
+  <!-- 造肢 -->
+
+  <installLingXCG_BodyReconstruction.label>安装肢体重构芯片</installLingXCG_BodyReconstruction.label>
+  <installLingXCG_BodyReconstruction.description>安装一个芯片。</installLingXCG_BodyReconstruction.description>
+  <installLingXCG_BodyReconstruction.jobString>安装芯片中。</installLingXCG_BodyReconstruction.jobString>
+
+
+  <!-- 环境 -->
+
+  <installLingXCG_EnvironmentalAdaptation.label>安装环境适应芯片</installLingXCG_EnvironmentalAdaptation.label>
+  <installLingXCG_EnvironmentalAdaptation.description>安装一个芯片。</installLingXCG_EnvironmentalAdaptation.description>
+  <installLingXCG_EnvironmentalAdaptation.jobString>安装芯片中。</installLingXCG_EnvironmentalAdaptation.jobString>
+
+  <MakeLingXCG_EnvironmentalAdaptation.label>制作环境适应芯片</MakeLingXCG_EnvironmentalAdaptation.label>
+  <MakeLingXCG_EnvironmentalAdaptation.description>制作环境适应芯片。</MakeLingXCG_EnvironmentalAdaptation.description>
+  <MakeLingXCG_EnvironmentalAdaptation.jobString>制作环境适应芯片中。</MakeLingXCG_EnvironmentalAdaptation.jobString>
+
+
+  <!-- 思放 -->
+
+  <installLingXCG_MentalRadiation.label>安装思维放射芯片</installLingXCG_MentalRadiation.label>
+  <installLingXCG_MentalRadiation.description>安装一个芯片。</installLingXCG_MentalRadiation.description>
+  <installLingXCG_MentalRadiation.jobString>安装芯片中。</installLingXCG_MentalRadiation.jobString>
+
+  <MakeLingXCG_MentalRadiation.label>制作思维放射芯片</MakeLingXCG_MentalRadiation.label>
+  <MakeLingXCG_MentalRadiation.description>制作思维放射芯片。</MakeLingXCG_MentalRadiation.description>
+  <MakeLingXCG_MentalRadiation.jobString>制作思维放射芯片中。</MakeLingXCG_MentalRadiation.jobString>
+
+
+  <!-- 安神 -->
+
+  <installLingXCG_Soothe.label>安装精神抚慰芯片</installLingXCG_Soothe.label>
+  <installLingXCG_Soothe.description>安装一个芯片。</installLingXCG_Soothe.description>
+  <installLingXCG_Soothe.jobString>安装芯片中。</installLingXCG_Soothe.jobString>
+
+  <MakeLingXCG_Soothe.label>制作精神抚慰芯片</MakeLingXCG_Soothe.label>
+  <MakeLingXCG_Soothe.description>制作精神抚慰芯片。</MakeLingXCG_Soothe.description>
+  <MakeLingXCG_Soothe.jobString>制作精神抚慰芯片中。</MakeLingXCG_Soothe.jobString>
+
+
+  <!-- 灵聚 -->
+
+  <installLingXCG_PsyAdd.label>安装灵质汇聚芯片</installLingXCG_PsyAdd.label>
+  <installLingXCG_PsyAdd.description>安装一个芯片。</installLingXCG_PsyAdd.description>
+  <installLingXCG_PsyAdd.jobString>安装芯片中。</installLingXCG_PsyAdd.jobString>
+
+  <MakeLingXCG_PsyAdd.label>制作灵质汇聚芯片</MakeLingXCG_PsyAdd.label>
+  <MakeLingXCG_PsyAdd.description>制作灵质汇聚芯片。</MakeLingXCG_PsyAdd.description>
+  <MakeLingXCG_PsyAdd.jobString>制作灵质汇聚芯片中。</MakeLingXCG_PsyAdd.jobString>
+
+
+  <!-- 战偶 -->
+
+  <installLingXCG_FightPuppetC.label>安装站斗人偶</installLingXCG_FightPuppetC.label>
+  <installLingXCG_FightPuppetC.description>安装一个芯片。</installLingXCG_FightPuppetC.description>
+  <installLingXCG_FightPuppetC.jobString>安装芯片中。</installLingXCG_FightPuppetC.jobString>
+
+  <MakeLingXCG_FightPuppetC.label>制作站斗人偶</MakeLingXCG_FightPuppetC.label>
+  <MakeLingXCG_FightPuppetC.description>制作站斗人偶。</MakeLingXCG_FightPuppetC.description>
+  <MakeLingXCG_FightPuppetC.jobString>制作站斗人偶中。</MakeLingXCG_FightPuppetC.jobString>
+
+
+  <!-- 不睡 -->
+
+</LanguageData>

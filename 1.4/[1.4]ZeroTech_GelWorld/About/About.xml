@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ModMetaData>
+	<name>ZeroTech_GelTentacle</name>
+	<author>LingLuo</author>
+	<supportedVersions>
+		<li>1.4</li>
+	</supportedVersions>
+	<packageId>LingLuo.ZeroTechChuShou</packageId>
+	<description>零子科技-触手生态
+	内容简介:你可以利用刚抵达世界的时候的物资建造一株触手培养皿,然后等待后续的发展,你可以收获丰富的食物,但可能引发一些潜在的问题.
+		
+	</description>
+	<!-- <modDependencies>
+		<li>
+			<packageId>Ludeon.RimWorld.Royalty</packageId>
+			<displayName>Royalty</displayName>
+			<downloadUrl>https://www.baidu.com</downloadUrl>
+		</li>
+	</modDependencies> -->
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+	</loadAfter>
+</ModMetaData>

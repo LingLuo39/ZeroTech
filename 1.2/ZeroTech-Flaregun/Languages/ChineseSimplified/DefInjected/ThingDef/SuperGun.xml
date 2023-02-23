@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 未知随机 -->
+
+  <FlareGun_Random.label>随机信号枪</FlareGun_Random.label>
+  <FlareGun_Random.description>触发一个随机的事件，可能是给殖民地带来机会，也可能带来危险</FlareGun_Random.description>
+
+
+  <!-- 已知随机 -->
+
+  <FlareGun_Truey.label>信号枪</FlareGun_Truey.label>
+  <FlareGun_Truey.description>触发记载的事件，你可以随时修改你想要触发的事件。</FlareGun_Truey.description>
+
+
+</LanguageData>

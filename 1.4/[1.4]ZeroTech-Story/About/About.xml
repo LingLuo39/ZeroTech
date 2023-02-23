@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ModMetaData>
+	<name>ZeroTech-Story</name>
+	<author>LingLuo</author>
+	<supportedVersions>
+		<li>1.4</li>
+	</supportedVersions>
+	<packageId>LingLuo.ZeroTechStory</packageId>
+	<description>零子科技-旧事拓展包
+	过去遗留的记录,是否有一日会让人重新记起
+	物品简介
+	艾希薇儿·莱:艾莉西亚尊重人们的主观意志,她认为最好的故事是主角一步一步做出选择,而不是迫于世界的恶意前进
+	乔恩:乔恩生于战争,行于战争,也终于战争.他的一生中只有无止境的战争,尽管如此,他依旧向往平静的生活,在他的故事中或许会有一些小温馨,但更多的是残酷的现实...
+	</description>
+	<!-- <modDependencies>
+		<li>
+			<packageId>LingLuo.ZeroTechCore</packageId>
+			<displayName>ZeroTechCore</displayName>
+			<downloadUrl>https://www.baidu.com</downloadUrl>
+		</li>
+	</modDependencies> -->
+	
+	<loadAfter>
+		<li>LingLuo.ZeroTechCore</li>
+	</loadAfter>
+</ModMetaData>

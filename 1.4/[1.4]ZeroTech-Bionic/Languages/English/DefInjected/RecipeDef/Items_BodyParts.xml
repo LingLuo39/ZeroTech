@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 无头 -->
+
+  <installLingXCG_NoHead.label>install head Compressor</installLingXCG_NoHead.label>
+  <installLingXCG_NoHead.description>Install a chip.</installLingXCG_NoHead.description>
+  <installLingXCG_NoHead.jobString>Installing chip.</installLingXCG_NoHead.jobString>
+
+
+  <!-- 意识 -->
+
+  <installLingXCG_BrainEnhancementDevice.label>install brain enhancement device</installLingXCG_BrainEnhancementDevice.label>
+  <installLingXCG_BrainEnhancementDevice.description>Install a chip.</installLingXCG_BrainEnhancementDevice.description>
+  <installLingXCG_BrainEnhancementDevice.jobString>Installing chip.</installLingXCG_BrainEnhancementDevice.jobString>
+
+
+  <!-- 无食 -->
+
+  <installLingXCG_NoHunger.label>install hunger suppress chip</installLingXCG_NoHunger.label>
+  <installLingXCG_NoHunger.description>Install a chip.</installLingXCG_NoHunger.description>
+  <installLingXCG_NoHunger.jobString>Installing chip.</installLingXCG_NoHunger.jobString>
+
+
+  <!-- 无心 -->
+
+  <installLingXCG_NoHeart.label>install emotional isolation chip</installLingXCG_NoHeart.label>
+  <installLingXCG_NoHeart.description>Install a chip.</installLingXCG_NoHeart.description>
+  <installLingXCG_NoHeart.jobString>Installing chip.</installLingXCG_NoHeart.jobString>
+
+
+  <!-- 隐形 -->
+
+  <installLingXCG_Invisible.label>install emotional isolation chip</installLingXCG_Invisible.label>
+  <installLingXCG_Invisible.description>Install a chip.</installLingXCG_Invisible.description>
+  <installLingXCG_Invisible.jobString>Installing chip.</installLingXCG_Invisible.jobString>
+
+
+  <!-- 防御 -->
+
+  <installLingXCG_OldSkin.label>install tough skin chip</installLingXCG_OldSkin.label>
+  <installLingXCG_OldSkin.description>Install a chip.</installLingXCG_OldSkin.description>
+  <installLingXCG_OldSkin.jobString>Installing chip.</installLingXCG_OldSkin.jobString>
+
+
+  <!-- 包扎 -->
+
+  <installLingXCG_AutoBandaging.label>install auto bandaging chip</installLingXCG_AutoBandaging.label>
+  <installLingXCG_AutoBandaging.description>Install a chip.</installLingXCG_AutoBandaging.description>
+  <installLingXCG_AutoBandaging.jobString>Installing chip.</installLingXCG_AutoBandaging.jobString>
+
+
+  <!-- 治病 -->
+
+  <installLingXCG_AutoMedical.label>install auto medical chip</installLingXCG_AutoMedical.label>
+  <installLingXCG_AutoMedical.description>Install a chip.</installLingXCG_AutoMedical.description>
+  <installLingXCG_AutoMedical.jobString>Installing chip.</installLingXCG_AutoMedical.jobString>
+
+
+  <!-- 回血 -->
+
+  <installLingXCG_BodyRegeneration.label>install body regeneration chip</installLingXCG_BodyRegeneration.label>
+  <installLingXCG_BodyRegeneration.description>Install a chip.</installLingXCG_BodyRegeneration.description>
+  <installLingXCG_BodyRegeneration.jobString>Installing chip.</installLingXCG_BodyRegeneration.jobString>
+
+
+  <!-- 造肢 -->
+
+  <installLingXCG_BodyReconstruction.label>install body reconstruction chip</installLingXCG_BodyReconstruction.label>
+  <installLingXCG_BodyReconstruction.description>Install a chip.</installLingXCG_BodyReconstruction.description>
+  <installLingXCG_BodyReconstruction.jobString>Installing chip.</installLingXCG_BodyReconstruction.jobString>
+
+
+  <!-- 环境 -->
+
+  <installLingXCG_EnvironmentalAdaptation.label>install environmental adaptation chip</installLingXCG_EnvironmentalAdaptation.label>
+  <installLingXCG_EnvironmentalAdaptation.description>Install a chip.</installLingXCG_EnvironmentalAdaptation.description>
+  <installLingXCG_EnvironmentalAdaptation.jobString>Installing chip.</installLingXCG_EnvironmentalAdaptation.jobString>
+
+
+  <!-- 思放 -->
+
+  <installLingXCG_MentalRadiation.label>install mental radiation chip</installLingXCG_MentalRadiation.label>
+  <installLingXCG_MentalRadiation.description>Install a chip.</installLingXCG_MentalRadiation.description>
+  <installLingXCG_MentalRadiation.jobString>Installing chip.</installLingXCG_MentalRadiation.jobString>
+
+
+  <!-- 安神 -->
+
+  <installLingXCG_Soothe.label>install soothe chip</installLingXCG_Soothe.label>
+  <installLingXCG_Soothe.description>Install a chip.</installLingXCG_Soothe.description>
+  <installLingXCG_Soothe.jobString>Installing chip.</installLingXCG_Soothe.jobString>
+  
+  
+
+  <installLingXCG_PsyAdd.label>installessence convergence chip</installLingXCG_PsyAdd.label>
+  <installLingXCG_PsyAdd.description>install a chip</installLingXCG_PsyAdd.description>
+  <installLingXCG_PsyAdd.jobString>Installing chip.</installLingXCG_PsyAdd.jobString>
+
+  <!-- 战偶 -->
+
+  <installLingXCG_FightPuppetC.label>install flght puppet</installLingXCG_FightPuppetC.label>
+  <installLingXCG_FightPuppetC.description>Install a chip.</installLingXCG_FightPuppetC.description>
+  <installLingXCG_FightPuppetC.jobString>Installing chip.</installLingXCG_FightPuppetC.jobString>
+
+
+</LanguageData>

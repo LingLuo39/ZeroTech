@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>ZeroTechGel</defName>
+    <label>零子凝胶</label>
+    <description>一种质地较软,可塑性强的人工材料,使用起来非常方便,必要的时候也可以作为食物,不过没什么味道.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Silver</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(119,189,199)</color>
+    </graphicData>
+    <resourceReadoutPriority>First</resourceReadoutPriority>
+    <soundInteract>Silver_Drop</soundInteract>
+    <soundDrop>Silver_Drop</soundDrop>
+    <useHitPoints>false</useHitPoints>
+    <tradeability>Sellable</tradeability>
+    <resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
+    <statBases>
+      <MarketValue>0.1</MarketValue>
+      <Mass>0.001</Mass>
+      <Nutrition>0.01</Nutrition>
+      <StuffPower_Armor_Sharp>0.2</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.2</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.2</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>2</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>2</StuffPower_Insulation_Heat>
+      <SharpDamageMultiplier>0.1</SharpDamageMultiplier>
+      <BluntDamageMultiplier>0.1</BluntDamageMultiplier>
+    </statBases>
+    <ingestible>
+      <foodType>Kibble</foodType>
+      <preferability>DesperateOnlyForHumanlikes</preferability>
+      <maxNumToIngestAtOnce>90</maxNumToIngestAtOnce>
+      <optimalityOffsetHumanlikes>-10</optimalityOffsetHumanlikes>
+      <optimalityOffsetFeedingAnimals>-10</optimalityOffsetFeedingAnimals>
+    </ingestible>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stackLimit>500</stackLimit>
+    <smeltable>true</smeltable>
+    <smallVolume>true</smallVolume>
+    <stuffProps>
+      <categories>
+        <li>Woody</li>
+        <li>Stony</li>
+      </categories>
+      <color>(119,189,199)</color>
+      <commonality>0.01</commonality>
+      <constructEffect>ConstructWood</constructEffect>
+      <soundImpactStuff>BulletImpact_Wood</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+      <statOffsets>
+        <Beauty>1</Beauty>
+      </statOffsets>
+      <statFactors>
+        <DoorOpenSpeed>1.8</DoorOpenSpeed>
+        <MaxHitPoints>0.2</MaxHitPoints>
+        <Flammability>2</Flammability>
+        <Beauty>1.7</Beauty>
+        <WorkToMake>0.15</WorkToMake>
+		<WorkToBuild>0.15</WorkToBuild>
+		<MeleeWeapon_CooldownMultiplier>0.5</MeleeWeapon_CooldownMultiplier>
+      </statFactors>
+    </stuffProps>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+  </ThingDef>
+
+
+</Defs>

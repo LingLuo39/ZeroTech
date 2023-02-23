@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Name="LingShieldLightBase" Abstract="True">
+	<thingClass>LingGame.LingGameXShield</thingClass>
+    <category>Item</category>
+    <selectable>True</selectable>
+    <pathCost>10</pathCost>
+    <useHitPoints>True</useHitPoints>
+	<techLevel>Spacer</techLevel>
+    <graphicData>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    </graphicData>
+    <drawGUIOverlay>true</drawGUIOverlay>
+	<!-- <generateCommonality>0</generateCommonality> -->
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>2</DeteriorationRate>
+	  <Beauty>-3</Beauty>
+	</statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <alwaysHaulable>True</alwaysHaulable>
+    <tickerType>Never</tickerType>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <apparel>
+      <useDeflectMetalEffect>true</useDeflectMetalEffect>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <tags Inherit="false">
+        <li>LingShield</li>
+      </tags>
+    </apparel>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+    </comps>
+  </ThingDef>
+  <!-- 护盾 -->
+  <ThingDef ParentName="LingShieldLightBase">
+    <defName>Apparel_Ling_Light_I</defName>
+	<label>能源护盾-荧光</label>
+    <description>神光能源护盾的第一作,有着较低的能量上限和恢复速度,装载了常驻式的能量守护,有几率降低破盾情况下受到的伤害,该款为远程特化盾,受到远程伤害时会降低更少能量`</description>
+	<graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/ACCEE</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <techLevel>Ultra</techLevel>
+    <!-- <tradeability>Sellable</tradeability> -->
+    <statBases>
+      <Mass>1</Mass>
+      <MarketValue>1280</MarketValue>
+      <WorkToMake>3600</WorkToMake>
+      <Flammability>0</Flammability>
+      <EquipDelay>2</EquipDelay>
+      <EnergyShieldRechargeRate>0.3</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>3.1</EnergyShieldEnergyMax>
+    </statBases>
+    <comps>
+      <li Class="LingGame.LingGameXShieldCompP">
+      
+      <YiCiHaoNengShangXian>1</YiCiHaoNengShangXian>
+      <RangeXiShouPerHaoNeng>0.8</RangeXiShouPerHaoNeng>
+      <RestTime>30</RestTime>
+      <NeedPaoPao>true</NeedPaoPao>
+      <ChongShengNengLiang>1</ChongShengNengLiang>
+	  </li>
+    </comps>
+	
+    <costList>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <ComponentSpacer>1</ComponentSpacer>
+      <Uranium>5</Uranium>
+      <Jade>10</Jade>
+    </costList>
+	<recipeMaker>
+	  <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
+	  <researchPrerequisite>LingPowerShieldII</researchPrerequisite>
+	  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+	  <workSkill>Crafting</workSkill>
+	  <effectWorking>Smith</effectWorking>
+	  <soundWorking>Recipe_Machining</soundWorking>
+	  <recipeUsers>
+		<li>FabricationBench</li>
+	  </recipeUsers>
+      <skillRequirements>
+        <Crafting>10</Crafting>
+      </skillRequirements>
+	</recipeMaker>
+  </ThingDef>
+  <ThingDef ParentName="LingShieldLightBase">
+    <defName>Apparel_Ling_Light_II</defName>
+	<label>能源护盾-日光</label>
+    <description>神光能源护盾的第二作,有着中等的能量上限和恢复速度,装载了常驻式的能量守护,有几率降低破盾情况下受到的伤害,该款为远程特化盾,受到远程伤害时会降低更少能量</description>
+	<graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/ACCEE</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <techLevel>Ultra</techLevel>
+    <!-- <tradeability>Sellable</tradeability> -->
+    <statBases>
+      <Mass>1</Mass>
+      <MarketValue>2560</MarketValue>
+      <WorkToMake>3600</WorkToMake>
+      <Flammability>0</Flammability>
+      <EquipDelay>2</EquipDelay>
+      <EnergyShieldRechargeRate>0.6</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>6</EnergyShieldEnergyMax>
+    </statBases>
+    <comps>
+      <li Class="LingGame.LingGameXShieldCompP">
+      
+      <YiCiHaoNengShangXian>1</YiCiHaoNengShangXian>
+      <RangeXiShouPerHaoNeng>0.8</RangeXiShouPerHaoNeng>
+      <RestTime>30</RestTime>
+      <NeedPaoPao>true</NeedPaoPao>
+      <ChongShengNengLiang>1</ChongShengNengLiang>
+	  </li>
+    </comps>
+  </ThingDef>
+
+</Defs>

@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef Name="LingCookMealBase" Abstract="True">
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <researchPrerequisite>ZeroTechMeals</researchPrerequisite>
+    <allowMixingIngredients>true</allowMixingIngredients>
+	<recipeUsers>
+	  <li>FueledStove</li>
+	  <li>ElectricStove</li>
+	</recipeUsers>
+	<fixedIngredientFilter>
+	  <categories>
+		<li>FoodRaw</li>
+	  </categories>
+	  <specialFiltersToDisallow>
+		<li>AllowPlantFood</li>
+	  </specialFiltersToDisallow>
+	</fixedIngredientFilter>
+	<defaultIngredientFilter>
+	  <categories>
+		<li>FoodRaw</li>
+	  </categories>
+	  <disallowedCategories>
+		<li>EggsFertilized</li>
+	  </disallowedCategories>
+	  <disallowedThingDefs>
+		<li>Meat_Human</li>
+		<li>Meat_Megaspider</li>
+		<li>InsectJelly</li>
+	  </disallowedThingDefs>
+	</defaultIngredientFilter>
+	<workSkill>Cooking</workSkill>
+  </RecipeDef>
+
+  <RecipeDef ParentName="LingCookMealBase">
+    <defName>CookFatHealthMeal</defName>
+    <label>制作肥宅增肌餐</label>
+    <description>制作肥宅增肌餐.</description>
+    <jobString>制作肥宅增肌餐.</jobString>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+			<li>AnimalProductRaw</li>
+          </categories>
+        </filter>
+        <count>0.8</count>
+      </li>
+    </ingredients>
+	  <products>
+		<FatHealthMeal>1</FatHealthMeal>
+	  </products>
+    <workSkill>Cooking</workSkill>
+  </RecipeDef>
+
+  <RecipeDef ParentName="LingCookMealBase">
+    <defName>CookLoseWeightMeal</defName>
+    <label>制作瘦身健康餐</label>
+    <description>制作瘦身健康餐.</description>
+    <jobString>制作瘦身健康餐.</jobString>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>PlantFoodRaw</li>
+          </categories>
+        </filter>
+        <count>0.3</count>
+      </li>
+    </ingredients>
+	  <products>
+		<LoseWeightMeal>1</LoseWeightMeal>
+	  </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="LingCookMealBase">
+    <defName>CookFatHappyMeal</defName>
+    <label>制作肥宅快乐餐</label>
+    <description>制作肥宅快乐餐.</description>
+    <jobString>制作肥宅快乐餐.</jobString>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+			<li>AnimalProductRaw</li>
+          </categories>
+        </filter>
+        <count>0.7</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>PlantFoodRaw</li>
+          </categories>
+        </filter>
+        <count>0.7</count>
+      </li>
+    </ingredients>
+	  <products>
+		<FatHappyMeal>1</FatHappyMeal>
+	  </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="LingCookMealBase">
+    <defName>CookFuckYouMeal</defName>
+    <label>制作嘴臭盒饭</label>
+    <description>制作嘴臭盒饭.</description>
+    <jobString>制作嘴臭盒饭.</jobString>
+    <!-- <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass> -->
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MealSimple</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Neutroamine</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+	  <products>
+		<FuckYouMeal>1</FuckYouMeal>
+	  </products>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="LingCookMealBase">
+    <defName>CookCosmeticMeal</defName>
+    <label>制作整容盒饭</label>
+    <description>制作整容盒饭.</description>
+    <jobString>制作整容盒饭.</jobString>
+    <!-- <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass> -->
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MealSimple</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chocolate</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+	  <products>
+		<CosmeticMeal>1</CosmeticMeal>
+	  </products>
+  </RecipeDef>
+  
+  <RecipeDef ParentName="LingCookMealBase">
+    <defName>CookUngratefulnessCookies</defName>
+    <label>制作忘恩负义饼</label>
+    <description>制作忘恩负义饼.</description>
+    <jobString>制作忘恩负义饼.</jobString>
+    <!-- <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass> -->
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Kibble</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Neutroamine</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+	  <products>
+		<UngratefulnessCookies>1</UngratefulnessCookies>
+	  </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="LingCookMealBase">
+    <defName>CookSleeplyRedTea</defName>
+    <label>制作昏睡红茶</label>
+    <description>制作昏睡红茶.</description>
+    <jobString>制作昏睡红茶.</jobString>
+    <!-- <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass> -->
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PsychiteTea</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Neutroamine</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+	  <products>
+		<SleeplyRedTea>1</SleeplyRedTea>
+	  </products>
+  </RecipeDef>
+
+
+</Defs>

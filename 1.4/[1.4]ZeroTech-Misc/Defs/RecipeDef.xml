@@ -1,0 +1,616 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!-- 一本 -->
+  <ResearchProjectDef>
+    <defName>ZeroTech_Cu1F</defName>
+    <label>一本工程科技</label>
+    <description>利用世界底层不合理现象,对物质进行轻程度的操控,以此改变部分物质的结构\n\n你无法理解这种推断,只能通过一些外部信息来应用这部分技术</description>
+    <tab>ZeroTech</tab>
+    <baseCost>1000</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewX>1</researchViewX>
+    <researchViewY>5</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>ZeroTech_Ag1F</defName>
+    <label>二本工程科技</label>
+    <description>寄了,编不出来了</description>
+    <tab>ZeroTech</tab>
+    <baseCost>2000</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewX>2</researchViewX>
+    <researchViewY>5</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>ZeroTech_Au1F</defName>
+    <label>三本工程科技</label>
+    <description>寄了,编不出来了</description>
+    <tab>ZeroTech</tab>
+    <baseCost>4000</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewX>3</researchViewX>
+    <researchViewY>5</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>ZeroTech_Ti1F</defName>
+    <label>四本工程科技</label>
+    <description>寄了,编不出来了</description>
+    <tab>ZeroTech</tab>
+    <baseCost>8000</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewX>4</researchViewX>
+    <researchViewY>5</researchViewY>
+  </ResearchProjectDef>
+  <RecipeDef Name = "ZeroTechBenI" Abstract="True">
+    <researchPrerequisite>ZeroTech_Cu1F</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef Name = "ZeroTechBenII" Abstract="True">
+    <researchPrerequisite>ZeroTech_Ag1F</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef Name = "ZeroTechBenIII" Abstract="True">
+    <researchPrerequisite>ZeroTech_Au1F</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef Name = "ZeroTechBenIV" Abstract="True">
+    <researchPrerequisite>ZeroTech_Ti1F</researchPrerequisite>
+  </RecipeDef>
+  
+  
+  <!-- 切大理石 -->
+  <RecipeDef ParentName="ZeroTechBenI">
+	<defName>LingEasyWork_DaLiShi</defName>
+	<label>研磨大理石</label><!-- 玩家直接看到的说明 -->
+	<description>将其他石砖转化为大理石砖.</description><!-- 玩家点开看到的说明 -->
+	<jobString>偷吃石头中.</jobString><!-- 工作时的说明 -->
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat><!-- 工作受什么速度影响 -->
+    <effectWorking>Cook</effectWorking><!-- 特效,动画 -->
+    <soundWorking>Recipe_Machining</soundWorking><!-- 音效,总不能用哼哼啊啊啊啊 -->
+    <workSkill>Crafting</workSkill><!-- 对应的技能,可以没有 -->
+	<skillRequirements><Crafting>1</Crafting></skillRequirements><!-- 技能要求,可以没有 -->
+	<workAmount>900</workAmount><!-- 工作量,60为1秒 -->
+	<recipeUsers><li>TableStonecutter</li></recipeUsers><!-- 对应工作台 -->
+	<ingredients>
+	  <li>
+		<filter>
+		  <categories>
+			<li>StoneBlocks</li>
+		  </categories>
+		</filter>
+		<count>50</count>
+	  </li>
+	</ingredients>
+	<fixedIngredientFilter>
+	  <categories>
+		<li>StoneBlocks</li>
+	  </categories>
+	</fixedIngredientFilter>
+	<products><BlocksMarble>50</BlocksMarble></products>
+  </RecipeDef>
+  <!-- 切花岗岩 --> 
+  <RecipeDef ParentName="ZeroTechBenI">
+	<defName>LingEasyWork_HuaGangYan</defName>
+	<label>研磨花岗岩</label><!-- 玩家直接看到的说明 -->
+	<description>将其他石砖转化为花岗岩砖.</description><!-- 玩家点开看到的说明 -->
+	<jobString>偷吃石头中.</jobString><!-- 工作时的说明 -->
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat><!-- 工作受什么速度影响 -->
+    <effectWorking>Cook</effectWorking><!-- 特效,动画 -->
+    <soundWorking>Recipe_Machining</soundWorking><!-- 音效,总不能用哼哼啊啊啊啊 -->
+    <workSkill>Crafting</workSkill><!-- 对应的技能,可以没有 -->
+	<skillRequirements><Crafting>1</Crafting></skillRequirements><!-- 技能要求,可以没有 -->
+	<workAmount>900</workAmount><!-- 工作量,60为1秒 -->
+	<recipeUsers><li>TableStonecutter</li></recipeUsers><!-- 对应工作台 -->
+	<ingredients>
+	  <li>
+		<filter>
+		  <categories>
+			<li>StoneBlocks</li>
+		  </categories>
+		</filter>
+		<count>50</count>
+	  </li>
+	</ingredients>
+	<fixedIngredientFilter>
+	  <categories>
+		<li>StoneBlocks</li>
+	  </categories>
+	</fixedIngredientFilter>
+	<products><BlocksGranite>50</BlocksGranite></products>
+  </RecipeDef>
+  <!-- 赌石 -->
+  <RecipeDef ParentName="ZeroTechBenI">
+	<defName>LingEasyWork_DuShi</defName>
+	<label>赌石</label><!-- 玩家直接看到的说明 -->
+	<description>直接剖开石头,有极低概率出现稀有矿物.</description><!-- 玩家点开看到的说明 -->
+	<jobString>偷吃石头中.</jobString><!-- 工作时的说明 -->
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat><!-- 工作受什么速度影响 -->
+    <effectWorking>Cook</effectWorking><!-- 特效,动画 -->
+    <soundWorking>Recipe_Machining</soundWorking><!-- 音效,总不能用哼哼啊啊啊啊 -->
+    <workSkill>Crafting</workSkill><!-- 对应的技能,可以没有 -->
+	<skillRequirements><Crafting>1</Crafting></skillRequirements><!-- 技能要求,可以没有 -->
+	<workAmount>600</workAmount><!-- 工作量,60为1秒 -->
+	<recipeUsers><li>TableStonecutter</li></recipeUsers><!-- 对应工作台 -->
+	<ingredients>
+	  <li>
+		<filter>
+		  <categories>
+			<li>StoneChunks</li>
+		  </categories>
+		</filter>
+		<count>1</count>
+	  </li>
+	</ingredients>
+	<fixedIngredientFilter>
+	  <categories>
+		<li>StoneChunks</li>
+	  </categories>
+	</fixedIngredientFilter>
+	<products><Mote_DuShi>1</Mote_DuShi></products>
+  </RecipeDef>
+  <ThingDef ParentName="MoteBase">
+    <defName>Mote_DuShi</defName>
+	<label>赌石</label>
+    <thingClass>LingGame.Mote_DuShi</thingClass>
+    <graphicData>
+      <texPath>Things/Mote/Bombardment</texPath>
+      <shaderType>MoteGlow</shaderType>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <drawOffscreen>true</drawOffscreen>
+    <mote>
+      <fadeInTime>0.01</fadeInTime>
+      <solidTime>0.01</solidTime>
+      <fadeOutTime>0.01</fadeOutTime>
+    </mote>
+  </ThingDef>
+  <!-- 炒冷饭 -->
+  <RecipeDef ParentName="ZeroTechBenI">
+	<defName>LingEasyWork_ChaoLengFan</defName>
+	<label>炒冷饭</label><!-- 玩家直接看到的说明 -->
+	<description>冷饭新炒,可以锻炼烹饪技巧.</description><!-- 玩家点开看到的说明 -->
+	<jobString>偷吃配菜中.</jobString><!-- 工作时的说明 -->
+    <workSpeedStat>CookSpeed</workSpeedStat><!-- 工作受什么速度影响 -->
+    <effectWorking>Cook</effectWorking><!-- 特效,动画 -->
+    <soundWorking>Recipe_CookMeal</soundWorking><!-- 音效,总不能用哼哼啊啊啊啊 -->
+    <workSkill>Cooking</workSkill><!-- 对应的技能,可以没有 -->
+	<skillRequirements><Crafting>1</Crafting></skillRequirements><!-- 技能要求,可以没有 -->
+	<workAmount>1200</workAmount><!-- 工作量,60为1秒 -->
+	<recipeUsers><li>ElectricStove</li></recipeUsers><!-- 对应工作台 -->
+	<ingredients>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>MealSimple</li>
+		  </thingDefs>
+		</filter>
+		<count>2</count>
+	  </li>
+	</ingredients>
+	<fixedIngredientFilter>
+	  <thingDefs>
+		<li>MealSimple</li>
+	  </thingDefs>
+	</fixedIngredientFilter>
+	<products><MealSimple>2</MealSimple></products>
+  </RecipeDef>
+
+<!-- 二本 -->
+
+  <!-- 造玻璃钢 -->
+  <RecipeDef ParentName="ZeroTechBenII">
+	<defName>LingEasyWork_Plasteel</defName>
+	<label>制取玻璃钢</label><!-- 玩家直接看到的说明 -->
+	<description>利用高温通过凝胶演化钢铁制取玻璃钢.</description><!-- 玩家点开看到的说明 -->
+	<jobString>偷吃钢铁中.</jobString><!-- 工作时的说明 -->
+    <workSpeedStat>SmeltingSpeed</workSpeedStat><!-- 工作受什么速度影响 -->
+    <effectWorking>Cook</effectWorking><!-- 特效,动画 -->
+    <soundWorking>Recipe_Machining</soundWorking><!-- 音效,总不能用哼哼啊啊啊啊 -->
+    <workSkill>Crafting</workSkill><!-- 对应的技能,可以没有 -->
+	<skillRequirements><Crafting>1</Crafting></skillRequirements><!-- 技能要求,可以没有 -->
+	<workAmount>1500</workAmount><!-- 工作量,60为1秒 -->
+	<recipeUsers><li>ElectricCrematorium</li></recipeUsers><!-- 对应工作台 -->
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef><!-- 中间产物,可以没有 -->
+	<ingredients>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>Steel</li>
+		  </thingDefs>
+		</filter>
+		<count>10</count>
+	  </li>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>ZeroTechGel</li>
+		  </thingDefs>
+		</filter>
+		<count>10</count>
+	  </li>
+	</ingredients>
+	<fixedIngredientFilter>
+	  <thingDefs>
+		<li>Steel</li>
+		<li>ZeroTechGel</li>
+	  </thingDefs>
+	</fixedIngredientFilter>
+	<products><Plasteel>5</Plasteel></products>
+  </RecipeDef>
+  <!-- 造化合燃料 -->
+  <RecipeDef ParentName="ZeroTechBenII">
+	<defName>LingEasyWork_Chemfuel</defName>
+	<label>制取化合燃料</label><!-- 玩家直接看到的说明 -->
+	<description>通过高温活化凝胶的性质,使其转化为化合燃料.</description><!-- 玩家点开看到的说明 -->
+	<jobString>偷吃凝胶中.</jobString><!-- 工作时的说明 -->
+    <workSpeedStat>SmeltingSpeed</workSpeedStat><!-- 工作受什么速度影响 -->
+    <effectWorking>Cook</effectWorking><!-- 特效,动画 -->
+    <soundWorking>Recipe_Machining</soundWorking><!-- 音效,总不能用哼哼啊啊啊啊 -->
+    <workSkill>Crafting</workSkill><!-- 对应的技能,可以没有 -->
+	<skillRequirements><Crafting>1</Crafting></skillRequirements><!-- 技能要求,可以没有 -->
+	<workAmount>600</workAmount><!-- 工作量,60为1秒 -->
+	<recipeUsers><li>BiofuelRefinery</li></recipeUsers><!-- 对应工作台 -->
+	<ingredients>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>ZeroTechGel</li>
+		  </thingDefs>
+		</filter>
+		<count>50</count>
+	  </li>
+	</ingredients>
+	<fixedIngredientFilter>
+	  <thingDefs>
+		<li>ZeroTechGel</li>
+	  </thingDefs>
+	</fixedIngredientFilter>
+	<products><Chemfuel>75</Chemfuel></products>
+  </RecipeDef>
+  <!-- 造医药 -->
+  <RecipeDef ParentName="ZeroTechBenII">
+	<defName>LingEasyWork_MedicineIndustrial</defName>
+	<label>制取医药</label><!-- 玩家直接看到的说明 -->
+	<description>利用草药和凝胶制作医药.</description><!-- 玩家点开看到的说明 -->
+	<jobString>偷喝草药汤中.</jobString><!-- 工作时的说明 -->
+    <workSpeedStat>SmeltingSpeed</workSpeedStat><!-- 工作受什么速度影响 -->
+    <effectWorking>Cook</effectWorking><!-- 特效,动画 -->
+    <soundWorking>Recipe_Machining</soundWorking><!-- 音效,总不能用哼哼啊啊啊啊 -->
+    <workSkill>Crafting</workSkill><!-- 对应的技能,可以没有 -->
+	<skillRequirements><Crafting>1</Crafting></skillRequirements><!-- 技能要求,可以没有 -->
+	<workAmount>600</workAmount><!-- 工作量,60为1秒 -->
+	<recipeUsers><li>FabricationBench</li></recipeUsers><!-- 对应工作台 -->
+	<ingredients>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>MedicineHerbal</li>
+		  </thingDefs>
+		</filter>
+		<count>1</count>
+	  </li>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>ZeroTechGel</li>
+		  </thingDefs>
+		</filter>
+		<count>1</count>
+	  </li>
+	</ingredients>
+	<fixedIngredientFilter>
+	  <thingDefs>
+		<li>MedicineHerbal</li>
+		<li>ZeroTechGel</li>
+	  </thingDefs>
+	</fixedIngredientFilter>
+	<products><MedicineIndustrial>1</MedicineIndustrial></products>
+  </RecipeDef>
+  <!-- 造零部件 -->
+  <RecipeDef ParentName="ZeroTechBenII">
+	<defName>LingEasyWork_Component</defName>
+	<label>制取零部件</label><!-- 玩家直接看到的说明 -->
+	<description>利用钢铁和凝胶更高效率的制作零部件.</description><!-- 玩家点开看到的说明 -->
+	<jobString>偷吃凝胶炒钢铁中.</jobString><!-- 工作时的说明 -->
+    <workSpeedStat>SmeltingSpeed</workSpeedStat><!-- 工作受什么速度影响 -->
+    <effectWorking>Cook</effectWorking><!-- 特效,动画 -->
+    <soundWorking>Recipe_Machining</soundWorking><!-- 音效,总不能用哼哼啊啊啊啊 -->
+    <workSkill>Crafting</workSkill><!-- 对应的技能,可以没有 -->
+	<skillRequirements><Crafting>1</Crafting></skillRequirements><!-- 技能要求,可以没有 -->
+	<workAmount>1200</workAmount><!-- 工作量,60为1秒 -->
+	<recipeUsers><li>FabricationBench</li></recipeUsers><!-- 对应工作台 -->
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef><!-- 中间产物,可以没有 -->
+	<ingredients>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>Steel</li>
+		  </thingDefs>
+		</filter>
+		<count>5</count>
+	  </li>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>ZeroTechGel</li>
+		  </thingDefs>
+		</filter>
+		<count>1</count>
+	  </li>
+	</ingredients>
+	<fixedIngredientFilter>
+	  <thingDefs>
+		<li>Steel</li>
+		<li>ZeroTechGel</li>
+	  </thingDefs>
+	</fixedIngredientFilter>
+	<products><ComponentIndustrial>1</ComponentIndustrial></products>
+  </RecipeDef>
+  
+<!-- 三本 -->
+  <!-- 造闪耀医药 -->
+  <RecipeDef ParentName="ZeroTechBenIII">
+	<defName>LingEasyWork_MedicineUltratech</defName>
+	<label>制取闪耀医药</label><!-- 玩家直接看到的说明 -->
+	<description>利用医药的稀有成分筛选闪耀医药.</description><!-- 玩家点开看到的说明 -->
+	<jobString>偷吃医药拌饭中.</jobString><!-- 工作时的说明 -->
+    <workSpeedStat>SmeltingSpeed</workSpeedStat><!-- 工作受什么速度影响 -->
+    <effectWorking>Cook</effectWorking><!-- 特效,动画 -->
+    <soundWorking>Recipe_Machining</soundWorking><!-- 音效,总不能用哼哼啊啊啊啊 -->
+    <workSkill>Crafting</workSkill><!-- 对应的技能,可以没有 -->
+	<skillRequirements><Crafting>1</Crafting></skillRequirements><!-- 技能要求,可以没有 -->
+	<workAmount>1800</workAmount><!-- 工作量,60为1秒 -->
+	<recipeUsers><li>FabricationBench</li></recipeUsers><!-- 对应工作台 -->
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef><!-- 中间产物,可以没有 -->
+	<ingredients>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>MedicineIndustrial</li>
+		  </thingDefs>
+		</filter>
+		<count>5</count>
+	  </li>
+	</ingredients>
+	<fixedIngredientFilter>
+	  <thingDefs>
+		<li>MedicineIndustrial</li>
+	  </thingDefs>
+	</fixedIngredientFilter>
+	<products><MedicineUltratech>1</MedicineUltratech></products>
+  </RecipeDef>
+  <!-- 造高级零部件 -->
+  <RecipeDef ParentName="ZeroTechBenIII">
+	<defName>LingEasyWork_ComponentSpacer</defName>
+	<label>制取高级零部件</label><!-- 玩家直接看到的说明 -->
+	<description>利用零部件的坚韧成分筛选高级零部件.</description><!-- 玩家点开看到的说明 -->
+	<jobString>偷吃零部件炒饭中.</jobString><!-- 工作时的说明 -->
+    <workSpeedStat>SmeltingSpeed</workSpeedStat><!-- 工作受什么速度影响 -->
+    <effectWorking>Cook</effectWorking><!-- 特效,动画 -->
+    <soundWorking>Recipe_Machining</soundWorking><!-- 音效,总不能用哼哼啊啊啊啊 -->
+    <workSkill>Crafting</workSkill><!-- 对应的技能,可以没有 -->
+	<skillRequirements><Crafting>1</Crafting></skillRequirements><!-- 技能要求,可以没有 -->
+	<workAmount>1800</workAmount><!-- 工作量,60为1秒 -->
+	<recipeUsers><li>FabricationBench</li></recipeUsers><!-- 对应工作台 -->
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef><!-- 中间产物,可以没有 -->
+	<ingredients>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>ComponentIndustrial</li>
+		  </thingDefs>
+		</filter>
+		<count>5</count>
+	  </li>
+	</ingredients>
+	<fixedIngredientFilter>
+	  <thingDefs>
+		<li>ComponentIndustrial</li>
+	  </thingDefs>
+	</fixedIngredientFilter>
+	<products><ComponentSpacer>1</ComponentSpacer></products>
+  </RecipeDef>
+  <!-- 造零子核心 -->
+  <RecipeDef ParentName="ZeroTechBenIII">
+	<defName>LingEasyWork_LingZeroTechCore</defName>
+	<label>制取零子核心</label>
+	<description>利用奇妙的配方制取零子核心.</description>
+	<jobString>偷吃自己的工具中.</jobString>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workSkill>Crafting</workSkill>
+	<skillRequirements><Crafting>1</Crafting></skillRequirements>
+	<workAmount>3000</workAmount>
+	<recipeUsers><li>FabricationBench</li></recipeUsers>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+	<ingredients>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>Beer</li>
+		  </thingDefs>
+		</filter>
+		<count>1</count>
+	  </li>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>Jade</li>
+		  </thingDefs>
+		</filter>
+		<count>39</count>
+	  </li>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>ComponentSpacer</li>
+		  </thingDefs>
+		</filter>
+		<count>5</count>
+	  </li>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>PsychicAmplifier</li>
+		  </thingDefs>
+		</filter>
+		<count>1</count>
+	  </li>
+	</ingredients>
+	<fixedIngredientFilter>
+	  <thingDefs>
+		<li>Beer</li>
+		<li>Jade</li>
+		<li>ComponentSpacer</li>
+		<li>PsychicAmplifier</li>
+	  </thingDefs>
+	</fixedIngredientFilter>
+	<products><LingZeroTechCore>1</LingZeroTechCore></products>
+  </RecipeDef>
+
+<!-- 四本 -->
+  <!-- 造AI核心 -->
+  <RecipeDef ParentName="ZeroTechBenIV">
+	<defName>LingEasyWork_AIPersonaCore</defName>
+	<label>制取AI核心</label><!-- 玩家直接看到的说明 -->
+	<description>利用零子机械核心合成伪人格核心.</description><!-- 玩家点开看到的说明 -->
+	<jobString>机械降神中.</jobString><!-- 工作时的说明 -->
+    <workSpeedStat>SmeltingSpeed</workSpeedStat><!-- 工作受什么速度影响 -->
+    <effectWorking>Cook</effectWorking><!-- 特效,动画 -->
+    <soundWorking>Recipe_Machining</soundWorking><!-- 音效,总不能用哼哼啊啊啊啊 -->
+    <workSkill>Crafting</workSkill><!-- 对应的技能,可以没有 -->
+	<skillRequirements><Crafting>1</Crafting></skillRequirements><!-- 技能要求,可以没有 -->
+	<workAmount>1800</workAmount><!-- 工作量,60为1秒 -->
+	<recipeUsers><li>FabricationBench</li></recipeUsers><!-- 对应工作台 -->
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef><!-- 中间产物,可以没有 -->
+	<ingredients>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>ComponentSpacer</li>
+		  </thingDefs>
+		</filter>
+		<count>20</count>
+	  </li>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>LingZeroTechCore</li>
+		  </thingDefs>
+		</filter>
+		<count>1</count>
+	  </li>
+	</ingredients>
+	<fixedIngredientFilter>
+	  <thingDefs>
+		<li>ComponentSpacer</li>
+		<li>LingZeroTechCore</li>
+	  </thingDefs>
+	</fixedIngredientFilter>
+	<products><AIPersonaCore>1</AIPersonaCore><LingZeroTechCore>1</LingZeroTechCore></products>
+  </RecipeDef>
+  <!-- 造启灵装置 -->
+  <RecipeDef ParentName="ZeroTechBenIV">
+	<defName>LingEasyWork_PsychicAmplifier</defName>
+	<label>制取启灵装置</label><!-- 玩家直接看到的说明 -->
+	<description>利用零子能源核心充能启灵装置.</description><!-- 玩家点开看到的说明 -->
+	<jobString>灵能降神中.</jobString><!-- 工作时的说明 -->
+    <workSpeedStat>SmeltingSpeed</workSpeedStat><!-- 工作受什么速度影响 -->
+    <effectWorking>Cook</effectWorking><!-- 特效,动画 -->
+    <soundWorking>Recipe_Machining</soundWorking><!-- 音效,总不能用哼哼啊啊啊啊 -->
+    <workSkill>Crafting</workSkill><!-- 对应的技能,可以没有 -->
+	<skillRequirements><Crafting>1</Crafting></skillRequirements><!-- 技能要求,可以没有 -->
+	<workAmount>3000</workAmount><!-- 工作量,60为1秒 -->
+	<recipeUsers><li>FabricationBench</li></recipeUsers><!-- 对应工作台 -->
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef><!-- 中间产物,可以没有 -->
+	<ingredients>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>ComponentSpacer</li>
+		  </thingDefs>
+		</filter>
+		<count>10</count>
+	  </li>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>LingZeroTechCore</li>
+		  </thingDefs>
+		</filter>
+		<count>1</count>
+	  </li>
+	</ingredients>
+	<fixedIngredientFilter>
+	  <thingDefs>
+		<li>ComponentSpacer</li>
+		<li>LingZeroTechCore</li>
+	  </thingDefs>
+	</fixedIngredientFilter>
+	<products><PsychicAmplifier>1</PsychicAmplifier><LingZeroTechCore>1</LingZeroTechCore></products>
+  </RecipeDef>
+  <!-- 造人 -->
+  <RecipeDef ParentName="ZeroTechBenIV">
+	<defName>LingEasyWork_MaZuiRen</defName>
+	<label>制取人类</label><!-- 玩家直接看到的说明 -->
+	<description>将残缺的人体注入灵魂,制取生命.</description><!-- 玩家点开看到的说明 -->
+	<jobString>偷吃人肉中.</jobString><!-- 工作时的说明 -->
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat><!-- 工作受什么速度影响 -->
+    <effectWorking>Cook</effectWorking><!-- 特效,动画 -->
+    <soundWorking>Recipe_Machining</soundWorking><!-- 音效,总不能用哼哼啊啊啊啊 -->
+    <workSkill>Crafting</workSkill><!-- 对应的技能,可以没有 -->
+	<skillRequirements><Crafting>1</Crafting></skillRequirements><!-- 技能要求,可以没有 -->
+	<workAmount>6000</workAmount><!-- 工作量,60为1秒 -->
+	<recipeUsers><li>FabricationBench</li></recipeUsers><!-- 对应工作台 -->
+	<ingredients>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>Meat_Human</li>
+		  </thingDefs>
+		</filter>
+		<count>75</count>
+	  </li>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>Leather_Human</li>
+		  </thingDefs>
+		</filter>
+		<count>75</count>
+	  </li>
+	  <li>
+		<filter>
+		  <thingDefs>
+			<li>LingZeroTechCore</li>
+		  </thingDefs>
+		</filter>
+		<count>1</count>
+	  </li>
+	</ingredients>
+	<fixedIngredientFilter>
+	  <thingDefs>
+		<li>Meat_Human</li>
+		<li>Leather_Human</li>
+		<li>LingZeroTechCore</li>
+	  </thingDefs>
+	</fixedIngredientFilter>
+	<products><Mote_MaZuiRen>1</Mote_MaZuiRen><LingZeroTechCore>1</LingZeroTechCore></products>
+  </RecipeDef>
+  <ThingDef ParentName="MoteBase">
+    <defName>Mote_MaZuiRen</defName>
+	<label>人类</label>
+    <thingClass>LingGame.Mote_MaZuiRen</thingClass>
+    <graphicData>
+      <texPath>Things/Mote/Bombardment</texPath>
+      <shaderType>MoteGlow</shaderType>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <drawOffscreen>true</drawOffscreen>
+    <mote>
+      <fadeInTime>0.01</fadeInTime>
+      <solidTime>0.01</solidTime>
+      <fadeOutTime>0.01</fadeOutTime>
+    </mote>
+  </ThingDef>
+
+
+</Defs>

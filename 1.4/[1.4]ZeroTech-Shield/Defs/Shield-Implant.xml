@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Name="LingShieldOldWorldBase" Abstract="True">
+	 <thingClass>LingGame.LingGameXShield</thingClass>
+    <category>Item</category>
+    <selectable>True</selectable>
+    <pathCost>10</pathCost>
+    <useHitPoints>True</useHitPoints>
+	 <techLevel>Spacer</techLevel>
+   <tradeability>Sellable</tradeability>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/ACCEE</texPath>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <drawGUIOverlay>true</drawGUIOverlay>
+	 <!-- <generateCommonality>0</generateCommonality> -->
+	 <recipeMaker>
+	  <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
+	  <!-- <researchPrerequisite>LingPowerShieldI</researchPrerequisite> -->
+	  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+	  <workSkill>Crafting</workSkill>
+	  <effectWorking>Smith</effectWorking>
+	  <soundWorking>Recipe_Machining</soundWorking>
+	  <recipeUsers>
+		<li>FabricationBench</li>
+	  </recipeUsers>
+      <skillRequirements>
+        <Crafting>0</Crafting>
+      </skillRequirements>
+	 </recipeMaker>
+    <statBases>
+      <Mass>1</Mass>
+      <WorkToMake>6000</WorkToMake>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+      <EquipDelay>2</EquipDelay>
+	  <Beauty>-3</Beauty>
+	 </statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <alwaysHaulable>True</alwaysHaulable>
+    <tickerType>Normal</tickerType>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <apparel>
+      <useDeflectMetalEffect>true</useDeflectMetalEffect>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <tags Inherit="false">
+        <li>LingShield</li>
+      </tags>
+    </apparel>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+    </comps>
+  </ThingDef>
+  <!-- 护盾 -->
+  
+  <!-- I -->
+  <ThingDef ParentName="LingShieldOldWorldBase" Name="LingShieldEasy">
+    <defName>Apparel_LingShield_Base</defName>
+	  <label>能源护盾-基准</label>
+    <description>量产款式的能源护盾,可以在展开护盾的时候使用枪械,各方面数据较为普通,但胜在造价低廉,即使是普通的冒险者也有机会拥有</description>
+    <statBases>
+      <EnergyShieldRechargeRate>5</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>100</EnergyShieldEnergyMax>
+    </statBases>
+    <comps>
+      <li Class="LingGame.LingGameXShieldCompP">
+      <RestTime>60</RestTime>
+      <NeedPaoPao>true</NeedPaoPao>
+      <ChongShengNengLiang>20</ChongShengNengLiang>
+	  </li>
+    </comps>
+    <costList>
+      <ComponentIndustrial>5</ComponentIndustrial>
+      <Plasteel>40</Plasteel>
+      <Uranium>20</Uranium>
+      <Jade>68</Jade>
+    </costList>
+  </ThingDef>
+  
+  <!-- II -->
+  <ThingDef ParentName="LingShieldEasy">
+    <defName>Apparel_LingShield_Fr</defName>
+	  <label>能源护盾-快充</label>
+    <description>一款精良的能源护盾,在保障了基础的防护能力上有着更强的恢复能力,更适合较为激烈的战场</description>
+    <statBases>
+      <EnergyShieldRechargeRate>10</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>100</EnergyShieldEnergyMax>
+    </statBases>
+    <comps>
+      <li Class="LingGame.LingGameXShieldCompP">
+      <RestTime>60</RestTime>
+      <NeedPaoPao>true</NeedPaoPao>
+      <ChongShengNengLiang>20</ChongShengNengLiang>
+	  </li>
+    </comps>
+    <costList>
+      <Silver>20</Silver>
+    </costList>
+  </ThingDef>
+
+  <ThingDef ParentName="LingShieldEasy">
+    <defName>Apparel_LingShield_Fm</defName>
+	  <label>能源护盾-扩容</label>
+    <description>一款精良的能源护盾,拥有着更大的能量上限,可以承受更强大的冲击</description>
+    <statBases>
+      <EnergyShieldRechargeRate>5</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>200</EnergyShieldEnergyMax>
+    </statBases>
+    <comps>
+      <li Class="LingGame.LingGameXShieldCompP">
+      <RestTime>60</RestTime>
+      <NeedPaoPao>true</NeedPaoPao>
+      <ChongShengNengLiang>20</ChongShengNengLiang>
+	  </li>
+    </comps>
+    <costList>
+      <Gold>2</Gold>
+    </costList>
+  </ThingDef>
+
+  <ThingDef ParentName="LingShieldEasy">
+    <defName>Apparel_LingShield_Fw</defName>
+	  <label>能源护盾-速启</label>
+    <description>一款精良的能源护盾,装载了更为优秀的废能释放器,可以在被击破后更快的重启</description>
+    <statBases>
+      <EnergyShieldRechargeRate>5</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>100</EnergyShieldEnergyMax>
+    </statBases>
+    <comps>
+      <li Class="LingGame.LingGameXShieldCompP">
+      <RestTime>20</RestTime>
+      <NeedPaoPao>true</NeedPaoPao>
+      <ChongShengNengLiang>100</ChongShengNengLiang>
+	  </li>
+    </comps>
+    <costList>
+      <Cloth>60</Cloth>
+      <DevilstrandCloth>20</DevilstrandCloth>
+    </costList>
+  </ThingDef>
+
+  <!-- III -->
+  <ThingDef ParentName="LingShieldEasy">
+    <defName>Apparel_LingShield_FrEx</defName>
+	  <label>能源护盾-超速恢复</label>
+    <description>一款优秀的能源护盾,其中大量的能容结构被替换为释放器,有着极强的恢复能力,但是难以承受连续的高强度伤害.</description>
+    <statBases>
+      <EnergyShieldRechargeRate>20</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>150</EnergyShieldEnergyMax>
+    </statBases>
+    <comps>
+      <li Class="LingGame.LingGameXShieldCompP">
+      <RestTime>60</RestTime>
+      <NeedPaoPao>true</NeedPaoPao>
+      <ChongShengNengLiang>20</ChongShengNengLiang>
+	  </li>
+    </comps>
+    <costList>
+      <Silver>40</Silver>
+    </costList>
+  </ThingDef>
+
+  <ThingDef ParentName="LingShieldEasy">
+    <defName>Apparel_LingShield_FmEx</defName>
+	  <label>能源护盾-长效守护</label>
+    <description>一款优秀的能源护盾,几乎整体结构90%以上都用于储存能量,常规的战斗甚至无法消耗其一半的能量,遗憾的是,由于极端的性能压缩,用于恢复能量的模块效率运行极低</description>
+    <statBases>
+      <EnergyShieldRechargeRate>1</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>500</EnergyShieldEnergyMax>
+    </statBases>
+    <comps>
+      <li Class="LingGame.LingGameXShieldCompP">
+      <RestTime>60</RestTime>
+      <NeedPaoPao>true</NeedPaoPao>
+      <ChongShengNengLiang>20</ChongShengNengLiang>
+	  </li>
+    </comps>
+    <costList>
+      <Gold>4</Gold>
+    </costList>
+  </ThingDef>
+
+  <ThingDef ParentName="LingShieldEasy">
+    <defName>Apparel_LingShield_FwEx</defName>
+	  <label>能源护盾-精良部署</label>
+    <description>一款优秀的能源护盾,虽然性能相较普通版本的能源护盾没有太大提升,但由于材料工艺的优异,在被击破后可以极快的重启,而且不需要慢慢等待能量恢复</description>
+    <statBases>
+      <EnergyShieldRechargeRate>10</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>100</EnergyShieldEnergyMax>
+    </statBases>
+    <comps>
+      <li Class="LingGame.LingGameXShieldCompP">
+      <RestTime>10</RestTime>
+      <NeedPaoPao>true</NeedPaoPao>
+      <ChongShengNengLiang>100</ChongShengNengLiang>
+	  </li>
+    </comps>
+    <costList>
+      <Cloth>120</Cloth>
+      <DevilstrandCloth>40</DevilstrandCloth>
+    </costList>
+  </ThingDef>
+
+
+
+
+
+</Defs>
