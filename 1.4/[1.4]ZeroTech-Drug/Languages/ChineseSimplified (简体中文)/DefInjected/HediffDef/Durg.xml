@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 脱水恢复 -->
+  <LingHaveWaterPawn.label>TODO</LingHaveWaterPawn.label>
+  <!-- EN: 由于过度脱水导致的身体虚弱,很快便能基本恢复,但需要两天才能完全恢复. -->
+  <LingHaveWaterPawn.description>TODO</LingHaveWaterPawn.description>
+  <!-- EN: 基本恢复 -->
+  <LingHaveWaterPawn.stages.0.label>TODO</LingHaveWaterPawn.stages.0.label>
+  <!-- EN: 严重 -->
+  <LingHaveWaterPawn.stages.1.label>TODO</LingHaveWaterPawn.stages.1.label>
+  <!-- EN: 严重 -->
+  <LingHaveWaterPawn.stages.2.label>TODO</LingHaveWaterPawn.stages.2.label>
+  
+  <!-- EN: 高速脱水 -->
+  <LingNoWaterPawnLoseWater.label>TODO</LingNoWaterPawnLoseWater.label>
+  <!-- EN: 极其剧烈的脱水反应,但却不致命,而是会使生物变成一团有机物,而且可以在补水后恢复原形. -->
+  <LingNoWaterPawnLoseWater.description>TODO</LingNoWaterPawnLoseWater.description>
+  <!-- EN: preliminary -->
+  <LingNoWaterPawnLoseWater.stages.preliminary.label>TODO</LingNoWaterPawnLoseWater.stages.preliminary.label>
+  <!-- EN: major -->
+  <LingNoWaterPawnLoseWater.stages.major.label>TODO</LingNoWaterPawnLoseWater.stages.major.label>
+  <!-- EN: initial -->
+  <LingNoWaterPawnLoseWater.stages.initial.label>TODO</LingNoWaterPawnLoseWater.stages.initial.label>
+  
+  <!-- EN: 嘴臭 -->
+  <ZeroTech_Drug_Abuse.label>TODO</ZeroTech_Drug_Abuse.label>
+  <!-- EN: Debug.text -->
+  <ZeroTech_Drug_Abuse.description>TODO</ZeroTech_Drug_Abuse.description>
+  
+  <!-- EN: 砒霜中毒 -->
+  <ZeroTech_Drug_ArsenicBuildup.label>TODO</ZeroTech_Drug_ArsenicBuildup.label>
+  <!-- EN: 这个生物大概马上就要死了. -->
+  <ZeroTech_Drug_ArsenicBuildup.description>TODO</ZeroTech_Drug_ArsenicBuildup.description>
+  
+  <!-- EN: 药物驻颜 -->
+  <ZeroTech_Drug_BeautyPill.label>TODO</ZeroTech_Drug_BeautyPill.label>
+  <!-- EN: 这个生物由于药物的作用变得非常吸引人 -->
+  <ZeroTech_Drug_BeautyPill.description>TODO</ZeroTech_Drug_BeautyPill.description>
+  
+  <!-- EN: 乱情 -->
+  <ZeroTech_Drug_BreakFellingPill.label>TODO</ZeroTech_Drug_BreakFellingPill.label>
+  <!-- EN: 这个生物由于药物的作用对任何人都好感大增 -->
+  <ZeroTech_Drug_BreakFellingPill.description>TODO</ZeroTech_Drug_BreakFellingPill.description>
+  
+  <!-- EN: 饮用圣水 -->
+  <ZeroTech_Drug_Indulgences.label>TODO</ZeroTech_Drug_Indulgences.label>
+  <!-- EN: 这个生物的死亡不会引起其他人的悲喜. -->
+  <ZeroTech_Drug_Indulgences.description>TODO</ZeroTech_Drug_Indulgences.description>
+  
+  <!-- EN: 辟谷 -->
+  <ZeroTech_Drug_LeaveGrain.label>TODO</ZeroTech_Drug_LeaveGrain.label>
+  <!-- EN: 这个生物短期内摄入了无法想象至多的能量,以至于对行动造成了一定的影响 -->
+  <ZeroTech_Drug_LeaveGrain.description>TODO</ZeroTech_Drug_LeaveGrain.description>
+  
+  <!-- EN: 心灵失聪 -->
+  <ZeroTech_Drug_Ordinary.label>TODO</ZeroTech_Drug_Ordinary.label>
+  <!-- EN: 由于药物的作用这个生物心灵失聪了 -->
+  <ZeroTech_Drug_Ordinary.description>TODO</ZeroTech_Drug_Ordinary.description>
+  
+</LanguageData>

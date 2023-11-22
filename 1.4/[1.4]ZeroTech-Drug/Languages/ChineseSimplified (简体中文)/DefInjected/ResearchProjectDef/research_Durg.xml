@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 强化药物 -->
+  <ZeroTechDrug.label>TODO</ZeroTechDrug.label>
+  <!-- EN: 有的时候,你也许需要临时进入某些状态,这个时候往往植入物或者仿生会不那么恰当,那么为什么不试试服用效果不会持续那么久的药物呢. -->
+  <ZeroTechDrug.description>TODO</ZeroTechDrug.description>
+  
+  <!-- EN: 美容药物 -->
+  <ZeroTechDrugBeauty.label>TODO</ZeroTechDrugBeauty.label>
+  <!-- EN: 这部分药物或许无法让身体更好的工作,但可以优化一个人的外表,对于大部分的人来说也许更有用? -->
+  <ZeroTechDrugBeauty.description>TODO</ZeroTechDrugBeauty.description>
+  
+</LanguageData>

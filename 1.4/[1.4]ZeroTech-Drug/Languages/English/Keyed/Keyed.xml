@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- FPS -->
+
+  <NoWaterPawninner>Compressed</NoWaterPawninner>
+  <NoWaterPawnUnzip>decompression</NoWaterPawnUnzip>
+  <NoWaterPawnUnzipD>Reextract the compressed organism, and it will take some time for the extracted organism to recover.</NoWaterPawnUnzipD>
+
+</LanguageData>
