@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 服装维修 -->
+  <LingAbiAppealReBack.label>Durability recovery</LingAbiAppealReBack.label>
+  <!-- EN: 昨日重现,使目标返回其最完美的状态...然而只对穿着于人身的装备有效 -->
+  <LingAbiAppealReBack.description>Repair the equipment worn by the target.</LingAbiAppealReBack.description>
+  
+  <!-- EN: 烈火 -->
+  <LingAbiBigFire.label>Raging fire</LingAbiBigFire.label>
+  <!-- EN: 在目标周围凭空释放大量火焰,如果周围没有可燃物会很快熄灭 -->
+  <LingAbiBigFire.description>Release flames at the target location.</LingAbiBigFire.description>
+  
+  <!-- EN: 包扎 -->
+  <LingAbiBind.label>Rapid treatment</LingAbiBind.label>
+  <!-- EN: 立即对一个目标身上至多5个伤口进行高品质包扎 -->
+  <LingAbiBind.description>Wrap the target 5 times.</LingAbiBind.description>
+  
+  <!-- EN: 画饼充饥 -->
+  <LingAbiBuE.label>be full</LingAbiBuE.label>
+  <!-- EN: 立刻补充满食物需求 -->
+  <LingAbiBuE.description>Fill the stomach.</LingAbiBuE.description>
+  
+  <!-- EN: 悬梁刺股 -->
+  <LingAbiBuKun.label>drowsy</LingAbiBuKun.label>
+  <!-- EN: 立刻补充满休息需求 -->
+  <LingAbiBuKun.description>Supplementary spirit.</LingAbiBuKun.description>
+  
+  <!-- EN: 强颜欢笑 -->
+  <LingAbiBuWan.label>Hideous Laughter</LingAbiBuWan.label>
+  <!-- EN: 立刻补充满娱乐需求 -->
+  <LingAbiBuWan.description>Supplementary joy.</LingAbiBuWan.description>
+  
+  <!-- EN: 充电 -->
+  <LingAbiCharge.label>charging</LingAbiCharge.label>
+  <!-- EN: 使指定电池的能量少量增加(取决于最大容量) -->
+  <LingAbiCharge.description>Charging the battery.</LingAbiCharge.description>
+  
+  <!-- EN: 尸爆 -->
+  <LingAbiCorpseExplosion.label>Corpse Explosion</LingAbiCorpseExplosion.label>
+  <!-- EN: 选择一具尸体爆炸,尸体体型越大伤害和范围越大 -->
+  <LingAbiCorpseExplosion.description>Choose a corpse explosion.</LingAbiCorpseExplosion.description>
+  
+  <!-- EN: 伤害汲取 -->
+  <LingAbiDamageTransfer.label>damage absorption</LingAbiDamageTransfer.label>
+  <!-- EN: 创建一条连接,在12小时内将目标身上的所有伤口转移到自己身上(无法转移致命伤害!) -->
+  <LingAbiDamageTransfer.description>Create a link to transfer all wounds on target body to the you within 12 hours (fatal injuries and disabilities cannot be transferred!)</LingAbiDamageTransfer.description>
+  
+  <!-- EN: 伤害馈赠 -->
+  <LingAbiDamageTransOtr.label>damage feedback</LingAbiDamageTransOtr.label>
+  <!-- EN: 创建一条连接,在12小时内将自己身上的所有伤口转移到目标身上(无法转移致命伤害!) -->
+  <LingAbiDamageTransOtr.description>Create a link to transfer all wounds on your body to the target within 12 hours (fatal injuries and disabilities cannot be transferred!)</LingAbiDamageTransOtr.description>
+  
+  <!-- EN: 堕落 -->
+  <LingAbiDepravation.label>decadent</LingAbiDepravation.label>
+  <!-- EN: 使目标对所有成瘾品成瘾 -->
+  <LingAbiDepravation.description>Make the target addicted to all addictions</LingAbiDepravation.description>
+  
+  <!-- EN: 化兔 -->
+  <LingAbiForRabbit.label>Polymorph</LingAbiForRabbit.label>
+  <!-- EN: 将目标变成兔子 -->
+  <LingAbiForRabbit.description>Turn the target into a snow rabbit.</LingAbiForRabbit.description>
+  
+  <!-- EN: 兽群 -->
+  <LingAbiMadBeast.label>Dangerous beasts</LingAbiMadBeast.label>
+  <!-- EN: 召唤一群不分敌我的猎杀人类的野兽,其会在被击杀后消散 -->
+  <LingAbiMadBeast.description>Summon a herd of undiscriminating beasts that hunt humans and destrory after being killed</LingAbiMadBeast.description>
+  
+  <!-- EN: 虚幻挚爱 -->
+  <LingAbiMakeAwife.label>False love</LingAbiMakeAwife.label>
+  <!-- EN: 生成一个永远热爱目标的单位,生成的单位受到伤害的时会直接消失,并对目标造成严重的心理创伤(物理) -->
+  <LingAbiMakeAwife.description>Generate a false lover</LingAbiMakeAwife.description>
+  
+  <!-- EN: 苦痛术 -->
+  <LingAbiMomDie.label>bereavement</LingAbiMomDie.label>
+  <!-- EN: 传送目标的母亲到目标面前并击杀,若对方母亲已去世/没有母亲则复活/添加一个母亲并击杀 -->
+  <LingAbiMomDie.description>Kill the target's mother in person</LingAbiMomDie.description>
+  
+  <!-- EN: 遗忘 -->
+  <LingAbiObliviate.label>amnesiac</LingAbiObliviate.label>
+  <!-- EN: 清空目标的特性和技能(不影响兴趣) -->
+  <LingAbiObliviate.description>Clear the target's trait and skill level</LingAbiObliviate.description>
+  
+  <!-- EN: 性转 -->
+  <LingAbiSexConversion.label>Gender transition</LingAbiSexConversion.label>
+  <!-- EN: 变换对方的性别,对无性别生物无效 -->
+  <LingAbiSexConversion.description>Changing the gender of the target is not effective on unisexual creatures.</LingAbiSexConversion.description>
+  
+  <!-- EN: 打断 -->
+  <LingAbiShock.label>interrupt</LingAbiShock.label>
+  <!-- EN: 瞬间的打断目标的工作(包括但不限于瞄准,冷却,搬运,攻击等) -->
+  <LingAbiShock.description>Interrupt the target's current job.</LingAbiShock.description>
+  
+  <!-- EN: 闪烁 -->
+  <LingAbiSkipAndBack.label>Spinjitzu</LingAbiSkipAndBack.label>
+  <!-- EN: 跃迁到指定目标,1.5秒后返回原位置 -->
+  <LingAbiSkipAndBack.description>Teleport to target, recover in 1.5 seconds.</LingAbiSkipAndBack.description>
+  
+</LanguageData>

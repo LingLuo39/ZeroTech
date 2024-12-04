@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 服装维修 -->
+  <LingAbiAppealReBack.label>昨日重现</LingAbiAppealReBack.label>
+  <!-- EN: 昨日重现,使目标返回其最完美的状态...然而只对穿着于人身的装备有效 -->
+  <LingAbiAppealReBack.description>使目标返回其最完美的状态...然而只对穿着于目标身上的装备有效</LingAbiAppealReBack.description>
+  
+  <!-- EN: 烈火 -->
+  <LingAbiBigFire.label>野火</LingAbiBigFire.label>
+  <!-- EN: 在目标周围凭空释放大量火焰,如果周围没有可燃物会很快熄灭 -->
+  <LingAbiBigFire.description>在目标周围凭空释放大量火焰,如果周围没有可燃物会很快熄灭</LingAbiBigFire.description>
+  
+  <!-- EN: 包扎 -->
+  <LingAbiBind.label>优质包扎</LingAbiBind.label>
+  <!-- EN: 立即对一个目标身上至多5个伤口进行高品质包扎 -->
+  <LingAbiBind.description>立即对一个目标身上至多5个伤口进行高品质包扎</LingAbiBind.description>
+  
+  <!-- EN: 画饼充饥 -->
+  <LingAbiBuE.label>画饼充饥</LingAbiBuE.label>
+  <!-- EN: 立刻补充满食物需求 -->
+  <LingAbiBuE.description>立刻补充满食物需求</LingAbiBuE.description>
+  
+  <!-- EN: 悬梁刺股 -->
+  <LingAbiBuKun.label>悬梁刺股</LingAbiBuKun.label>
+  <!-- EN: 立刻补充满休息需求 -->
+  <LingAbiBuKun.description>立刻补充满休息需求</LingAbiBuKun.description>
+  
+  <!-- EN: 强颜欢笑 -->
+  <LingAbiBuWan.label>强颜欢笑</LingAbiBuWan.label>
+  <!-- EN: 立刻补充满娱乐需求 -->
+  <LingAbiBuWan.description>立刻补充满娱乐需求</LingAbiBuWan.description>
+  
+  <!-- EN: 充电 -->
+  <LingAbiCharge.label>充电</LingAbiCharge.label>
+  <!-- EN: 使指定电池的能量少量增加(取决于最大容量) -->
+  <LingAbiCharge.description>使指定电池的能量少量增加(取决于最大容量)</LingAbiCharge.description>
+  
+  <!-- EN: 尸爆 -->
+  <LingAbiCorpseExplosion.label>尸爆</LingAbiCorpseExplosion.label>
+  <!-- EN: 选择一具尸体爆炸,尸体体型越大伤害和范围越大 -->
+  <LingAbiCorpseExplosion.description>选择一具尸体爆炸,尸体体型越大伤害和范围越大</LingAbiCorpseExplosion.description>
+  
+  <!-- EN: 伤害汲取 -->
+  <LingAbiDamageTransfer.label>伤害汲取</LingAbiDamageTransfer.label>
+  <!-- EN: 创建一条连接,在12小时内将目标身上的所有伤口转移到自己身上(无法转移致命伤害!) -->
+  <LingAbiDamageTransfer.description>创建一条连接,在12小时内将目标身上的所有伤口转移到自己身上(无法转移致命伤害和残疾!)</LingAbiDamageTransfer.description>
+  
+  <!-- EN: 伤害馈赠 -->
+  <LingAbiDamageTransOtr.label>伤害馈赠</LingAbiDamageTransOtr.label>
+  <!-- EN: 创建一条连接,在12小时内将自己身上的所有伤口转移到目标身上(无法转移致命伤害!) -->
+  <LingAbiDamageTransOtr.description>创建一条连接,在12小时内将自己身上的所有伤口转移到目标身上(无法转移致命伤害和残疾!)</LingAbiDamageTransOtr.description>
+  
+  <!-- EN: 堕落 -->
+  <LingAbiDepravation.label>堕落</LingAbiDepravation.label>
+  <!-- EN: 使目标对所有成瘾品成瘾 -->
+  <LingAbiDepravation.description>使目标对所有成瘾品成瘾</LingAbiDepravation.description>
+  
+  <!-- EN: 化兔 -->
+  <LingAbiForRabbit.label>化兔</LingAbiForRabbit.label>
+  <!-- EN: 将目标变成兔子 -->
+  <LingAbiForRabbit.description>将目标变成雪兔</LingAbiForRabbit.description>
+  
+  <!-- EN: 兽群 -->
+  <LingAbiMadBeast.label>兽群</LingAbiMadBeast.label>
+  <!-- EN: 召唤一群不分敌我的猎杀人类的野兽,其会在被击杀后消散 -->
+  <LingAbiMadBeast.description>召唤一群不分敌我的猎杀人类的野兽,其会在被击杀后消散</LingAbiMadBeast.description>
+  
+  <!-- EN: 虚幻挚爱 -->
+  <LingAbiMakeAwife.label>虚幻挚爱</LingAbiMakeAwife.label>
+  <!-- EN: 生成一个永远热爱目标的单位,生成的单位受到伤害的时会直接消失,并对目标造成严重的心理创伤(物理) -->
+  <LingAbiMakeAwife.description>为目标生成一名爱人,生成的爱人受到伤害的时会直接消散,并对目标造成严重的心理创伤(物理)</LingAbiMakeAwife.description>
+  
+  <!-- EN: 苦痛术 -->
+  <LingAbiMomDie.label>血源追溯</LingAbiMomDie.label>
+  <!-- EN: 传送目标的母亲到目标面前并击杀,若对方母亲已去世/没有母亲则复活/添加一个母亲并击杀 -->
+  <LingAbiMomDie.description>传送目标的母亲到目标面前并击杀,若对方母亲已去世/没有生理学上母亲则复活/创造一个母亲并击杀</LingAbiMomDie.description>
+  
+  <!-- EN: 遗忘 -->
+  <LingAbiObliviate.label>遗忘</LingAbiObliviate.label>
+  <!-- EN: 清空目标的特性和技能(不影响兴趣) -->
+  <LingAbiObliviate.description>清空目标的特性和技能(不影响兴趣)</LingAbiObliviate.description>
+  
+  <!-- EN: 性转 -->
+  <LingAbiSexConversion.label>性转</LingAbiSexConversion.label>
+  <!-- EN: 变换对方的性别,对无性别生物无效 -->
+  <LingAbiSexConversion.description>变换对方的性别,对无性别生物无效</LingAbiSexConversion.description>
+  
+  <!-- EN: 打断 -->
+  <LingAbiShock.label>打断</LingAbiShock.label>
+  <!-- EN: 瞬间的打断目标的工作(包括但不限于瞄准,冷却,搬运,攻击等) -->
+  <LingAbiShock.description>瞬间的打断目标的工作(包括但不限于瞄准,冷却,搬运,攻击等)</LingAbiShock.description>
+  
+  <!-- EN: 闪烁 -->
+  <LingAbiSkipAndBack.label>闪烁</LingAbiSkipAndBack.label>
+  <!-- EN: 跃迁到指定目标,1.5秒后返回原位置 -->
+  <LingAbiSkipAndBack.description>跃迁到指定目标,1.5秒后返回原位置</LingAbiSkipAndBack.description>
+  
+</LanguageData>

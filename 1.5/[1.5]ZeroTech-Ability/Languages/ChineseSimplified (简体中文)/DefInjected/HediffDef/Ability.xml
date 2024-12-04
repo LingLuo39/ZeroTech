@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 伤害转移 -->
+  <LingAbiDamageTransfer.label>伤害转移</LingAbiDamageTransfer.label>
+  <!-- EN: debugtext -->
+  <LingAbiDamageTransfer.description>将生物身上的伤口转移至目标身上</LingAbiDamageTransfer.description>
+  
+  <!-- EN: 幻影 -->
+  <LingAbiHediffFalse.label>幻影</LingAbiHediffFalse.label>
+  <!-- EN: 这个生物只是一个幻影,死亡便会消散 -->
+  <LingAbiHediffFalse.description>这个生物只是一个幻影,死亡便会消散</LingAbiHediffFalse.description>
+  
+  <!-- EN: 虚幻挚爱 -->
+  <LingAbiHediffMakeAwife.label>虚幻挚爱</LingAbiHediffMakeAwife.label>
+  <!-- EN: 这个生物是一个痴情人幻想出来的幻影,一旦受到攻击就会被打破 -->
+  <LingAbiHediffMakeAwife.description>这个生物是一个痴情人幻想出来的幻影,一旦受到攻击就会被打破</LingAbiHediffMakeAwife.description>
+  
+  <!-- EN: 回溯 -->
+  <LingAbiHediffSkipAndBack.label>回溯</LingAbiHediffSkipAndBack.label>
+  <!-- EN: 在结束后回到指定位置 -->
+  <LingAbiHediffSkipAndBack.description>在传送后回到起始位置</LingAbiHediffSkipAndBack.description>
+  
+</LanguageData>

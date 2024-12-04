@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ModMetaData>
+	<name>ZeroTech-Ability</name>
+	<author>LingLuo</author>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<packageId>LingLuo.ZeroTechAbility</packageId>
+	<description>零子科技-技能拓展包ZeroTech - ability expansion pack
+语言Language:
+简体中文Simplified Chinese
+英文English
+
+[Chinese]
+人类的精神能力潜力无穷,既然如此,为何不尝试用起来改善生活
+
+项目简介
+
+昨日重现:使目标返回其最完美的状态!但目前仅对衣服有效
+包扎:立即对一个目标身上至多5个伤口进行包扎
+闪烁:跃迁到指定目标,1.5秒后返回原位置
+性转:变换对方的性别,对无性别生物无效
+震慑:短暂的打断对方的工作
+
+悬梁刺股:填满休息需求
+画饼充饥:填满饥饿需求
+强颜欢笑:填满娱乐需求
+虚幻挚爱:召唤一个爱人
+堕落:使目标对所有成瘾品上瘾
+充电:使指定电池的能量增加
+遗忘:使目标遗忘所有的技能和特性
+野火:凭空生成大量火焰,如果周围没有可燃物会很快熄灭
+
+血源追溯:根据目标进行索引,击杀一名对方的直系女性亲属
+伤害汲取:创建一条连接,在半天内将目标身上的所有伤口转移到自己身上
+伤害之礼:创建一条连接,在半天内将自己身上的所有伤口转移到目标身上
+尸爆:炸毁一具尸体,威力随尸体大小而变化
+兽群:召唤一群不分敌我的猎杀人类的野兽
+化兔:将目标变成兔子
+
+[English]
+There is so much potential in human mental capacity, so why not try to use it to improve our lives
+
+Synopsis:
+
+Durability recovery:Repair the equipment worn by the target.
+Raging fire:Release flames at the target location.
+Rapid treatment:Wrap the target 5 times.
+be full:Fill the stomach.
+drowsy:Supplementary spirit.
+Hideous Laughter:Supplementary joy.
+charging:Charging the battery.
+Corpse Explosion:Choose a corpse explosion.
+damage absorption:Create a link to transfer all wounds on target body to the you within 12 hours (fatal injuries and disabilities cannot be transferred!)
+damage feedback:Create a link to transfer all wounds on your body to the target within 12 hours (fatal injuries and disabilities cannot be transferred!)
+decadent:Make the target addicted to all addictions.
+Polymorph:Turn the target into a snow rabbit.
+Dangerous beasts:Summon a herd of undiscriminating beasts that hunt humans and destrory after being killed.
+False love:Generate a false lover.
+bereavement:Kill the target's mother in person.
+amnesiac:Clear the target's trait and skill level.
+Gender transition:Changing the gender of the target is not effective on unisexual creatures.
+Interrupt:Interrupt the target's current job.
+Spinjitzu:Teleport to target, recover in 1.5 seconds.
+
+[The above is from Google Translate]
+
+
+	</description>
+	<loadAfter>
+		<li>LingLuo.ZeroTechCore</li>
+	</loadAfter>
+</ModMetaData>
