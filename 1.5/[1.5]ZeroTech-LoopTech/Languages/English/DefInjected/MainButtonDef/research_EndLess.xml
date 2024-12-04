@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 循环科技 -->
+  <ToopTechResearch.label>Loop Tech</ToopTechResearch.label>
+  <!-- EN: 用来观察派系循环科技进度 -->
+  <ToopTechResearch.description>Used to monitor the faction's loop technology progress</ToopTechResearch.description>
+  
+</LanguageData>

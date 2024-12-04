@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 循环科技(瞄准时间) -->
+  <ZeroTechRepeatableTechnology_AimingDelayFactorAndRangedCooldownFactor.label>循环科技(瞄准时间)</ZeroTechRepeatableTechnology_AimingDelayFactorAndRangedCooldownFactor.label>
+  <!-- EN: 基地循环科技带来的加成. -->
+  <ZeroTechRepeatableTechnology_AimingDelayFactorAndRangedCooldownFactor.description>循环科技带来的加成.</ZeroTechRepeatableTechnology_AimingDelayFactorAndRangedCooldownFactor.description>
+  <!-- EN: 循环科技(护甲) -->
+  <ZeroTechRepeatableTechnology_ArmorRating.label>循环科技(护甲)</ZeroTechRepeatableTechnology_ArmorRating.label>
+  <!-- EN: 基地循环科技带来的加成. -->
+  <ZeroTechRepeatableTechnology_ArmorRating.description>循环科技带来的加成.</ZeroTechRepeatableTechnology_ArmorRating.description>
+  
+  <!-- EN: 循环科技(内部能力) -->
+  <ZeroTechRepeatableTechnology_BloodFiltrationBloodPumpingBreathingMetabolism.label>循环科技(内部能力)</ZeroTechRepeatableTechnology_BloodFiltrationBloodPumpingBreathingMetabolism.label>
+  <!-- EN: 基地循环科技带来的加成. -->
+  <ZeroTechRepeatableTechnology_BloodFiltrationBloodPumpingBreathingMetabolism.description>循环科技带来的加成.</ZeroTechRepeatableTechnology_BloodFiltrationBloodPumpingBreathingMetabolism.description>
+  
+  <!-- EN: 循环科技(意识) -->
+  <ZeroTechRepeatableTechnology_Consciousness.label>循环科技(意识)</ZeroTechRepeatableTechnology_Consciousness.label>
+  <!-- EN: 基地循环科技带来的加成. -->
+  <ZeroTechRepeatableTechnology_Consciousness.description>循环科技带来的加成.</ZeroTechRepeatableTechnology_Consciousness.description>
+  
+  <!-- EN: 循环科技(全局学习系数) -->
+  <ZeroTechRepeatableTechnology_GlobalLearningFactor.label>循环科技(全局学习系数)</ZeroTechRepeatableTechnology_GlobalLearningFactor.label>
+  <!-- EN: 基地循环科技带来的加成. -->
+  <ZeroTechRepeatableTechnology_GlobalLearningFactor.description>循环科技带来的加成.</ZeroTechRepeatableTechnology_GlobalLearningFactor.description>
+  
+  <!-- EN: 循环科技(承伤乘数) -->
+  <ZeroTechRepeatableTechnology_IncomingDamageFactor.label>循环科技(承伤乘数)</ZeroTechRepeatableTechnology_IncomingDamageFactor.label>
+  <!-- EN: 基地循环科技带来的加成. -->
+  <ZeroTechRepeatableTechnology_IncomingDamageFactor.description>循环科技带来的加成.</ZeroTechRepeatableTechnology_IncomingDamageFactor.description>
+  
+  <!-- EN: 循环科技(操作) -->
+  <ZeroTechRepeatableTechnology_Manipulation.label>循环科技(操作)</ZeroTechRepeatableTechnology_Manipulation.label>
+  <!-- EN: 基地循环科技带来的加成. -->
+  <ZeroTechRepeatableTechnology_Manipulation.description>循环科技带来的加成.</ZeroTechRepeatableTechnology_Manipulation.description>
+  
+  <!-- EN: 循环科技(机械带宽) -->
+  <ZeroTechRepeatableTechnology_MechBandwidth.label>循环科技(机械带宽)</ZeroTechRepeatableTechnology_MechBandwidth.label>
+  <!-- EN: 基地循环科技带来的加成. -->
+  <ZeroTechRepeatableTechnology_MechBandwidth.description>循环科技带来的加成.</ZeroTechRepeatableTechnology_MechBandwidth.description>
+  
+  <!-- EN: 循环科技(冥想效力) -->
+  <ZeroTechRepeatableTechnology_MeditationFocusGain.label>循环科技(冥想效力)</ZeroTechRepeatableTechnology_MeditationFocusGain.label>
+  <!-- EN: 基地循环科技带来的加成. -->
+  <ZeroTechRepeatableTechnology_MeditationFocusGain.description>循环科技带来的加成.</ZeroTechRepeatableTechnology_MeditationFocusGain.description>
+  
+  <!-- EN: 循环科技(近战冷却时间) -->
+  <ZeroTechRepeatableTechnology_MeleeCooldownFactor.label>循环科技(近战冷却时间)</ZeroTechRepeatableTechnology_MeleeCooldownFactor.label>
+  <!-- EN: 基地循环科技带来的加成. -->
+  <ZeroTechRepeatableTechnology_MeleeCooldownFactor.description>循环科技带来的加成.</ZeroTechRepeatableTechnology_MeleeCooldownFactor.description>
+  
+  <!-- EN: 循环科技(近战伤害系数) -->
+  <ZeroTechRepeatableTechnology_MeleeDamageFactor.label>循环科技(近战伤害系数)</ZeroTechRepeatableTechnology_MeleeDamageFactor.label>
+  <!-- EN: 基地循环科技带来的加成. -->
+  <ZeroTechRepeatableTechnology_MeleeDamageFactor.description>循环科技带来的加成.</ZeroTechRepeatableTechnology_MeleeDamageFactor.description>
+  
+  <!-- EN: 循环科技(心情) -->
+  <ZeroTechRepeatableTechnology_Mood.label>循环科技(心情)</ZeroTechRepeatableTechnology_Mood.label>
+  <!-- EN: 基地循环科技带来的加成. -->
+  <ZeroTechRepeatableTechnology_Mood.description>循环科技带来的加成.</ZeroTechRepeatableTechnology_Mood.description>
+  
+  <!-- EN: 循环科技(移动速度) -->
+  <ZeroTechRepeatableTechnology_MoveSpeed.label>循环科技(移动速度)</ZeroTechRepeatableTechnology_MoveSpeed.label>
+  <!-- EN: 基地循环科技带来的加成. -->
+  <ZeroTechRepeatableTechnology_MoveSpeed.description>循环科技带来的加成.</ZeroTechRepeatableTechnology_MoveSpeed.description>
+  <!-- EN: LV1 -->
+  
+  <!-- EN: 循环科技(移动速度) -->
+  <ZeroTechRepeatableTechnology_Moving.label>循环科技(移动速度)</ZeroTechRepeatableTechnology_Moving.label>
+  <!-- EN: 基地循环科技带来的加成. -->
+  <ZeroTechRepeatableTechnology_Moving.description>循环科技带来的加成.</ZeroTechRepeatableTechnology_Moving.description>
+  
+  <!-- EN: 循环科技(谈判/社交效果) -->
+  <ZeroTechRepeatableTechnology_NegotiationAbilityAndSocialImpact.label>循环科技(谈判/社交效果)</ZeroTechRepeatableTechnology_NegotiationAbilityAndSocialImpact.label>
+  <!-- EN: 基地循环科技带来的加成. -->
+  <ZeroTechRepeatableTechnology_NegotiationAbilityAndSocialImpact.description>循环科技带来的加成.</ZeroTechRepeatableTechnology_NegotiationAbilityAndSocialImpact.description>
+  
+  <!-- EN: 循环科技(心灵敏感度) -->
+  <ZeroTechRepeatableTechnology_PsychicSensitivity.label>循环科技(心灵敏感度)</ZeroTechRepeatableTechnology_PsychicSensitivity.label>
+  <!-- EN: 基地循环科技带来的加成. -->
+  <ZeroTechRepeatableTechnology_PsychicSensitivity.description>循环科技带来的加成.</ZeroTechRepeatableTechnology_PsychicSensitivity.description>
+  
+  <!-- EN: 循环科技(心灵抑制) -->
+  <ZeroTechRepeatableTechnology_PsychicSensitivityEx.label>循环科技(心灵抑制)</ZeroTechRepeatableTechnology_PsychicSensitivityEx.label>
+  <!-- EN: 基地循环科技带来的加成. -->
+  <ZeroTechRepeatableTechnology_PsychicSensitivityEx.description>循环科技带来的加成.</ZeroTechRepeatableTechnology_PsychicSensitivityEx.description>
+  
+  <!-- EN: 循环科技(外部能力) -->
+  <ZeroTechRepeatableTechnology_SightHearingTalkingEating.label>循环科技(外部能力)</ZeroTechRepeatableTechnology_SightHearingTalkingEating.label>
+  <!-- EN: 基地循环科技带来的加成. -->
+  <ZeroTechRepeatableTechnology_SightHearingTalkingEating.description>循环科技带来的加成.</ZeroTechRepeatableTechnology_SightHearingTalkingEating.description>
+  
+  <!-- EN: 循环科技(全局工作速度) -->
+  <ZeroTechRepeatableTechnology_WorkSpeedGlobal.label>循环科技(全局工作速度)</ZeroTechRepeatableTechnology_WorkSpeedGlobal.label>
+  <!-- EN: 基地循环科技带来的加成. -->
+  <ZeroTechRepeatableTechnology_WorkSpeedGlobal.description>循环科技带来的加成.</ZeroTechRepeatableTechnology_WorkSpeedGlobal.description>
+  
+  <!-- EN: 循环科技(机械工作速度偏移) -->
+  <ZeroTechRepeatableTechnology_WorkSpeedGlobalOffsetMech.label>循环科技(机械工作速度偏移)</ZeroTechRepeatableTechnology_WorkSpeedGlobalOffsetMech.label>
+  <!-- EN: 基地循环科技带来的加成. -->
+  <ZeroTechRepeatableTechnology_WorkSpeedGlobalOffsetMech.description>循环科技带来的加成.</ZeroTechRepeatableTechnology_WorkSpeedGlobalOffsetMech.description>
+  
+</LanguageData>

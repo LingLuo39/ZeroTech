@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: loop techLv.1 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv1.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv1.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv1.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv1.description>
+  <!-- EN: loop techLv.2 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv2.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv2.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv2.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv2.description>
+  <!-- EN: loop techLv.3 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv3.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv3.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv3.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv3.description>
+  <!-- EN: loop techLv.4 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv4.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv4.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv4.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv4.description>
+  <!-- EN: loop techLv.5 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv5.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv5.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv5.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv5.description>
+  <!-- EN: loop techLv.6 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv6.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv6.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv6.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv6.description>
+  <!-- EN: loop techLv.7 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv7.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv7.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv7.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv7.description>
+  <!-- EN: loop techLv.8 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv8.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv8.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv8.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv8.description>
+  <!-- EN: loop techLv.9 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv9.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv9.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv9.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv9.description>
+  <!-- EN: loop techLv.10 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv10.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv10.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv10.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv10.description>
+  <!-- EN: loop techLv.11 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv11.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv11.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv11.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv11.description>
+  <!-- EN: loop techLv.12 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv12.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv12.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv12.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv12.description>
+  <!-- EN: loop techLv.13 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv13.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv13.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv13.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv13.description>
+  <!-- EN: loop techLv.14 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv14.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv14.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv14.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv14.description>
+  <!-- EN: loop techLv.15 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv15.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv15.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv15.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv15.description>
+  <!-- EN: loop techLv.16 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv16.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv16.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv16.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv16.description>
+  <!-- EN: loop techLv.17 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv17.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv17.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv17.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv17.description>
+  <!-- EN: loop techLv.18 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv18.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv18.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv18.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv18.description>
+  <!-- EN: loop techLv.19 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv19.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv19.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv19.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv19.description>
+  <!-- EN: loop techLv.20 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv20.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv20.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv20.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv20.description>
+  <!-- EN: loop techLv.21 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv21.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv21.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv21.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv21.description>
+  <!-- EN: loop techLv.22 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv22.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv22.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv22.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv22.description>
+  <!-- EN: loop techLv.23 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv23.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv23.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv23.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv23.description>
+  <!-- EN: loop techLv.24 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv24.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv24.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv24.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv24.description>
+  <!-- EN: loop techLv.25 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv25.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv25.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv25.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv25.description>
+  <!-- EN: loop techLv.26 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv26.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv26.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv26.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv26.description>
+  <!-- EN: loop techLv.27 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv27.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv27.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv27.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv27.description>
+  <!-- EN: loop techLv.28 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv28.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv28.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv28.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv28.description>
+  <!-- EN: loop techLv.29 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv29.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv29.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv29.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv29.description>
+  <!-- EN: loop techLv.30 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv30.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv30.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv30.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv30.description>
+  <!-- EN: loop techLv.31 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv31.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv31.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv31.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv31.description>
+  <!-- EN: loop techLv.32 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv32.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv32.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv32.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv32.description>
+  <!-- EN: loop techLv.33 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv33.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv33.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv33.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv33.description>
+  <!-- EN: loop techLv.34 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv34.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv34.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv34.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv34.description>
+  <!-- EN: loop techLv.35 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv35.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv35.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv35.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv35.description>
+  <!-- EN: loop techLv.36 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv36.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv36.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv36.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv36.description>
+  <!-- EN: loop techLv.37 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv37.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv37.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv37.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv37.description>
+  <!-- EN: loop techLv.38 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv38.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv38.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv38.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv38.description>
+  <!-- EN: loop techLv.39 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv39.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv39.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv39.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv39.description>
+  <!-- EN: loop techLv.40 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv40.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv40.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv40.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv40.description>
+  <!-- EN: loop techLv.41 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv41.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv41.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv41.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv41.description>
+  <!-- EN: loop techLv.42 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv42.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv42.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv42.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv42.description>
+  <!-- EN: loop techLv.43 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv43.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv43.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv43.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv43.description>
+  <!-- EN: loop techLv.44 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv44.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv44.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv44.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv44.description>
+  <!-- EN: loop techLv.45 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv45.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv45.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv45.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv45.description>
+  <!-- EN: loop techLv.46 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv46.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv46.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv46.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv46.description>
+  <!-- EN: loop techLv.47 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv47.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv47.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv47.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv47.description>
+  <!-- EN: loop techLv.48 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv48.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv48.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv48.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv48.description>
+  <!-- EN: loop techLv.49 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv49.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv49.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv49.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv49.description>
+  <!-- EN: loop techLv.50 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv50.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv50.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv50.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv50.description>
+  <!-- EN: loop techLv.51 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv51.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv51.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv51.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv51.description>
+  <!-- EN: loop techLv.52 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv52.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv52.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv52.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv52.description>
+  <!-- EN: loop techLv.53 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv53.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv53.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv53.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv53.description>
+  <!-- EN: loop techLv.54 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv54.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv54.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv54.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv54.description>
+  <!-- EN: loop techLv.55 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv55.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv55.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv55.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv55.description>
+  <!-- EN: loop techLv.56 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv56.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv56.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv56.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv56.description>
+  <!-- EN: loop techLv.57 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv57.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv57.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv57.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv57.description>
+  <!-- EN: loop techLv.58 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv58.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv58.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv58.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv58.description>
+  <!-- EN: loop techLv.59 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv59.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv59.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv59.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv59.description>
+  <!-- EN: loop techLv.60 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv60.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv60.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv60.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv60.description>
+  <!-- EN: loop techLv.61 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv61.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv61.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv61.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv61.description>
+  <!-- EN: loop techLv.62 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv62.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv62.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv62.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv62.description>
+  <!-- EN: loop techLv.63 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv63.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv63.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv63.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv63.description>
+  <!-- EN: loop techLv.64 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv64.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv64.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv64.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv64.description>
+  <!-- EN: loop techLv.65 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv65.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv65.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv65.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv65.description>
+  <!-- EN: loop techLv.66 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv66.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv66.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv66.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv66.description>
+  <!-- EN: loop techLv.67 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv67.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv67.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv67.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv67.description>
+  <!-- EN: loop techLv.68 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv68.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv68.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv68.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv68.description>
+  <!-- EN: loop techLv.69 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv69.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv69.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv69.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv69.description>
+  <!-- EN: loop techLv.70 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv70.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv70.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv70.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv70.description>
+  <!-- EN: loop techLv.71 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv71.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv71.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv71.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv71.description>
+  <!-- EN: loop techLv.72 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv72.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv72.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv72.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv72.description>
+  <!-- EN: loop techLv.73 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv73.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv73.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv73.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv73.description>
+  <!-- EN: loop techLv.74 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv74.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv74.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv74.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv74.description>
+  <!-- EN: loop techLv.75 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv75.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv75.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv75.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv75.description>
+  <!-- EN: loop techLv.76 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv76.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv76.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv76.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv76.description>
+  <!-- EN: loop techLv.77 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv77.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv77.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv77.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv77.description>
+  <!-- EN: loop techLv.78 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv78.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv78.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv78.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv78.description>
+  <!-- EN: loop techLv.79 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv79.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv79.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv79.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv79.description>
+  <!-- EN: loop techLv.80 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv80.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv80.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv80.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv80.description>
+  <!-- EN: loop techLv.81 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv81.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv81.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv81.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv81.description>
+  <!-- EN: loop techLv.82 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv82.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv82.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv82.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv82.description>
+  <!-- EN: loop techLv.83 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv83.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv83.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv83.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv83.description>
+  <!-- EN: loop techLv.84 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv84.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv84.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv84.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv84.description>
+  <!-- EN: loop techLv.85 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv85.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv85.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv85.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv85.description>
+  <!-- EN: loop techLv.86 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv86.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv86.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv86.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv86.description>
+  <!-- EN: loop techLv.87 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv87.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv87.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv87.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv87.description>
+  <!-- EN: loop techLv.88 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv88.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv88.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv88.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv88.description>
+  <!-- EN: loop techLv.89 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv89.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv89.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv89.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv89.description>
+  <!-- EN: loop techLv.90 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv90.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv90.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv90.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv90.description>
+  <!-- EN: loop techLv.91 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv91.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv91.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv91.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv91.description>
+  <!-- EN: loop techLv.92 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv92.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv92.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv92.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv92.description>
+  <!-- EN: loop techLv.93 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv93.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv93.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv93.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv93.description>
+  <!-- EN: loop techLv.94 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv94.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv94.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv94.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv94.description>
+  <!-- EN: loop techLv.95 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv95.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv95.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv95.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv95.description>
+  <!-- EN: loop techLv.96 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv96.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv96.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv96.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv96.description>
+  <!-- EN: loop techLv.97 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv97.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv97.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv97.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv97.description>
+  <!-- EN: loop techLv.98 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv98.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv98.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv98.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv98.description>
+  <!-- EN: loop techLv.99 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv99.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv99.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv99.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv99.description>
+  <!-- EN: loop techLv.100 -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv100.label>loop tech</ZeroTechRepeatableTechnology_Mood.stages.Lv100.label>
+  <!-- EN: Mood bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.stages.Lv100.description>Mood bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.stages.Lv100.description>
+  
+</LanguageData>

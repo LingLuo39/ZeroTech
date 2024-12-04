@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: loop tech(瞄准时间) -->
+  <ZeroTechRepeatableTechnology_AimingDelayFactorAndRangedCooldownFactor.label>loop tech(aiming time and ranged cooldown multiplier)</ZeroTechRepeatableTechnology_AimingDelayFactorAndRangedCooldownFactor.label>
+  <!-- EN: 基地Bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_AimingDelayFactorAndRangedCooldownFactor.description>Bonus of loop tech.</ZeroTechRepeatableTechnology_AimingDelayFactorAndRangedCooldownFactor.description>
+  <!-- EN: loop tech(护甲) -->
+  <ZeroTechRepeatableTechnology_ArmorRating.label>loop tech(armor)</ZeroTechRepeatableTechnology_ArmorRating.label>
+  <!-- EN: 基地Bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_ArmorRating.description>Bonus of loop tech.</ZeroTechRepeatableTechnology_ArmorRating.description>
+  
+  <!-- EN: loop tech(内部能力) -->
+  <ZeroTechRepeatableTechnology_BloodFiltrationBloodPumpingBreathingMetabolism.label>loop tech(inside)</ZeroTechRepeatableTechnology_BloodFiltrationBloodPumpingBreathingMetabolism.label>
+  <!-- EN: 基地Bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_BloodFiltrationBloodPumpingBreathingMetabolism.description>Bonus of loop tech.</ZeroTechRepeatableTechnology_BloodFiltrationBloodPumpingBreathingMetabolism.description>
+  
+  <!-- EN: loop tech(意识) -->
+  <ZeroTechRepeatableTechnology_Consciousness.label>loop tech(consciousness)</ZeroTechRepeatableTechnology_Consciousness.label>
+  <!-- EN: 基地Bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Consciousness.description>Bonus of loop tech.</ZeroTechRepeatableTechnology_Consciousness.description>
+  
+  <!-- EN: loop tech(全局学习系数) -->
+  <ZeroTechRepeatableTechnology_GlobalLearningFactor.label>loop tech(global learning factor)</ZeroTechRepeatableTechnology_GlobalLearningFactor.label>
+  <!-- EN: 基地Bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_GlobalLearningFactor.description>Bonus of loop tech.</ZeroTechRepeatableTechnology_GlobalLearningFactor.description>
+  
+  <!-- EN: loop tech(承伤乘数) -->
+  <ZeroTechRepeatableTechnology_IncomingDamageFactor.label>loop tech(incoming damage multiplier)</ZeroTechRepeatableTechnology_IncomingDamageFactor.label>
+  <!-- EN: 基地Bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_IncomingDamageFactor.description>Bonus of loop tech.</ZeroTechRepeatableTechnology_IncomingDamageFactor.description>
+  
+  <!-- EN: loop tech(操作) -->
+  <ZeroTechRepeatableTechnology_Manipulation.label>loop tech(manipulation)</ZeroTechRepeatableTechnology_Manipulation.label>
+  <!-- EN: 基地Bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Manipulation.description>Bonus of loop tech.</ZeroTechRepeatableTechnology_Manipulation.description>
+  
+  <!-- EN: loop tech(机械带宽) -->
+  <ZeroTechRepeatableTechnology_MechBandwidth.label>loop tech(mech bandwidth)</ZeroTechRepeatableTechnology_MechBandwidth.label>
+  <!-- EN: 基地Bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_MechBandwidth.description>Bonus of loop tech.</ZeroTechRepeatableTechnology_MechBandwidth.description>
+  
+  <!-- EN: loop tech(冥想效力) -->
+  <ZeroTechRepeatableTechnology_MeditationFocusGain.label>loop tech(meditation psyfocus gain)</ZeroTechRepeatableTechnology_MeditationFocusGain.label>
+  <!-- EN: 基地Bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_MeditationFocusGain.description>Bonus of loop tech.</ZeroTechRepeatableTechnology_MeditationFocusGain.description>
+  
+  <!-- EN: loop tech(近战冷却时间) -->
+  <ZeroTechRepeatableTechnology_MeleeCooldownFactor.label>loop tech(melee cooldown)</ZeroTechRepeatableTechnology_MeleeCooldownFactor.label>
+  <!-- EN: 基地Bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_MeleeCooldownFactor.description>Bonus of loop tech.</ZeroTechRepeatableTechnology_MeleeCooldownFactor.description>
+  
+  <!-- EN: loop tech(近战伤害系数) -->
+  <ZeroTechRepeatableTechnology_MeleeDamageFactor.label>loop tech(melee damage factor)</ZeroTechRepeatableTechnology_MeleeDamageFactor.label>
+  <!-- EN: 基地Bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_MeleeDamageFactor.description>Bonus of loop tech.</ZeroTechRepeatableTechnology_MeleeDamageFactor.description>
+  
+  <!-- EN: loop tech(心情) -->
+  <ZeroTechRepeatableTechnology_Mood.label>loop tech(mood)</ZeroTechRepeatableTechnology_Mood.label>
+  <!-- EN: 基地Bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Mood.description>Bonus of loop tech.</ZeroTechRepeatableTechnology_Mood.description>
+  
+  <!-- EN: loop tech(移动速度) -->
+  <ZeroTechRepeatableTechnology_MoveSpeed.label>loop tech(move speed)</ZeroTechRepeatableTechnology_MoveSpeed.label>
+  <!-- EN: 基地Bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_MoveSpeed.description>Bonus of loop tech.</ZeroTechRepeatableTechnology_MoveSpeed.description>
+  <!-- EN: LV1 -->
+  
+  <!-- EN: loop tech(移动速度) -->
+  <ZeroTechRepeatableTechnology_Moving.label>loop tech(moving)</ZeroTechRepeatableTechnology_Moving.label>
+  <!-- EN: 基地Bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_Moving.description>Bonus of loop tech.</ZeroTechRepeatableTechnology_Moving.description>
+  
+  <!-- EN: loop tech(谈判/社交效果) -->
+  <ZeroTechRepeatableTechnology_NegotiationAbilityAndSocialImpact.label>loop tech(negotiation ability and social impact)</ZeroTechRepeatableTechnology_NegotiationAbilityAndSocialImpact.label>
+  <!-- EN: 基地Bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_NegotiationAbilityAndSocialImpact.description>Bonus of loop tech.</ZeroTechRepeatableTechnology_NegotiationAbilityAndSocialImpact.description>
+  
+  <!-- EN: loop tech(心灵敏感度) -->
+  <ZeroTechRepeatableTechnology_PsychicSensitivity.label>loop tech(psychic sensitivity)</ZeroTechRepeatableTechnology_PsychicSensitivity.label>
+  <!-- EN: 基地Bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_PsychicSensitivity.description>Bonus of loop tech.</ZeroTechRepeatableTechnology_PsychicSensitivity.description>
+  
+  <!-- EN: loop tech(心灵抑制) -->
+  <ZeroTechRepeatableTechnology_PsychicSensitivityEx.label>loop tech(psychic suppression)</ZeroTechRepeatableTechnology_PsychicSensitivityEx.label>
+  <!-- EN: 基地Bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_PsychicSensitivityEx.description>Bonus of loop tech.</ZeroTechRepeatableTechnology_PsychicSensitivityEx.description>
+  
+  <!-- EN: loop tech(外部能力) -->
+  <ZeroTechRepeatableTechnology_SightHearingTalkingEating.label>loop tech(outside)</ZeroTechRepeatableTechnology_SightHearingTalkingEating.label>
+  <!-- EN: 基地Bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_SightHearingTalkingEating.description>Bonus of loop tech.</ZeroTechRepeatableTechnology_SightHearingTalkingEating.description>
+  
+  <!-- EN: loop tech(全局工作速度) -->
+  <ZeroTechRepeatableTechnology_WorkSpeedGlobal.label>loop tech(global work speed)</ZeroTechRepeatableTechnology_WorkSpeedGlobal.label>
+  <!-- EN: 基地Bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_WorkSpeedGlobal.description>Bonus of loop tech.</ZeroTechRepeatableTechnology_WorkSpeedGlobal.description>
+  
+  <!-- EN: loop tech(机械工作速度偏移) -->
+  <ZeroTechRepeatableTechnology_WorkSpeedGlobalOffsetMech.label>loop tech(mech work speed offset)</ZeroTechRepeatableTechnology_WorkSpeedGlobalOffsetMech.label>
+  <!-- EN: 基地Bonus of loop tech. -->
+  <ZeroTechRepeatableTechnology_WorkSpeedGlobalOffsetMech.description>Bonus of loop tech.</ZeroTechRepeatableTechnology_WorkSpeedGlobalOffsetMech.description>
+  
+</LanguageData>

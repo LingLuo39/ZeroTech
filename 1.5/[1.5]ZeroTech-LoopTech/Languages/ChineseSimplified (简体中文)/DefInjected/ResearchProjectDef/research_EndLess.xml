@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 远程瞄准及冷却时间 -->
+  <ZeroTechRepeatableTechnology_AimingDelayFactorAndRangedCooldownFactor.label>远程瞄准及冷却时间</ZeroTechRepeatableTechnology_AimingDelayFactorAndRangedCooldownFactor.label>
+  <!-- EN: 通过研究提升人体反应能力,来降低人体的远程瞄准及冷却时间 -->
+  <ZeroTechRepeatableTechnology_AimingDelayFactorAndRangedCooldownFactor.description>通过研究如何提升人体反应能力,来降低人体的远程瞄准及冷却时间\n每次研究可降低0.5%的瞄准时间和远程冷却时间</ZeroTechRepeatableTechnology_AimingDelayFactorAndRangedCooldownFactor.description>
+  
+  <!-- EN: 护甲 -->
+  <ZeroTechRepeatableTechnology_ArmorRating.label>护甲</ZeroTechRepeatableTechnology_ArmorRating.label>
+  <!-- EN: 通过研究提升人体肌肉骨骼密度,来提升殖民地居民的抵抗能力 -->
+  <ZeroTechRepeatableTechnology_ArmorRating.description>通过研究如何提升人体肌肉骨骼密度,来提升殖民地居民的抵抗能力\n每次研究可以增加1%的锐器/钝器/热能防御</ZeroTechRepeatableTechnology_ArmorRating.description>
+  
+  <!-- EN: 内部能力 -->
+  <ZeroTechRepeatableTechnology_BloodFiltrationBloodPumpingBreathingMetabolism.label>内部能力</ZeroTechRepeatableTechnology_BloodFiltrationBloodPumpingBreathingMetabolism.label>
+  <!-- EN: 通过研究人体结构,来提升殖民地居民的血液过滤,血液循环,呼吸和消化能力 -->
+  <ZeroTechRepeatableTechnology_BloodFiltrationBloodPumpingBreathingMetabolism.description>通过研究人体结构,来提升殖民地居民的血液过滤,血液循环,呼吸和消化能力\n每次研究可提升1%的血液过滤,血液循环,呼吸和消化能力.</ZeroTechRepeatableTechnology_BloodFiltrationBloodPumpingBreathingMetabolism.description>
+  
+  <!-- EN: 意识 -->
+  <ZeroTechRepeatableTechnology_Consciousness.label>意识</ZeroTechRepeatableTechnology_Consciousness.label>
+  <!-- EN: 通过研究人体结构,来提升殖民地居民的意识 -->
+  <ZeroTechRepeatableTechnology_Consciousness.description>通过研究人体结构,来提升殖民地居民的意识\n每次研究可提升1%的意识</ZeroTechRepeatableTechnology_Consciousness.description>
+  
+  <!-- EN: 全局学习系数 -->
+  <ZeroTechRepeatableTechnology_GlobalLearningFactor.label>全局学习系数</ZeroTechRepeatableTechnology_GlobalLearningFactor.label>
+  <!-- EN: 通过研究人体大脑结构,来提升殖民地居民的全局学习系数 -->
+  <ZeroTechRepeatableTechnology_GlobalLearningFactor.description>通过研究人的大脑结构,来提升殖民地居民的全局学习系数</ZeroTechRepeatableTechnology_GlobalLearningFactor.description>
+  
+  <!-- EN: 承伤乘数 -->
+  <ZeroTechRepeatableTechnology_IncomingDamageFactor.label>承伤乘数</ZeroTechRepeatableTechnology_IncomingDamageFactor.label>
+  <!-- EN: 通过研究提升人体肌肉骨骼密度,来降低人体的承伤乘数 -->
+  <ZeroTechRepeatableTechnology_IncomingDamageFactor.description>通过研究提升人体肌肉骨骼密度,来降低人体的承伤乘数</ZeroTechRepeatableTechnology_IncomingDamageFactor.description>
+  
+  <!-- EN: 操作 -->
+  <ZeroTechRepeatableTechnology_Manipulation.label>操作</ZeroTechRepeatableTechnology_Manipulation.label>
+  <!-- EN: 通过研究人体结构,来提升殖民地居民的操作能力 -->
+  <ZeroTechRepeatableTechnology_Manipulation.description>通过研究人体结构,来提升殖民地居民的操作能力</ZeroTechRepeatableTechnology_Manipulation.description>
+  
+  <!-- EN: 机械带宽 -->
+  <ZeroTechRepeatableTechnology_MechBandwidth.label>机械带宽</ZeroTechRepeatableTechnology_MechBandwidth.label>
+  <!-- EN: 通过研究人体大脑结构,来提升机械师的机械带宽 -->
+  <ZeroTechRepeatableTechnology_MechBandwidth.description>通过研究人的大脑结构,来提升机械师的机械带宽</ZeroTechRepeatableTechnology_MechBandwidth.description>
+  
+  <!-- EN: 冥想效力 -->
+  <ZeroTechRepeatableTechnology_MeditationFocusGain.label>冥想效力</ZeroTechRepeatableTechnology_MeditationFocusGain.label>
+  <!-- EN: 通过研究人体大脑结构,来提升殖民地居民的冥想效力 -->
+  <ZeroTechRepeatableTechnology_MeditationFocusGain.description>通过研究人的大脑结构,来提升殖民地居民的冥想效力</ZeroTechRepeatableTechnology_MeditationFocusGain.description>
+  
+  <!-- EN: 近战冷却时间 -->
+  <ZeroTechRepeatableTechnology_MeleeCooldownFactor.label>近战冷却时间</ZeroTechRepeatableTechnology_MeleeCooldownFactor.label>
+  <!-- EN: 通过研究提升人体反应能力,来降低人体的近战冷却时间 -->
+  <ZeroTechRepeatableTechnology_MeleeCooldownFactor.description>通过研究提升人的反应能力,来降低人体的近战冷却时间</ZeroTechRepeatableTechnology_MeleeCooldownFactor.description>
+  
+  <!-- EN: 近战伤害系数 -->
+  <ZeroTechRepeatableTechnology_MeleeDamageFactor.label>近战伤害系数</ZeroTechRepeatableTechnology_MeleeDamageFactor.label>
+  <!-- EN: 通过研究人体肌肉发力效率,来提升殖民地居民的近战伤害系数 -->
+  <ZeroTechRepeatableTechnology_MeleeDamageFactor.description>通过研究人体的肌肉发力效率,来提升殖民地居民的近战伤害系数</ZeroTechRepeatableTechnology_MeleeDamageFactor.description>
+  
+  <!-- EN: 心情 -->
+  <ZeroTechRepeatableTechnology_Mood.label>心情</ZeroTechRepeatableTechnology_Mood.label>
+  <!-- EN: 通过研究社会学和心理学,提升殖民地居民的心情. -->
+  <ZeroTechRepeatableTechnology_Mood.description>通过研究社会学和心理学,提升殖民地居民的心情.</ZeroTechRepeatableTechnology_Mood.description>
+  
+  <!-- EN: 移动速度 -->
+  <ZeroTechRepeatableTechnology_MoveSpeed.label>移动速度</ZeroTechRepeatableTechnology_MoveSpeed.label>
+  <!-- EN: 通过研究人体肌肉发力效率,来提升殖民地居民的移动速度 -->
+  <ZeroTechRepeatableTechnology_MoveSpeed.description>通过研究人体的肌肉发力效率,来提升殖民地居民的移动速度</ZeroTechRepeatableTechnology_MoveSpeed.description>
+  
+  <!-- EN: 移动 -->
+  <ZeroTechRepeatableTechnology_Moving.label>移动</ZeroTechRepeatableTechnology_Moving.label>
+  <!-- EN: 通过研究人体结构,来提升殖民地居民的移动能力 -->
+  <ZeroTechRepeatableTechnology_Moving.description>通过研究人体结构,来提升殖民地居民的移动能力</ZeroTechRepeatableTechnology_Moving.description>
+  
+  <!-- EN: 谈判能力与社交效果 -->
+  <ZeroTechRepeatableTechnology_NegotiationAbilityAndSocialImpact.label>谈判能力与社交效果</ZeroTechRepeatableTechnology_NegotiationAbilityAndSocialImpact.label>
+  <!-- EN: 通过研究社会学常识,提高沟通的效果 -->
+  <ZeroTechRepeatableTechnology_NegotiationAbilityAndSocialImpact.description>通过研究社会学常识,提高殖民地居民的沟通效果</ZeroTechRepeatableTechnology_NegotiationAbilityAndSocialImpact.description>
+  
+  <!-- EN: 心灵敏感度 -->
+  <ZeroTechRepeatableTechnology_PsychicSensitivity.label>心灵敏感度</ZeroTechRepeatableTechnology_PsychicSensitivity.label>
+  <!-- EN: 通过研究人体大脑结构,来提升殖民地居民的心灵敏感度 -->
+  <ZeroTechRepeatableTechnology_PsychicSensitivity.description>通过研究人的大脑结构,来提升殖民地居民的心灵敏感度</ZeroTechRepeatableTechnology_PsychicSensitivity.description>
+  
+  <!-- EN: 心灵敏感度(逆向) -->
+  <ZeroTechRepeatableTechnology_PsychicSensitivityEx.label>心灵敏感度(逆向)</ZeroTechRepeatableTechnology_PsychicSensitivityEx.label>
+  <!-- EN: 通过研究人体大脑结构,来降低人体的心灵敏感度 -->
+  <ZeroTechRepeatableTechnology_PsychicSensitivityEx.description>通过研究人的大脑结构,来降低殖民地居民的心灵敏感度</ZeroTechRepeatableTechnology_PsychicSensitivityEx.description>
+  
+  <!-- EN: 外部能力 -->
+  <ZeroTechRepeatableTechnology_SightHearingTalkingEating.label>外部能力</ZeroTechRepeatableTechnology_SightHearingTalkingEating.label>
+  <!-- EN: 通过研究人体结构,来提升殖民地居民的视觉,听觉,语言和进食能力 -->
+  <ZeroTechRepeatableTechnology_SightHearingTalkingEating.description>通过研究人体结构,来提升殖民地居民的视觉,听觉,语言和进食能力</ZeroTechRepeatableTechnology_SightHearingTalkingEating.description>
+  
+  <!-- EN: 全局工作速度 -->
+  <ZeroTechRepeatableTechnology_WorkSpeedGlobal.label>全局工作速度</ZeroTechRepeatableTechnology_WorkSpeedGlobal.label>
+  <!-- EN: 通过研究人体肌肉发力效率,来提升殖民地居民的工作效率 -->
+  <ZeroTechRepeatableTechnology_WorkSpeedGlobal.description>通过研究人体的肌肉发力效率,来提升殖民地居民的工作效率</ZeroTechRepeatableTechnology_WorkSpeedGlobal.description>
+  
+  <!-- EN: 机械工作速度偏移 -->
+  <ZeroTechRepeatableTechnology_WorkSpeedGlobalOffsetMech.label>机械工作速度偏移</ZeroTechRepeatableTechnology_WorkSpeedGlobalOffsetMech.label>
+  <!-- EN: 通过研究人体大脑结构,来提升机械师的机械工作速度偏移 -->
+  <ZeroTechRepeatableTechnology_WorkSpeedGlobalOffsetMech.description>通过研究人的大脑结构,来提升机械师的机械工作速度偏移</ZeroTechRepeatableTechnology_WorkSpeedGlobalOffsetMech.description>
+  
+</LanguageData>

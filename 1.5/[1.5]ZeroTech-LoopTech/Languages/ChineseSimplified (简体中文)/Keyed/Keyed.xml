@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <ZeroTechLoopTech>循环科技</ZeroTechLoopTech>
+  <ReFillTechBuff>刷新科技加成</ReFillTechBuff>
+  <ReFillTechBuffDesc>刷新殖民地居民们身上的循环科技加成,这在你需要禁用部分加成或基地加入新人时非常有用.</ReFillTechBuffDesc>
+  <LoopTechCanUse>决定这项加成是否启用</LoopTechCanUse>
+
+</LanguageData>
