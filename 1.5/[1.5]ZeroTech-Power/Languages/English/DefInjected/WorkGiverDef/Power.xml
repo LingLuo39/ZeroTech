@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: fill endless power -->
+  <WorkGiver_FillLingEndLessPower.label>loading advanced component</WorkGiver_FillLingEndLessPower.label>
+  <!-- EN: filling -->
+  <WorkGiver_FillLingEndLessPower.gerund>loading</WorkGiver_FillLingEndLessPower.gerund>
+  <!-- EN: fill -->
+  <WorkGiver_FillLingEndLessPower.verb>load</WorkGiver_FillLingEndLessPower.verb>
+  
+</LanguageData>

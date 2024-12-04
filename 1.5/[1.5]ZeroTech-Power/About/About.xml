@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ModMetaData>
+	<name>ZeroTech-Power</name>
+	<author>LingLuo</author>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<packageId>LingLuo.ZeroTechPower</packageId>
+	<description>
+	语言Languages:简体中文,English
+	----------简体中文----------
+	零子科技-电力拓展包
+	添加了数种适合基地运营前后期的电力设备,可以帮助殖民地更好的进行电力管理.
+	物品简介:
+	一次性电池:能够提供3000Wd电量的电池,无法充电,电力耗尽后会自动销毁.
+	超空间电池:一个能够储存无限能量的电池,但每储存1000Wd会降低电池的效率.
+	土豆发电机:通过消耗土豆发电的装置.
+	反粒子发电机:利用反粒子炮弹进行发电的装置.
+	心智反应堆:通过高级次生核心发电的装置.
+	认知灯炉:通过标准次生核心发电的装置.
+	无尽反应堆:一个可以通过投入高级零部件提升发电量(无上限)的装置.
+	----------English----------
+	Zero Tech - Power Expansion Pack
+	The addition of several kinds of power equipment suitable for the pre-and post-operation of the base can help the colony better manage power.
+	Item Description:
+	Disposable battery: The battery that can provide 3000Wd power cannot be charged and will automatically destroy after the power runs out.
+	Hyperspace battery: A battery that is capable of storing unlimited energy, but reduces the efficiency of the battery for every 1000Wd stored.
+	Potato generator: A device that generates electricity by consuming potatoes.
+	Antiparticle generator: A device for generating electricity from an antiparticle projectile.
+	Mental reactor: A device that generates electricity through an advanced secondary core.
+	Cognitive lamp furnace: A device that generates electricity through a standard secondary core.
+	Endless reactor: A device that can increase power generation (unlimited) with the input of advanced components.
+	</description>
+	<!--<modDependencies>
+		<li>
+			<packageId>LingLuo.ZeroTechCore</packageId>
+			<displayName>ZeroTechCore</displayName>
+			<downloadUrl>https://www.baidu.com</downloadUrl>
+		</li>
+	</modDependencies>-->
+	
+	<loadAfter>
+		<li>LingLuo.ZeroTechCore</li>
+	</loadAfter>
+</ModMetaData>

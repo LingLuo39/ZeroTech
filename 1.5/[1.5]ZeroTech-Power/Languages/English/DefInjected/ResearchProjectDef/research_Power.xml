@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 易用能源 -->
+  <ZeroTechPowerBase.label>easy to use energy</ZeroTechPowerBase.label>
+  <!-- EN: 一系列简单易用的能量来源,即使是边缘世界的人们也能轻松使用. -->
+  <ZeroTechPowerBase.description>A range of simple and easy to use energy sources that even people on the rimworld can easily use.</ZeroTechPowerBase.description>
+  
+  <!-- EN: 复合能源 -->
+  <ZeroTechPowerHigh.label>Complex energy</ZeroTechPowerHigh.label>
+  <!-- EN: 通过各种各样的方式来制造/输送能量,能够获取更高维度的能量. -->
+  <ZeroTechPowerHigh.description>By producing/delivering energy in a variety of ways, a greater diversity of energy can be obtained.</ZeroTechPowerHigh.description>
+  
+</LanguageData>

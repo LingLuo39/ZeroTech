@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ZeroTechInfiniteBattery.label>超空间电池</ZeroTechInfiniteBattery.label>
+  <ZeroTechInfiniteBattery.description>一款低强度的电池,本质是一个传送装置,当能量大于498wd时会将能量传送,小于50Wd时传回,理论可以储存无限的能量,爆炸时会释放极大的能量.</ZeroTechInfiniteBattery.description>
+
+
+  <!--<ZeroTechInfiniteBattery_Blueprint_Install.label>超空间电池 (蓝图)</ZeroTechInfiniteBattery_Blueprint_Install.label>-->
+
+</LanguageData>

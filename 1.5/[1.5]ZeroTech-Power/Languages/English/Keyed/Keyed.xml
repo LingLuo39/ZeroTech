@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<!--unusable-->
+<LingLongRandPowerGiverPowerUpLabel>增加100耗电</LingLongRandPowerGiverPowerUpLabel>
+<LingLongRandPowerGiverPowerUpDesc>转换的电量增加100Wd</LingLongRandPowerGiverPowerUpDesc>
+<LingLongRandPowerGiverPowerDownLabel>降低100耗电</LingLongRandPowerGiverPowerDownLabel>
+<LingLongRandPowerGiverPowerDownDesc>转换的电量减少100Wd</LingLongRandPowerGiverPowerDownDesc>
+<FindNeederLabel>寻找接收端</FindNeederLabel>
+<FindNeederLabelDesc>重新获取可用的接收端,仅限当前地图</FindNeederLabelDesc>
+<UseNextNeederLabel>切换接收端</UseNextNeederLabel>
+<UseNextNeederDesc>从当前获取的接收端列表中选择下一个可用的接收端,已连接的接收端会被略过</UseNextNeederDesc>
+<LinkMe>发射端编号</LinkMe>
+<CutLinkLabel>切断连接</CutLinkLabel>
+<CutLinkDesc>切断当前连接的发射端</CutLinkDesc>
+<FindSomeNeeder>找到{0}个可用的接收端</FindSomeNeeder>
+<LinkNeederID>连接到的接收端</LinkNeederID>
+
+
+<IdleCapacity>Reserve energy</IdleCapacity>
+<BatteryOnceDestroy>One of the disposable battery died.</BatteryOnceDestroy>
+<LoadComponentSpacerLabel>load advanced component</LoadComponentSpacerLabel>
+<LoadComponentSpacerDesc>The power generation capacity of the generator is enhanced by loading advanced components.</LoadComponentSpacerDesc>
+<NoAvailableMaterial>No materials available.</NoAvailableMaterial>
+
+<ClearComponentSpacerLabel>Clear task</ClearComponentSpacerLabel>
+<ClearComponentSpacerDesc>Clear the current component loading task.</ClearComponentSpacerDesc>
+
+</LanguageData>

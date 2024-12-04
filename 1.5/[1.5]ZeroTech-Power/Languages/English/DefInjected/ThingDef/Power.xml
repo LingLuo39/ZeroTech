@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 一次性电池 -->
+  <Battery_Once.label>disposable battery</Battery_Once.label>
+  <!-- EN: 一个造价低廉的一次性电池,会在电量耗尽后损毁. -->
+  <Battery_Once.description>A cheap disposable battery,destroy when it runs out of power.</Battery_Once.description>
+  
+  <!-- EN: 魂灵反应堆 -->
+  <LingBrainPower.label>Mental reactor</LingBrainPower.label>
+  <!-- EN: 一个将多个高级次生核心纠缠在一起产生能量的装置,从玄幻的角度来看像是将三个人的灵魂拘束在一个小小的装置中使之产生负面能量的装置. -->
+  <LingBrainPower.description>A device that produces energy by aggregating the human mind can produce a lot of energy through the collision of minds, which some people find extremely inhumane. But in principle, this device is neither living nor contains life.</LingBrainPower.description>
+  
+  <!-- EN: 反粒子发电机 -->
+  <LingEasyBoomPower.label>antigrain generator</LingEasyBoomPower.label>
+  <!-- EN: 一个利用反粒子和约束堆制成的发电机. -->
+  <LingEasyBoomPower.description>A device that disassembers antigrain shells and uses the antigrain to generate electricity slowly releases the energy from the antigrain instead of detonating it directly.</LingEasyBoomPower.description>
+  
+  <!-- EN: 无尽反应堆 -->
+  <LingEndLessPower.label>endless reactor</LingEndLessPower.label>
+  <!-- EN: 一个奇妙的反应堆本体的发电能力相比材料需求可以说是极弱,但可以通过不断的投入素材,来增强其发电能力. -->
+  <LingEndLessPower.description>A device that generates electricity through a mechanical structure can expand the structure and increase its power generation capacity through continuous input of advanced components.</LingEndLessPower.description>
+  
+  <!-- EN: 土豆发电机 -->
+  <RawPotatoesGenerator.label>potato generator</RawPotatoesGenerator.label>
+  <!-- EN: 利用土豆来发电,需要定期添加土豆,有着无法想象之大的燃料舱 -->
+  <RawPotatoesGenerator.description>A generator that uses potatoes to generate electricity can break down potatoes at high speeds. It has almost three times the space utilization of contemporary generators, but the corresponding potato consumption rate is also extremely fast.</RawPotatoesGenerator.description>
+  
+  <!-- EN: 认知灯炉 -->
+  <SubcoreRegularGenerator.label>Cognitive furnace</SubcoreRegularGenerator.label>
+  <!-- EN: 一个低级的,集成化的信息态分解装置,但是只能单方向的将思维认知转化成电能,且会在这个过程中逐渐损毁认知载体,因此需要不断地补充 -->
+  <SubcoreRegularGenerator.description>A device that generates electricity by analyzing the human mind, but cannot directly use a complete human being, needs to print cognition into standard subcore through subcore softscanner before it can be used in this device.</SubcoreRegularGenerator.description>
+  
+  <!-- EN: 超空间电容 -->
+  <ZeroTechInfiniteBattery.label>hyperspace battery</ZeroTechInfiniteBattery.label>
+  <!-- EN: 一款低强度的电池,本质是一个传送装置,当能量大于980wd时会将能量传送,小于50Wd时传回,理论可以储存无限的能量./n同一个地图中存在多个时容易发生维度参数干扰. -->
+  <ZeroTechInfiniteBattery.description>A low-intensity battery, in essence, is a transmission device, when the energy is greater than 998wd will transmit energy, less than 50Wd back, theory can store unlimited energy, but the efficiency of energy storage will gradually weaken with the amount of energy storage.</ZeroTechInfiniteBattery.description>
+  
+</LanguageData>

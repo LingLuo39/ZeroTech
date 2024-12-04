@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+<!-- 反粒子发电机 -->
+  <ThingDef ParentName="BuildingBase">
+    <defName>LingEasyBoomPower</defName>
+    <label>反粒子发电机</label>
+    <description>一个利用反粒子和约束堆制成的发电机.</description>
+    <thingClass>Building</thingClass>
+    <drawerType>MapMeshOnly</drawerType>
+    <graphicData>
+      <texPath>Things/Building/Power/LingEasyBoomPower</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <blockWind>false</blockWind>
+    <scatterableOnMapGen>false</scatterableOnMapGen>
+    <fillPercent>0.2</fillPercent>
+    <blockLight>false</blockLight>
+    <canOverlapZones>false</canOverlapZones>
+    <statBases>
+      <MaxHitPoints>30</MaxHitPoints>
+      <WorkToBuild>2000</WorkToBuild>
+      <Flammability>2</Flammability>
+      <Mass>5</Mass>
+    </statBases>
+    <tickerType>Never</tickerType>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsPower</li>
+    </thingCategories>
+    <size>(1,1)</size>
+    <costList>
+      <Shell_AntigrainWarhead>1</Shell_AntigrainWarhead>
+      <Steel>5</Steel>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerPlant</compClass>
+        <basePowerConsumption>-1500</basePowerConsumption>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <rotatable>false</rotatable>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Power</designationCategory>
+    <researchPrerequisites>
+      <li>ZeroTechPowerBase</li>
+    </researchPrerequisites>
+  </ThingDef>
+<!-- 拘魂仪 -->
+  <ThingDef ParentName="BuildingBase">
+    <defName>LingBrainPower</defName>
+    <label>魂灵反应堆</label>
+    <description>一个将多个高级次生核心纠缠在一起产生能量的装置,从玄幻的角度来看像是将三个人的灵魂拘束在一个小小的装置中使之产生负面能量的装置.</description>
+    <thingClass>Building</thingClass>
+    <drawerType>MapMeshOnly</drawerType>
+    <graphicData>
+      <texPath>Things/Building/Power/LingLongRandPowerGiver</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <blockWind>false</blockWind>
+    <scatterableOnMapGen>false</scatterableOnMapGen>
+    <fillPercent>0.2</fillPercent>
+    <blockLight>false</blockLight>
+    <canOverlapZones>false</canOverlapZones>
+    <statBases>
+      <MaxHitPoints>30</MaxHitPoints>
+      <WorkToBuild>2000</WorkToBuild>
+      <Flammability>2</Flammability>
+      <Mass>10</Mass>
+    </statBases>
+    <tickerType>Never</tickerType>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsPower</li>
+    </thingCategories>
+    <size>(1,1)</size>
+    <costList>
+      <SubcoreHigh>3</SubcoreHigh>
+      <Steel>50</Steel>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerPlant</compClass>
+        <basePowerConsumption>-3000</basePowerConsumption>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <rotatable>false</rotatable>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Power</designationCategory>
+    <researchPrerequisites>
+      <li>ZeroTechPowerHigh</li>
+    </researchPrerequisites>
+  </ThingDef>
+<!-- 无尽反应堆 -->
+  <ThingDef ParentName="BuildingBase">
+    <defName>LingEndLessPower</defName>
+    <label>无尽反应堆</label>
+    <description>一个奇妙的反应堆本体的发电能力相比材料需求可以说是极弱,但可以通过不断的投入素材,来增强其发电能力.</description>
+    <thingClass>Building</thingClass>
+    <drawerType>MapMeshOnly</drawerType>
+    <graphicData>
+      <texPath>Things/Building/Power/LingEndLessPower</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5.3,5.3)</drawSize>
+    </graphicData>
+    <size>(5,5)</size>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <blockWind>false</blockWind>
+    <scatterableOnMapGen>false</scatterableOnMapGen>
+    <fillPercent>0.8</fillPercent>
+    <blockLight>false</blockLight>
+    <canOverlapZones>false</canOverlapZones>
+    <statBases>
+      <MaxHitPoints>500</MaxHitPoints>
+      <WorkToBuild>2000</WorkToBuild>
+      <Flammability>0</Flammability>
+      <Mass>100</Mass>
+    </statBases>
+    <tickerType>Rare</tickerType>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsPower</li>
+    </thingCategories>
+    <costList>
+      <Steel>1000</Steel>
+      <Plasteel>200</Plasteel>
+      <Uranium>100</Uranium>
+      <ComponentIndustrial>20</ComponentIndustrial>
+      <ComponentSpacer>5</ComponentSpacer>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>LingGame.CompPowerEndLess</compClass>
+        <basePowerConsumption>-10000</basePowerConsumption>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <rotatable>false</rotatable>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Power</designationCategory>
+    <researchPrerequisites>
+      <li>ZeroTechPowerHigh</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+	<WorkGiverDef>
+		<defName>WorkGiver_FillLingEndLessPower</defName>
+		<label>装载无尽反应堆</label>
+		<giverClass>LingGame.WorkGiver_FillLingEndLessPower</giverClass>
+		<workType>Hauling</workType>
+		<verb>装载</verb>
+		<gerund>装载中</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<priorityInType>139</priorityInType>
+		<canBeDoneByMechs>true</canBeDoneByMechs>
+	</WorkGiverDef>
+
+	<JobDef>
+		<defName>Job_FillLingEndLessPower</defName>
+		<driverClass>LingGame.JobDriver_FillLingEndLessPower</driverClass>
+		<reportString>装载TargetA.</reportString>
+		<suspendable>false</suspendable>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
+
+<!-- 无限电池 -->
+  <ThingDef ParentName="BuildingBase">
+    <defName>ZeroTechInfiniteBattery</defName>
+    <label>超空间电容</label>
+    <description>一款低强度的电池,本质是一个传送装置,当能量大于980wd时会将能量传送,小于50Wd时传回,理论可以储存无限的能量./n同一个地图中存在多个时容易发生维度参数干扰.</description>
+    <thingClass>Building_Battery</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Power/ZeroTechInfiniteBattery</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+      <li>RewardStandardHighFreq</li>
+    </thingSetMakerTags>
+    <tradeability>Sellable</tradeability>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>70</pathCost>
+    <blockWind>true</blockWind>
+    <fillPercent>0.40</fillPercent>
+    <tickerType>Normal</tickerType>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <castEdgeShadows>false</castEdgeShadows>
+    <thingCategories>
+      <li>BuildingsPower</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToBuild>60000</WorkToBuild>
+      <Mass>5</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>5</Beauty>
+    </statBases>
+    <rotatable>false</rotatable>
+    <size>(2,2)</size>
+    <costList>
+      <AIPersonaCore>1</AIPersonaCore>
+      <Steel>50</Steel>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>1000</storedEnergyMax>
+        <efficiency>1</efficiency>
+        <shortCircuitInRain>false</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="LingGame.CompProperties_PowerZeroTechInfiniteBattery"/>
+    </comps>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Power</designationCategory>
+    <staticSunShadowHeight>0.2</staticSunShadowHeight>
+    <constructEffect>ConstructMetal</constructEffect>
+    <canOverlapZones>false</canOverlapZones>
+    <researchPrerequisites>
+      <li>ZeroTechPowerHigh</li>
+    </researchPrerequisites>
+  </ThingDef>
+<!-- 烧脑机 -->
+  <ThingDef ParentName="BuildingBase">
+    <defName>SubcoreRegularGenerator</defName>
+    <label>认知灯炉</label>
+    <description>一个低级的,集成化的信息态分解装置,但是只能单方向的将思维认知转化成电能,且会在这个过程中逐渐损毁认知载体,因此需要不断地补充</description>
+    <thingClass>Building</thingClass>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <graphicData>
+      <texPath>Things/Building/Power/LingLongRandPowerNeeder</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <blockWind>true</blockWind>
+    <fillPercent>1.0</fillPercent>
+    <castEdgeShadows>false</castEdgeShadows>
+    <rotatable>false</rotatable>
+    <statBases>
+      <Mass>10</Mass>
+      <MaxHitPoints>300</MaxHitPoints>
+      <WorkToBuild>2500</WorkToBuild>
+      <Flammability>0</Flammability>
+      <Beauty>0</Beauty>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsPower</li>
+    </thingCategories>
+    <canOverlapZones>false</canOverlapZones>
+    <size>(1,1)</size>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+    </building>
+    <costList>
+      <Steel>80</Steel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerPlant</compClass>
+        <basePowerConsumption>-5000</basePowerConsumption>
+        <transmitsPower>true</transmitsPower>
+        <soundAmbientProducingPower>ChemfuelFiredGenerator_Ambience</soundAmbientProducingPower>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>0.1</fuelConsumptionRate>
+        <fuelCapacity>6</fuelCapacity>
+        <fuelFilter>
+          <thingDefs>
+            <li>SubcoreRegular</li>
+          </thingDefs>
+        </fuelFilter>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(255,111,111,0)</glowColor>
+      </li>
+      <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusherPowered</compClass>
+        <heatPerSecond>-1</heatPerSecond>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <designationCategory>Power</designationCategory>
+    <uiOrder>2100</uiOrder>
+    <constructEffect>ConstructMetal</constructEffect>
+    <researchPrerequisites>
+      <li>ZeroTechPowerHigh</li>
+    </researchPrerequisites>
+  </ThingDef>
+<!-- 土豆发电机 -->
+  <ThingDef ParentName="BuildingBase">
+    <defName>RawPotatoesGenerator</defName>
+    <label>土豆发电机</label>
+    <description>利用土豆来发电,需要定期添加土豆,有着无法想象之大的燃料舱</description>
+    <thingClass>Building</thingClass>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <graphicData>
+      <texPath>Things/Building/Power/WoodFiredGenerator</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <blockWind>true</blockWind>
+    <fillPercent>1.0</fillPercent>
+    <castEdgeShadows>false</castEdgeShadows>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+      <WorkToBuild>2500</WorkToBuild>
+      <Flammability>0</Flammability>
+      <Mass>30</Mass>
+      <Beauty>0</Beauty>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsPower</li>
+    </thingCategories>
+    <canOverlapZones>false</canOverlapZones>
+    <size>(2,2)</size>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+    </building>
+    <costList>
+      <Steel>80</Steel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerPlant</compClass>
+        <basePowerConsumption>-1000</basePowerConsumption>
+        <transmitsPower>true</transmitsPower>
+        <soundAmbientProducingPower>ChemfuelFiredGenerator_Ambience</soundAmbientProducingPower>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>20</fuelConsumptionRate>
+        <fuelCapacity>2400</fuelCapacity>
+        <fuelFilter>
+          <thingDefs>
+            <li>RawPotatoes</li>
+          </thingDefs>
+        </fuelFilter>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(114,206,165,0)</glowColor>
+      </li>
+      <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusherPowered</compClass>
+        <heatPerSecond>6</heatPerSecond>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <designationCategory>Power</designationCategory>
+    <uiOrder>2100</uiOrder>
+    <constructEffect>ConstructMetal</constructEffect>
+    <researchPrerequisites>
+      <li>Electricity</li>
+    </researchPrerequisites>
+  </ThingDef>
+<!-- 一次性电池 -->
+  <ThingDef ParentName="BuildingBase">
+    <defName>Battery_Once</defName>
+    <label>一次性电池</label>
+    <description>一个造价低廉的一次性电池,会在电量耗尽后损毁.</description>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <thingClass>LingGame.Building_Battery_Once</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Power/Battery_Once</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <blockWind>true</blockWind>
+    <fillPercent>0.40</fillPercent>
+    <tickerType>Normal</tickerType>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <castEdgeShadows>false</castEdgeShadows>
+    <thingCategories>
+      <li>BuildingsPower</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>600</WorkToBuild>
+      <Mass>2</Mass>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+    </building>
+    <costList>
+      <Steel>10</Steel>
+      <WoodLog>20</WoodLog>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Battery">
+        <storedEnergyMax>3000</storedEnergyMax>
+        <efficiency>0</efficiency>
+        <shortCircuitInRain>false</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <designationCategory>Power</designationCategory>
+    <uiOrder>2020</uiOrder>
+    <staticSunShadowHeight>0.2</staticSunShadowHeight>
+    <constructEffect>ConstructMetal</constructEffect>
+    <canOverlapZones>false</canOverlapZones>
+    <researchPrerequisites>
+      <li>ZeroTechPowerBase</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+
+</Defs>

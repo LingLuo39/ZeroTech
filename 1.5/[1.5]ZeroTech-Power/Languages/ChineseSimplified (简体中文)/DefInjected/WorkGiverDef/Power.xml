@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: fill endless power -->
+  <WorkGiver_FillLingEndLessPower.label>装载高级零部件</WorkGiver_FillLingEndLessPower.label>
+  <!-- EN: filling -->
+  <WorkGiver_FillLingEndLessPower.gerund>装载中</WorkGiver_FillLingEndLessPower.gerund>
+  <!-- EN: fill -->
+  <WorkGiver_FillLingEndLessPower.verb>装载</WorkGiver_FillLingEndLessPower.verb>
+  
+</LanguageData>

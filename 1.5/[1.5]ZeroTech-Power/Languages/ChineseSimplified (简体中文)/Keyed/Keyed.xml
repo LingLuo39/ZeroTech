@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<LingLongRandPowerGiverPowerUpLabel>增加100耗电</LingLongRandPowerGiverPowerUpLabel>
+<LingLongRandPowerGiverPowerUpDesc>转换的电量增加100Wd</LingLongRandPowerGiverPowerUpDesc>
+<LingLongRandPowerGiverPowerDownLabel>降低100耗电</LingLongRandPowerGiverPowerDownLabel>
+<LingLongRandPowerGiverPowerDownDesc>转换的电量减少100Wd</LingLongRandPowerGiverPowerDownDesc>
+<FindNeederLabel>寻找接收端</FindNeederLabel>
+<FindNeederLabelDesc>重新获取可用的接收端,仅限当前地图</FindNeederLabelDesc>
+<UseNextNeederLabel>切换接收端</UseNextNeederLabel>
+<UseNextNeederDesc>从当前获取的接收端列表中选择下一个可用的接收端,已连接的接收端会被略过</UseNextNeederDesc>
+<LinkMe>发射端编号</LinkMe>
+<CutLinkLabel>切断连接</CutLinkLabel>
+<CutLinkDesc>切断当前连接的发射端</CutLinkDesc>
+<FindSomeNeeder>找到{0}个可用的接收端</FindSomeNeeder>
+<LinkNeederID>连接到的接收端</LinkNeederID>
+
+<IdleCapacity>储备电力</IdleCapacity>
+<BatteryOnceDestroy>一个一次性电池电量耗尽损毁了</BatteryOnceDestroy>
+<LoadComponentSpacerLabel>装载零件</LoadComponentSpacerLabel>
+<LoadComponentSpacerDesc>通过装载高级零部件来提升该发电机的发电能力</LoadComponentSpacerDesc>
+<NoAvailableMaterial>没有可用的材料</NoAvailableMaterial>
+
+<ClearComponentSpacerLabel>清空任务</ClearComponentSpacerLabel>
+<ClearComponentSpacerDesc>清空目前的零部件装载任务</ClearComponentSpacerDesc>
+
+</LanguageData>

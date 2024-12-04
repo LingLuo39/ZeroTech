@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ResearchTabDef>
+        <defName>ZeroTech</defName>
+        <label>零子科技</label>
+      </ResearchTabDef>
+
+  <ResearchProjectDef Name="ZeroTechResPrjBasePow" Abstract="True">
+    <label>能源类研究</label>
+    <tab>ZeroTech</tab>
+    <researchViewY>3</researchViewY>
+    <techLevel>Industrial</techLevel>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="ZeroTechResPrjBasePow">
+    <defName>ZeroTechPowerBase</defName>
+    <label>易用能源</label>
+    <description>一系列简单易用的能量来源,即使是边缘世界的人们也能轻松使用.</description>
+    <baseCost>1000</baseCost>
+    <prerequisites>
+      <li>Electricity</li>
+    </prerequisites>
+    <researchViewX>1</researchViewX>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="ZeroTechResPrjBasePow">
+    <defName>ZeroTechPowerHigh</defName>
+    <label>复合能源</label>
+    <description>通过各种各样的方式来制造/输送能量,能够获取更高维度的能量.</description>
+    <baseCost>3000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>ZeroTechPowerBase</li>
+    </prerequisites>
+    <researchViewX>2</researchViewX>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+  </ResearchProjectDef>
+
+</Defs>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 一次性电池 -->
+  <Battery_Once.label>一次性电池</Battery_Once.label>
+  <!-- EN: 一个造价低廉的一次性电池,会在电量耗尽后损毁. -->
+  <Battery_Once.description>一个造价低廉的一次性电池,会在电量耗尽后损毁.</Battery_Once.description>
+  
+  <!-- EN: 魂灵反应堆 -->
+  <LingBrainPower.label>心智反应堆</LingBrainPower.label>
+  <!-- EN: 一个将多个高级次生核心纠缠在一起产生能量的装置,从玄幻的角度来看像是将三个人的灵魂拘束在一个小小的装置中使之产生负面能量的装置. -->
+  <LingBrainPower.description>通过将人类心智聚合以产生能量的装置,可通过心智间的碰撞产生大量能量,在部分人眼里这极不人道.但原则上来讲,这个装置既非生命也不包含生命</LingBrainPower.description>
+  
+  <!-- EN: 反粒子发电机 -->
+  <LingEasyBoomPower.label>反粒子发电机</LingEasyBoomPower.label>
+  <!-- EN: 一个利用反粒子和约束堆制成的发电机. -->
+  <LingEasyBoomPower.description>将反粒子炮弹拆解重组,利用其中的反粒子进行发电的装置,可以缓慢的释放来自反粒子的能量而非直接引爆.</LingEasyBoomPower.description>
+  
+  <!-- EN: 无尽反应堆 -->
+  <LingEndLessPower.label>无尽反应堆</LingEndLessPower.label>
+  <!-- EN: 一个奇妙的反应堆本体的发电能力相比材料需求可以说是极弱,但可以通过不断的投入素材,来增强其发电能力. -->
+  <LingEndLessPower.description>一个通过机械结构进行发电的装置,可以通过不断地投入高级零部件来拓展结构,增加其发电能力.</LingEndLessPower.description>
+  
+  <!-- EN: 土豆发电机 -->
+  <RawPotatoesGenerator.label>土豆发电机</RawPotatoesGenerator.label>
+  <!-- EN: 利用土豆来发电,需要定期添加土豆,有着无法想象之大的燃料舱 -->
+  <RawPotatoesGenerator.description>一个利用土豆来发电的发电机,可以高速的通过分解土豆来发电.几乎有三倍于同时代发电机的空间利用率,但对应的,土豆的消耗速度也极快.</RawPotatoesGenerator.description>
+  
+  <!-- EN: 认知灯炉 -->
+  <SubcoreRegularGenerator.label>认知灯炉</SubcoreRegularGenerator.label>
+  <!-- EN: 一个低级的,集成化的信息态分解装置,但是只能单方向的将思维认知转化成电能,且会在这个过程中逐渐损毁认知载体,因此需要不断地补充 -->
+  <SubcoreRegularGenerator.description>一个通过解析人类心智来发电的装置,但无法直接利用完整的人类,需要先将认知通过差分扫描仪拓印为次生核心,才能够用于该装置.</SubcoreRegularGenerator.description>
+  
+  <!-- EN: 超空间电容 -->
+  <ZeroTechInfiniteBattery.label>超空间电池</ZeroTechInfiniteBattery.label>
+  <!-- EN: 一款低强度的电池,本质是一个传送装置,当能量大于980wd时会将能量传送,小于50Wd时传回,理论可以储存无限的能量./n同一个地图中存在多个时容易发生维度参数干扰. -->
+  <ZeroTechInfiniteBattery.description>一款低强度的电池,本质是一个传送装置,当能量大于998wd时会将能量传送,小于50Wd时传回,理论可以储存无限的能量,但储能的效率会随着储能的量逐渐削弱.</ZeroTechInfiniteBattery.description>
+  
+</LanguageData>
