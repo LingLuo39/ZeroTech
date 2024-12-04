@@ -1,0 +1,726 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Name="LingZeroTechDrugNoMake" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <rotatable>false</rotatable>
+    <drawerType>MapMeshOnly</drawerType>
+    <useHitPoints>true</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <selectable>true</selectable>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>1</DeteriorationRate>
+      <WorkToMake>300</WorkToMake>
+      <Mass>0.005</Mass>
+      <MarketValue>50</MarketValue>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <altitudeLayer>Item</altitudeLayer>
+    <stackLimit>100</stackLimit>
+    <thingCategories>
+      <li>Drugs</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Drugs</li>
+    </tradeTags>
+    <alwaysHaulable>true</alwaysHaulable>
+    <graphicData>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <pathCost>14</pathCost>
+    <burnableByRecipe>true</burnableByRecipe>
+    <resourceReadoutPriority>Last</resourceReadoutPriority>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <allowedArchonexusCount>200</allowedArchonexusCount>
+    <storedConceptLearnOpportunity>DrugPolicies</storedConceptLearnOpportunity>
+    <orderedTakeGroup>Drug</orderedTakeGroup>
+    <ingestible>
+      <drugCategory>Medical</drugCategory>
+      <preferability>NeverForNutrition</preferability>
+      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <foodType>Processed</foodType>
+      <baseIngestTicks>60</baseIngestTicks>
+      <chairSearchRadius>0</chairSearchRadius>
+      <ingestSound>Ingest_Pill</ingestSound>
+      <ingestHoldUsesTable>false</ingestHoldUsesTable>
+      <ingestCommandString>服用{0}</ingestCommandString>
+      <ingestReportString>服用{0}中...</ingestReportString>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+      <li Class="CompProperties_Drug">
+        <listOrder>1000</listOrder>
+        <overdoseSeverityOffset>0.1</overdoseSeverityOffset>
+      </li>
+    </comps>
+    <socialPropernessMatters>false</socialPropernessMatters>
+  </ThingDef>
+  <ThingDef Name="LingZeroTechDrugBase" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <rotatable>false</rotatable>
+    <drawerType>MapMeshOnly</drawerType>
+    <useHitPoints>true</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <selectable>true</selectable>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>1</DeteriorationRate>
+      <WorkToMake>300</WorkToMake>
+      <Mass>0.005</Mass>
+      <MarketValue>50</MarketValue>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <altitudeLayer>Item</altitudeLayer>
+    <stackLimit>100</stackLimit>
+    <thingCategories>
+      <li>Drugs</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Drugs</li>
+    </tradeTags>
+    <alwaysHaulable>true</alwaysHaulable>
+    <graphicData>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <pathCost>14</pathCost>
+    <burnableByRecipe>true</burnableByRecipe>
+    <resourceReadoutPriority>Last</resourceReadoutPriority>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <allowedArchonexusCount>200</allowedArchonexusCount>
+    <storedConceptLearnOpportunity>DrugPolicies</storedConceptLearnOpportunity>
+    <orderedTakeGroup>Drug</orderedTakeGroup>
+    <recipeMaker>
+      <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+      <workSkill>Intellectual</workSkill>
+      <effectWorking>Cook</effectWorking>
+      <soundWorking>Recipe_CookMeal</soundWorking>
+      <bulkRecipeCount>4</bulkRecipeCount>
+      <recipeUsers>
+        <li>DrugLab</li>
+      </recipeUsers>
+      <researchPrerequisite>ZeroTechDrug</researchPrerequisite>
+    </recipeMaker>
+    <ingestible>
+      <drugCategory>Medical</drugCategory>
+      <preferability>NeverForNutrition</preferability>
+      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <foodType>Processed</foodType>
+      <baseIngestTicks>60</baseIngestTicks>
+      <chairSearchRadius>0</chairSearchRadius>
+      <ingestSound>Ingest_Pill</ingestSound>
+      <ingestHoldUsesTable>false</ingestHoldUsesTable>
+      <ingestCommandString>服用{0}</ingestCommandString>
+      <ingestReportString>服用{0}中...</ingestReportString>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+      <li Class="CompProperties_Drug">
+        <listOrder>1000</listOrder>
+        <overdoseSeverityOffset>0.1</overdoseSeverityOffset>
+      </li>
+    </comps>
+    <socialPropernessMatters>false</socialPropernessMatters>
+  </ThingDef>
+
+  <!-- 
+    Neutroamine
+    Steel
+    MechSerumHealer
+    Luciferium
+    RawRice
+    PsychoidLeaves
+    SmokeleafLeaves
+  -->
+  <!-- 怀孕药 -->
+  <ThingDef ParentName="LingZeroTechDrugBase">
+    <defName>ZeroTech_Drug_PregnantPill</defName>
+    <label>怀孕药</label>
+    <description>一颗大小偏大的胶囊,与其说是药物,倒不如说是一个经过压缩的空白胚胎,可以在植入生物体内后自动汲取生物的遗传信息并转化,形成这种生物对应的胚胎,不过这款药物无法判断生物是否拥有子宫,因此对雄性生物也能够生效,若是出于必要原因让雄性生物服用的话,务必做好宫外孕的后续处理</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/ZeroTech_Drug_PregnantPill</texPath>
+    </graphicData>
+    <descriptionHyperlinks><HediffDef>Pregnant</HediffDef></descriptionHyperlinks>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>Pregnant</hediffDef>
+          <severity>0.49</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <costList>
+      <ComponentSpacer>1</ComponentSpacer>
+      <Meat_Human>50</Meat_Human>
+    </costList>
+  </ThingDef>
+  <!-- 砒霜 -->
+  <ThingDef ParentName="LingZeroTechDrugBase">
+    <defName>ZeroTech_Drug_Arsenic</defName>
+    <label>砒霜</label>
+    <description>三氧化二砷(致死量),一种致癌物质,若是使用方法正确,也可以用于抑制癌细胞,不过若是将这一整份的砒霜直接口服而下,大概并不会因癌症而死,也不会起到抑制癌症的效果,而是直接肾衰竭加神经衰弱,在短时间内痛苦的死去.</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/ZeroTech_Drug_Arsenic</texPath>
+    </graphicData>
+    <descriptionHyperlinks><HediffDef>ZeroTech_Drug_ArsenicBuildup</HediffDef></descriptionHyperlinks>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>ZeroTech_Drug_ArsenicBuildup</hediffDef>
+          <severity>0.99</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <costList>
+      <ChunkMarble>1</ChunkMarble>
+    </costList>
+  </ThingDef>
+  <HediffDef>
+    <defName>ZeroTech_Drug_ArsenicBuildup</defName>
+	  <description>这个生物大概马上就要死了.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(1.0, 0.7, 0.7)</defaultLabelColor>
+    <label>砒霜中毒</label>
+    <lethalSeverity>1</lethalSeverity>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <comps>
+      <li Class="HediffCompProperties_Immunizable">
+        <severityPerDayNotImmune>1</severityPerDayNotImmune>
+      </li>
+    </comps>
+  </HediffDef>
+  <!-- 此后非人 -->
+  <ThingDef ParentName="LingZeroTechDrugNoMake">
+    <defName>ZeroTech_Drug_Indulgences</defName>
+    <label>圣水</label>
+    <description>传说被旧教会祝福过的液体制成的药剂,传闻饮用这种药剂之后能在死亡后灵魂能够升上神国,因此人们不会因为饮用过圣水的人的死亡而感到悲伤或是欢喜</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/ZeroTech_Drug_Indulgences</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>100</MarketValue>
+    </statBases>
+    <descriptionHyperlinks><HediffDef>ZeroTech_Drug_Indulgences</HediffDef></descriptionHyperlinks>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>ZeroTech_Drug_Indulgences</hediffDef>
+          <severity>0.25</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+  </ThingDef>
+  <HediffDef>
+    <defName>ZeroTech_Drug_Indulgences</defName>
+	  <description>这个生物的死亡不会引起其他人的悲喜.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(1.0, 0.7, 0.7)</defaultLabelColor>
+    <label>饮用圣水</label>
+    <lethalSeverity>1</lethalSeverity>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <comps>
+        <li Class="LingGame.Hediff_DiePill"/>
+    </comps>
+  </HediffDef>
+  <!-- 涤身水 -->
+  <ThingDef ParentName="LingZeroTechDrugBase">
+    <defName>ZeroTech_Drug_CleanBodyWater</defName>
+    <label>涤身水</label>
+    <description>一种干细胞再激活药剂,可以使得生物的干细胞再短时间内高速分裂形成完整的身体组织,可以使生物的肢体变得如同刚出厂的人造生物一般的崭新,即使是残疾或者用人造肢体替换的部位也会完整的生成</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/ZeroTech_Drug_CleanBodyWater</texPath>
+    </graphicData>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="LingGame.IngestionOutcomeDoer_CleanBody"/>
+      </outcomeDoers>
+    </ingestible>
+    <costList>
+      <Beer>1</Beer>
+      <ComponentSpacer>2</ComponentSpacer>
+    </costList>
+  </ThingDef>
+  <!-- 孟婆汤 -->
+  <ThingDef ParentName="LingZeroTechDrugBase">
+    <defName>ZeroTech_Drug_Forget</defName>
+    <label>孟婆汤</label>
+    <description>一份用一次性餐碗包装的起来的药剂,由于发明者的恶趣味,这种药剂在更换容器后就会失去原本的效果;这份药剂在服用后会重组服用者的DNA,有趣的是,这并不会改变生物当前的性状,而只是在一些不会表现出来的地方修改;由于某种未知的原因,这种药物也会导致服用者对爱情的判断,导致服用者的婚姻/爱情破裂,不过这一点反而让这款药物的销售量大量增加</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/ZeroTech_Drug_Forget</texPath>
+    </graphicData>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="LingGame.IngestionOutcomeDoer_UngratefulnessCookies"/>
+      </outcomeDoers>
+    </ingestible>
+    <costList>
+      <Beer>20</Beer>
+      <MealSimple>1</MealSimple>
+      <Plant_Psychoid>5</Plant_Psychoid>
+    </costList>
+  </ThingDef>
+  <!-- 辟谷丸 -->
+  <ThingDef ParentName="LingZeroTechDrugBase">
+    <defName>ZeroTech_Drug_LeaveGrain</defName>
+    <label>辟谷丸</label>
+    <description>如果光看名字,可能会以为这颗丸子是如同古代东方玄幻故事中那种服下后可使人长期不需要进食的丸子,然而虽然效果上差不多,但其作用方式是将极大量的食物压缩成一颗高密度的丸子,并通过特殊处理使其能在人体内缓慢的解压,这个速度会略大与人的消化速度,可以保证服用者绝对不会死于饥饿,但填满整个消化系统的效果可能会导致服用者的行动能力受到影响,以及经常性的呕吐</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/ZeroTech_Drug_LeaveGrain</texPath>
+    </graphicData>
+    <descriptionHyperlinks>
+	  <HediffDef>ZeroTech_Drug_LeaveGrain</HediffDef>
+	  </descriptionHyperlinks>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>ZeroTech_Drug_LeaveGrain</hediffDef>
+          <severity>1</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <costList>
+      <RawRice>100</RawRice>
+    </costList>
+  </ThingDef>
+  <HediffDef>
+    <defName>ZeroTech_Drug_LeaveGrain</defName>
+	  <description>这个生物短期内摄入了无法想象至多的能量,以至于对行动造成了一定的影响</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(1.0, 1.0, 1.0)</defaultLabelColor>
+    <label>辟谷</label>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <stages>
+      <li>
+        <vomitMtbDays>0.25</vomitMtbDays>
+        <hungerRateFactor>0</hungerRateFactor>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_Immunizable">
+        <severityPerDayNotImmune>-0.13</severityPerDayNotImmune>
+      </li>
+    </comps>
+  </HediffDef>
+  <!-- 祖安盒饭 -->
+  <ThingDef ParentName="LingZeroTechDrugBase">
+    <defName>ZeroTech_Drug_Abuse</defName>
+    <label>敌意促剂</label>
+    <description>一款特殊的兴奋剂,但并不能帮助服用者恢复精神,而是极大程度的放大服用者对他人的敌意,使其通过语言宣泄情绪.这款药物是一种抗抑郁药物研究过程中的副产物,原研究者的目标是激发人的交流欲望,某种意义上他确实成功了,以一种他并不希望的方式,这款药物常用于一部分审讯工作,因为其可以在已经程度上破坏服用者的思考能力,但却不会影响其认知</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/ZeroTech_Drug_Abuse</texPath>
+    </graphicData>
+    <descriptionHyperlinks>
+	  <HediffDef>ZeroTech_Drug_Abuse</HediffDef>
+	  </descriptionHyperlinks>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>ZeroTech_Drug_Abuse</hediffDef>
+          <severity>1</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <costList>
+      <Beer>5</Beer>
+      <Plant_Smokeleaf>5</Plant_Smokeleaf>
+    </costList>
+  </ThingDef>
+  <HediffDef>
+    <defName>ZeroTech_Drug_Abuse</defName>
+    <hediffClass>LingGame.Hediff_FuckYouMeal</hediffClass>
+	 <description>Debug.text</description>
+    <label>嘴臭</label>
+  </HediffDef>
+  <!-- 抑灵水 -->
+  <ThingDef ParentName="LingZeroTechDrugBase">
+    <defName>ZeroTech_Drug_Ordinary</defName>
+    <label>抑灵水</label>
+    <description>心灵低语作为一种在少数星球出现的自然/人为现象,对于绝大多数人来说影响并不大,然而对于那些天生心灵敏感和那种后天提升心灵敏感度的人来说,这种现象就显得极为致命,因此一部分人就开始研究抑制心灵敏感度的方式,在相关研究者的不懈研究下,抑灵水就此诞生,遗憾的是,由于药物的生效机理特别,这种药物的剂量并不好控制,即使只是服用极少量的药物,也会导致完全的心灵失聪,只不过持续时间会相应的缩短</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/ZeroTech_Drug_Ordinary</texPath>
+    </graphicData>
+    <descriptionHyperlinks>
+	  <HediffDef>ZeroTech_Drug_Ordinary</HediffDef>
+	  </descriptionHyperlinks>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>ZeroTech_Drug_Ordinary</hediffDef>
+          <severity>1</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <costList>
+      <PsychoidLeaves>5</PsychoidLeaves>
+      <SmokeleafLeaves>5</SmokeleafLeaves>
+    </costList>
+  </ThingDef>
+  <HediffDef>
+    <defName>ZeroTech_Drug_Ordinary</defName>
+	  <description>由于药物的作用这个生物心灵失聪了</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(1.0, 1.0, 0.7)</defaultLabelColor>
+    <label>心灵失聪</label>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <stages>
+      <li>
+        <statFactors>
+          <PsychicSensitivity>0</PsychicSensitivity>
+        </statFactors>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_Immunizable">
+        <severityPerDayNotImmune>-1</severityPerDayNotImmune>
+      </li>
+    </comps>
+  </HediffDef>
+  <!-- 脱水药 -->
+  <ThingDef ParentName="LingZeroTechDrugBase">
+    <defName>ZeroTech_Drug_LoseWaterPill</defName>
+    <label>脱水药</label>
+    <description>一名沉迷科幻小说的本科生的毕业设计,这种药剂可以使服用者全身身体结构异化并脱水软化,变得轻盈坚韧且可折叠,使得让生物可以作为物品而进行运输,并且在折叠后服用者的生理变化会暂停,不需要进食也不需要休息,不过再恢复后会有一段较长的虚弱期(毕竟不是所有生物都适合脱水折叠),另外,生物在折叠状态下也可作为食物服用或随时间风化,因此并不推荐直接露天保存折叠后的生物,避免在解压后出现缺斤少两的情况</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/ZeroTech_Drug_LoseWaterPill</texPath>
+    </graphicData>
+    <descriptionHyperlinks>
+	    <HediffDef>LingNoWaterPawnLoseWater</HediffDef>
+	    <ThingDef>LingNoWaterPawn</ThingDef>
+	  </descriptionHyperlinks>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>LingNoWaterPawnLoseWater</hediffDef>
+          <severity>0.01</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <costList>
+      <SmokeleafLeaves>5</SmokeleafLeaves>
+      <ComponentIndustrial>5</ComponentIndustrial>
+    </costList>
+  </ThingDef>
+  <HediffDef>
+    <defName>LingNoWaterPawnLoseWater</defName>
+    <label>高速脱水</label>
+    <description>极其剧烈的脱水反应,但却不致命,而是会使生物变成一团有机物,而且可以在补水后恢复原形.</description>
+    <hediffClass>LingGame.Hediff_LingLoseWater</hediffClass>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <initialSeverity>0.01</initialSeverity>
+    <isBad>false</isBad>
+    <maxSeverity>1.0</maxSeverity>
+    <minSeverity>0.01</minSeverity>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>50</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <label>preliminary</label>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.8</setMax>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>major</label>
+        <minSeverity>0.2</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.4</setMax>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>initial</label>
+        <minSeverity>0.8</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.1</setMax>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <ThingDef>
+    <defName>LingNoWaterPawn</defName>
+    <thingClass>LingGame.NoWaterPawn</thingClass>
+    <category>Item</category>
+    <label>压缩的生物</label>
+    <description>一个被脱水压缩的生物,全部的生理状态都暂停了.</description>
+    <graphicData>
+      <texPath>Things/Item/LingNoWaterPawn</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <altitudeLayer>Item</altitudeLayer>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <tradeability>All</tradeability>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>2</Flammability>
+      <DeteriorationRate>0.5</DeteriorationRate>
+      <Beauty>0</Beauty>
+      <Mass>21</Mass>
+      <Nutrition>2</Nutrition>
+    </statBases>
+    <alwaysHaulable>true</alwaysHaulable>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li>
+        <compClass>CompColorable</compClass>
+      </li>
+    </comps>
+    <thingCategories>
+      <li>Foods</li>
+    </thingCategories>
+    <ingestible>
+      <foodType>Corpse</foodType>
+      <tasteThought>AteCorpse</tasteThought>
+      <preferability>DesperateOnly</preferability>
+      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <optimalityOffsetHumanlikes>-60</optimalityOffsetHumanlikes>
+    </ingestible>
+  </ThingDef>
+  <HediffDef>
+    <defName>LingHaveWaterPawn</defName>
+    <label>脱水恢复</label>
+    <description>由于过度脱水导致的身体虚弱,很快便能基本恢复,但需要两天才能完全恢复.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <initialSeverity>1</initialSeverity>
+    <isBad>false</isBad>
+    <maxSeverity>1.0</maxSeverity>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.5</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <label>基本恢复</label>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.1</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>严重</label>
+        <minSeverity>0.96</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.4</setMax>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>严重</label>
+        <minSeverity>0.98</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.1</setMax>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+
+  <!-- 乱情丸 -->
+  <ThingDef ParentName="LingZeroTechDrugBase">
+    <defName>ZeroTech_Drug_BreakFellingPill</defName>
+    <label>乱情丸</label>
+    <description>一种破坏生物认知能力的药剂,也可以称作迷情剂,但效果更广泛,可以使服用者对任何生出各种各样的好感,即使是对灭门之仇的敌人也能感到亲近;这款药物也常被用于审讯工作,不过更多情况是对那种本身就有动摇可能的人员,加快获取情报的速度,因为这款药物即使在药效过后也并不会让服用者的意识快速恢复,而是让服用者认为这是自己主观的想法.</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/ZeroTech_Drug_BreakFellingPill</texPath>
+    </graphicData>
+    <descriptionHyperlinks>
+	    <HediffDef>ZeroTech_Drug_BreakFellingPill</HediffDef>
+	  </descriptionHyperlinks>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>ZeroTech_Drug_BreakFellingPill</hediffDef>
+          <severity>0.5</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <costList>
+      <PsychoidLeaves>10</PsychoidLeaves>
+      <SmokeleafLeaves>5</SmokeleafLeaves>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>ZeroTechDrugBeauty</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+  <HediffDef>
+    <defName>ZeroTech_Drug_BreakFellingPill</defName>
+	  <description>这个生物由于药物的作用对任何人都好感大增</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(1.0, 1.0, 1.0)</defaultLabelColor>
+    <label>乱情</label>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <comps>
+      <li Class="HediffCompProperties_Immunizable">
+        <severityPerDayNotImmune>-0.5</severityPerDayNotImmune>
+      </li>
+    </comps>
+  </HediffDef>
+  <ThoughtDef>
+    <defName>ZeroTech_Drug_BreakFellingPill</defName>
+    <thoughtClass>Thought_SituationalSocial</thoughtClass>
+    <workerClass>LingGame.Thought_BreakFellingPill</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>乱情</label>
+        <baseOpinionOffset>200</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <!-- 驻颜丹 -->
+  <ThingDef ParentName="LingZeroTechDrugBase">
+    <defName>ZeroTech_Drug_BeautyPill</defName>
+    <label>驻颜丹</label>
+    <description>一款带着烂苹果气味的药丸,可以使服用者服用者的皮肤变得光滑,眼睛变得明亮,以及在各方面变得更吸引人,并且会释放出一种带有催情效果的信息素,使得服用者变得充满魅力;然而药物中因工艺流程产生的微量毒素会沉积在服用者体内,少量并不会造成负面影响,然而若是长期服用,则会导致生物的器官逐渐衰竭,感官却逐渐敏感,最终在痛苦中死去.</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/ZeroTech_Drug_BeautyPill</texPath>
+    </graphicData>
+    <descriptionHyperlinks>
+	  <HediffDef>ZeroTech_Drug_BeautyPill</HediffDef>
+	  </descriptionHyperlinks>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>ZeroTech_Drug_BeautyPill</hediffDef>
+          <severity>0.5</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <costList>
+      <MealNutrientPaste>1</MealNutrientPaste>
+      <Kibble>1</Kibble>
+      <RawBerries>10</RawBerries>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>ZeroTechDrugBeauty</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+  <HediffDef>
+    <defName>ZeroTech_Drug_BeautyPill</defName>
+	  <description>这个生物由于药物的作用变得非常吸引人</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(1.0, 1.0, 1.0)</defaultLabelColor>
+    <label>药物驻颜</label>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <comps>
+      <li Class="HediffCompProperties_Immunizable">
+        <severityPerDayNotImmune>-0.2</severityPerDayNotImmune>
+      </li>
+    </comps>
+  </HediffDef>
+  <ThoughtDef>
+    <defName>ZeroTech_Drug_BeautyPill</defName>
+    <thoughtClass>Thought_SituationalSocial</thoughtClass>
+    <workerClass>LingGame.Thought_BeautyPill</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>异常美貌</label>
+        <baseOpinionOffset>200</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <!-- 增肥药 -->
+  <ThingDef ParentName="LingZeroTechDrugBase">
+    <defName>ZeroTech_Drug_ProteinPowder</defName>
+    <label>蛋白粉</label>
+    <description>一种名为"蛋白粉"的药物,可以使服用者体内的肌组织和脂肪细胞大量复制,使得服用者的体型快速膨胀,不过由于这是药物导致的不规则膨胀,服用药物后膨胀的身体外形可能并不一定符合服用者的审美观,而是形成各种各样的肌肉块或者脂肪肿瘤</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/ZeroTech_Drug_ProteinPowder</texPath>
+    </graphicData>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="LingGame.IngestionOutcomeDoer_FatHealthMeal"/>
+      </outcomeDoers>
+    </ingestible>
+    <costList>
+      <EggChickenUnfertilized>5</EggChickenUnfertilized>
+      <RawPotatoes>5</RawPotatoes>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>ZeroTechDrugBeauty</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+  <!-- 减肥药 -->
+  <ThingDef ParentName="LingZeroTechDrugBase">
+    <defName>ZeroTech_Drug_Slimming</defName>
+    <label>减肥药</label>
+    <description>一种名为"减肥药"的药物,可以使服用者体内的白细胞异化,使其会定向的攻击肌细胞和脂肪细胞,使得服用的体型大幅的萎缩,不过这种药物导致的细胞异化并非完全可控,且攻击后会导致大量的溃烂细胞淤积在服用者体内,会导致服用者的躯体不规则的萎缩或水肿,极端情况甚至会导致大面积的皮肤脱落,导致死亡.</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/ZeroTech_Drug_Slimming</texPath>
+    </graphicData>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="LingGame.IngestionOutcomeDoer_LoseWeightMeal"/>
+      </outcomeDoers>
+    </ingestible>
+    <costList>
+      <Milk>5</Milk>
+      <RawFungus>5</RawFungus>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>ZeroTechDrugBeauty</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+  <!-- 整容药 -->
+  <ThingDef ParentName="LingZeroTechDrugBase">
+    <defName>ZeroTech_Drug_Shaping</defName>
+    <label>整容药</label>
+    <description>一种作用于生物外形的药物,可以使生物的外观形状永久性小幅度的整改,出于研究者的设计目的,这款药物并不会让生物的外观变得平凡,而是像俊俏或者丑陋的方向变得极端化,当然,并非是按照服用者当前的状态来变化,毕竟药物没有人类的审美观</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/ZeroTech_Drug_Shaping</texPath>
+    </graphicData>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="LingGame.IngestionOutcomeDoer_CosmeticMeal"/>
+      </outcomeDoers>
+    </ingestible>
+    <costList>
+      <Plasteel>1</Plasteel>
+      <Uranium>1</Uranium>
+      <ComponentIndustrial>1</ComponentIndustrial>
+      <RawPotatoes>1</RawPotatoes>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>ZeroTechDrugBeauty</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+  
+
+  
+</Defs>

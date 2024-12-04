@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModMetaData>
+	<name>ZeroTech-Drug</name>
+	<author>LingLuo</author>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+<packageId>LingLuo.ZeroTechMAD</packageId>
+	<description>零子科技-药物拓展包
+	你在干什么?你管这东西叫做食物嘛?呃,也许填饱肚子还是可以的
+	</description>
+	<!-- <modDependencies>
+		<li>
+			<packageId>LingLuo.ZeroTechCore</packageId>
+			<displayName>ZeroTechCore</displayName>
+			<downloadUrl>https://www.baidu.com</downloadUrl>
+		</li>
+	</modDependencies> -->
+	<loadAfter>
+		<li>LingLuo.ZeroTechCore</li>
+	</loadAfter>
+</ModMetaData>

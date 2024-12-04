@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ResearchTabDef>
+        <defName>ZeroTech</defName>
+        <label>零子科技</label>
+      </ResearchTabDef>
+
+  <ResearchProjectDef>
+    <defName>ZeroTechDrugBeauty</defName>
+    <label>美容药物</label>
+    <description>这部分药物或许无法让身体更好的工作,但可以优化一个人的外表,对于大部分的人来说也许更有用?</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <tab>ZeroTech</tab>
+    <prerequisites>
+      <li>DrugProduction</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <researchViewX>3</researchViewX>
+    <researchViewY>3</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>ZeroTechDrug</defName>
+    <label>强化药物</label>
+    <description>有的时候,你也许需要临时进入某些状态,这个时候往往植入物或者仿生会不那么恰当,那么为什么不试试服用效果不会持续那么久的药物呢.</description>
+    <baseCost>3000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <tab>ZeroTech</tab>
+    <prerequisites>
+      <li>ZeroTechDrugBeauty</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <researchViewX>4</researchViewX>
+    <researchViewY>3</researchViewY>
+  </ResearchProjectDef>
+
+</Defs>
