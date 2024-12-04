@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 动物植入模块 -->
+  <ZeroTechAniImp.label>动物植入模块</ZeroTechAniImp.label>
+  <!-- EN: 有的时候,我们需要人和机械之外的一些朋友,而当这些朋友的进化无法跟上的时候,我们可以考虑通过科技手段帮帮他们. -->
+  <ZeroTechAniImp.description>有的时候,我们需要人和机械之外的一些朋友,而当这些朋友的进化无法跟上的时候,我们可以考虑通过科技手段帮帮他们.</ZeroTechAniImp.description>
+  
+  <!-- EN: 人体替代模块 -->
+  <ZeroTechBodyPart.label>人体替代模块</ZeroTechBodyPart.label>
+  <!-- EN: 当你认为你的原生身体无法适合环境的时候,也许直接整体更换并不是个最好的方法,但一定是最快的方法. -->
+  <ZeroTechBodyPart.description>当你认为你的原生身体无法适合环境的时候,也许直接整体更换并不是个最好的方法,但一定是最快的方法.</ZeroTechBodyPart.description>
+  
+  <!-- EN: 人体强化模块 -->
+  <ZeroTechImplant.label>人体强化模块</ZeroTechImplant.label>
+  <!-- EN: 比起直接用非生物部件替代原生肉体,通过各种植入物强化肉身也许是更好的主意. -->
+  <ZeroTechImplant.description>比起直接用非生物部件替代原生肉体,通过各种植入物强化肉身也许是更好的主意.</ZeroTechImplant.description>
+  
+  <!-- EN: 机械拓展模块 -->
+  <ZeroTechMesImp.label>机械拓展模块</ZeroTechMesImp.label>
+  <!-- EN: 对机械安装外源模块的话,显然会比人体方便得多.当然,如果你选择把机械视作生命,以此为基础再进行拓展,那就是另外一个难度了 -->
+  <ZeroTechMesImp.description>对机械安装外源模块的话,显然会比人体方便得多.当然,如果你选择把机械视作生命,以此为基础再进行拓展,那就是另外一个难度了</ZeroTechMesImp.description>
+  
+</LanguageData>

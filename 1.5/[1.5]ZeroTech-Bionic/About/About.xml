@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ModMetaData>
+	<name>ZeroTech-Binoic</name>
+	<author>LingLuo</author>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<packageId>LingLuo.ZeroTechBinoic</packageId>
+	<description>零子科技-仿生拓展包
+添加了多个主题的仿生体/植入物
+1.增幅型植入物:帮助你更好的适应这个世界的环境,或者增加某些方面的能力(例如心灵能力和机械操纵)
+2.实验型殖装体:带有实验性质的人体植入式装备,可以提供极强的战斗能力或特别的功能
+3.机械/动物植入物:一些能够给机械体/动物植入的特殊植入物,可以降低它们的消耗/制造的垃圾等,帮助你更好的控制它们.
+
+个人推荐产品:
+饥饿/疲倦/无聊抑制芯片:使安装者的饥饿/睡眠/娱乐需求不再下降
+隐身芯片:使安装者隐形,但变得更加脆弱
+肢体重构芯片:断肢再生,但不能复活死人
+激光眼球:可以无冷却的释放激光
+节能芯片:机械不再需要消耗能量
+自律芯片:机械带宽占用减低,动物不再生成污物
+自爆芯片:可手动控制自爆
+
+Zero Tech - Bionic Expansion Pack
+Bionic bodies/implants with multiple themes added
+1.Augmentation implants: To help you better adapt to the environment of the world, or to increase certain aspects of ability (such as psychic abilities and mechanical manipulation)
+2.Experimental bionic body: human implantable equipment with experimental nature, which can provide strong fighting ability or special functions
+3.Mechanical/animal implants: Some special implants that can be implanted into mechanical/animal bodies can reduce their consumption/waste, etc., to help you better control them.
+
+Personal recommended Products:
+Hunger/fatigue/boredom suppression chip: The hunger/sleep/entertainment needs of the installer will no longer decrease
+Stealth chip: makes the installer invisible, but more vulnerable
+Limb reconstruction chip: regenerates severed limbs, but does not revive the dead
+Laser eyeball: The laser can be released without cooling
+Energy saving chip: machinery no longer needs to consume energy
+Autonomous chip: Mechanical bandwidth usage is reduced, animals no longer produce dirt
+Self-detonation chip: self-detonation can be controlled manually
+
+语言Languages
+简体中文(Simplified Chinese)
+英文(English)
+
+
+
+</description>
+	
+	<!-- <modDependencies>
+		<li>
+			<packageId>LingLuo.ZeroTechCore</packageId>
+			<displayName>ZeroTechCore</displayName>
+			<downloadUrl>https://www.baidu.com</downloadUrl>
+		</li>
+	</modDependencies> -->
+	<loadAfter>
+		<li>LingLuo.ZeroTechCore</li>
+	</loadAfter>
+</ModMetaData>

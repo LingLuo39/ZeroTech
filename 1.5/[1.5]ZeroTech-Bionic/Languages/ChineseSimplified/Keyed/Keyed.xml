@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <VictimIsHuman>{0}不适合人类</VictimIsHuman>
+    <VictimNoPart>{0}没有对应的身体部件</VictimNoPart>
+    <VictimHaveHediff>{0}已经安装了{1}</VictimHaveHediff>
+    <GetBombInPawn>引爆</GetBombInPawn>
+    <GetBombInPawnDec>引爆这个生物体内植入的炸弹</GetBombInPawnDec>
+
+</LanguageData>

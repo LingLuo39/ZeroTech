@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 自动治疗芯片 -->
+  <LingXCG_AutoMedical.label>auto heal chip</LingXCG_AutoMedical.label>
+  <!-- EN: 我思故我愈. -->
+  <LingXCG_AutoMedical.description>A chip that can respond to the human immune system can automatically treat a disease when it is found that can be treated, because the installed artificial intelligence level is low, it needs to read part of the knowledge of the installer to work better, and the treatment effect is linked to the level of medical knowledge of the installer.</LingXCG_AutoMedical.description>
+  <!-- EN: 芯片 -->
+  <LingXCG_AutoMedical.labelNoun>chip</LingXCG_AutoMedical.labelNoun>
+  
+  <!-- EN: 岁月之外芯片 -->
+  <LingXCG_BeyondTime.label>out of time chip</LingXCG_BeyondTime.label>
+  <!-- EN: 岁月之外. -->
+  <LingXCG_BeyondTime.description>A special engraving, after installation will no longer age for any reason, but also can not be younger.</LingXCG_BeyondTime.description>
+  <!-- EN: 芯片 -->
+  <LingXCG_BeyondTime.labelNoun>chip</LingXCG_BeyondTime.labelNoun>
+  
+  <!-- EN: 肢体重构芯片 -->
+  <LingXCG_BodyReconstruction.label>limb reconstruction chip</LingXCG_BodyReconstruction.label>
+  <!-- EN: 我思故我残. -->
+  <LingXCG_BodyReconstruction.description>A special chip that can repair the missing limb for the installer, but it takes time to accumulate material, and if too many parts are disabled at once, it may take more time to repair.</LingXCG_BodyReconstruction.description>
+  <!-- EN: 芯片 -->
+  <LingXCG_BodyReconstruction.labelNoun>chip</LingXCG_BodyReconstruction.labelNoun>
+  
+  <!-- EN: 组织再生芯片 -->
+  <LingXCG_BodyRegeneration.label>tissue regeneration chip</LingXCG_BodyRegeneration.label>
+  <!-- EN: 我思故我生. -->
+  <LingXCG_BodyRegeneration.description>A chip that can detect the wound on the wearer's body and actively assist in regenerating the limb can speed up the recovery of the wound, which is not affected by the natural recovery rate because it is not natural.</LingXCG_BodyRegeneration.description>
+  <!-- EN: 芯片 -->
+  <LingXCG_BodyRegeneration.labelNoun>chip</LingXCG_BodyRegeneration.labelNoun>
+  
+  <!-- EN: 双倍自我芯片 -->
+  <LingXCG_DoubleSelf.label>double self chip</LingXCG_DoubleSelf.label>
+  <!-- EN: 双倍自我. -->
+  <LingXCG_DoubleSelf.description>By inserting a clone into the body through special technology, most of the power becomes twice that of the body, and so is the consumption.</LingXCG_DoubleSelf.description>
+  <!-- EN: 刻印 -->
+  <LingXCG_DoubleSelf.labelNoun>chip</LingXCG_DoubleSelf.labelNoun>
+  
+  <!-- EN: 环境适应芯片 -->
+  <LingXCG_EnvironmentalAdaptation.label>environment adaptation chip</LingXCG_EnvironmentalAdaptation.label>
+  <!-- EN: 环境认知扭曲. -->
+  <LingXCG_EnvironmentalAdaptation.description>A chip that can analyze the state of the environment and regulate the body's performance could enable the installer to better adapt to extreme environments.</LingXCG_EnvironmentalAdaptation.description>
+  <!-- EN: 芯片 -->
+  <LingXCG_EnvironmentalAdaptation.labelNoun>chip</LingXCG_EnvironmentalAdaptation.labelNoun>
+  
+  <!-- EN: 完美外在芯片 -->
+  <LingXCG_Invincible.label>perfect external chip</LingXCG_Invincible.label>
+  <!-- EN: 我!所向无敌! -->
+  <LingXCG_Invincible.description>A special engraving that can ignore almost any external damage, therefore, no need for resilience.</LingXCG_Invincible.description>
+  <!-- EN: 芯片 -->
+  <LingXCG_Invincible.labelNoun>chip</LingXCG_Invincible.labelNoun>
+  
+  <!-- EN: 存在削弱芯片 -->
+  <LingXCG_Invisible.label>presence weakening chip</LingXCG_Invisible.label>
+  <!-- EN: 我的存在被抹除了. -->
+  <LingXCG_Invisible.description>A chip that weakens the presence of the installation, making it impossible for an enemy to target the installer.</LingXCG_Invisible.description>
+  <!-- EN: 芯片 -->
+  <LingXCG_Invisible.labelNoun>chip</LingXCG_Invisible.labelNoun>
+  
+  <!-- EN: 虚拟带宽 -->
+  <LingXCG_MechBandwidth.label>Virtual bandwidth</LingXCG_MechBandwidth.label>
+  <!-- EN: 利用人体意识模拟的带宽,可以大幅度提升控制机械数量的上限 -->
+  <LingXCG_MechBandwidth.description>A special adapter can take advantage of the bandwidth of human consciousness simulation, which can greatly increase the upper limit of the number of control machines, and can be stacked up to 10 times.</LingXCG_MechBandwidth.description>
+  <!-- EN: 芯片 -->
+  <LingXCG_MechBandwidth.labelNoun>chip</LingXCG_MechBandwidth.labelNoun>
+  
+  <!-- EN: 零型拓展带宽 -->
+  <LingXCG_MechBandwidthPlus.label>Zero-type expansion bandwidth</LingXCG_MechBandwidthPlus.label>
+  <!-- EN: 一款植入式的拓展带宽,可以大幅度提升控制机械数量的上限 -->
+  <LingXCG_MechBandwidthPlus.description>A special chip designed by zero enterprise is packaged with a large number of bandwidth managers, which can greatly increase the upper limit of the number of control machines.</LingXCG_MechBandwidthPlus.description>
+  <!-- EN: 芯片 -->
+  <LingXCG_MechBandwidthPlus.labelNoun>chip</LingXCG_MechBandwidthPlus.labelNoun>
+  
+  <!-- EN: 拓展中枢 -->
+  <LingXCG_MechBandwidthPlusMax.label>extended center</LingXCG_MechBandwidthPlusMax.label>
+  <!-- EN: 一个辅助的机械中枢,可以翻倍安装者的机械带宽 -->
+  <LingXCG_MechBandwidthPlusMax.description>An extension hub made using a mechanical hub can directly add an additional mechanical management thread to the installer, doubling the installer's mechanical management capabilities up to 2 times.</LingXCG_MechBandwidthPlusMax.description>
+  <!-- EN: 芯片 -->
+  <LingXCG_MechBandwidthPlusMax.labelNoun>chip</LingXCG_MechBandwidthPlusMax.labelNoun>
+  
+  <!-- EN: 思维放射芯片 -->
+  <LingXCG_MentalRadiation.label>mind radiation chip</LingXCG_MentalRadiation.label>
+  <!-- EN: 心智认知扭曲. -->
+  <LingXCG_MentalRadiation.description>A chip that amplifies the mental sensitivity of the installer and, because it affects a larger area of the brain, can also improve the working speed to a certain extent.</LingXCG_MentalRadiation.description>
+  <!-- EN: 芯片 -->
+  <LingXCG_MentalRadiation.labelNoun>chip</LingXCG_MentalRadiation.labelNoun>
+  
+  <!-- EN: 物质合成芯片 -->
+  <LingXCG_NoHunger.label>substance synthesis chip</LingXCG_NoHunger.label>
+  <!-- EN: 假装不饿. -->
+  <LingXCG_NoHunger.description>A chip that releases special pheromones allows the body to synthesize energy in a way that eliminates the need for the wearer to eat.</LingXCG_NoHunger.description>
+  <!-- EN: 芯片 -->
+  <LingXCG_NoHunger.labelNoun>chip</LingXCG_NoHunger.labelNoun>
+  
+  <!-- EN: 自动娱乐芯片 -->
+  <LingXCG_NoJoy.label>auto entertainment Chip</LingXCG_NoJoy.label>
+  <!-- EN: 脑内的乐队狂欢. -->
+  <LingXCG_NoJoy.description>A special chip that secretes a variety of substances, including dopamine, stabilizes the wearer's spirits and keeps them in a happy state.</LingXCG_NoJoy.description>
+  <!-- EN: 芯片 -->
+  <LingXCG_NoJoy.labelNoun>chip</LingXCG_NoJoy.labelNoun>
+  
+  <!-- EN: 神经清醒芯片 -->
+  <LingXCG_NoRest.label>neurowakefulness chip</LingXCG_NoRest.label>
+  <!-- EN: 我一点都不困. -->
+  <LingXCG_NoRest.description>A chip that continuously releases hormones can keep an organism awake all the time, like coffee in the mind.</LingXCG_NoRest.description>
+  <!-- EN: 芯片 -->
+  <LingXCG_NoRest.labelNoun>chip</LingXCG_NoRest.labelNoun>
+  
+  <!-- EN: 固化皮肤芯片 -->
+  <LingXCG_OldSkin.label>cured skin chip</LingXCG_OldSkin.label>
+  <!-- EN: 我是石头人! -->
+  <LingXCG_OldSkin.description>A chip that secretes chemicals that reduce skin activity, toughens the skin to strengthen the body's defenses, but the body's natural resilience is affected by reduced activity.</LingXCG_OldSkin.description>
+  <!-- EN: 芯片 -->
+  <LingXCG_OldSkin.labelNoun>chip</LingXCG_OldSkin.labelNoun>
+  
+  <!-- EN: 灵质汇聚芯片 -->
+  <LingXCG_PsyAdd.label>psychic convergence chip</LingXCG_PsyAdd.label>
+  <!-- EN: 精神汲取. -->
+  <LingXCG_PsyAdd.description>A modulated pseudo-personality core is set into meditation mode to continuously restore the installer's mental powers, as if someone had been helping the installer meditate.</LingXCG_PsyAdd.description>
+  <!-- EN: 芯片 -->
+  <LingXCG_PsyAdd.labelNoun>chip</LingXCG_PsyAdd.labelNoun>
+  
+</LanguageData>

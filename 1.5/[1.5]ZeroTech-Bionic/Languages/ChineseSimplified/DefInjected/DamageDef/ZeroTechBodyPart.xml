@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 精神鞭挞 -->
+  <CorrosiveTentacle_MentalWhipping.label>精神鞭挞</CorrosiveTentacle_MentalWhipping.label>
+  <!-- EN: {0}被抽死了. -->
+  <CorrosiveTentacle_MentalWhipping.deathMessage>{0}被抽死了.</CorrosiveTentacle_MentalWhipping.deathMessage>
+  
+  <!-- EN: 毒性触碰 -->
+  <ToxicTouch_FoodPoisoning.label>毒性触碰</ToxicTouch_FoodPoisoning.label>
+  <!-- EN: {0}被刺死了. -->
+  <ToxicTouch_FoodPoisoning.deathMessage>{0}被刺死了.</ToxicTouch_FoodPoisoning.deathMessage>
+  
+  <!-- EN: 毒性触碰 -->
+  <ToxicTouch_Heatstroke.label>毒性触碰</ToxicTouch_Heatstroke.label>
+  <!-- EN: {0}被刺死了. -->
+  <ToxicTouch_Heatstroke.deathMessage>{0}被刺死了.</ToxicTouch_Heatstroke.deathMessage>
+  
+  <!-- EN: 毒性触碰 -->
+  <ToxicTouch_Hypothermia.label>毒性触碰</ToxicTouch_Hypothermia.label>
+  <!-- EN: {0}被刺死了. -->
+  <ToxicTouch_Hypothermia.deathMessage>{0}被刺死了.</ToxicTouch_Hypothermia.deathMessage>
+  
+  <!-- EN: 毒性触碰 -->
+  <ToxicTouch_Malnutrition.label>毒性触碰</ToxicTouch_Malnutrition.label>
+  <!-- EN: {0}被刺死了. -->
+  <ToxicTouch_Malnutrition.deathMessage>{0}被刺死了.</ToxicTouch_Malnutrition.deathMessage>
+  
+  <!-- EN: 毒性触碰 -->
+  <ToxicTouch_ToxicBuildup.label>毒性触碰</ToxicTouch_ToxicBuildup.label>
+  <!-- EN: {0}被刺死了. -->
+  <ToxicTouch_ToxicBuildup.deathMessage>{0}被刺死了.</ToxicTouch_ToxicBuildup.deathMessage>
+  
+</LanguageData>

@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 安装自动治疗芯片 -->
+  <installLingXCG_AutoMedical.label>安装自动治疗芯片</installLingXCG_AutoMedical.label>
+  <!-- EN: 植入芯片. -->
+  <installLingXCG_AutoMedical.description>植入芯片.</installLingXCG_AutoMedical.description>
+  <!-- EN: 植入芯片中. -->
+  <installLingXCG_AutoMedical.jobString>植入芯片中.</installLingXCG_AutoMedical.jobString>
+  
+  <!-- EN: 安装岁月之外芯片 -->
+  <installLingXCG_BeyondTime.label>安装岁月之外芯片</installLingXCG_BeyondTime.label>
+  <!-- EN: 植入芯片. -->
+  <installLingXCG_BeyondTime.description>植入芯片.</installLingXCG_BeyondTime.description>
+  <!-- EN: 植入芯片中. -->
+  <installLingXCG_BeyondTime.jobString>植入芯片中.</installLingXCG_BeyondTime.jobString>
+  
+  <!-- EN: 安装肢体重构芯片 -->
+  <installLingXCG_BodyReconstruction.label>安装肢体重构芯片</installLingXCG_BodyReconstruction.label>
+  <!-- EN: 植入芯片. -->
+  <installLingXCG_BodyReconstruction.description>植入芯片.</installLingXCG_BodyReconstruction.description>
+  <!-- EN: 植入芯片中. -->
+  <installLingXCG_BodyReconstruction.jobString>植入芯片中.</installLingXCG_BodyReconstruction.jobString>
+  
+  <!-- EN: 安装组织再生芯片 -->
+  <installLingXCG_BodyRegeneration.label>安装组织再生芯片</installLingXCG_BodyRegeneration.label>
+  <!-- EN: 植入芯片. -->
+  <installLingXCG_BodyRegeneration.description>植入芯片.</installLingXCG_BodyRegeneration.description>
+  <!-- EN: 植入芯片中. -->
+  <installLingXCG_BodyRegeneration.jobString>植入芯片中.</installLingXCG_BodyRegeneration.jobString>
+  
+  <!-- EN: 安装双倍自我芯片 -->
+  <installLingXCG_DoubleSelf.label>安装双倍自我芯片</installLingXCG_DoubleSelf.label>
+  <!-- EN: 植入芯片. -->
+  <installLingXCG_DoubleSelf.description>植入芯片.</installLingXCG_DoubleSelf.description>
+  <!-- EN: 植入芯片中. -->
+  <installLingXCG_DoubleSelf.jobString>植入芯片中.</installLingXCG_DoubleSelf.jobString>
+  
+  <!-- EN: 安装环境适应芯片 -->
+  <installLingXCG_EnvironmentalAdaptation.label>安装环境适应芯片</installLingXCG_EnvironmentalAdaptation.label>
+  <!-- EN: 植入芯片. -->
+  <installLingXCG_EnvironmentalAdaptation.description>植入芯片.</installLingXCG_EnvironmentalAdaptation.description>
+  <!-- EN: 植入芯片中. -->
+  <installLingXCG_EnvironmentalAdaptation.jobString>植入芯片中.</installLingXCG_EnvironmentalAdaptation.jobString>
+  
+  <!-- EN: 安装完美外在芯片 -->
+  <installLingXCG_Invincible.label>安装完美外在芯片</installLingXCG_Invincible.label>
+  <!-- EN: 植入芯片. -->
+  <installLingXCG_Invincible.description>植入芯片.</installLingXCG_Invincible.description>
+  <!-- EN: 植入芯片中. -->
+  <installLingXCG_Invincible.jobString>植入芯片中.</installLingXCG_Invincible.jobString>
+  
+  <!-- EN: 安装存在削弱芯片 -->
+  <installLingXCG_Invisible.label>安装存在削弱芯片</installLingXCG_Invisible.label>
+  <!-- EN: 植入芯片. -->
+  <installLingXCG_Invisible.description>植入芯片.</installLingXCG_Invisible.description>
+  <!-- EN: 植入芯片中. -->
+  <installLingXCG_Invisible.jobString>植入芯片中.</installLingXCG_Invisible.jobString>
+  
+  <!-- EN: 安装虚拟带宽 -->
+  <installLingXCG_MechBandwidth.label>安装虚拟带宽</installLingXCG_MechBandwidth.label>
+  <!-- EN: 植入芯片. -->
+  <installLingXCG_MechBandwidth.description>植入芯片.</installLingXCG_MechBandwidth.description>
+  <!-- EN: 植入芯片中. -->
+  <installLingXCG_MechBandwidth.jobString>植入芯片中.</installLingXCG_MechBandwidth.jobString>
+  
+  <!-- EN: 安装零型拓展带宽 -->
+  <installLingXCG_MechBandwidthPlus.label>安装零型拓展带宽</installLingXCG_MechBandwidthPlus.label>
+  <!-- EN: 植入芯片. -->
+  <installLingXCG_MechBandwidthPlus.description>植入芯片.</installLingXCG_MechBandwidthPlus.description>
+  <!-- EN: 植入芯片中. -->
+  <installLingXCG_MechBandwidthPlus.jobString>植入芯片中.</installLingXCG_MechBandwidthPlus.jobString>
+  
+  <!-- EN: 安装拓展中枢 -->
+  <installLingXCG_MechBandwidthPlusMax.label>安装拓展中枢</installLingXCG_MechBandwidthPlusMax.label>
+  <!-- EN: 植入芯片. -->
+  <installLingXCG_MechBandwidthPlusMax.description>植入芯片.</installLingXCG_MechBandwidthPlusMax.description>
+  <!-- EN: 植入芯片中. -->
+  <installLingXCG_MechBandwidthPlusMax.jobString>植入芯片中.</installLingXCG_MechBandwidthPlusMax.jobString>
+  
+  <!-- EN: 安装思维放射芯片 -->
+  <installLingXCG_MentalRadiation.label>安装思维放射芯片</installLingXCG_MentalRadiation.label>
+  <!-- EN: 植入芯片. -->
+  <installLingXCG_MentalRadiation.description>植入芯片.</installLingXCG_MentalRadiation.description>
+  <!-- EN: 植入芯片中. -->
+  <installLingXCG_MentalRadiation.jobString>植入芯片中.</installLingXCG_MentalRadiation.jobString>
+  
+  <!-- EN: 安装自动娱乐芯片 -->
+  <installLingXCG_NoHeart.label>安装自动娱乐芯片</installLingXCG_NoHeart.label>
+  <!-- EN: 植入芯片. -->
+  <installLingXCG_NoHeart.description>植入芯片.</installLingXCG_NoHeart.description>
+  <!-- EN: 植入芯片中. -->
+  <installLingXCG_NoHeart.jobString>植入芯片中.</installLingXCG_NoHeart.jobString>
+  
+  <!-- EN: 安装物质合成芯片 -->
+  <installLingXCG_NoHunger.label>安装物质合成芯片</installLingXCG_NoHunger.label>
+  <!-- EN: 植入芯片. -->
+  <installLingXCG_NoHunger.description>植入芯片.</installLingXCG_NoHunger.description>
+  <!-- EN: 植入芯片中. -->
+  <installLingXCG_NoHunger.jobString>植入芯片中.</installLingXCG_NoHunger.jobString>
+  
+  <!-- EN: 安装神经清醒芯片 -->
+  <installLingXCG_NoRest.label>安装神经清醒芯片</installLingXCG_NoRest.label>
+  <!-- EN: 植入芯片. -->
+  <installLingXCG_NoRest.description>植入芯片.</installLingXCG_NoRest.description>
+  <!-- EN: 植入芯片中. -->
+  <installLingXCG_NoRest.jobString>植入芯片中.</installLingXCG_NoRest.jobString>
+  
+  <!-- EN: 安装固化皮肤芯片 -->
+  <installLingXCG_OldSkin.label>安装固化皮肤芯片</installLingXCG_OldSkin.label>
+  <!-- EN: 植入芯片. -->
+  <installLingXCG_OldSkin.description>植入芯片.</installLingXCG_OldSkin.description>
+  <!-- EN: 植入芯片中. -->
+  <installLingXCG_OldSkin.jobString>植入芯片中.</installLingXCG_OldSkin.jobString>
+  
+  <!-- EN: 安装灵质汇聚芯片 -->
+  <installLingXCG_PsyAdd.label>安装灵质汇聚芯片</installLingXCG_PsyAdd.label>
+  <!-- EN: 植入芯片. -->
+  <installLingXCG_PsyAdd.description>植入芯片.</installLingXCG_PsyAdd.description>
+  <!-- EN: 植入芯片中. -->
+  <installLingXCG_PsyAdd.jobString>植入芯片中.</installLingXCG_PsyAdd.jobString>
+  
+  <!-- EN: 制作自动治疗芯片 -->
+  <MakeLingXCG_AutoMedical.label>制作自动治疗芯片</MakeLingXCG_AutoMedical.label>
+  <!-- EN: 制作自动治疗芯片. -->
+  <MakeLingXCG_AutoMedical.description>制作芯片.</MakeLingXCG_AutoMedical.description>
+  <!-- EN: 制作自动治疗芯片. -->
+  <MakeLingXCG_AutoMedical.jobString>制作芯片中.</MakeLingXCG_AutoMedical.jobString>
+  
+  <!-- EN: 制作岁月之外芯片 -->
+  <MakeLingXCG_BeyondTime.label>制作岁月之外芯片</MakeLingXCG_BeyondTime.label>
+  <!-- EN: 制作岁月之外芯片. -->
+  <MakeLingXCG_BeyondTime.description>制作芯片.</MakeLingXCG_BeyondTime.description>
+  <!-- EN: 制作岁月之外芯片 -->
+  <MakeLingXCG_BeyondTime.jobString>制作芯片中.</MakeLingXCG_BeyondTime.jobString>
+  
+  <!-- EN: 制作肢体重构芯片 -->
+  <MakeLingXCG_BodyReconstruction.label>制作肢体重构芯片</MakeLingXCG_BodyReconstruction.label>
+  <!-- EN: 制作肢体重构芯片. -->
+  <MakeLingXCG_BodyReconstruction.description>制作芯片.</MakeLingXCG_BodyReconstruction.description>
+  <!-- EN: 制作肢体重构芯片. -->
+  <MakeLingXCG_BodyReconstruction.jobString>制作芯片中.</MakeLingXCG_BodyReconstruction.jobString>
+  
+  <!-- EN: 制作组织再生芯片 -->
+  <MakeLingXCG_BodyRegeneration.label>制作组织再生芯片</MakeLingXCG_BodyRegeneration.label>
+  <!-- EN: 制作组织再生芯片. -->
+  <MakeLingXCG_BodyRegeneration.description>制作芯片.</MakeLingXCG_BodyRegeneration.description>
+  <!-- EN: 制作组织再生芯片. -->
+  <MakeLingXCG_BodyRegeneration.jobString>制作芯片中.</MakeLingXCG_BodyRegeneration.jobString>
+  
+  <!-- EN: 制作双倍自我芯片 -->
+  <MakeLingXCG_DoubleSelf.label>制作双倍自我芯片</MakeLingXCG_DoubleSelf.label>
+  <!-- EN: 制作双倍自我芯片. -->
+  <MakeLingXCG_DoubleSelf.description>制作芯片.</MakeLingXCG_DoubleSelf.description>
+  <!-- EN: 制作双倍自我芯片 -->
+  <MakeLingXCG_DoubleSelf.jobString>制作芯片中.</MakeLingXCG_DoubleSelf.jobString>
+  
+  <!-- EN: 制作环境适应芯片 -->
+  <MakeLingXCG_EnvironmentalAdaptation.label>制作环境适应芯片</MakeLingXCG_EnvironmentalAdaptation.label>
+  <!-- EN: 制作环境适应芯片. -->
+  <MakeLingXCG_EnvironmentalAdaptation.description>制作芯片.</MakeLingXCG_EnvironmentalAdaptation.description>
+  <!-- EN: 制作环境适应芯片 -->
+  <MakeLingXCG_EnvironmentalAdaptation.jobString>制作芯片中.</MakeLingXCG_EnvironmentalAdaptation.jobString>
+  
+  <!-- EN: 制作完美外在芯片 -->
+  <MakeLingXCG_Invincible.label>制作完美外在芯片</MakeLingXCG_Invincible.label>
+  <!-- EN: 制作完美外在芯片. -->
+  <MakeLingXCG_Invincible.description>制作芯片.</MakeLingXCG_Invincible.description>
+  <!-- EN: 制作完美外在芯片. -->
+  <MakeLingXCG_Invincible.jobString>制作芯片中.</MakeLingXCG_Invincible.jobString>
+  
+  <!-- EN: 制作存在削弱芯片 -->
+  <MakeLingXCG_Invisible.label>制作存在削弱芯片</MakeLingXCG_Invisible.label>
+  <!-- EN: 制作存在削弱芯片. -->
+  <MakeLingXCG_Invisible.description>制作芯片.</MakeLingXCG_Invisible.description>
+  <!-- EN: 制作存在削弱芯片. -->
+  <MakeLingXCG_Invisible.jobString>制作芯片中.</MakeLingXCG_Invisible.jobString>
+  
+  <!-- EN: 制作虚拟带宽 -->
+  <MakeLingXCG_MechBandwidth.label>制作虚拟带宽</MakeLingXCG_MechBandwidth.label>
+  <!-- EN: 制作虚拟带宽. -->
+  <MakeLingXCG_MechBandwidth.description>制作芯片.</MakeLingXCG_MechBandwidth.description>
+  <!-- EN: 制作虚拟带宽. -->
+  <MakeLingXCG_MechBandwidth.jobString>制作芯片中.</MakeLingXCG_MechBandwidth.jobString>
+  
+  <!-- EN: 制作零型拓展带宽 -->
+  <MakeLingXCG_MechBandwidthPlus.label>制作零型拓展带宽</MakeLingXCG_MechBandwidthPlus.label>
+  <!-- EN: 制作零型拓展带宽. -->
+  <MakeLingXCG_MechBandwidthPlus.description>制作芯片.</MakeLingXCG_MechBandwidthPlus.description>
+  <!-- EN: 制作零型拓展带宽. -->
+  <MakeLingXCG_MechBandwidthPlus.jobString>制作芯片中.</MakeLingXCG_MechBandwidthPlus.jobString>
+  
+  <!-- EN: 制作思维放射芯片 -->
+  <MakeLingXCG_MentalRadiation.label>制作思维放射芯片</MakeLingXCG_MentalRadiation.label>
+  <!-- EN: 制作思维放射芯片. -->
+  <MakeLingXCG_MentalRadiation.description>制作芯片.</MakeLingXCG_MentalRadiation.description>
+  <!-- EN: 制作思维放射芯片 -->
+  <MakeLingXCG_MentalRadiation.jobString>制作芯片中.</MakeLingXCG_MentalRadiation.jobString>
+  
+  <!-- EN: 制作物质合成芯片 -->
+  <MakeLingXCG_NoHunger.label>制作物质合成芯片</MakeLingXCG_NoHunger.label>
+  <!-- EN: 制作物质合成芯片. -->
+  <MakeLingXCG_NoHunger.description>制作芯片.</MakeLingXCG_NoHunger.description>
+  <!-- EN: 制作物质合成芯片. -->
+  <MakeLingXCG_NoHunger.jobString>制作芯片中.</MakeLingXCG_NoHunger.jobString>
+  
+  <!-- EN: 制作自动娱乐芯片 -->
+  <MakeLingXCG_NoJoy.label>制作自动娱乐芯片</MakeLingXCG_NoJoy.label>
+  <!-- EN: 制作自动娱乐芯片. -->
+  <MakeLingXCG_NoJoy.description>制作芯片.</MakeLingXCG_NoJoy.description>
+  <!-- EN: 制作自动娱乐芯片. -->
+  <MakeLingXCG_NoJoy.jobString>制作芯片中.</MakeLingXCG_NoJoy.jobString>
+  
+  <!-- EN: 制作神经清醒芯片 -->
+  <MakeLingXCG_NoRest.label>制作神经清醒芯片</MakeLingXCG_NoRest.label>
+  <!-- EN: 制作神经清醒芯片. -->
+  <MakeLingXCG_NoRest.description>制作芯片.</MakeLingXCG_NoRest.description>
+  <!-- EN: 制作神经清醒芯片. -->
+  <MakeLingXCG_NoRest.jobString>制作芯片中.</MakeLingXCG_NoRest.jobString>
+  
+  <!-- EN: 制作固化皮肤芯片 -->
+  <MakeLingXCG_OldSkin.label>制作固化皮肤芯片</MakeLingXCG_OldSkin.label>
+  <!-- EN: 制作固化皮肤芯片. -->
+  <MakeLingXCG_OldSkin.description>制作芯片.</MakeLingXCG_OldSkin.description>
+  <!-- EN: 制作固化皮肤芯片. -->
+  <MakeLingXCG_OldSkin.jobString>制作芯片中.</MakeLingXCG_OldSkin.jobString>
+  
+  <!-- EN: 制作灵质汇聚芯片 -->
+  <MakeLingXCG_PsyAdd.label>制作灵质汇聚芯片</MakeLingXCG_PsyAdd.label>
+  <!-- EN: 制作灵质汇聚芯片. -->
+  <MakeLingXCG_PsyAdd.description>制作芯片.</MakeLingXCG_PsyAdd.description>
+  <!-- EN: 制作灵质汇聚芯片 -->
+  <MakeLingXCG_PsyAdd.jobString>制作芯片中.</MakeLingXCG_PsyAdd.jobString>
+  
+</LanguageData>

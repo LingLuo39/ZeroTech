@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <VictimIsHuman>{0} is not suitable for human like.</VictimIsHuman>
+    <VictimNoPart>{0} No corresponding body parts</VictimNoPart>
+    <VictimHaveHediff>{0} Already installed {1}</VictimHaveHediff>
+    <GetBombInPawn>Detonate!</GetBombInPawn>
+    <GetBombInPawnDec>Detonate a bomb implanted in this creature</GetBombInPawnDec>
+
+</LanguageData>

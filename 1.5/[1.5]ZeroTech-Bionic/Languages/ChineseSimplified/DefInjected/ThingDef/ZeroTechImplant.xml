@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 自动治疗芯片 -->
+  <LingXCG_AutoMedical.label>自动治疗芯片</LingXCG_AutoMedical.label>
+  <!-- EN: 一枚可以响应人体免疫系统的芯片,可以在发现可以治疗的疾病的时候自动治疗,由于安装的人工智能级别较低,需要读取安装者的一部分知识才能更好地工作,治疗效果与安装者的医疗知识水平相挂钩. -->
+  <LingXCG_AutoMedical.description>一枚可以响应人体免疫系统的芯片,可以在发现可以治疗的疾病的时候自动治疗,由于安装的人工智能级别较低,需要读取安装者的一部分知识才能更好地工作,治疗效果与安装者的医疗知识水平相挂钩.</LingXCG_AutoMedical.description>
+  <!-- EN: 自我植入插件 -->
+  <LingXCG_AutoMedical.comps.CompUsable.useLabel>植入自动治疗芯片</LingXCG_AutoMedical.comps.CompUsable.useLabel>
+  
+  <!-- EN: 岁月之外芯片 -->
+  <LingXCG_BeyondTime.label>岁月之外芯片</LingXCG_BeyondTime.label>
+  <!-- EN: 一枚特殊的刻印,你不在会因为任何原因衰老,但也无法更年轻 -->
+  <LingXCG_BeyondTime.description>一枚特殊的刻印,安装后不再会因为任何原因衰老,但也无法更年轻.</LingXCG_BeyondTime.description>
+  <!-- EN: 自我植入插件 -->
+  <LingXCG_BeyondTime.comps.CompUsable.useLabel>植入岁月之外芯片</LingXCG_BeyondTime.comps.CompUsable.useLabel>
+  
+  <!-- EN: 肢体重构芯片 -->
+  <LingXCG_BodyReconstruction.label>肢体重构芯片</LingXCG_BodyReconstruction.label>
+  <!-- EN: 一枚可以分泌物质刺激断肢再生的芯片,每次修复需要消耗10%能量,每天能恢复5%. -->
+  <LingXCG_BodyReconstruction.description>一枚可以为安装者修复肢体缺失的特殊芯片,但需要通过时间来积累物质,如果一次性过多部位残疾可能需要较多时间才能修复.</LingXCG_BodyReconstruction.description>
+  <!-- EN: 自我植入插件 -->
+  <LingXCG_BodyReconstruction.comps.CompUsable.useLabel>植入肢体重构芯片</LingXCG_BodyReconstruction.comps.CompUsable.useLabel>
+  
+  <!-- EN: body regeneration chip -->
+  <LingXCG_BodyRegeneration.label>组织再生芯片</LingXCG_BodyRegeneration.label>
+  <!-- EN: 一枚可以检测安装者身上伤口并主动辅助再生肢体的芯片,可以加快伤口的恢复速度,由于并非自然恢复,所以不受自然恢复速度的影响. -->
+  <LingXCG_BodyRegeneration.description>一枚可以检测安装者身上伤口并主动辅助再生肢体的芯片,可以加快伤口的恢复速度,由于并非自然恢复,所以不受自然恢复速度的影响.</LingXCG_BodyRegeneration.description>
+  <!-- EN: 自我植入插件 -->
+  <LingXCG_BodyRegeneration.comps.CompUsable.useLabel>植入组织再生芯片</LingXCG_BodyRegeneration.comps.CompUsable.useLabel>
+  
+  <!-- EN: 双倍自我芯片 -->
+  <LingXCG_DoubleSelf.label>双倍自我芯片</LingXCG_DoubleSelf.label>
+  <!-- EN: 通过特殊技术在本体内又塞进了一个克隆体的强化技术,多数能力都变成了本体的两倍,消耗也是. -->
+  <LingXCG_DoubleSelf.description>通过特殊技术在本体内又塞进了一个克隆体的强化技术,多数能力都变成了本体的两倍,消耗也是.</LingXCG_DoubleSelf.description>
+  <!-- EN: 自我植入插件 -->
+  <LingXCG_DoubleSelf.comps.CompUsable.useLabel>植入双倍自我芯片</LingXCG_DoubleSelf.comps.CompUsable.useLabel>
+  
+  <!-- EN: 环境适应芯片 -->
+  <LingXCG_EnvironmentalAdaptation.label>环境适应芯片</LingXCG_EnvironmentalAdaptation.label>
+  <!-- EN: 一枚可以分析环境状态并调节身体运转情况的芯片,能够使安装者更好地适应极端环境. -->
+  <LingXCG_EnvironmentalAdaptation.description>一枚可以分析环境状态并调节身体运转情况的芯片,能够使安装者更好地适应极端环境.</LingXCG_EnvironmentalAdaptation.description>
+  <!-- EN: 自我植入插件 -->
+  <LingXCG_EnvironmentalAdaptation.comps.CompUsable.useLabel>植入环境适应芯片</LingXCG_EnvironmentalAdaptation.comps.CompUsable.useLabel>
+  
+  <!-- EN: 完美外在芯片 -->
+  <LingXCG_Invincible.label>完美外在芯片</LingXCG_Invincible.label>
+  <!-- EN:  -->
+  <LingXCG_Invincible.description>一枚特殊的刻印,可以几乎无视任何外部伤害,因此,就不需要恢复能力了.</LingXCG_Invincible.description>
+  <!-- EN: 自我植入插件 -->
+  <LingXCG_Invincible.comps.CompUsable.useLabel>植入完美外在芯片</LingXCG_Invincible.comps.CompUsable.useLabel>
+  
+  <!-- EN: 存在削弱芯片 -->
+  <LingXCG_Invisible.label>存在削弱芯片</LingXCG_Invisible.label>
+  <!-- EN: 一枚可以削弱安装着存在的芯片,可以使敌人无法锁定安装者. -->
+  <LingXCG_Invisible.description>一枚可以削弱安装着存在的芯片,可以使敌人无法锁定安装者.</LingXCG_Invisible.description>
+  <!-- EN: 自我植入插件 -->
+  <LingXCG_Invisible.comps.CompUsable.useLabel>植入存在削弱芯片</LingXCG_Invisible.comps.CompUsable.useLabel>
+  
+  <!-- EN: 虚拟带宽 -->
+  <LingXCG_MechBandwidth.label>虚拟带宽</LingXCG_MechBandwidth.label>
+  <!-- EN: 一款特殊的转接器,可以利用人体意识模拟的带宽,可以大幅度提升控制机械数量的上限,最多可叠加10次 -->
+  <LingXCG_MechBandwidth.description>一款特殊的转接器,可以利用人体意识模拟的带宽,可以大幅度提升控制机械数量的上限,最多可叠加10次.</LingXCG_MechBandwidth.description>
+  <!-- EN: 自我植入插件 -->
+  <LingXCG_MechBandwidth.comps.CompUsable.useLabel>植入虚拟带宽</LingXCG_MechBandwidth.comps.CompUsable.useLabel>
+  
+  <!-- EN: 零型拓展带宽 -->
+  <LingXCG_MechBandwidthPlus.label>零型拓展带宽</LingXCG_MechBandwidthPlus.label>
+  <!-- EN: 一款封装好的带宽管理器,可以大幅度提升控制机械数量的上限 -->
+  <LingXCG_MechBandwidthPlus.description>一款零子集团所设计的特制芯片,内部封装了大量的带宽管理器,可以大幅度提升控制机械数量的上限.</LingXCG_MechBandwidthPlus.description>
+  <!-- EN: 自我植入插件 -->
+  <LingXCG_MechBandwidthPlus.comps.CompUsable.useLabel>植入零型拓展带宽</LingXCG_MechBandwidthPlus.comps.CompUsable.useLabel>
+  
+  <!-- EN: 拓展中枢 -->
+  <LingXCG_MechBandwidthPlusMax.label>拓展中枢</LingXCG_MechBandwidthPlusMax.label>
+  <!-- EN: 一个辅助的机械中枢,可以翻倍安装者的机械带宽 -->
+  <LingXCG_MechBandwidthPlusMax.description>一个利用机械中枢所制作的拓展中枢,可以直接为安装者添加一个额外的机械管理线程,加倍安装者的机械管理能力,最多可叠加2次.</LingXCG_MechBandwidthPlusMax.description>
+  <!-- EN: 自我植入插件 -->
+  <LingXCG_MechBandwidthPlusMax.comps.CompUsable.useLabel>植入拓展中枢</LingXCG_MechBandwidthPlusMax.comps.CompUsable.useLabel>
+  
+  <!-- EN: 思维放射芯片 -->
+  <LingXCG_MentalRadiation.label>思维放射芯片</LingXCG_MentalRadiation.label>
+  <!-- EN: 一枚可以放大安装者心灵敏感度的芯片,此外,由于影响的大脑范围较大,还可以一定程度的提高工作速度. -->
+  <LingXCG_MentalRadiation.description>一枚可以放大安装者心灵敏感度的芯片,此外,由于影响的大脑范围较大,还可以一定程度的提高工作速度.</LingXCG_MentalRadiation.description>
+  <!-- EN: 自我植入插件 -->
+  <LingXCG_MentalRadiation.comps.CompUsable.useLabel>植入思维放射芯片</LingXCG_MentalRadiation.comps.CompUsable.useLabel>
+  
+  <!-- EN: 物质合成芯片 -->
+  <LingXCG_NoHunger.label>物质合成芯片</LingXCG_NoHunger.label>
+  <!-- EN: 一枚可以安装在心脏的芯片,可以通过一些方法合成能量,让生物不需要进食. -->
+  <LingXCG_NoHunger.description>一枚释放特殊信息素的芯片,可以让人体能够通过特殊方法合成能量,使得安装者不再需要进食.</LingXCG_NoHunger.description>
+  <!-- EN: 自我植入插件 -->
+  <LingXCG_NoHunger.comps.CompUsable.useLabel>植入物质合成芯片</LingXCG_NoHunger.comps.CompUsable.useLabel>
+  
+  <!-- EN: 自动娱乐芯片 -->
+  <LingXCG_NoJoy.label>自动娱乐芯片</LingXCG_NoJoy.label>
+  <!-- EN: 一枚分泌特殊激素的芯片,让人不会感到枯燥无味. -->
+  <LingXCG_NoJoy.description>一枚能够分泌包含多巴胺在内的多种物质的特殊芯片,可以稳定安装者的精神,使其一直保持在愉悦状态.</LingXCG_NoJoy.description>
+  <!-- EN: 自我植入插件 -->
+  <LingXCG_NoJoy.comps.CompUsable.useLabel>植入自动娱乐芯片</LingXCG_NoJoy.comps.CompUsable.useLabel>
+  
+  <!-- EN: 神经清醒芯片 -->
+  <LingXCG_NoRest.label>神经清醒芯片</LingXCG_NoRest.label>
+  <!-- EN: 一枚可以安装在大脑的芯片,可以持续不断的刺激大脑,让生物不需要睡眠. -->
+  <LingXCG_NoRest.description>一枚持续释放激素的芯片,能够使生物始终保持清醒,如同灌入脑海的咖啡一般.</LingXCG_NoRest.description>
+  <!-- EN: 自我植入插件 -->
+  <LingXCG_NoRest.comps.CompUsable.useLabel>植入神经清醒芯片</LingXCG_NoRest.comps.CompUsable.useLabel>
+  
+  <!-- EN: 固化皮肤芯片 -->
+  <LingXCG_OldSkin.label>固化皮肤芯片</LingXCG_OldSkin.label>
+  <!-- EN: 一枚分泌降低皮肤活性的化学物质的芯片,可以使皮肤变得坚韧以增强人体的防御能力,但由于活性降低,身体的自然恢复能力会受到影响 -->
+  <LingXCG_OldSkin.description>一枚分泌降低皮肤活性的化学物质的芯片,可以使皮肤变得坚韧以增强人体的防御能力,但由于活性降低,身体的自然恢复能力会受到影响</LingXCG_OldSkin.description>
+  <!-- EN: 自我植入插件 -->
+  <LingXCG_OldSkin.comps.CompUsable.useLabel>植入固化皮肤芯片</LingXCG_OldSkin.comps.CompUsable.useLabel>
+  
+  <!-- EN: 灵质汇聚芯片 -->
+  <LingXCG_PsyAdd.label>灵质汇聚芯片</LingXCG_PsyAdd.label>
+  <!-- EN: 一枚利用伪人格核心制作而成的芯片,可以帮助安装者汇聚精神力. -->
+  <LingXCG_PsyAdd.description>一枚经过调制的伪人格核心,被设置成了冥想模式,可以持续恢复安装者的精神力,如同有个人一直在帮助安装者冥想一般.</LingXCG_PsyAdd.description>
+  <!-- EN: 自我植入插件 -->
+  <LingXCG_PsyAdd.comps.CompUsable.useLabel>植入灵质汇聚芯片</LingXCG_PsyAdd.comps.CompUsable.useLabel>
+  
+</LanguageData>

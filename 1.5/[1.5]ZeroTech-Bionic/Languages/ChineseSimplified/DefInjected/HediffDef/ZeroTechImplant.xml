@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 自动治疗芯片 -->
+  <LingXCG_AutoMedical.label>自动治疗芯片</LingXCG_AutoMedical.label>
+  <!-- EN: 我思故我愈. -->
+  <LingXCG_AutoMedical.description>一枚可以响应人体免疫系统的芯片,可以在发现可以治疗的疾病的时候自动治疗,由于安装的人工智能级别较低,需要读取安装者的一部分知识才能更好地工作,治疗效果与安装者的医疗知识水平相挂钩.</LingXCG_AutoMedical.description>
+  <!-- EN: 芯片 -->
+  <LingXCG_AutoMedical.labelNoun>芯片</LingXCG_AutoMedical.labelNoun>
+  
+  <!-- EN: 岁月之外芯片 -->
+  <LingXCG_BeyondTime.label>岁月之外芯片</LingXCG_BeyondTime.label>
+  <!-- EN: 岁月之外. -->
+  <LingXCG_BeyondTime.description>一枚特殊的刻印,安装后不再会因为任何原因衰老,但也无法更年轻.</LingXCG_BeyondTime.description>
+  <!-- EN: 芯片 -->
+  <LingXCG_BeyondTime.labelNoun>芯片</LingXCG_BeyondTime.labelNoun>
+  
+  <!-- EN: 肢体重构芯片 -->
+  <LingXCG_BodyReconstruction.label>肢体重构芯片</LingXCG_BodyReconstruction.label>
+  <!-- EN: 我思故我残. -->
+  <LingXCG_BodyReconstruction.description>一枚可以为安装者修复肢体缺失的特殊芯片,但需要通过时间来积累物质,如果一次性过多部位残疾可能需要较多时间才能修复.</LingXCG_BodyReconstruction.description>
+  <!-- EN: 芯片 -->
+  <LingXCG_BodyReconstruction.labelNoun>芯片</LingXCG_BodyReconstruction.labelNoun>
+  
+  <!-- EN: 组织再生芯片 -->
+  <LingXCG_BodyRegeneration.label>组织再生芯片</LingXCG_BodyRegeneration.label>
+  <!-- EN: 我思故我生. -->
+  <LingXCG_BodyRegeneration.description>一枚可以检测安装者身上伤口并主动辅助再生肢体的芯片,可以加快伤口的恢复速度,由于并非自然恢复,所以不受自然恢复速度的影响.</LingXCG_BodyRegeneration.description>
+  <!-- EN: 芯片 -->
+  <LingXCG_BodyRegeneration.labelNoun>芯片</LingXCG_BodyRegeneration.labelNoun>
+  
+  <!-- EN: 双倍自我芯片 -->
+  <LingXCG_DoubleSelf.label>双倍自我芯片</LingXCG_DoubleSelf.label>
+  <!-- EN: 双倍自我. -->
+  <LingXCG_DoubleSelf.description>通过特殊技术在本体内又塞进了一个克隆体的强化技术,多数能力都变成了本体的两倍,消耗也是.</LingXCG_DoubleSelf.description>
+  <!-- EN: 刻印 -->
+  <LingXCG_DoubleSelf.labelNoun>芯片</LingXCG_DoubleSelf.labelNoun>
+  
+  <!-- EN: 环境适应芯片 -->
+  <LingXCG_EnvironmentalAdaptation.label>环境适应芯片</LingXCG_EnvironmentalAdaptation.label>
+  <!-- EN: 环境认知扭曲. -->
+  <LingXCG_EnvironmentalAdaptation.description>一枚可以分析环境状态并调节身体运转情况的芯片,能够使安装者更好地适应极端环境.</LingXCG_EnvironmentalAdaptation.description>
+  <!-- EN: 芯片 -->
+  <LingXCG_EnvironmentalAdaptation.labelNoun>芯片</LingXCG_EnvironmentalAdaptation.labelNoun>
+  
+  <!-- EN: 完美外在芯片 -->
+  <LingXCG_Invincible.label>完美外在芯片</LingXCG_Invincible.label>
+  <!-- EN: 我!所向无敌! -->
+  <LingXCG_Invincible.description>一枚特殊的刻印,可以几乎无视任何外部伤害,因此,就不需要恢复能力了.</LingXCG_Invincible.description>
+  <!-- EN: 芯片 -->
+  <LingXCG_Invincible.labelNoun>芯片</LingXCG_Invincible.labelNoun>
+  
+  <!-- EN: 存在削弱芯片 -->
+  <LingXCG_Invisible.label>存在削弱芯片</LingXCG_Invisible.label>
+  <!-- EN: 我的存在被抹除了. -->
+  <LingXCG_Invisible.description>一枚可以削弱安装着存在的芯片,可以使敌人无法锁定安装者.</LingXCG_Invisible.description>
+  <!-- EN: 芯片 -->
+  <LingXCG_Invisible.labelNoun>芯片</LingXCG_Invisible.labelNoun>
+  
+  <!-- EN: 虚拟带宽 -->
+  <LingXCG_MechBandwidth.label>虚拟带宽</LingXCG_MechBandwidth.label>
+  <!-- EN: 利用人体意识模拟的带宽,可以大幅度提升控制机械数量的上限 -->
+  <LingXCG_MechBandwidth.description>一款特殊的转接器,可以利用人体意识模拟的带宽,可以大幅度提升控制机械数量的上限,最多可叠加10次.</LingXCG_MechBandwidth.description>
+  <!-- EN: 芯片 -->
+  <LingXCG_MechBandwidth.labelNoun>芯片</LingXCG_MechBandwidth.labelNoun>
+  
+  <!-- EN: 零型拓展带宽 -->
+  <LingXCG_MechBandwidthPlus.label>零型拓展带宽</LingXCG_MechBandwidthPlus.label>
+  <!-- EN: 一款植入式的拓展带宽,可以大幅度提升控制机械数量的上限 -->
+  <LingXCG_MechBandwidthPlus.description>一款零子集团所设计的特制芯片,内部封装了大量的带宽管理器,可以大幅度提升控制机械数量的上限.</LingXCG_MechBandwidthPlus.description>
+  <!-- EN: 芯片 -->
+  <LingXCG_MechBandwidthPlus.labelNoun>芯片</LingXCG_MechBandwidthPlus.labelNoun>
+  
+  <!-- EN: 拓展中枢 -->
+  <LingXCG_MechBandwidthPlusMax.label>拓展中枢</LingXCG_MechBandwidthPlusMax.label>
+  <!-- EN: 一个辅助的机械中枢,可以翻倍安装者的机械带宽 -->
+  <LingXCG_MechBandwidthPlusMax.description>一个利用机械中枢所制作的拓展中枢,可以直接为安装者添加一个额外的机械管理线程,加倍安装者的机械管理能力,最多可叠加2次.</LingXCG_MechBandwidthPlusMax.description>
+  <!-- EN: 芯片 -->
+  <LingXCG_MechBandwidthPlusMax.labelNoun>芯片</LingXCG_MechBandwidthPlusMax.labelNoun>
+  
+  <!-- EN: 思维放射芯片 -->
+  <LingXCG_MentalRadiation.label>思维放射芯片</LingXCG_MentalRadiation.label>
+  <!-- EN: 心智认知扭曲. -->
+  <LingXCG_MentalRadiation.description>一枚可以放大安装者心灵敏感度的芯片,此外,由于影响的大脑范围较大,还可以一定程度的提高工作速度.</LingXCG_MentalRadiation.description>
+  <!-- EN: 芯片 -->
+  <LingXCG_MentalRadiation.labelNoun>芯片</LingXCG_MentalRadiation.labelNoun>
+  
+  <!-- EN: 物质合成芯片 -->
+  <LingXCG_NoHunger.label>物质合成芯片</LingXCG_NoHunger.label>
+  <!-- EN: 假装不饿. -->
+  <LingXCG_NoHunger.description>一枚释放特殊信息素的芯片,可以让人体能够通过特殊方法合成能量,使得安装者不再需要进食.</LingXCG_NoHunger.description>
+  <!-- EN: 芯片 -->
+  <LingXCG_NoHunger.labelNoun>芯片</LingXCG_NoHunger.labelNoun>
+  
+  <!-- EN: 自动娱乐芯片 -->
+  <LingXCG_NoJoy.label>自动娱乐芯片</LingXCG_NoJoy.label>
+  <!-- EN: 脑内的乐队狂欢. -->
+  <LingXCG_NoJoy.description>一枚能够分泌包含多巴胺在内的多种物质的特殊芯片,可以稳定安装者的精神,使其一直保持在愉悦状态.</LingXCG_NoJoy.description>
+  <!-- EN: 芯片 -->
+  <LingXCG_NoJoy.labelNoun>芯片</LingXCG_NoJoy.labelNoun>
+  
+  <!-- EN: 神经清醒芯片 -->
+  <LingXCG_NoRest.label>神经清醒芯片</LingXCG_NoRest.label>
+  <!-- EN: 我一点都不困. -->
+  <LingXCG_NoRest.description>一枚持续释放激素的芯片,能够使生物始终保持清醒,如同灌入脑海的咖啡一般.</LingXCG_NoRest.description>
+  <!-- EN: 芯片 -->
+  <LingXCG_NoRest.labelNoun>芯片</LingXCG_NoRest.labelNoun>
+  
+  <!-- EN: 固化皮肤芯片 -->
+  <LingXCG_OldSkin.label>固化皮肤芯片</LingXCG_OldSkin.label>
+  <!-- EN: 我是石头人! -->
+  <LingXCG_OldSkin.description>一枚分泌降低皮肤活性的化学物质的芯片,可以使皮肤变得坚韧以增强人体的防御能力,但由于活性降低,身体的自然恢复能力会受到影响</LingXCG_OldSkin.description>
+  <!-- EN: 芯片 -->
+  <LingXCG_OldSkin.labelNoun>芯片</LingXCG_OldSkin.labelNoun>
+  
+  <!-- EN: 灵质汇聚芯片 -->
+  <LingXCG_PsyAdd.label>灵质汇聚芯片</LingXCG_PsyAdd.label>
+  <!-- EN: 精神汲取. -->
+  <LingXCG_PsyAdd.description>一枚经过调制的伪人格核心,被设置成了冥想模式,可以持续恢复安装者的精神力,如同有个人一直在帮助安装者冥想一般.</LingXCG_PsyAdd.description>
+  <!-- EN: 芯片 -->
+  <LingXCG_PsyAdd.labelNoun>芯片</LingXCG_PsyAdd.labelNoun>
+  
+</LanguageData>

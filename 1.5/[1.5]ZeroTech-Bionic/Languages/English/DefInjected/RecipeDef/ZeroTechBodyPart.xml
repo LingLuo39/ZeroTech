@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 安装骨爪 -->
+  <installLingXCG_BoneClaw.label>install bone claw</installLingXCG_BoneClaw.label>
+  <!-- EN: 植入芯片. -->
+  <installLingXCG_BoneClaw.description>install bone claw.</installLingXCG_BoneClaw.description>
+  <!-- EN: 植入芯片. -->
+  <installLingXCG_BoneClaw.jobString>install bone claw.</installLingXCG_BoneClaw.jobString>
+  
+  <!-- EN: 安装腐蚀触手 -->
+  <installLingXCG_CorrosiveTentacle.label>install corrosive tentacle</installLingXCG_CorrosiveTentacle.label>
+  <!-- EN: 植入芯片. -->
+  <installLingXCG_CorrosiveTentacle.description>install corrosive tentacle.</installLingXCG_CorrosiveTentacle.description>
+  <!-- EN: 植入芯片. -->
+  <installLingXCG_CorrosiveTentacle.jobString>install corrosive tentacle.</installLingXCG_CorrosiveTentacle.jobString>
+  
+  <!-- EN: 安装代臂镰 -->
+  <installLingXCG_ForearmScythe.label>install armscythe</installLingXCG_ForearmScythe.label>
+  <!-- EN: 植入芯片. -->
+  <installLingXCG_ForearmScythe.description>install armscythe.</installLingXCG_ForearmScythe.description>
+  <!-- EN: 植入芯片. -->
+  <installLingXCG_ForearmScythe.jobString>install armscythe.</installLingXCG_ForearmScythe.jobString>
+  
+  <!-- EN: 安装小丑之手 -->
+  <installLingXCG_JokerHand.label>install Joker's hand</installLingXCG_JokerHand.label>
+  <!-- EN: 植入芯片. -->
+  <installLingXCG_JokerHand.description>install Joker's hand</installLingXCG_JokerHand.description>
+  <!-- EN: 植入芯片. -->
+  <installLingXCG_JokerHand.jobString>install Joker's hand.</installLingXCG_JokerHand.jobString>
+  
+  <!-- EN: 安装激光眼 -->
+  <installLingXCG_LaserEye.label>install laser eye</installLingXCG_LaserEye.label>
+  <!-- EN: 植入芯片. -->
+  <installLingXCG_LaserEye.description>install laser eye.</installLingXCG_LaserEye.description>
+  <!-- EN: 植入芯片. -->
+  <installLingXCG_LaserEye.jobString>install laser eye.</installLingXCG_LaserEye.jobString>
+  
+  <!-- EN: 安装头颅压缩器 -->
+  <installLingXCG_NoHead.label>install head compressor</installLingXCG_NoHead.label>
+  <!-- EN: 植入芯片. -->
+  <installLingXCG_NoHead.description>install head compressor.</installLingXCG_NoHead.description>
+  <!-- EN: 植入芯片. -->
+  <installLingXCG_NoHead.jobString>install head compressor.</installLingXCG_NoHead.jobString>
+  
+  <!-- EN: 安装指锥 -->
+  <installLingXCG_VibratingFinger.label>install finger cone</installLingXCG_VibratingFinger.label>
+  <!-- EN: 植入芯片. -->
+  <installLingXCG_VibratingFinger.description>install finger cone.</installLingXCG_VibratingFinger.description>
+  <!-- EN: 植入芯片. -->
+  <installLingXCG_VibratingFinger.jobString>install finger cone.</installLingXCG_VibratingFinger.jobString>
+  
+  <!-- EN: 制作骨爪 -->
+  <MakeLingXCG_BoneClaw.label>make bone claw</MakeLingXCG_BoneClaw.label>
+  <!-- EN: 制作骨爪. -->
+  <MakeLingXCG_BoneClaw.description>make bone claw.</MakeLingXCG_BoneClaw.description>
+  <!-- EN: 制作骨爪. -->
+  <MakeLingXCG_BoneClaw.jobString>making bone claw.</MakeLingXCG_BoneClaw.jobString>
+  
+  <!-- EN: 制作腐蚀触手 -->
+  <MakeLingXCG_CorrosiveTentacle.label>make corrosive tentacle</MakeLingXCG_CorrosiveTentacle.label>
+  <!-- EN: 制作腐蚀触手. -->
+  <MakeLingXCG_CorrosiveTentacle.description>make corrosive tentacle</MakeLingXCG_CorrosiveTentacle.description>
+  <!-- EN: 制作腐蚀触手. -->
+  <MakeLingXCG_CorrosiveTentacle.jobString>making corrosive tentacle.</MakeLingXCG_CorrosiveTentacle.jobString>
+  
+  <!-- EN: 制作代臂镰 -->
+  <MakeLingXCG_ForearmScythe.label>make armscythe</MakeLingXCG_ForearmScythe.label>
+  <!-- EN: 制作代臂镰. -->
+  <MakeLingXCG_ForearmScythe.description>make armscythe.</MakeLingXCG_ForearmScythe.description>
+  <!-- EN: 制作代臂镰. -->
+  <MakeLingXCG_ForearmScythe.jobString>making armscythe.</MakeLingXCG_ForearmScythe.jobString>
+  
+  <!-- EN: 制作小丑之手 -->
+  <MakeLingXCG_JokerHand.label>make Joker's hand</MakeLingXCG_JokerHand.label>
+  <!-- EN: 制作小丑之手. -->
+  <MakeLingXCG_JokerHand.description>make Joker's hand</MakeLingXCG_JokerHand.description>
+  <!-- EN: 制作小丑之手. -->
+  <MakeLingXCG_JokerHand.jobString>making Joker's hand.</MakeLingXCG_JokerHand.jobString>
+  
+  <!-- EN: 制作激光眼 -->
+  <MakeLingXCG_LaserEye.label>make laser eye</MakeLingXCG_LaserEye.label>
+  <!-- EN: 制作激光眼. -->
+  <MakeLingXCG_LaserEye.description>make laser eye.</MakeLingXCG_LaserEye.description>
+  <!-- EN: 制作激光眼. -->
+  <MakeLingXCG_LaserEye.jobString>making laser eye.</MakeLingXCG_LaserEye.jobString>
+  
+  <!-- EN: 制作头颅压缩器 -->
+  <MakeLingXCG_NoHead.label>make head compressor</MakeLingXCG_NoHead.label>
+  <!-- EN: 制作头颅压缩器. -->
+  <MakeLingXCG_NoHead.description>make head compressor.</MakeLingXCG_NoHead.description>
+  <!-- EN: 制作头颅压缩器. -->
+  <MakeLingXCG_NoHead.jobString>making head compressor.</MakeLingXCG_NoHead.jobString>
+  
+  <!-- EN: 制作指锥 -->
+  <MakeLingXCG_VibratingFinger.label>make finger cone</MakeLingXCG_VibratingFinger.label>
+  <!-- EN: 制作指锥. -->
+  <MakeLingXCG_VibratingFinger.description>make finger cone.</MakeLingXCG_VibratingFinger.description>
+  <!-- EN: 制作指锥. -->
+  <MakeLingXCG_VibratingFinger.jobString>making finger cone.</MakeLingXCG_VibratingFinger.jobString>
+  
+</LanguageData>

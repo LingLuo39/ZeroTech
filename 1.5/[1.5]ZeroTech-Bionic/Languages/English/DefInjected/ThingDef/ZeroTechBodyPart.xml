@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 骨爪 -->
+  <LingXCG_BoneClaw.label>bone claw</LingXCG_BoneClaw.label>
+  <!-- EN: The prickly structure extending from the metacarpal bone can effectively Pierce the enemy's body when needed, and because its material is basically derived from the metacarpal bone of the installer, it can be withdrawn into the palm when not needed, and because of this, this weapon is basically ineffective for enemies with a certain amount of armor. -->
+  <LingXCG_BoneClaw.description>The prickly structure extending from the metacarpal bone can effectively Pierce the enemy's body when needed, and because its material is basically derived from the metacarpal bone of the installer, it can be withdrawn into the palm when not needed, and because of this, this weapon is basically ineffective for enemies with a certain amount of armor.</LingXCG_BoneClaw.description>
+  <!-- EN: 自我植入插件 -->
+  <LingXCG_BoneClaw.comps.CompUsable.label>install bone claw</LingXCG_BoneClaw.comps.CompUsable.useLabel>
+  
+  <!-- EN: 腐蚀触手 -->
+  <LingXCG_CorrosiveTentacle.label>corrosive tentacle</LingXCG_CorrosiveTentacle.label>
+  <!-- EN: A strip of limbs derived from fantasy creatures can be mounted on the forearm of the creature, which can bring extreme mental oppression to the enemy when whipping, but long-term use can also cause irreversible erosion of the wearer. -->
+  <LingXCG_CorrosiveTentacle.description>A strip of limbs derived from fantasy creatures can be mounted on the forearm of the creature, which can bring extreme mental oppression to the enemy when whipping, but long-term use can also cause irreversible erosion of the wearer.</LingXCG_CorrosiveTentacle.description>
+  <!-- EN: 自我植入插件 -->
+  <LingXCG_CorrosiveTentacle.comps.CompUsable.label>install corrosive tentacle</LingXCG_CorrosiveTentacle.comps.CompUsable.useLabel>
+  
+  <!-- EN: 代臂镰 -->
+  <LingXCG_ForearmScythe.label>armscythe</LingXCG_ForearmScythe.label>
+  <!-- EN: The sickle weapon, which replaces the entire forearm, is tough, sharp, and can easily cut through the flesh of any living creature, and it is also efficient for handling small mechanical structures. Unfortunately, due to the complete replacement of the arm of the wearer, it can probably only be used for harvesting plants in rice fields, except for harvesting enemy life. -->
+  <LingXCG_ForearmScythe.description>The sickle weapon, which replaces the entire forearm, is tough, sharp, and can easily cut through the flesh of any living creature, and it is also efficient for handling small mechanical structures. Unfortunately, due to the complete replacement of the arm of the wearer, it can probably only be used for harvesting plants in rice fields, except for harvesting enemy life.</LingXCG_ForearmScythe.description>
+  <!-- EN: 自我植入插件 -->
+  <LingXCG_ForearmScythe.comps.CompUsable.label>install armscythe</LingXCG_ForearmScythe.comps.CompUsable.useLabel>
+  
+  <!-- EN: 小丑之手 -->
+  <LingXCG_JokerHand.label>Joker's hand</LingXCG_JokerHand.label>
+  <!-- EN: 一个来自一名传奇刺客的武器,他的五根手指分别附带了5种不同的毒素,只要破除敌人的防御,五种毒素的叠加可以使敌人没有任何机会幸存\n    -如果目标不是生命体呢? -拿枪啊白痴! -->
+  <LingXCG_JokerHand.description>A weapon from a legendary assassin with five different toxins attached to each of his fingers, the combination of five toxins can make the enemy have no chance of surviving as long as the enemy's defenses are breached.\n- what if the target is not living? - Get the gun, idiot!</LingXCG_JokerHand.description>
+  <!-- EN: 自我植入插件 -->
+  <LingXCG_JokerHand.comps.CompUsable.label>install Joker's hand</LingXCG_JokerHand.comps.CompUsable.useLabel>
+  
+  <!-- EN: 激光眼 -->
+  <LingXCG_LaserEye.label>laser eye</LingXCG_LaserEye.label>
+  <!-- EN: A laser transmitter that can be installed in the eye, can emit a laser to the specified target, in order to avoid continuous launch resulting in overheating so that the installer's brain is burned, is set to only manual launch, of course, if the operator is willing and the upper limit of nerve heat or mental entropy is higher, it can also be launched continuously, but it takes longer time to dissipate heat afterwards, and there are May cause damage to the transmitter structure -->
+  <LingXCG_LaserEye.description>A laser transmitter that can be installed in the eye, can emit a laser to the specified target, in order to avoid continuous launch resulting in overheating so that the installer's brain is burned, is set to only manual launch, of course, if the operator is willing and the upper limit of nerve heat or mental entropy is higher, it can also be launched continuously, but it takes longer time to dissipate heat afterwards, and there are May cause damage to the transmitter structure</LingXCG_LaserEye.description>
+  <!-- EN: 自我植入插件 -->
+  <LingXCG_LaserEye.comps.CompUsable.label>install laser eye</LingXCG_LaserEye.comps.CompUsable.useLabel>
+  
+  <!-- EN: 头颅压缩器 -->
+  <LingXCG_NoHead.label>head compressor</LingXCG_NoHead.label>
+  <!-- EN: A special reactor compresses your skull into your chest cavity, avoiding headshots altogether. -->
+  <LingXCG_NoHead.description>A special reactor compresses your skull into your chest cavity, avoiding headshots altogether.</LingXCG_NoHead.description>
+  <!-- EN: 自我植入插件 -->
+  <LingXCG_NoHead.comps.CompUsable.useLabel>compressed head</LingXCG_NoHead.comps.CompUsable.useLabel>
+  
+  <!-- EN: 指锥 -->
+  <LingXCG_VibratingFinger.label>finger cone</LingXCG_VibratingFinger.label>
+  <!-- EN: 一个替换中指的带刃锥体,内置了旋转震荡结构,可以在贴近敌人的时候高速撕裂敌人的血肉,不过要小心震断自己的手掌 -->
+  <LingXCG_VibratingFinger.description>A blaked cone that replaces the middle finger, with a built-in rotating concussion structure that can tear through enemy flesh at high speed when you get close, but be careful to break your hand.</LingXCG_VibratingFinger.description>
+  <!-- EN: 自我植入插件 -->
+  <LingXCG_VibratingFinger.comps.CompUsable.label>install finger cone</LingXCG_VibratingFinger.comps.CompUsable.useLabel>
+  
+</LanguageData>

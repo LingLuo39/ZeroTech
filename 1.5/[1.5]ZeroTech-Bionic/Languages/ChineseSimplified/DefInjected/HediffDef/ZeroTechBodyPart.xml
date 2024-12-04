@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 骨爪 -->
+  <LingXCG_BoneClaw.label>骨爪</LingXCG_BoneClaw.label>
+  <!-- EN: 如何更好的隐藏自身携带的武器,当然是将自身的一部分作为武器咯 -->
+  <LingXCG_BoneClaw.description>由掌骨延申而出的刺状结构,可以在需要的时候高效的刺穿敌人的肉体,由于其材质基本源于安装者的掌骨,可以在不需要的时候将其收回手掌之中,也正因如此,这份武器对于有一定护甲的敌人来说基本没有战斗力</LingXCG_BoneClaw.description>
+  <!-- EN: 刃 -->
+  <LingXCG_BoneClaw.comps.HediffComp_VerbGiver.tools.0.label>刃</LingXCG_BoneClaw.comps.HediffComp_VerbGiver.tools.0.label>
+  <!-- EN: 尖 -->
+  <LingXCG_BoneClaw.comps.HediffComp_VerbGiver.tools.1.label>尖</LingXCG_BoneClaw.comps.HediffComp_VerbGiver.tools.1.label>
+  <!-- EN: 手爪 -->
+  <LingXCG_BoneClaw.labelNoun>骨爪</LingXCG_BoneClaw.labelNoun>
+  
+  <!-- EN: 腐蚀触手 -->
+  <LingXCG_CorrosiveTentacle.label>腐蚀触手</LingXCG_CorrosiveTentacle.label>
+  <!-- EN: 不能摘下来吃 -->
+  <LingXCG_CorrosiveTentacle.description>一个源自幻想生物的条形肢体,可以安装在生物的小臂上,抽打敌人的时候可以给敌人带来极度的精神压迫,但长期的使用也会导致安装者不可逆的被侵蚀</LingXCG_CorrosiveTentacle.description>
+  <!-- EN: 触手 -->
+  <LingXCG_CorrosiveTentacle.comps.HediffComp_VerbGiver.tools.0.label>触手</LingXCG_CorrosiveTentacle.comps.HediffComp_VerbGiver.tools.0.label>
+  <!-- EN: 触手 -->
+  <LingXCG_CorrosiveTentacle.labelNoun>触手</LingXCG_CorrosiveTentacle.labelNoun>
+  
+  <!-- EN: 代臂镰 -->
+  <LingXCG_ForearmScythe.label>代臂镰</LingXCG_ForearmScythe.label>
+  <!-- EN: 为什么有人觉得飞螳镰刀不好呢,优雅,暴力,一刀一个大朋友 -->
+  <LingXCG_ForearmScythe.description>替换整个小臂的镰状武器,坚韧,锋利,可以轻松的切开任何生物的肉体,对小型的机械结构也可以高效的处理,遗憾的是,由于完整的替换了安装者的手臂,除了收割敌人的生命之外大概只能用于收获稻田里的植物了</LingXCG_ForearmScythe.description>
+  <!-- EN: Scythe -->
+  <LingXCG_ForearmScythe.comps.HediffComp_VerbGiver.tools.Scythe.label>镰刀</LingXCG_ForearmScythe.comps.HediffComp_VerbGiver.tools.Scythe.label>
+  <!-- EN: 镰刀 -->
+  <LingXCG_ForearmScythe.labelNoun>镰刀</LingXCG_ForearmScythe.labelNoun>
+  
+  <!-- EN: 小丑之手 -->
+  <LingXCG_JokerHand.label>小丑之手</LingXCG_JokerHand.label>
+  <!-- EN: 一名刺客的改装,五毒俱全 -->
+  <LingXCG_JokerHand.description>一个来自一名传奇刺客的武器,他的五根手指分别附带了5种不同的毒素,只要破除敌人的防御,五种毒素的叠加可以使敌人没有任何机会幸存\n    -如果目标不是生命体呢? -拿枪啊白痴!</LingXCG_JokerHand.description>
+  <!-- EN: 拇指 -->
+  <LingXCG_JokerHand.comps.HediffComp_VerbGiver.tools.0.label>拇指</LingXCG_JokerHand.comps.HediffComp_VerbGiver.tools.0.label>
+  <!-- EN: 食指 -->
+  <LingXCG_JokerHand.comps.HediffComp_VerbGiver.tools.1.label>食指</LingXCG_JokerHand.comps.HediffComp_VerbGiver.tools.1.label>
+  <!-- EN: 中指 -->
+  <LingXCG_JokerHand.comps.HediffComp_VerbGiver.tools.2.label>中指</LingXCG_JokerHand.comps.HediffComp_VerbGiver.tools.2.label>
+  <!-- EN: 无名指 -->
+  <LingXCG_JokerHand.comps.HediffComp_VerbGiver.tools.3.label>无名指</LingXCG_JokerHand.comps.HediffComp_VerbGiver.tools.3.label>
+  <!-- EN: 尾指 -->
+  <LingXCG_JokerHand.comps.HediffComp_VerbGiver.tools.4.label>尾指</LingXCG_JokerHand.comps.HediffComp_VerbGiver.tools.4.label>
+  <!-- EN: 手 -->
+  <LingXCG_JokerHand.labelNoun>手</LingXCG_JokerHand.labelNoun>
+  
+  <!-- EN: 激光眼 -->
+  <LingXCG_LaserEye.label>激光眼</LingXCG_LaserEye.label>
+  <!-- EN: 一个可以装在眼部的激光发射器,可以对指定目标发射激光,为了避免连续发射导致过热使安装者的脑部烧坏,被设定为只能手动发射,当然,如果操作者愿意的话且神经热或心灵熵的上限较高,也是可以连续的进行发射的,只不过事后需要更久的时间来进行散热,而且有可能导致发射器结构的损坏 -->
+  <LingXCG_LaserEye.description>一个可以装在眼部的激光发射器,可以对指定目标发射激光,为了避免连续发射导致过热使安装者的脑部烧坏,被设定为只能手动发射,当然,如果操作者愿意的话且神经热或心灵熵的上限较高,也是可以连续的进行发射的,只不过事后需要更久的时间来进行散热,而且有可能导致发射器结构的损坏</LingXCG_LaserEye.description>
+  <!-- EN: 眼球激光 -->
+  <LingXCG_LaserEye.comps.CompVerbOfHediff.verbs.0.label>眼球激光</LingXCG_LaserEye.comps.CompVerbOfHediff.verbs.0.label>
+  <!-- EN: 眼球 -->
+  <LingXCG_LaserEye.labelNoun>眼球</LingXCG_LaserEye.labelNoun>
+  
+  <!-- EN: 头颅压缩器 -->
+  <LingXCG_NoHead.label>头颅压缩器</LingXCG_NoHead.label>
+  <!-- EN: 其实头被吃掉了 -->
+  <LingXCG_NoHead.description>将头颅压缩到胸腔后的状态,脖颈依旧起着连接的功能,看上去可能有些吓人.</LingXCG_NoHead.description>
+  <!-- EN: 脖颈 -->
+  <LingXCG_NoHead.labelNoun>脖颈</LingXCG_NoHead.labelNoun>
+  
+  <!-- EN: 指锥 -->
+  <LingXCG_VibratingFinger.label>指锥</LingXCG_VibratingFinger.label>
+  <!-- EN: 别用来做奇怪的事啊!小心撕裂肌肉. -->
+  <LingXCG_VibratingFinger.description>一个替换中指的带刃锥体,内置了旋转震荡结构,可以在贴近敌人的时候高速撕裂敌人的血肉,不过要小心震断自己的手掌.</LingXCG_VibratingFinger.description>
+  <!-- EN: 振子 -->
+  <LingXCG_VibratingFinger.comps.HediffComp_VerbGiver.tools.0.label>振子</LingXCG_VibratingFinger.comps.HediffComp_VerbGiver.tools.0.label>
+  <!-- EN: 指头 -->
+  <LingXCG_VibratingFinger.labelNoun>指头</LingXCG_VibratingFinger.labelNoun>
+  
+  <!-- EN: 意志侵蚀 -->
+  <MentalWhipping.label>意志侵蚀</MentalWhipping.label>
+  <!-- EN: 这个生物被不可名状之物鞭打了,它的精神变得狂躁而敏感. -->
+  <MentalWhipping.description>这个生物被不可名状之物鞭打了,它的精神变得狂躁而敏感.</MentalWhipping.description>
+  <!-- EN: 无症状 -->
+  <MentalWhipping.stages.0.label>无症状</MentalWhipping.stages.0.label>
+  <!-- EN: 较轻 -->
+  <MentalWhipping.stages.1.label>较轻</MentalWhipping.stages.1.label>
+  <!-- EN: 严重 -->
+  <MentalWhipping.stages.2.label>较重</MentalWhipping.stages.2.label>
+  <!-- EN: 严重 -->
+  <MentalWhipping.stages.3.label>严重</MentalWhipping.stages.3.label>
+  <!-- EN: 极端 -->
+  <MentalWhipping.stages.4.label>极端</MentalWhipping.stages.4.label>
+  
+</LanguageData>

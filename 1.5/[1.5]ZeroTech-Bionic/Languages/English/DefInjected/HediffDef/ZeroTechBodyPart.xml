@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 骨爪 -->
+  <LingXCG_BoneClaw.label>bone claw</LingXCG_BoneClaw.label>
+  <!-- EN: 如何更好的隐藏自身携带的武器,当然是将自身的一部分作为武器咯 -->
+  <LingXCG_BoneClaw.description>The prickly structure extending from the metacarpal bone can effectively Pierce the enemy's body when needed, and because its material is basically derived from the metacarpal bone of the installer, it can be withdrawn into the palm when not needed, and because of this, this weapon is basically ineffective for enemies with a certain amount of armor.</LingXCG_BoneClaw.description>
+  <!-- EN: 刃 -->
+  <LingXCG_BoneClaw.comps.HediffComp_VerbGiver.tools.0.label>stab</LingXCG_BoneClaw.comps.HediffComp_VerbGiver.tools.0.label>
+  <!-- EN: 尖 -->
+  <LingXCG_BoneClaw.comps.HediffComp_VerbGiver.tools.1.label>point</LingXCG_BoneClaw.comps.HediffComp_VerbGiver.tools.1.label>
+  <!-- EN: 手爪 -->
+  <LingXCG_BoneClaw.labelNoun>bone claw</LingXCG_BoneClaw.labelNoun>
+  
+  <!-- EN: 腐蚀触手 -->
+  <LingXCG_CorrosiveTentacle.label>corrosive tentacle</LingXCG_CorrosiveTentacle.label>
+  <!-- EN: 不能摘下来吃 -->
+  <LingXCG_CorrosiveTentacle.description>A strip of limbs derived from fantasy creatures can be mounted on the forearm of the creature, which can bring extreme mental oppression to the enemy when whipping, but long-term use can also cause irreversible erosion of the wearer.</LingXCG_CorrosiveTentacle.description>
+  <!-- EN: 触手 -->
+  <LingXCG_CorrosiveTentacle.comps.HediffComp_VerbGiver.tools.0.label>tentacle</LingXCG_CorrosiveTentacle.comps.HediffComp_VerbGiver.tools.0.label>
+  <!-- EN: 触手 -->
+  <LingXCG_CorrosiveTentacle.labelNoun>corrosive tentacle</LingXCG_CorrosiveTentacle.labelNoun>
+  
+  <!-- EN: 代臂镰 -->
+  <LingXCG_ForearmScythe.label>armscythe</LingXCG_ForearmScythe.label>
+  <!-- EN: 为什么有人觉得飞螳镰刀不好呢,优雅,暴力,一刀一个大朋友 -->
+  <LingXCG_ForearmScythe.description>The sickle weapon, which replaces the entire forearm, is tough, sharp, and can easily cut through the flesh of any living creature, and it is also efficient for handling small mechanical structures. Unfortunately, due to the complete replacement of the arm of the wearer, it can probably only be used for harvesting plants in rice fields, except for harvesting enemy life.</LingXCG_ForearmScythe.description>
+  <!-- EN: Scythe -->
+  <LingXCG_ForearmScythe.comps.HediffComp_VerbGiver.tools.Scythe.label>scythe</LingXCG_ForearmScythe.comps.HediffComp_VerbGiver.tools.Scythe.label>
+  <!-- EN: 镰刀 -->
+  <LingXCG_ForearmScythe.labelNoun>armscythe</LingXCG_ForearmScythe.labelNoun>
+  
+  <!-- EN: 小丑之手 -->
+  <LingXCG_JokerHand.label>Joker's hand</LingXCG_JokerHand.label>
+  <!-- EN: 一名刺客的改装,五毒俱全 -->
+  <LingXCG_JokerHand.description>A weapon from a legendary assassin with five different toxins attached to each of his fingers, the combination of five toxins can make the enemy have no chance of surviving as long as the enemy's defenses are breached.\n- what if the target is not living? - Get the gun, idiot!</LingXCG_JokerHand.description>
+  <!-- EN: 拇指 -->
+  <LingXCG_JokerHand.comps.HediffComp_VerbGiver.tools.0.label>finger</LingXCG_JokerHand.comps.HediffComp_VerbGiver.tools.0.label>
+  <!-- EN: 食指 -->
+  <LingXCG_JokerHand.comps.HediffComp_VerbGiver.tools.1.label>finger</LingXCG_JokerHand.comps.HediffComp_VerbGiver.tools.1.label>
+  <!-- EN: 中指 -->
+  <LingXCG_JokerHand.comps.HediffComp_VerbGiver.tools.2.label>finger</LingXCG_JokerHand.comps.HediffComp_VerbGiver.tools.2.label>
+  <!-- EN: 无名指 -->
+  <LingXCG_JokerHand.comps.HediffComp_VerbGiver.tools.3.label>finger</LingXCG_JokerHand.comps.HediffComp_VerbGiver.tools.3.label>
+  <!-- EN: 尾指 -->
+  <LingXCG_JokerHand.comps.HediffComp_VerbGiver.tools.4.label>finger</LingXCG_JokerHand.comps.HediffComp_VerbGiver.tools.4.label>
+  <!-- EN: 手 -->
+  <LingXCG_JokerHand.labelNoun>hand</LingXCG_JokerHand.labelNoun>
+  
+  <!-- EN: 激光眼 -->
+  <LingXCG_LaserEye.label>laser eye</LingXCG_LaserEye.label>
+  <!-- EN: A laser transmitter that can be installed in the eye, can emit a laser to the specified target, in order to avoid continuous launch resulting in overheating so that the installer's brain is burned, is set to only manual launch, of course, if the operator is willing and the upper limit of nerve heat or mental entropy is higher, it can also be launched continuously, but it takes longer time to dissipate heat afterwards, and there are May cause damage to the transmitter structure -->
+  <LingXCG_LaserEye.description>A laser transmitter that can be installed in the eye, can emit a laser to the specified target, in order to avoid continuous launch resulting in overheating so that the installer's brain is burned, is set to only manual launch, of course, if the operator is willing and the upper limit of nerve heat or mental entropy is higher, it can also be launched continuously, but it takes longer time to dissipate heat afterwards, and there are May cause damage to the transmitter structure</LingXCG_LaserEye.description>
+  <!-- EN: 眼球激光 -->
+  <LingXCG_LaserEye.comps.CompVerbOfHediff.verbs.0.label>laser</LingXCG_LaserEye.comps.CompVerbOfHediff.verbs.0.label>
+  <!-- EN: 眼球 -->
+  <LingXCG_LaserEye.labelNoun>eye</LingXCG_LaserEye.labelNoun>
+  
+  <!-- EN: 头颅压缩器 -->
+  <LingXCG_NoHead.label>head compressor</LingXCG_NoHead.label>
+  <!-- EN: 其实头被吃掉了 -->
+  <LingXCG_NoHead.description>The head compressed behind the chest, with the neck still functioning as a connection, can look scary.</LingXCG_NoHead.description>
+  <!-- EN: 脖颈 -->
+  <LingXCG_NoHead.labelNoun>neck</LingXCG_NoHead.labelNoun>
+  
+  <!-- EN: 指锥 -->
+  <LingXCG_VibratingFinger.label>finger cone</LingXCG_VibratingFinger.label>
+  <!-- EN: 别用来做奇怪的事啊!小心撕裂肌肉. -->
+  <LingXCG_VibratingFinger.description>A blaked cone that replaces the middle finger, with a built-in rotating concussion structure that can tear through enemy flesh at high speed when you get close, but be careful to break your hand.</LingXCG_VibratingFinger.description>
+  <!-- EN: 振子 -->
+  <LingXCG_VibratingFinger.comps.HediffComp_VerbGiver.tools.0.label>stab</LingXCG_VibratingFinger.comps.HediffComp_VerbGiver.tools.0.label>
+  <!-- EN: 指头 -->
+  <LingXCG_VibratingFinger.labelNoun>finger</LingXCG_VibratingFinger.labelNoun>
+  
+  <!-- EN: 意志侵蚀 -->
+  <MentalWhipping.label>mental whipping</MentalWhipping.label>
+  <!-- EN: 这个生物被不可名状之物鞭打了,它的精神变得狂躁而敏感. -->
+  <MentalWhipping.description>The creature was whipped by the indescribable, and its spirit became manic and sensitive.</MentalWhipping.description>
+  <!-- EN: 无症状 -->
+  <MentalWhipping.stages.0.label>asymptomatic</MentalWhipping.stages.0.label>
+  <!-- EN: 较轻 -->
+  <MentalWhipping.stages.1.label>light</MentalWhipping.stages.1.label>
+  <!-- EN: 严重 -->
+  <MentalWhipping.stages.2.label>heavier</MentalWhipping.stages.2.label>
+  <!-- EN: 严重 -->
+  <MentalWhipping.stages.3.label>seriousness</MentalWhipping.stages.3.label>
+  <!-- EN: 极端 -->
+  <MentalWhipping.stages.4.label>extreme</MentalWhipping.stages.4.label>
+  
+</LanguageData>

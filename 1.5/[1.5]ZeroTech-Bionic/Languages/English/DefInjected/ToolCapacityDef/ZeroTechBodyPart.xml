@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 精神鞭笞 -->
+  <CorrosiveTentacle_MentalWhipping.label>mental whipping</CorrosiveTentacle_MentalWhipping.label>
+  
+  <!-- EN: 毒性触碰 -->
+  <ToxicTouch_FoodPoisoning.label>toxic touch</ToxicTouch_FoodPoisoning.label>
+  
+  <!-- EN: 毒性触碰 -->
+  <ToxicTouch_Heatstroke.label>toxic touch</ToxicTouch_Heatstroke.label>
+  
+  <!-- EN: 毒性触碰 -->
+  <ToxicTouch_Hypothermia.label>toxic touch</ToxicTouch_Hypothermia.label>
+  
+  <!-- EN: 毒性触碰 -->
+  <ToxicTouch_Malnutrition.label>toxic touch</ToxicTouch_Malnutrition.label>
+  
+  <!-- EN: 毒性触碰 -->
+  <ToxicTouch_ToxicBuildup.label>toxic touch</ToxicTouch_ToxicBuildup.label>
+  
+</LanguageData>

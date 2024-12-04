@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 加力芯片 -->
+  <LingXCG_Carry.label>strength chip</LingXCG_Carry.label>
+  <!-- EN: 一枚可以安装于动物或机械体的芯片,可以优化安装者的出力结构,使其能够运输更多单位的货物. -->
+  <LingXCG_Carry.description>An implantable chip for animals/machinery can enhance the installer's output and enable it to carry more cargo.</LingXCG_Carry.description>
+  <!-- EN: 芯片 -->
+  <LingXCG_Carry.labelNoun>chip</LingXCG_Carry.labelNoun>
+  
+  <!-- EN: 节能芯片 -->
+  <LingXCG_EnergyConservation.label>energy saving chip</LingXCG_EnergyConservation.label>
+  <!-- EN: 一枚可以安装于机械的的节能芯片,可以降低能量消耗. -->
+  <LingXCG_EnergyConservation.description>An implantable chip for a machine that no longer consumes energy naturally.</LingXCG_EnergyConservation.description>
+  <!-- EN: 芯片 -->
+  <LingXCG_EnergyConservation.labelNoun>chip</LingXCG_EnergyConservation.labelNoun>
+  
+  <!-- EN: 格斗芯片 -->
+  <LingXCG_Fight.label>fight chip</LingXCG_Fight.label>
+  <!-- EN: 一枚可以安装于动物或机械体的芯片,记载了丰富的全体型战斗经验,可以帮助安装者更好的进行战斗. -->
+  <LingXCG_Fight.description>An implantable chip for animal/machine, which records a wealth of overall combat experience, can help the installer better fight.</LingXCG_Fight.description>
+  <!-- EN: 芯片 -->
+  <LingXCG_Fight.labelNoun>chip</LingXCG_Fight.labelNoun>
+  
+  <!-- EN: 冬眠芯片 -->
+  <LingXCG_Hibernation.label>hibernation chip</LingXCG_Hibernation.label>
+  <!-- EN: 一枚可以安装于动物的冬眠芯片,可以使动物不需要进食,但需要进行更多的睡眠. -->
+  <LingXCG_Hibernation.description>An implantable chip applied to animals stops them from becoming hungry over time, but causes them to become more fatigued and sleepy.</LingXCG_Hibernation.description>
+  <!-- EN: 芯片 -->
+  <LingXCG_Hibernation.labelNoun>chip</LingXCG_Hibernation.labelNoun>
+  
+  <!-- EN: 伪装芯片 -->
+  <LingXCG_Invisibility.label>camouflage chip</LingXCG_Invisibility.label>
+  <!-- EN: 一枚可以安装于动物或机械体的芯片,使安装者周遭的空间扭曲,让敌人无法感知其存在. -->
+  <LingXCG_Invisibility.description>An implantable chip for animals/machines that can influence the observations of nearby observers, making the installer disappear from sight.</LingXCG_Invisibility.description>
+  <!-- EN: 芯片 -->
+  <LingXCG_Invisibility.labelNoun>chip</LingXCG_Invisibility.labelNoun>
+  
+  <!-- EN: 动力芯片 -->
+  <LingXCG_Power.label>power chip</LingXCG_Power.label>
+  <!-- EN: 一枚可以安装于动物或机械体的芯片,可以增加安装者的行动能力和操作能力. -->
+  <LingXCG_Power.description>An implantable chip for animal/mechanical applications that steadily increases the operator's operational and mobility capabilities.</LingXCG_Power.description>
+  <!-- EN: 芯片 -->
+  <LingXCG_Power.labelNoun>chip</LingXCG_Power.labelNoun>
+  
+  <!-- EN: 自爆芯片 -->
+  <LingXCG_SelfBomb.label>self-explosion chip</LingXCG_SelfBomb.label>
+  <!-- EN: 一枚可以安装于机械体或动物的自爆芯片,需要在植入前装载炮弹,植入后可手动触发爆炸或在动物倒地时爆炸(不要在安装后进行麻醉!). -->
+  <LingXCG_SelfBomb.description>An implantable chip for animal/mechanical use requires a cannonball to be loaded before implantation and an explosion to be manually triggered after implantation.</LingXCG_SelfBomb.description>
+  <!-- EN: 芯片 -->
+  <LingXCG_SelfBomb.labelNoun>chip</LingXCG_SelfBomb.labelNoun>
+  
+  <!-- EN: 自律芯片 -->
+  <LingXCG_SelfDiscipline.label>self-discipline chip</LingXCG_SelfDiscipline.label>
+  <!-- EN: 一枚可以安装于动物或机械体的芯片,可以优化安装者的思维方式,降低带宽占用或减少污物. -->
+  <LingXCG_SelfDiscipline.description>An implantable chip for animals/machinery that optimizes the installer's mindset, reduces bandwidth usage or reduces dirt.</LingXCG_SelfDiscipline.description>
+  <!-- EN: 芯片 -->
+  <LingXCG_SelfDiscipline.labelNoun>chip</LingXCG_SelfDiscipline.labelNoun>
+  
+</LanguageData>

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 制作加力芯片 -->
+  <MakeLingXCG_Carry.label>制作加力芯片</MakeLingXCG_Carry.label>
+  <!-- EN: 制作加力芯片. -->
+  <MakeLingXCG_Carry.description>制作加力芯片.</MakeLingXCG_Carry.description>
+  <!-- EN: 制作加力芯片. -->
+  <MakeLingXCG_Carry.jobString>制作加力芯片.</MakeLingXCG_Carry.jobString>
+  
+  <!-- EN: 制作节能芯片 -->
+  <MakeLingXCG_EnergyConservation.label>制作节能芯片</MakeLingXCG_EnergyConservation.label>
+  <!-- EN: 制作节能芯片. -->
+  <MakeLingXCG_EnergyConservation.description>制作节能芯片.</MakeLingXCG_EnergyConservation.description>
+  <!-- EN: 制作节能芯片. -->
+  <MakeLingXCG_EnergyConservation.jobString>制作节能芯片.</MakeLingXCG_EnergyConservation.jobString>
+  
+  <!-- EN: 制作格斗芯片 -->
+  <MakeLingXCG_Fight.label>制作格斗芯片</MakeLingXCG_Fight.label>
+  <!-- EN: 制作格斗芯片. -->
+  <MakeLingXCG_Fight.description>制作格斗芯片.</MakeLingXCG_Fight.description>
+  <!-- EN: 制作格斗芯片. -->
+  <MakeLingXCG_Fight.jobString>制作格斗芯片.</MakeLingXCG_Fight.jobString>
+  
+  <!-- EN: 制作冬眠芯片 -->
+  <MakeLingXCG_Hibernation.label>制作冬眠芯片</MakeLingXCG_Hibernation.label>
+  <!-- EN: 制作冬眠芯片. -->
+  <MakeLingXCG_Hibernation.description>制作冬眠芯片.</MakeLingXCG_Hibernation.description>
+  <!-- EN: 制作冬眠芯片. -->
+  <MakeLingXCG_Hibernation.jobString>制作冬眠芯片.</MakeLingXCG_Hibernation.jobString>
+  
+  <!-- EN: 制作伪装芯片 -->
+  <MakeLingXCG_Invisibility.label>制作伪装芯片</MakeLingXCG_Invisibility.label>
+  <!-- EN: 制作伪装芯片. -->
+  <MakeLingXCG_Invisibility.description>制作伪装芯片.</MakeLingXCG_Invisibility.description>
+  <!-- EN: 制作伪装芯片. -->
+  <MakeLingXCG_Invisibility.jobString>制作伪装芯片.</MakeLingXCG_Invisibility.jobString>
+  
+  <!-- EN: 制作动力芯片 -->
+  <MakeLingXCG_Power.label>制作动力芯片</MakeLingXCG_Power.label>
+  <!-- EN: 制作动力芯片. -->
+  <MakeLingXCG_Power.description>制作动力芯片.</MakeLingXCG_Power.description>
+  <!-- EN: 制作动力芯片. -->
+  <MakeLingXCG_Power.jobString>制作动力芯片.</MakeLingXCG_Power.jobString>
+  
+  <!-- EN: 制作自爆芯片 -->
+  <MakeLingXCG_SelfBomb.label>制作自爆芯片</MakeLingXCG_SelfBomb.label>
+  <!-- EN: 制作自爆芯片. -->
+  <MakeLingXCG_SelfBomb.description>制作自爆芯片.</MakeLingXCG_SelfBomb.description>
+  <!-- EN: 制作自爆芯片. -->
+  <MakeLingXCG_SelfBomb.jobString>制作自爆芯片.</MakeLingXCG_SelfBomb.jobString>
+  
+  <!-- EN: 制作自律芯片 -->
+  <MakeLingXCG_SelfDiscipline.label>制作自律芯片</MakeLingXCG_SelfDiscipline.label>
+  <!-- EN: 制作自律芯片. -->
+  <MakeLingXCG_SelfDiscipline.description>制作自律芯片.</MakeLingXCG_SelfDiscipline.description>
+  <!-- EN: 制作自律芯片. -->
+  <MakeLingXCG_SelfDiscipline.jobString>制作自律芯片.</MakeLingXCG_SelfDiscipline.jobString>
+  
+</LanguageData>
